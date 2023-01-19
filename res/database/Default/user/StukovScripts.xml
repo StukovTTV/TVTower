@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="Programme von Stukov Fictional" />
+	<!-- 
+		Allgemein wurden XML-Syntax- und Copy/Paste-Fehler behoben, die Texte korrekturgelesen und stellenweise überarbeitet.
+		Wo noch nicht vorhanden wurden ein Großteil der Texte ins Englische übersetzt.
+		Überarbeitung der episodes-Tags (z.T. entfernt/Anzahl reduziert oder Markierung von Einzelfolgen als optional).
+		Sonstige inhaltliche Anpassungen sind als Kommentar vor der scripttemplate-Definition angegeben.
+		Sample one
+		
+	
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_X">
+			<title>
+				<de>%FOOD% zum %MEALTIME%</de>
+				<en>%FOOD% for %MEALTIME%</en>
+			</title>
+			<description>
+				<de>...</de>
+				<en>...</en>
+			</description>
+
+			<variables>
+				<food>
+					<de>Kinder|Liebe|Joghurt</de>
+					<en>Children|Love|Joghurt</en>
+				</food>
+				<mealtime>
+					<de>Frühstück|Mittagessen|Abendessen|Brunch</de>
+					<en>breakfast|lunch|dinner|brunch</en>
+				</mealtime>
+			</variables>
+
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="2" />
+				<job index="2" function="2" required="1" gender="1" />
+			
+				<job index="3" function="32" required="0" role_guid="script-roles-ron-001" />
+				<job index="4" function="32" required="0" />
+			</jobs>
+			<data flags="4" flags_optional="2" ScriptFlags="" production_limit="4" production_broadcast_limit="1" production_broadcast_flags="512" production_licence_flags="36" />
+			<groups target_groups="128" target_groups_optional="128" pro_pressure_groups="8" contra_pressure_groups="4" />
+			<genres maingenre="15" subgenres="5,5" />
+			<blocks min="2" max="3" slope="30" />
+			<price min="20000" max="500000" slope="60" />
+			<potential min="0" max="100" />
+			<outcome min="25" max="35" />
+			<review min="45" max="65" />
+			<speed min="35" max="65" />
+			<studio_size slope="50" max="3" min="1" />
+			<availability year_range_from="1999" year_range_to="-1" />
+		</scripttemplate>
+	<scripttemplates>
+		
+		<!-- Serien -->
+		
+		<scripttemplate licence_type="3" product="2" guid="Stukov_Kaleidoscope">
+			<title>
+				<de>Kaleidoscope</de>
+				<en>Kaleidoscope</en>
+			</title>
+			<description>
+				<de>Ein Meisterdieb und seine Bande planen einen ausgeklügelten 7 Milliarden Dollar schweren Diebstahl – doch Verrat, Gier und andere Bedrohungen bringen ihre Pläne ins Wanken.</de>
+				<en>Centered around the largest heist ever attempted, the vengeance and betrayals that surround it.</en>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Stukov_KaleidoscopeYellow">
+					<title>
+						<de>Yellow</de>
+						<en>Yellow</en>
+					</title>
+					<description>
+						<de>Leo assembles a team to steal billions in bonds from an impenetrable vault in New York City. The first task: Secure seed money in the Diamond District.</de>
+						<en>Leo assembles a team to steal billions in bonds from an impenetrable vault in New York City. The first task: Secure seed money in the Diamond District.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Stukov_KaleidoscopeBlue">
+					<title>
+						<de>Blue</de>
+						<en>Blue</en>
+					</title>
+					<description>
+						<de>The team sets their intricate plan into motion amid news of a hurricane approaching the city. A paranoid Roger deals with a threat. The FBI gets a tip. </de>
+						<en>The team sets their intricate plan into motion amid news of a hurricane approaching the city. A paranoid Roger deals with a threat. The FBI gets a tip. </en>
+					</description>					
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Stukov_KaleidoscopeOrange">
+					<title>
+						<de>Orange</de>
+						<en>Orange</en>
+					</title>
+					<description>
+						<de>Weeks before the heist, the squad hits a few obstacles as the FBI closes in on Ava and Bob copes with an injury. Agent Nazan seizes an opportunity. </de>
+						<en>Weeks before the heist, the squad hits a few obstacles as the FBI closes in on Ava and Bob copes with an injury. Agent Nazan seizes an opportunity. </en>
+					</description>					
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Stukov_KaleidoscopeViolet">
+					<title>
+						<de>Violet</de>
+						<en>Violet</en>
+					</title>
+					<description>
+						<de>In the past, family man Leo tries to leave his life of crime behind, but a tempting job and a persuasive partner make old habits hard to break. </de>
+						<en>In the past, family man Leo tries to leave his life of crime behind, but a tempting job and a persuasive partner make old habits hard to break. </en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Stukov_KaleidoscopeRed">
+					<title>
+						<de>Red</de>
+						<en>Red</en>
+					</title>
+					<description>
+						<de>Tensions run high when the crew regroups after the heist and questions what went wrong -- and who to trust. FBI agent Nazan makes a shocking discovery. </de>
+						<en>Tensions run high when the crew regroups after the heist and questions what went wrong -- and who to trust. FBI agent Nazan makes a shocking discovery. </en>
+					</description>
+				</scripttemplate>				
+				<scripttemplate licence_type="2" product="2" index="5" guid="Stukov_KaleidoscopePink">
+					<title>
+						<de>Pink</de>
+						<en>Pink</en>
+					</title>
+					<description>
+						<de>Now in hiding after the heist, the crew faces new struggles. Roger conspires with an unlikely partner. The feds chase a lead in South Carolina. </de>
+						<en>Now in hiding after the heist, the crew faces new struggles. Roger conspires with an unlikely partner. The feds chase a lead in South Carolina. </en>
+					</description>
+				</scripttemplate>				
+				<scripttemplate licence_type="2" product="2" index="5" guid="Stukov_KaleidoscopeWhite">
+					<title>
+						<de>White</de>
+						<en>White</en>
+					</title>
+					<description>
+						<de>A master criminal and his crew hatch an elaborate scheme to break into a secure vault, but are forced to pivot when things don't go according to plan. </de>
+						<en>A master criminal and his crew hatch an elaborate scheme to break into a secure vault, but are forced to pivot when things don't go according to plan.  </en>
+					</description>
+				</scripttemplate>				
+			</children>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="2" index="4" gender="1" required="0" />
+				<job function="32" index="5" gender="1" required="0" />
+				<job function="32" index="6" gender="1" required="0" />
+			</jobs>
+			<data flags_optional="58" />			
+			<genres maingenre="2" subgenres="4,7" />
+			<episodes min="3" max="7" />
+			<blocks min="1" max="2" slope="15" />
+			<studio_size slope="50" max="3" min="1" />
+			<price max="500000" min="50000" />
+			<potential slope="45" max="92" min="68" />
+			<outcome slope="40" max="71" min="43" />
+			<review slope="40" max="53" min="28" />
+			<speed slope="50" max="83" min="48" />
+		</scripttemplate>
+		
+		<!-- Filme -->
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-Zodiac" >
+			<title>
+				<de>Zodiac</de>
+				<en>Zodiac</en>
+			</title>
+			<description>
+				<de>After Hades murders two teens, his third victim, Juno, escapes, teleporting through solid steel into an open field where her body is found unconscious. Immediately after, a high-school student, Kali, awakes with a psychic link to Juno and telekinetic powers. Kali's telekinetic powers are first used against her school bully; but they make her a target for Hades who is hunting Kali and Juno as he attempts to overthrow his brother Zeus.</de>
+				<en></en>
+			</description>			
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="2" required="1" />
+				<job function="2" index="4" gender="0" required="0" />
+				<job function="2" index="5" gender="0" required="0" />
+				<job function="32" index="6" gender="0" required="0" />
+				<job function="32" index="7" gender="0" required="0" />
+				<job function="32" index="8" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="" />
+			<genres maingenre="1" subgenre="10" />
+			<studio_size slope="70" max="3" min="1" />
+			<blocks slope="10" max="2" min="3" />
+			<price slope="50" max="500000" min="30000" />
+			<potential slope="30" max="100" min="0" />
+			<outcome slope="30" max="100" min="0" />
+			<review slope="30" max="100" min="0" />
+			<speed slope="60" max="100" min="20" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-Avatar2" >
+			<title>
+				<de>Avatar 2: The Way of Water</de>
+				<en>Avatar 2: The Way of Water</en>
+			</title>
+			<description>
+				<de>Jake Sully lebt mit seiner neu gegründeten Familie auf dem Planeten Pandora, als eine vertraute Bedrohung zurückkehrt, die Jake, Neytiri und den Rest der Na'vi-Armee mobilisiert, um ihren Planeten zu schützen.</de>
+				<en></en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" required="0" />
+				<job function="32" index="5" required="0" />	
+				<job function="2" index="6" gender="2" required="0" />
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+				<job function="2" index="10" gender="0" required="0" />
+				<job function="32" index="11" gender="0" required="0" />
+				<job function="32" index="12" gender="0" required="0" />
+				<job function="32" index="13" gender="0" required="0" />
+				<job function="32" index="14" gender="0" required="0" />
+				<job function="32" index="15" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="2" />
+			<genres maingenre="2" subgenres="1,10" />
+			<studio_size slope="40" max="3" min="1" />
+			<blocks slope="50" max="4" min="3" />
+			<price slope="25" max="1500000" min="200000" />
+			<potential slope="70" max="100" min="0" />
+			<outcome slope="80" max="100" min="33" />
+			<review slope="80" max="100" min="40" />
+			<speed slope="90" max="100" min="50" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-Oppenheimer" >
+			<title>
+				<de>Oppenheimer</de>
+				<en>Oppenheimer</en>
+			</title>
+			<description>
+				<de>Die Geschichte des amerikanischen Wissenschaftlers J. Robert Oppenheimer und seine Rolle bei der Entwicklung der Atombombe.‎</de>
+				<en>The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="0" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="32" index="4" gender="1" required="0" />
+				<job function="32" index="5" required="0" />
+				<job function="32" index="6" required="0" />	
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+			</jobs>
+			<genres maingenre="7" subgenres="11" />
+			<studio_size slope="60" max="3" min="1" />
+			<blocks slope="50" max="4" min="2" />
+			<price max="100000" min="10000" />
+			<potential max="100" min="0" />
+			<outcome max="100" min="0" />
+			<review max="100" min="0" />
+			<speed slope="50" max="60" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-Northman" >
+			<title>
+				<de>The Northman</de>
+				<en>The Northman</en>
+			</title>
+			<description>
+				<de>Vom visionären Regisseur kommt The Northman, ein actiongeladenes Epos, das einen jungen Wikingerprinzen auf seiner Suche nach Rache für den Mord an seinem Vater begleitet.‎</de>
+				<en>A young Viking prince is on a quest to avenge his father's murder.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="32" index="4" gender="1" required="0" />
+				<job function="32" index="5" required="0" />
+				<job function="32" index="6" required="0" />	
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="112" />
+			<genres maingenre="2" subgenres="1,7" />
+			<studio_size slope="30" max="3" min="1" />
+			<blocks slope="60" max="3" min="2" />
+			<price max="600000" min="10000" />
+			<potential slope="60" max="82" min="0" />
+			<outcome max="100" min="0" />
+			<review max="71" min="0" />
+			<speed max="43" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-GrayMan" >
+			<title>
+				<de>The Gray Man</de>
+				<en>The Gray Man</en>
+			</title>
+			<description>
+				<de>Als der fähigste Agent der CIA versehentlich dunkle Geheimnisse der Behörde aufdeckt, setzt ein psychopathischer ehemaliger Kollege ein Kopfgeld auf ihn aus und löst damit eine weltweite Jagd von internationalen Killern aus.</de>
+				<en>When the CIA's most skilled operative, whose true identity is known to none, accidentally uncovers dark agency secrets, a psychopathic former colleague puts a bounty on his head, setting off a global manhunt by international assassins.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="1" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="2" required="0" />
+				<job function="32" index="5" required="0" />
+				<job function="32" index="6" required="0" />
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />				
+			</jobs>
+			<data flags_optional="112" />
+			<genres maingenre="2" subgenres="17" />
+			<studio_size slope="50" max="3" min="1" />
+			<blocks slope="51" max="3" min="2" />
+			<price max="200000" min="5000" />
+			<potential slope="60" max="49" min="0" />
+			<outcome max="100" min="0" />
+			<review max="65" min="0" />
+			<speed max="69" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-DumbledoresGeheimnisse" >
+			<title>
+				<de>Phantastische Tierwesen: Dumbledores Geheimnisse</de>
+				<en>Fantastic Beasts: The Secrets of Dumbledore</en>
+			</title>
+			<description>
+				<de>Albus Dumbledore und Newt Scamander versammeln weitere Mitstreiter, um es mit Zauberer Grindelwald und seiner Anhängerschaft aufzunehmen.</de>
+				<en>Professor Albus Dumbledore must assist Newt Scamander and his partners as Grindelwald begins to lead an army to eliminate all Muggles.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="1" required="1" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="32" index="4" gender="2" required="0" />
+				<job function="32" index="5" required="0" />
+				<job function="32" index="6" required="0" />	
+			</jobs>
+			<data flags_optional="16" />
+			<genres maingenre="10" subgenres="1" />
+			<studio_size slope="33" max="3" min="1" />
+			<blocks slope="72" max="3" min="2" />
+			<price max="200000" min="5000" />
+			<potential slope="60" max="47" min="0" />
+			<outcome max="100" min="0" />
+			<review max="62" min="0" />
+			<speed max="77" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-ThorLove" >
+			<title>
+				<de>Thor: Love and Thunder</de>
+				<en>Thor: Love and Thunder</en>
+			</title>
+			<description>
+				<de>Thor nimmt die Hilfe von Walküre, Korg und seiner Ex-Freundin Jane Foster in Anspruch, um den Götterschlächter Gorr zu bekämpfen, der die Götter auslöschen will.</de>
+				<en>Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="2" index="4" gender="2" required="0" />
+				<job function="2" index="5" gender="1" required="0" />
+				<job function="32" index="6" required="0" />
+				<job function="32" index="7" required="0" />
+				<job function="32" index="8" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+				<job function="2" index="10" gender="0" required="0" />
+				<job function="2" index="11" gender="0" required="0" />				
+			</jobs>
+			<data flags_optional="112" />
+			<genres maingenre="2" subgenres="1" />
+			<studio_size slope="75" max="3" min="1" />
+			<blocks slope="48" max="3" min="2" />
+			<price max="250000" min="5000" />
+			<potential slope="60" max="57" min="0" />
+			<outcome max="100" min="0" />
+			<review max="63" min="0" />
+			<speed max="78" min="0" />
+		</scripttemplate>
+
+		<scripttemplate licence_type="1" product="1" guid="Stukov-SuperMarioBros" >
+			<title>
+				<de>Der Super Mario Bros. Film</de>
+				<en>The Super Mario Bros. Movie</en>
+			</title>
+			<description>
+				<de>Ein Klempner namens Mario reist mit seinem Bruder Luigi durch ein unterirdisches Labyrinth, um eine gefangene Prinzessin zu retten.</de>
+				<en>The story of The Super Mario Bros. on their journey through the Mushroom Kingdom</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="32" index="1" required="0" />
+				<job function="32" index="2" required="0" />
+				<job function="32" index="3" required="0" />	
+			</jobs>
+			<data flags="2" />
+			<genres maingenre="2" />
+			<studio_size max="1" min="1" />
+			<blocks slope="57" max="2" min="1" />
+			<price max="100000" min="10000" />
+			<potential slope="50" max="50" min="0" />
+			<outcome max="100" min="0" />
+			<review max="50" min="0" />
+			<speed max="87" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-Troll" >
+			<title>
+				<de>Troll</de>
+				<en>Troll</en>
+			</title>
+			<description>
+				<de>Tief im Dovre-Gebirge erwacht etwas Riesiges nach tausend Jahren Gefangenschaft. Die Kreatur zerstört alles auf ihrem Weg und nähert sich schnell Oslo.</de>
+				<en>Deep in the Dovre mountain, something gigantic wakes up after a thousand years in captivity. The creature destroys everything in its path and quickly approaches Oslo.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+				<job function="2" index="2" gender="1" required="1" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="32" index="4" required="0" />
+				<job function="32" index="5" required="0" />
+				<job function="32" index="6" required="0" />	
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="112" />
+			<genres maingenre="2" subgenres="1" />
+			<studio_size slope="60" max="3" min="1" />
+			<blocks slope="91" max="2" min="1" />
+			<price max="140000" min="5000" />
+			<potential slope="60" max="62" min="0" />
+			<outcome max="100" min="0" />
+			<review max="58" min="0" />
+			<speed max="100" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-Bones" >
+			<title>
+				<de>Bones and All</de>
+				<en>Bones and All</en>
+			</title>
+			<description>
+				<de>Maren, eine junge Frau, lernt, wie man am Rande der Gesellschaft überleben kann.</de>
+				<en>Maren, a young woman, learns how to survive on the margins of society.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="0" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="32" index="4" required="0" />
+				<job function="32" index="5" required="0" />
+				<job function="32" index="6" required="0" />	
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="80" />
+			<genres maingenre="7" />
+			<studio_size slope="60" max="3" min="1" />
+			<blocks slope="61" max="3" min="2" />
+			<price max="160000" min="50000" />
+			<potential slope="60" max="74" min="0" />
+			<outcome max="100" min="0" />
+			<review max="69" min="0" />
+			<speed max="50" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-MHW" >
+			<title>
+				<de>Monster Hunter: Legends of the Guild</de>
+                <en>Monster Hunter: Legends of the Guild</en>
+			</title>
+			<description>
+				<de>In a world where humans and fearsome monsters live in an uneasy balance, young hunter Aiden fights to save his village from destruction by a dragon.</de>
+				<en>In a world where humans and fearsome monsters live in an uneasy balance, young hunter Aiden fights to save his village from destruction by a dragon.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="0" />				
+				<job function="32" index="3" required="0" />	
+				<job function="32" index="4" required="0" />	
+				<job function="32" index="5" required="0" />	
+				<job function="32" index="6" required="0" />	
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+				<job function="2" index="9" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="114" />
+			<genres maingenre="10" subgenres="2" />
+			<studio_size slope="44" max="2" min="1" />
+			<blocks slope="11" max="2" min="1" />
+			<price max="30000" min="10000" />
+			<potential slope="60" max="74" min="0" />
+			<outcome max="10" min="0" />
+			<review max="40" min="0" />
+			<speed max="50" min="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-SpidermanNWH" >
+			<title>
+				<de>Spider-Man: No Way Home</de>
+                <en>Spider-Man: No Way Home</en>
+			</title>
+			<description>
+				<de>Da Spider-Mans Identität nun aufgedeckt ist, bittet Peter Doktor Strange um Hilfe. Als ein Zauber schiefgeht, tauchen gefährliche Feinde aus anderen Welten auf und zwingen Peter zu entdecken, was es wirklich bedeutet, Spider-Man zu sein.</de>
+				<en>With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.</en>
+			</description>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="1" required="1" />				
+				<job function="34" index="3" gender="2" required="1" />	
+				<job function="34" index="4" required="0" />	
+				<job function="34" index="5" required="0" />	
+				<job function="4146" index="6" required="0" />	
+				<job function="4146" index="7" required="0" />
+				<job function="32" index="8" required="0" />
+				<job function="32" index="9" required="0" />
+			</jobs>			
+			<genres maingenre="2" subgenres="1,10" />
+			<groups target_groups_optional="258" />
+			<studio_size slope="66" max="3" min="1" />
+			<blocks slope="78" max="3" min="2" />
+			<price max="500000" min="100000" />
+			<potential max="100" min="0" />
+			<outcome max="100" min="0" />
+			<review max="71" min="35" />
+			<speed max="82" min="41" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="Stukov_Deadpool">
+			<title>
+				<de>Deadpool</de>
+				<en>Deadpool</en>
+			</title>
+			<description>
+				<de>Ein früherer Special-Forces-Soldat, der zu einem Söldner geworden ist, wird einem verbotenen Experiment unterworfen, nach dem er die Kraft der beschleunigten Heilung erhält und fortan als Deadpool auftritt.</de>
+				<en>A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="34" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="4146" required="0" />
+			</jobs>			
+			<data flags_optional="112" />
+			<groups target_groups_optional="274" />
+			<genres maingenre="2" />
+			<blocks value="2" />
+			<price min="12000" max="500000" slope="44" />
+			<potential min="0" max="100" slope="55" />
+			<outcome min="33" max="65" />
+			<review min="40" max="80" />
+			<speed min="35" max="95" />
+			<studio_size slope="50" max="3" min="1" />			
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="Stukov_RogueOne">
+			<title>
+				<de>Rogue One: A Star Wars Story</de>
+				<en>Rogue One: A Star Wars Story</en>
+			</title>
+			<description>
+				<de>Die Rebellen haben es sich zum Ziel gesetzt, die Pläne des Todessterns zu stehlen.</de>
+				<en>In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.</en>
+			</description>
+
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="2" />
+				<job index="2" function="2" required="1" gender="1" />
+			
+				<job index="3" function="34" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+			</jobs>
+			<groups target_groups_optional="26" contra_pressure_groups="8" />
+			<genres maingenre="16" subgenres="2" />
+			<blocks min="2" max="3" slope="26" />
+			<price min="20000" max="533000" slope="55" />
+			<potential min="0" max="100" />
+			<outcome min="33" max="65" />
+			<review min="39" max="78" />
+			<speed min="35" max="85" />
+			<studio_size slope="50" max="3" min="1" />			
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_LaLaLand">
+			<title>
+				<de>La La Land</de>
+				<en>La La Land</en>
+			</title>
+			<description>
+				<de>Ein Jazz-Pianist verliebt sich in Los Angeles in eine aufstrebende Schauspielerin.</de>
+				<en>While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.</en>
+			</description>
+
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="2" />
+				<job index="2" function="16" required="1" gender="1" />
+			
+				<job index="3" function="50" required="0" />
+				<job index="4" function="50" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+			</jobs>
+			<groups target_groups_optional="132" />
+			<genres maingenre="5" subgenres="202" />
+			<blocks min="2" max="3" slope="16" />
+			<price min="20000" max="300000" slope="30" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" />
+			<review min="47" max="94" />
+			<speed min="40" max="80" />
+			<studio_size slope="20" max="3" min="1" />
+		</scripttemplate>
+
+
+	</scripttemplates>
+</tvtdb>

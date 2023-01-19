@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvgdb>
+    <version value="3" comment="Stukovs Serien" />
+    <allprogrammes>
+    
+	<!--
+		Serien
+	-->
+
+		<programme id="Stukov-Serien-Alien Nation" product="2" licence_type="3" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Alien Nation</de>
+                <en></en>
+            </title>
+            <description>
+                <de>In the near future, a human cop and his alien partner fight crime and discrimination in Los Angeles.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.06" />
+				<modifier name="topicality::wearoff" value="2.00" />
+			</modifiers>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1989" distribution="2" maingenre="16" subgenre="4,7" flags="" blocks="1" price_mod="0.88" />
+            <ratings critics="68" speed="51" outcome="4" />
+            <children>
+                <programme id="Stukov-Serien-Alien Nation1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Der Psycho-Trip</de>
+                        <en></en>
+                    </title>
+                    <description>
+                        <de>Der Psycho-Trip</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="59" speed="49" />
+                </programme>
+                <programme id="Stukov-Serien-Alien Nation2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Der Ausbeuter</de>
+                        <en></en>
+                    </title>
+                    <description>
+                        <de>Der Ausbeuter</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="57" speed="52" />
+                </programme>
+                <programme id="Stukov-Serien-Alien Nation3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Der Rassist</de>
+                        <en></en>
+                    </title>
+                    <description>
+                        <de>Der Rassist</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="53" speed="51" />
+                </programme>
+                <programme id="Stukov-Serien-Alien Nation4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Das Fest</de>
+                        <en></en>
+                    </title>
+                    <description>
+                        <de>Das Fest</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="52" speed="49" />
+                </programme>				
+                <programme id="Stukov-Serien-Alien Nation5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Die Verschwörung</de>
+                        <en></en>
+                    </title>
+                    <description>
+                        <de>Die Verschwörung</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="69" speed="50" />
+                </programme>                
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-NovaStaffel1" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0206501" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Nova Staffel 1</de>
+                <en>Nova Episode 1</en>
+            </title>
+            <description>
+                <de>Wissenschaftliche Dokumentarfilme zu verschiedenen Themen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.08" />
+				<modifier name="topicality::wearoff" value="1.59" />
+			</modifiers>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1974" distribution="2" maingenre="6" subgenre="" flags="" blocks="1" price_mod="1.33" />
+            <ratings critics="16" speed="77" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-NovaStaffel1_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Making of a Natural History Film</de>
+                        <en>The Making of a Natural History Film</en>
+                    </title>
+                    <description>
+                        <de>NOVA premieres on public television with a behind-the-scenes look at the making of a nature film. Oxford Scientific Films Unit shows how it tackles such problems as filming a wood-wasp laying its egg inside trees, etc.</de>
+                        <en>NOVA premieres on public television with a behind-the-scenes look at the making of a nature film. Oxford Scientific Films Unit shows how it tackles such problems as filming a wood-wasp laying its egg inside trees, etc.</en>
+                    </description>
+                    <ratings critics="31" speed="85" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel1_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Where Did the Colorado Go?</de>
+                        <en>Where Did the Colorado Go?</en>
+                    </title>
+                    <description>
+                        <de>This episode takes a look at the Colorado River and its impact on the lives of the people living in the Southwestern states. The story also looks at how human development has caused environmental degradation of the river such that the once mighty river doesn't drain into the sea anymore.</de>
+                        <en>This episode takes a look at the Colorado River and its impact on the lives of the people living in the Southwestern states. The story also looks at how human development has caused environmental degradation of the river such that the once mighty river doesn't drain into the sea anymore.</en>
+                    </description>
+                    <ratings critics="15" speed="83" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel1_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Strange Sleep</de>
+                        <en>Strange Sleep</en>
+                    </title>
+                    <description>
+                        <de>The story honored the men who revolutionized medicine in the 19th century by the discovery of anesthesia.</de>
+                        <en>The story honored the men who revolutionized medicine in the 19th century by the discovery of anesthesia.</en>
+                    </description>
+                    <ratings critics="61" speed="80" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel1_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Death of a Disease</de>
+                        <en>Death of a Disease</en>
+                    </title>
+                    <description>
+                        <de>The true story of smallpox and the successful campaign to eradicate the virus from the world. Telling the story of the long history of smallpox. How vaccination using Cowpox was started in England in the 1790s. </de>
+                        <en>The true story of smallpox and the successful campaign to eradicate the virus from the world. Telling the story of the long history of smallpox. How vaccination using Cowpox was started in England in the 1790s. </en>
+                    </description>
+                    <ratings critics="17" speed="16" />
+                </programme>				
+                <programme id="Stukov-Serien-NovaStaffel1_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Sunspot Mystery</de>
+                        <en>The Sunspot Mystery</en>
+                    </title>
+                    <description>
+                        <de>Is the sun static or does it vary, and if it varies how does that affect the Earth and its climate? Studying sunspots and other solar phenomena may provide the answers.</de>
+                        <en>Is the sun static or does it vary, and if it varies how does that affect the Earth and its climate? Studying sunspots and other solar phenomena may provide the answers.</en>
+                    </description>
+                    <ratings critics="71" speed="78" />
+                </programme>   
+				<programme id="Stukov-Serien-NovaStaffel1_6" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>It's About Time</de>
+                        <en>It's About Time</en>
+                    </title>
+                    <description>
+                        <de>Dudley Moore hosts a lighthearted but deep look at the history of time-- how it began, how it's perceived, and how it will end. Along the way he has conversations with St. Augustine, Albert Einstein, Isaac Asimov (the real one)!</de>
+                        <en>Dudley Moore hosts a lighthearted but deep look at the history of time-- how it began, how it's perceived, and how it will end. Along the way he has conversations with St. Augustine, Albert Einstein, Isaac Asimov (the real one)!</en>
+                    </description>
+                    <ratings critics="50" speed="85" />
+                </programme>   
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-ColumboStaffel1" product="2" licence_type="3" tmdb_id="0" imdb_id="tt1466074" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Columbo Staffel 1</de>
+                <en>Columbo Episode 1</en>
+            </title>
+            <description>
+                <de>Detective Lieutenant Columbo aus Los Angeles benutzt seine bescheidene Art und sein offen und ehrliches Auftreten, um selbst die am besten vertuschten Verbrechen ans Tageslicht zu bringen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.17" />
+				<modifier name="topicality::wearoff" value="0.59" />
+			</modifiers>
+			<staff>
+				<member index="0" function="2">fdc033d7-e954-4e55-848c-e6b5e7a10d21</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1971" distribution="2" maingenre="4" subgenre="7" flags="" blocks="2" price_mod="1.08" />
+            <ratings critics="80" speed="73" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-ColumboStaffel1_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Lösegeld für einen Toten</de>
+                        <en>Ransom for a Dead Man</en>
+                    </title>
+                    <description>
+                        <de>Eine gewiefte Anwältin tarnt ihren Mord an ihrem Ehemann als Entführung. Nur Lt. Columbo traut der Sache nicht.</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="53" speed="67" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel1_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Tödliche Trennung</de>
+                        <en>Murder by the Book</en>
+                    </title>
+                    <description>
+                        <de>When one member of a mystery writing team wants to break from his less talented partner, he becomes the victim in a real-life murder mystery.</de>
+                        <en>When one member of a mystery writing team wants to break from his less talented partner, he becomes the victim in a real-life murder mystery.</en>
+                    </description>
+                    <ratings critics="50" speed="67" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel1_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord mit der linken Hand</de>
+                        <en>Death Lends a Hand</en>
+                    </title>
+                    <description>
+                        <de>Columbo matches his skills against Brimmer, a former cop turned private investigator with a quick temper who tries to blackmail a client's wife. When she refuses, he accidentally kills her and it's up to Columbo to nail him.</de>
+                        <en>Columbo matches his skills against Brimmer, a former cop turned private investigator with a quick temper who tries to blackmail a client's wife. When she refuses, he accidentally kills her and it's up to Columbo to nail him.</en>
+                    </description>
+                    <ratings critics="19" speed="68" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel1_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord unter sechs Augen</de>
+                        <en>Dead Weight</en>
+                    </title>
+                    <description>
+                        <de>A war hero shoots and kills his business partner; an easily manipulated young divorcée is the only witness.</de>
+                        <en>A war hero shoots and kills his business partner; an easily manipulated young divorcée is the only witness.</en>
+                    </description>
+                    <ratings critics="46" speed="59" />
+                </programme>				
+                <programme id="Stukov-Serien-ColumboStaffel1_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord in Pastell</de>
+                        <en>Suitable for Framing</en>
+                    </title>
+                    <description>
+                        <de>A wealthy art collector is murdered, and all signs point to a robbery gone wrong. But the nephew's alibi is a little too convenient, and Columbo pulls a fast one to ferret out the killer.</de>
+                        <en>A wealthy art collector is murdered, and all signs point to a robbery gone wrong. But the nephew's alibi is a little too convenient, and Columbo pulls a fast one to ferret out the killer.</en>
+                    </description>
+                    <ratings critics="20" speed="68" />
+                </programme>   
+				<programme id="Stukov-Serien-ColumboStaffel1_6" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Schritte aus dem Schatten</de>
+                        <en>Lady in Waiting</en>
+                    </title>
+                    <description>
+                        <de>A mousy heiress murders her brother, pretending she thought he was a burglar. Lt. Columbo unravels her alibi.</de>
+                        <en>A mousy heiress murders her brother, pretending she thought he was a burglar. Lt. Columbo unravels her alibi.</en>
+                    </description>
+                    <ratings critics="49" speed="62" />
+				</programme> 
+				<programme id="Stukov-Serien-ColumboStaffel1_7" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Zigarren für den Chef</de>
+                        <en>Short Fuse</en>
+                    </title>
+                    <description>
+                        <de>Pressured to give up his birthright, a chemical company heir enacts a clever plan to get rid of his blackmailing uncle and take over the family business. But Lt. Columbo suspects the man's death was not just a tragic accident.</de>
+                        <en>Pressured to give up his birthright, a chemical company heir enacts a clever plan to get rid of his blackmailing uncle and take over the family business. But Lt. Columbo suspects the man's death was not just a tragic accident.</en>
+                    </description>
+                    <ratings critics="3" speed="62" />
+                </programme>
+				<programme id="Stukov-Serien-ColumboStaffel1_8" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Denkmal für die Ewigkeit</de>
+                        <en>Blueprint for Murder</en>
+                    </title>
+                    <description>
+                        <de>Elliot Markham, a brilliant architect and con-man, murders a Texas millionaire and hides his body in order to keep his visionary construction project financed.</de>
+                        <en>Elliot Markham, a brilliant architect and con-man, murders a Texas millionaire and hides his body in order to keep his visionary construction project financed.</en>
+                    </description>
+                    <ratings critics="53" speed="67" />
+                </programme>
+                  
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-NovaStaffel2" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0206501" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Nova Staffel 2</de>
+                <en>Nova Episode 2</en>
+            </title>
+            <description>
+                <de>Wissenschaftliche Dokumentarfilme zu verschiedenen Themen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.59" />
+				<modifier name="topicality::wearoff" value="2.06" />
+			</modifiers>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1983" distribution="2" maingenre="6" subgenre="" flags="" blocks="1" price_mod="0.93" />
+            <ratings critics="22" speed="77" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-NovaStaffel2_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Pleasure of Finding Things Out</de>
+                        <en>The Pleasure of Finding Things Out</en>
+                    </title>
+                    <description>
+                        <de>Theoretical physicist Richard Feynman tells his story.</de>
+                        <en>Theoretical physicist Richard Feynman tells his story.</en>
+                    </description>
+                    <ratings critics="8" speed="80" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel2_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>A Magic Way of Going: The Story of Thoroughbreds</de>
+                        <en>A Magic Way of Going: The Story of Thoroughbreds</en>
+                    </title>
+                    <description>
+                        <de>Nova takes a look at the science of thoroughbred horses, including breeding, genetics, and the evolution of the modern horse. The great Secretariat is highlighted here.</de>
+                        <en>Nova takes a look at the science of thoroughbred horses, including breeding, genetics, and the evolution of the modern horse. The great Secretariat is highlighted here.</en>
+                    </description>
+                    <ratings critics="39" speed="80" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel2_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Search for the Disappeared</de>
+                        <en>The Search for the Disappeared</en>
+                    </title>
+                    <description>
+                        <de>Shows the exhumation and study of the frozen remains of expedition members found in arctic graves. Speculates on lead poisoning as the cause of the expedition's tragic failure.</de>
+                        <en>Shows the exhumation and study of the frozen remains of expedition members found in arctic graves. Speculates on lead poisoning as the cause of the expedition's tragic failure.</en>
+                    </description>
+                    <ratings critics="25" speed="66" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel2_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Why Planes Crash</de>
+                        <en>Why Planes Crash</en>
+                    </title>
+                    <description>
+                        <de>Commercial airplanes have become much more reliable, but since 1975 the fatality rate has stopped falling and has leveled off. From 60 to 80 percent of all plane crashes are now blamed on cockpit (pilot) error.</de>
+                        <en>Commercial airplanes have become much more reliable, but since 1975 the fatality rate has stopped falling and has leveled off. From 60 to 80 percent of all plane crashes are now blamed on cockpit (pilot) error.</en>
+                    </description>
+                    <ratings critics="45" speed="79" />
+                </programme>				
+                <programme id="Stukov-Serien-NovaStaffel2_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Asteroid and the Dinosaur</de>
+                        <en>The Asteroid and the Dinosaur</en>
+                    </title>
+                    <description>
+                        <de>Today most scientists accept that a large asteroid impact killed the dinosaurs 65 million years ago. But this was not always the case. For decades, experts felt that what dinosaur extinction was a complete mystery.</de>
+                        <en>Today most scientists accept that a large asteroid impact killed the dinosaurs 65 million years ago. But this was not always the case. For decades, experts felt that what dinosaur extinction was a complete mystery.</en>
+                    </description>
+                    <ratings critics="73" speed="83" />
+                </programme>   
+				<programme id="Stukov-Serien-NovaStaffel2_6" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The KGB, the Computer and Me</de>
+                        <en>The KGB, the Computer and Me</en>
+                    </title>
+                    <description>
+                        <de>Astronomer-turned-computer system administrator Clifford Stoll discovers a hacker in his system at Lawrence Berkeley Lab. The trail leads him from California, across the United States, and eventually to Germany.</de>
+                        <en>Astronomer-turned-computer system administrator Clifford Stoll discovers a hacker in his system at Lawrence Berkeley Lab. The trail leads him from California, across the United States, and eventually to Germany</en>
+                    </description>
+                    <ratings critics="12" speed="76" />
+                </programme>   
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-NovaStaffel3" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0206501" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Nova Staffel 3</de>
+                <en>Nova Episode 3</en>
+            </title>
+            <description>
+                <de>Wissenschaftliche Dokumentarfilme zu verschiedenen Themen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.60" />
+				<modifier name="topicality::wearoff" value="1.11" />
+			</modifiers>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1995" distribution="2" maingenre="6" subgenre="" flags="" blocks="1" price_mod="0.91" />
+            <ratings critics="76" speed="77" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-NovaStaffel3_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Universe Within</de>
+                        <en>The Universe Within</en>
+                    </title>
+                    <description>
+                        <de>An incredible voyage into the microworld of the human body.</de>
+                        <en>An incredible voyage into the microworld of the human body.</en>
+                    </description>
+                    <ratings critics="3" speed="73" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel3_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Hunt for the Serial Arsonist</de>
+                        <en>Hunt for the Serial Arsonist</en>
+                    </title>
+                    <description>
+                        <de>Suspicious fires have broken out in Southern California and the fires have been set by a serial arsonist.</de>
+                        <en>Suspicious fires have broken out in Southern California and the fires have been set by a serial arsonist.</en>
+                    </description>
+                    <ratings critics="43" speed="84" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel3_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Kidnapped by UFOs? The True Story of Alien Abductions</de>
+                        <en>Kidnapped by UFOs? The True Story of Alien Abductions</en>
+                    </title>
+                    <description>
+                        <de>Debunking the alien abduction concepts and practices for more earth bound common sense explanations in a format of critical analysis that in the end lets you decided. Are alien abduction's plausible in light of these new findings?</de>
+                        <en>Debunking the alien abduction concepts and practices for more earth bound common sense explanations in a format of critical analysis that in the end lets you decided. Are alien abduction's plausible in light of these new findings?</en>
+                    </description>
+                    <ratings critics="67" speed="85" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel3_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Top Gun Over Moscow</de>
+                        <en>Top Gun Over Moscow</en>
+                    </title>
+                    <description>
+                        <de>Nova contrasts the philosophies of Russian and American fighter commands and how they influence aircraft design, operation and tactics.</de>
+                        <en>Nova contrasts the philosophies of Russian and American fighter commands and how they influence aircraft design, operation and tactics.</en>
+                    </description>
+                    <ratings critics="79" speed="76" />
+                </programme>				
+                <programme id="Stukov-Serien-NovaStaffel3_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Secrets of Lost Empires: Stonehenge (1)</de>
+                        <en>Secrets of Lost Empires: Stonehenge (1)</en>
+                    </title>
+                    <description>
+                        <de>Nova shows how the giant sarsen stones used in Stonehenge might be moved 20 miles without using wheels and how might they have been moved upright with the lintels successfully raised to rest atop and astride them.</de>
+                        <en>Nova shows how the giant sarsen stones used in Stonehenge might be moved 20 miles without using wheels and how might they have been moved upright with the lintels successfully raised to rest atop and astride them.</en>
+                    </description>
+                    <ratings critics="31" speed="65" />
+                </programme>   
+				<programme id="Stukov-Serien-NovaStaffel3_6" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Secrets of Lost Empires: Inca (2)</de>
+                        <en>Secrets of Lost Empires: Inca (2)</en>
+                    </title>
+                    <description>
+                        <de>Nova examines how the Inca could construct magnificently engineered citadels and an extensive system of roads at the top of the rugged Andes Mountains without metal tools, wheels, mathematics or writing.</de>
+                        <en>Nova examines how the Inca could construct magnificently engineered citadels and an extensive system of roads at the top of the rugged Andes Mountains without metal tools, wheels, mathematics or writing.</en>
+                    </description>
+                    <ratings critics="12" speed="64" />
+                </programme>   
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-NovaStaffel4" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0206501" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Nova Staffel 4</de>
+                <en>Nova Episode 4</en>
+            </title>
+            <description>
+                <de>Wissenschaftliche Dokumentarfilme zu verschiedenen Themen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.31" />
+				<modifier name="topicality::wearoff" value="1.45" />
+			</modifiers>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="2005" distribution="2" maingenre="6" subgenre="" flags="" blocks="1" price_mod="1.27" />
+            <ratings critics="47" speed="77" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-NovaStaffel4_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Welcome to Mars</de>
+                        <en>Welcome to Mars</en>
+                    </title>
+                    <description>
+                        <de>NOVA follows a team of scientists as the monitor the Martian rovers Spirit and Opportunity. Spirit runs into some problems, but Opportunity takes a photograph that may confirm the existence of water on Mars.</de>
+                        <en>NOVA follows a team of scientists as the monitor the Martian rovers Spirit and Opportunity. Spirit runs into some problems, but Opportunity takes a photograph that may confirm the existence of water on Mars.</en>
+                    </description>
+                    <ratings critics="1" speed="67" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel4_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>The Viking Deception</de>
+                        <en>The Viking Deception</en>
+                    </title>
+                    <description>
+                        <de>There are few more tantalizing or notorious historical documents than the Vinland map. A faded, yellowing scrap of parchment bearing a faint tracery of lines, the map apparently shows the eastern seaboard of North America-yet it was drawn at least half a century before Columbus reached the New World. </de>
+                        <en>There are few more tantalizing or notorious historical documents than the Vinland map. A faded, yellowing scrap of parchment bearing a faint tracery of lines, the map apparently shows the eastern seaboard of North America-yet it was drawn at least half a century before Columbus reached the New World. </en>
+                    </description>
+                    <ratings critics="40" speed="72" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel4_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>A Daring Flight</de>
+                        <en>A Daring Flight</en>
+                    </title>
+                    <description>
+                        <de>In 1909, French aviation pioneer Louis Blériot becomes the first man to cross the English Channel in a heavier-than-air machine, Blériot's own Type XI monoplane. Nearly a century later, his grandson and namesake attempts a re-enactment of the historic flight that made his grandfather famous and catapulted France to the forefront of aviation technology.</de>
+                        <en>In 1909, French aviation pioneer Louis Blériot becomes the first man to cross the English Channel in a heavier-than-air machine, Blériot's own Type XI monoplane. Nearly a century later, his grandson and namesake attempts a re-enactment of the historic flight that made his grandfather famous and catapulted France to the forefront of aviation technology.</en>
+                    </description>
+                    <ratings critics="50" speed="79" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel4_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mystery of the Megaflood</de>
+                        <en>Mystery of the Megaflood</en>
+                    </title>
+                    <description>
+                        <de>The Channeled Scablands in Washington state defied conventional explanations for their formation for decades. Little by little evidence mounted for an old theory that was rejected by the scientific establishment. It involved glaciers, volcanoes, a relatively minor river and a prodigious amount of water.</de>
+                        <en>The Channeled Scablands in Washington state defied conventional explanations for their formation for decades. Little by little evidence mounted for an old theory that was rejected by the scientific establishment. It involved glaciers, volcanoes, a relatively minor river and a prodigious amount of water.</en>
+                    </description>
+                    <ratings critics="60" speed="72" />
+                </programme>				
+                <programme id="Stukov-Serien-NovaStaffel4_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Sinking the Supership</de>
+                        <en>Sinking the Supership</en>
+                    </title>
+                    <description>
+                        <de>A modern team of divers sets out to learn the secrets of the super battleship Yamato, the greatest ship of the Second World War.</de>
+                        <en>A modern team of divers sets out to learn the secrets of the super battleship Yamato, the greatest ship of the Second World War.</en>
+                    </description>
+                    <ratings critics="18" speed="70" />
+                </programme>   
+				<programme id="Stukov-Serien-NovaStaffel4_6" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Jewel of the Earth</de>
+                        <en>Jewel of the Earth</en>
+                    </title>
+                    <description>
+                        <de>This program examines and the many subtle secrets that scientists have teased out of insects trapped in amber.</de>
+                        <en>This program examines and the many subtle secrets that scientists have teased out of insects trapped in amber.</en>
+                    </description>
+                    <ratings critics="75" speed="71" />
+                </programme>   
+            </children>
+        </programme>
+
+		<programme id="Stukov-Serien-NovaStaffel5" product="2" licence_type="3" tmdb_id="0" imdb_id="tt0206501" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Nova Staffel 5</de>
+                <en>Nova Episode 5</en>
+            </title>
+            <description>
+                <de>Wissenschaftliche Dokumentarfilme zu verschiedenen Themen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.63" />
+				<modifier name="topicality::wearoff" value="0.88" />
+			</modifiers>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="2015" distribution="2" maingenre="6" subgenre="" flags="" blocks="1" price_mod="1.12" />
+            <ratings critics="56" speed="77" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-NovaStaffel5_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Big Bang Machine</de>
+                        <en>Big Bang Machine</en>
+                    </title>
+                    <description>
+                        <de>On July 4, 2012, scientists at the giant atom smashing facility at CERN announced the discovery of a subatomic particle that seems like a tantalizingly close match to the elusive Higgs Boson, thought to be responsible for giving all the stuff in the universe its mass.</de>
+                        <en>On July 4, 2012, scientists at the giant atom smashing facility at CERN announced the discovery of a subatomic particle that seems like a tantalizingly close match to the elusive Higgs Boson, thought to be responsible for giving all the stuff in the universe its mass.</en>
+                    </description>
+                    <ratings critics="15" speed="70" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel5_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Hagia Sophia: Istanbul's Mystery</de>
+                        <en>Hagia Sophia: Istanbul's Mystery</en>
+                    </title>
+                    <description>
+                        <de>Istanbul's magnificent Hagia Sophia has survived on one of the world's most active seismic faults, which has inflicted a dozen devastating earthquakes since Hagia Sophia was built in 537 AD. As Istanbul braces for the next big quake, a team of architects and engineers is investigating Hagia Sophia's seismic secrets.</de>
+                        <en>Istanbul's magnificent Hagia Sophia has survived on one of the world's most active seismic faults, which has inflicted a dozen devastating earthquakes since Hagia Sophia was built in 537 AD. As Istanbul braces for the next big quake, a team of architects and engineers is investigating Hagia Sophia's seismic secrets.</en>
+                    </description>
+                    <ratings critics="76" speed="66" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel5_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Arctic Ghost Ship</de>
+                        <en>Arctic Ghost Ship</en>
+                    </title>
+                    <description>
+                        <de>160 years ago, the Franklin Expedition to chart the Northwest Passage vanished. NOVA is on board as a Canadian team makes a breakthrough discovery of one of Franklin's lost ships--a vital new clue to the fate of the ill-starred expedition.</de>
+                        <en>160 years ago, the Franklin Expedition to chart the Northwest Passage vanished. NOVA is on board as a Canadian team makes a breakthrough discovery of one of Franklin's lost ships--a vital new clue to the fate of the ill-starred expedition.</en>
+                    </description>
+                    <ratings critics="54" speed="64" />
+                </programme>
+                <programme id="Stukov-Serien-NovaStaffel5_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Secrets of Noah's Ark</de>
+                        <en>Secrets of Noah's Ark</en>
+                    </title>
+                    <description>
+                        <de>A new version of the biblical flood story includes instructions for assembling an ark.</de>
+                        <en>A new version of the biblical flood story includes instructions for assembling an ark.</en>
+                    </description>
+                    <ratings critics="29" speed="50" />
+                </programme>				
+                <programme id="Stukov-Serien-NovaStaffel5_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Inside Einstein's Mind</de>
+                        <en>Inside Einstein's Mind</en>
+                    </title>
+                    <description>
+                        <de>On November 15th, 1915, Einstein published his greatest work: general relativity. The theory transformed our understanding of nature's laws and the entire history of the cosmos, reaching back to the origin of time itself.</de>
+                        <en>On November 15th, 1915, Einstein published his greatest work: general relativity. The theory transformed our understanding of nature's laws and the entire history of the cosmos, reaching back to the origin of time itself</en>
+                    </description>
+                    <ratings critics="32" speed="68" />
+                </programme>   
+				<programme id="Stukov-Serien-NovaStaffel5_6" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Chasing Pluto</de>
+                        <en>Chasing Pluto</en>
+                    </title>
+                    <description>
+                        <de>NOVA captures New Horizons' historic flyby of Pluto, the culmination of the spacecraft's nine-year, three-billion-mile journey to reveal the first ever detailed images of this strange, icy world at the very edge of our solar system.</de>
+                        <en>NOVA captures New Horizons' historic flyby of Pluto, the culmination of the spacecraft's nine-year, three-billion-mile journey to reveal the first ever detailed images of this strange, icy world at the very edge of our solar system.</en>
+                    </description>
+                    <ratings critics="72" speed="69" />
+                </programme>   
+            </children>
+        </programme>
+
+		<programme id="Stukov-Serien-ColumboStaffel2" product="2" licence_type="3" tmdb_id="0" imdb_id="tt1466074" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Columbo Staffel 2</de>
+                <en>Columbo Episode 2</en>
+            </title>
+            <description>
+                <de>Detective Lieutenant Columbo aus Los Angeles benutzt seine bescheidene Art und sein offen und ehrliches Auftreten, um selbst die am besten vertuschten Verbrechen ans Tageslicht zu bringen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.37" />
+				<modifier name="topicality::wearoff" value="1.78" />
+			</modifiers>
+			<staff>
+				<member index="0" function="2">fdc033d7-e954-4e55-848c-e6b5e7a10d21</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1978" distribution="2" maingenre="4" subgenre="7" flags="" blocks="2" price_mod="1.06" />
+            <ratings critics="61" speed="73" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-ColumboStaffel2_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord à la Carte</de>
+                        <en>Murder Under Glass</en>
+                    </title>
+                    <description>
+                        <de>Food critic Paul Gerard, who has been extorting money from restaurant owners in exchange for good reviews, murders one when threatened with exposure.</de>
+                        <en></en>
+                    </description>
+                    <ratings critics="13" speed="67" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel2_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord in eigener Regie</de>
+                        <en>Make Me a Perfect Murder</en>
+                    </title>
+                    <description>
+                        <de>An Emmy-winning TV executive kills her lover (who is also her boss); Lt. Columbo is on the case.</de>
+                        <en>An Emmy-winning TV executive kills her lover (who is also her boss); Lt. Columbo is on the case.</en>
+                    </description>
+                    <ratings critics="76" speed="66" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel2_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord per Telefon</de>
+                        <en>How to Dial a Murder</en>
+                    </title>
+                    <description>
+                        <de>A behavioral psychologist whose wife died under suspicious circumstances trains his dogs to kill on command using a telephone.</de>
+                        <en>A behavioral psychologist whose wife died under suspicious circumstances trains his dogs to kill on command using a telephone.</en>
+                    </description>
+                    <ratings critics="14" speed="69" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel2_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Waffen des Bösen</de>
+                        <en>The Conspirators</en>
+                    </title>
+                    <description>
+                        <de>An IRA terrorist executes an arms dealer he considers traitorous; Lt. Columbo is on the case.</de>
+                        <en>An IRA terrorist executes an arms dealer he considers traitorous; Lt. Columbo is on the case.</en>
+                    </description>
+                    <ratings critics="23" speed="63" />
+                </programme>	
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-ColumboStaffel3" product="2" licence_type="3" tmdb_id="0" imdb_id="tt1466074" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Columbo Staffel 3</de>
+                <en>Columbo Episode 3</en>
+            </title>
+            <description>
+                <de>Detective Lieutenant Columbo aus Los Angeles benutzt seine bescheidene Art und sein offen und ehrliches Auftreten, um selbst die am besten vertuschten Verbrechen ans Tageslicht zu bringen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.29" />
+				<modifier name="topicality::wearoff" value="1.76" />
+			</modifiers>
+			<staff>
+				<member index="0" function="2">fdc033d7-e954-4e55-848c-e6b5e7a10d21</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1989" distribution="2" maingenre="4" subgenre="7" flags="" blocks="2" price_mod="1.31" />
+            <ratings critics="16" speed="73" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-ColumboStaffel3_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Tödliche Tricks</de>
+                        <en>Columbo Goes to the Guillotine</en>
+                    </title>
+                    <description>
+                        <de>An egocentric psychic murders his old mentor, a magician charged to expose him as fraud, by beheading him while he's rehearsing his guillotine trick.</de>
+                        <en>An egocentric psychic murders his old mentor, a magician charged to expose him as fraud, by beheading him while he's rehearsing his guillotine trick.</en>
+                    </description>
+                    <ratings critics="58" speed="63" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel3_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Die vergessene Tote</de>
+                        <en>Murder, Smoke and Shadows</en>
+                    </title>
+                    <description>
+                        <de>An egocentric wunderkind director, Alex Bradey, murders a childhood friend, Leonard Fisher, who threatens to expose his complicity in the negligent death of Leonard's sister, Jenny, years before Bradey found fame and success.</de>
+                        <en>An egocentric wunderkind director, Alex Bradey, murders a childhood friend, Leonard Fisher, who threatens to expose his complicity in the negligent death of Leonard's sister, Jenny, years before Bradey found fame and success.</en>
+                    </description>
+                    <ratings critics="6" speed="63" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel3_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Black Lady</de>
+                        <en>Sex and the Married Detective</en>
+                    </title>
+                    <description>
+                        <de>When a successful sex therapist with a best selling book and a hit TV show is crushed to learn her business partner/lover is cheating on her, she plots appropriate revenge.</de>
+                        <en>When a successful sex therapist with a best selling book and a hit TV show is crushed to learn her business partner/lover is cheating on her, she plots appropriate revenge.</en>
+                    </description>
+                    <ratings critics="39" speed="62" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel3_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Tödliche Kriegsspiele</de>
+                        <en>Grand Deceptions</en>
+                    </title>
+                    <description>
+                        <de>After the head of a private paramilitary think tank who is embezzling funds murders a blackmailer, he has to match wits with the persistent Lieutenant Columbo.</de>
+                        <en>After the head of a private paramilitary think tank who is embezzling funds murders a blackmailer, he has to match wits with the persistent Lieutenant Columbo.</en>
+                    </description>
+                    <ratings critics="30" speed="58" />
+                </programme>	
+                <programme id="Stukov-Serien-ColumboStaffel3_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Selbstbildnis eines Mörders</de>
+                        <en>Murder, a Self Portrait</en>
+                    </title>
+                    <description>
+                        <de>Columbo investigates the apparent drowning of a famous painter's first wife.</de>
+                        <en>Columbo investigates the apparent drowning of a famous painter's first wife.</en>
+                    </description>
+                    <ratings critics="32" speed="62" />
+                </programme>
+            </children>
+        </programme>
+		
+		<programme id="Stukov-Serien-ColumboStaffel4" product="2" licence_type="3" tmdb_id="0" imdb_id="tt1466074" rt_id="0" creator="" created_by="Stukov">
+            <title>
+                <de>Columbo Staffel 4</de>
+                <en>Columbo Episode 4</en>
+            </title>
+            <description>
+                <de>Detective Lieutenant Columbo aus Los Angeles benutzt seine bescheidene Art und sein offen und ehrliches Auftreten, um selbst die am besten vertuschten Verbrechen ans Tageslicht zu bringen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.60" />
+				<modifier name="topicality::wearoff" value="1.89" />
+			</modifiers>
+			<staff>
+				<member index="0" function="2">fdc033d7-e954-4e55-848c-e6b5e7a10d21</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="2003" distribution="2" maingenre="4" subgenre="7" flags="" blocks="2" price_mod="1.17" />
+            <ratings critics="70" speed="73" outcome="0" />
+            <children>
+                <programme id="Stukov-Serien-ColumboStaffel4_1" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Seltsame Bettgenossen</de>
+                        <en>Strange Bedfellows</en>
+                    </title>
+                    <description>
+                        <de>When Graham McVeigh kills his brother and frames a mob bookie for the crime, and then kills the bookie and claims self-defense, he finds himself facing trouble from both Columbo and the bookie's superior in the mob.</de>
+                        <en>When Graham McVeigh kills his brother and frames a mob bookie for the crime, and then kills the bookie and claims self-defense, he finds himself facing trouble from both Columbo and the bookie's superior in the mob.</en>
+                    </description>
+                    <ratings critics="45" speed="61" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel4_2" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Keine Spur ist sicher</de>
+                        <en>A Trace of Murder</en>
+                    </title>
+                    <description>
+                        <de>A beautiful woman and her forensic expert boyfriend try to frame her very rich husband for murder.</de>
+                        <en>A beautiful woman and her forensic expert boyfriend try to frame her very rich husband for murder.</en>
+                    </description>
+                    <ratings critics="7" speed="65" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel4_3" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Das Aschenpuzzle</de>
+                        <en>Ashes to Ashes</en>
+                    </title>
+                    <description>
+                        <de>After a much maligned Hollywood gossip columnist is murdered by her former lover, Columbo tries to find a way to prove he was responsible for the crime.</de>
+                        <en>After a much maligned Hollywood gossip columnist is murdered by her former lover, Columbo tries to find a way to prove he was responsible for the crime.</en>
+                    </description>
+                    <ratings critics="54" speed="66" />
+                </programme>
+                <programme id="Stukov-Serien-ColumboStaffel4_4" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Mord nach Takten</de>
+                        <en>Murder with Too Many Notes</en>
+                    </title>
+                    <description>
+                        <de>A Hollywood film composer and conductor murdered a talented musician who has been ghostwriting most of his work in recent years.</de>
+                        <en>A Hollywood film composer and conductor murdered a talented musician who has been ghostwriting most of his work in recent years..</en>
+                    </description>
+                    <ratings critics="39" speed="58" />
+                </programme>	
+                <programme id="Stukov-Serien-ColumboStaffel4_5" product="5" licence_type="2" tmdb_id="0" imdb_id="" rt_id="0" creator="" created_by="Stukov">
+                    <title>
+                        <de>Die letzte Party</de>
+                        <en>Columbo Likes the Nightlife</en>
+                    </title>
+                    <description>
+                        <de>Columbo gets a taste of the Los Angeles rave scene as he investigates the apparent suicide of a tabloid reporter.</de>
+                        <en>Columbo gets a taste of the Los Angeles rave scene as he investigates the apparent suicide of a tabloid reporter.</en>
+                    </description>
+                    <ratings critics="37" speed="61" />
+                </programme>
+            </children>
+        </programme>
+
+
+    </allprogrammes>
+</tvgdb>

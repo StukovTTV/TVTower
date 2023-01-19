@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="Programme von Stukov Fictional" />
+	<!-- 
+		Allgemein wurden XML-Syntax- und Copy/Paste-Fehler behoben, die Texte korrekturgelesen und stellenweise überarbeitet.
+		Wo noch nicht vorhanden wurden ein Großteil der Texte ins Englische übersetzt.
+		Überarbeitung der episodes-Tags (z.T. entfernt/Anzahl reduziert oder Markierung von Einzelfolgen als optional).
+		Sonstige inhaltliche Anpassungen sind als Kommentar vor der scripttemplate-Definition angegeben.
+	-->
+	<scripttemplates>
+		<scripttemplate licence_type="3" product="2" guid="Stukov_Das Geheimnis der großen Schwerter">
+			<title>
+				<de>Das Geheimnis der großen Schwerter</de>
+				<en>Memory, Sorrow, and Thorn</en>
+			</title>
+			<description>
+				<de>Verfilmung von Tad Williams’ epischer Fantasy-Serie über die Welt von Osten Ard. Die Geschichte von Simon Mondkalb und Ineluki Sturmkönig - und ihrer tödlichen Feindschaft.</de>
+				<en>Adaptation of Tad Williams's epic fantasy series about the world of Osten Ard.</en>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Stukov_Das Geheimnis der großen Schwerter_1">
+					<title>
+						<de>Der Drachenbeinthron I</de>
+						<en>The Dragonbone Chair I</en>
+					</title>
+					<description>
+						<de>Der betagte König Johan liegt im Sterben, und um die Thronfolge entbrennt ein hinterhältiger Kampf unter seinen Söhnen Elias und Josuah. Der Küchenjunge Simon, wegen seiner Zerstreutheit auch Mondkalb genannt, gerät mitten in die Auseinandersetzungen um die Herrschaft über Osten Ard. Welche Ziele aber verfolgen die geheimnisvollen Elbenvölker der Nornen und Sithi, denen das Land einst gehörte?</de>
+						<en></en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Stukov_Das Geheimnis der großen Schwerter_2">
+					<title>
+						<de>Der Drachenbeinthron II</de>
+						<en>The Dragonbone Chair II</en>
+					</title>
+					<description>
+						<de>Aus Misstrauen gegenüber seinem Bruder Josua schliesst Koenig Elias einen Bund mit den Nornen und erhält das große Schwert Leid</de>
+						<en></en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Stukov_Das Geheimnis der großen Schwerter_3">
+					<title>
+						<de>Der Abschiedsstein I</de>
+						<en>Stone of Farewell I</en>
+					</title>
+					<description>
+						<de>Auf dem Hochhorst herrschen Sturmkoenig Inelukis Kreaturen. Aber noch regt sich Widerstand</de>
+						<en></en>
+					</description>					
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Stukov_Das Geheimnis der großen Schwerter_4">
+					<title>
+						<de>Der Abschiedsstein II</de>
+						<en>Stone of Farewell II</en>
+					</title>
+					<description>
+						<de>Die Gruppe um Prinz Josua erreicht die alte Festung der Sitthi auf dem Abschiedsstein. Von dort aus beginnt der letzte Kampf um Osten Ard.</de>
+						<en></en>
+					</description>					
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Stukov_Das Geheimnis der großen Schwerter_5">
+					<title>
+						<de>Die Nornenkönigin</de>
+						<en>Utuk'ku</en>
+					</title>
+					<description>
+						<de>Die Suche nach dem letzten der drei großen Schwerter beginnt. Alte Schriften vermuten es im Grab des alten Koenigs Johan.</de>
+						<en></en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Stukov_Das Geheimnis der großen Schwerter_6">
+					<title>
+						<de>Der Engelsturm</de>
+						<en>To Green Angel Tower</en>
+					</title>
+					<description>
+						<de>Während vor den Toren des Hochhorstes Josuas Armee warted, findet im Engelsturm die entscheidende Auseinandersetzung zwischen Elias, Pryrates, Simon und Miriamel statt.</de>
+						<en></en>
+					</description>
+				</scripttemplate>				
+			</children>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="2" index="4" gender="1" required="0" />
+				<job function="2" index="5" gender="1" required="0" />
+				<job function="2" index="6" gender="0" required="0" />
+				<job function="2" index="7" gender="0" required="0" />
+				<job function="2" index="8" gender="0" required="0" />
+			</jobs>			
+			<genres maingenre="10" subgenres="1" />
+			<blocks value="2" />
+			<studio_size slope="50" max="3" min="2" />
+			<price max="120000" min="50000" />
+			<potential slope="45" max="92" min="42" />
+			<outcome slope="40" max="71" min="43" />
+			<review slope="40" max="53" min="28" />
+			<speed slope="50" max="83" min="48" />
+			<groups target_groups="3" pro_pressure_groups="0" contra_pressure_groups="0" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="3" product="2" guid="Stukov_Goblins">
+			<title>
+				<de>Die Goblins</de>
+				<en>The Goblins</en>
+			</title>
+			<description>
+				<de>Verfilmung der Buchreihe Die Goblins um Jig den Goblin und den vergessenen Gott %Gott%!</de>
+				<en>Adaptation of the Goblins with Jig and the forgotten god %Gott%.</en>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Stukov_Goblins_1">
+					<title>
+						<de>Die Goblins</de>
+						<en>The Goblins</en>
+					</title>
+					<description>
+						<de>%Goblin% ist ein Goblin. Ein kleiner, schwächlicher Goblin. Wenn er eines nicht sein will, dann ein Held. Eines Tages jedoch passiert etwas .. und %Goblin% muss zum Helden werden ... irgendwie. Ach ja und %Gott% gibt es auch.</de>
+						<en></en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Stukov_Goblins_2">
+					<title>
+						<de>Die Rückkehr der Goblins</de>
+						<en>Return of the Goblins</en>
+					</title>
+					<description>
+						<de>Als eines Tages ein Oger auftaucht und die Goblins um Hilfe bittet wird der schwächliche %Goblin% auf eine brandgefährliche Mission geschickt. Ach ja und %Gott% gibt es auch.</de>
+						<en></en>
+					</description>					
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Stukov_Goblins_3">
+					<title>
+						<de>Der Krieg der Goblins</de>
+						<en>The War of the Goblins</en>
+					</title>
+					<description>
+						<de>Ein Angriff auf die Goblin Hoehlen und schon steck %Goblin% Drachentoeter mitten im Krieg. Ach ja und %Gott% gibt es auch.</de>
+						<en></en>
+					</description>
+				</scripttemplate>				
+			</children>
+			<variables>
+				<Gott>
+					<de>Schattenstern|Isa|Lichtbeisser|Ipsep|Noc|Herbststern</de>
+					<en>Schattenstern|Isa|Lichtbeisser|Ipsep|Noc|Herbststern</en>
+				</Gott>
+				<Goblin>
+					<de>Jig|Braf|Relka|Grell</de>
+					<en>Jig|Braf|Relka|Grell</en>
+				</Goblin>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="0" />
+				<job function="2" index="4" gender="2" required="0" />
+				<job function="32" index="5" gender="0" required="0" />
+				<job function="32" index="6" gender="0" required="0" />
+				<job function="32" index="7" gender="0" required="0" />
+				<job function="32" index="8" gender="0" required="0" />
+				<job function="32" index="9" gender="0" required="0" />
+			</jobs>			
+			<genres maingenre="10" subgenres="1" />
+			<blocks slope="50" max="2" min="1" />
+			<studio_size slope="33" max="2" min="1" />
+			<price max="250000" min="0" />
+			<potential slope="50" max="60" min="0" />
+			<outcome slope="50" max="50" min="0" />
+			<review slope="30" max="25" min="0" />
+			<speed slope="60" max="83" min="0" />
+			<groups target_groups="3" pro_pressure_groups="0" contra_pressure_groups="0" />
+		</scripttemplate>		
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-DarkestDungeon" >
+			<title>
+				<de>Darkest Dungeon - Der Film</de>
+				<en>Darkest Dungeon - The Film</en>
+			</title>
+			<description>
+				<de>Versuch einer Verfilmung des Computerspiels, naja zumindest der Kampf gegen Monster im Darkest Dungeon. %Class1%, %Class2%, %Class3% und %Class4% versuchen zu überleben. Jayne Wune leiht seine Stimme, oder ist es nur eingespielt?</de>
+				<en></en>
+			</description>
+			<variables>
+				<Class1>
+					<de>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</de>
+					<en>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</en>
+				</Class1>
+				<Class2>
+					<de>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</de>
+					<en>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</en>
+				</Class2>
+				<Class3>
+					<de>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</de>
+					<en>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</en>
+				</Class3>
+				<Class4>
+					<de>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</de>
+					<en>Grave Robber|Crusader|Arbalest|Bounty Hunter|Hellion|Highwayman|Houndmaster|Jester|Man-at-Arms|Occultist|Plague Doctor|Vestal|Flagellant</en>
+				</Class4>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="0" required="1" />
+				<job function="2" index="2" gender="0" required="1" />
+				<job function="2" index="3" gender="0" required="1" />
+				<job function="2" index="4" gender="0" required="1" />
+				<job function="32" index="5" gender="0" required="0" />
+				<job function="32" index="6" gender="0" required="0" />
+			</jobs>
+			<data flags_optional="96" />
+			<genres maingenre="10" subgenres="12,1" />
+			<blocks slope="30" max="2" min="1" />
+			<price slope="25" max="500000" min="10000" />
+			<potential slope="30" max="100" min="0" />
+			<outcome slope="30" max="100" min="0" />
+			<review slope="10" max="100" min="0" />
+			<speed slope="50" max="100" min="20" />
+		</scripttemplate>
+		
+		<scripttemplate licence_type="1" product="1" guid="Stukov-DerWidersacher" >
+			<title>
+				<de>Der Widersacher</de>
+				<en></en>
+			</title>
+			<description>
+				<de>Er kommt mit Feuer und Sturm, und mit seinem Erscheinen brechen die letzten Tage der Menschheit an. Eine Legende wird Wirklichkeit wie der Metzger %RoleMale% und Anhalterin %RoleFemale% erleben</de>
+				<en></en>
+			</description>
+			<variables>
+				<RoleMale>
+					<de>Brenner|Heidmann|Baumann|Schmidt</de>
+					<en>Brenner|Heidmann|Baumann|Schmidt</en>
+				</RoleMale>
+				<RoleFemale>
+					<de>Astrid|Charlotte|Nicole|Christiane</de>
+					<en>Astrid|Charlotte|Nicole|Christiane</en>
+				</RoleFemale>				
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="0" required="0" />
+				<job function="32" index="5" gender="0" required="0" />				
+			</jobs>
+			<data flags_optional="48" />
+			<genres maingenre="17" subgenres="" />
+			<studio_size slope="40" max="3" min="1" />
+			<blocks slope="50" max="3" min="2" />
+			<price slope="25" max="500000" min="10000" />
+			<potential slope="30" max="100" min="0" />
+			<outcome slope="30" max="100" min="0" />
+			<review slope="40" max="100" min="0" />
+			<speed slope="50" max="100" min="20" />
+		</scripttemplate>
+		
+
+
+	</scripttemplates>
+</tvtdb>

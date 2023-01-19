@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvgdb>
+    <version value="3" comment="Franks FILME und SERIEN" />
+    <allprogrammes>
+	
+    <!--
+		Movies
+	-->
+	
+		<programme id="Stukov_Filme_Troglodyte" product="1" licence_type="1" tmdb_id="0" imdb_id="tt1314248" rt_id="0" creator="Stukov">
+            <title>
+                <de>Troglodyte</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Troglodyte</de>
+                <en>Troglodyte</en>
+            </title_original>
+            <description>
+                <de>Mythic creatures emerge from the sea to feast on the residents of a fishing village.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.18" />
+				<modifier name="topicality::wearoff" value="1.28" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_PaulZiller</member>				
+				<member index="1" function="2">Stukov_CorinNemec</member>	
+				<member index="2" function="2">Stukov_MiriamMcDonald</member>	
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="2008" distribution="2" maingenre="2" subgenre="1" flags="32" blocks="2" price_mod="1.00" />
+            <ratings critics="5" speed="42" outcome="0" />
+        </programme>
+        
+        <programme id="Stukov-Filme-Avalon: Beyond the Abyss" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0212645" rt_id="0" creator="Stukov">
+            <title>
+                <de>Avalon: Beyond the Abyss</de>
+                <en>Avalon: Beyond the Abyss</en>
+            </title>
+            <title_original>				
+                <de>Avalon: Beyond the Abyss</de>
+                <en>Avalon: Beyond the Abyss</en>
+            </title_original>
+            <description>
+                <de>An island blows up, and from its remains a black poison fills the ocean. A team of underwater specialists with high-tech gear have to stop the poison before it contaminates the earth, but things get increasingly bizarre the more they investigate. What this all boils down to is that "Avalon: Beyond the Abyss" is genuinely a bad made for TV movie and other than an appealing cast and some nice under water footage it comes up well short on entertainment. </de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.61" />
+				<modifier name="topicality::wearoff" value="0.57" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_PhilipSgriccia</member>				
+				<member index="1" function="2">Stukov_ParkerStevenson</member>					
+			</staff>			
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1999" distribution="2" maingenre="14" subgenre="16" flags="0" blocks="2" price_mod="0.67" />
+            <ratings critics="37" speed="25" outcome="0" />
+        </programme>
+
+		<programme id="Stukov_Filme_Asteroid" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0118261" rt_id="0" creator="Stukov">
+            <title>
+                <de>Asteroid - Tod aus dem All</de>
+                <en>Asteroid</en>
+            </title>
+            <title_original>				
+                <de>Asteroid - Tod aus dem All</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>With the discovery of an incoming asteroid, the government of America formulate a plan to destroy it. When the plan fails, all the world can do is wait. The main impact zone is revealed to be Dallas, Texas. Generally, the plot follows the lives and reactions of several characters: an astronomer, her father, her son, two firefighters from Kansas City, two young doctors in Dallas and the heads of the government agency in charge of the situation.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.70" />
+				<modifier name="topicality::wearoff" value="1.03" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_BradfordMay</member>				
+				<member index="1" function="2">a2be83c0-63a6-4ddd-9b60-953662a188f6</member>					
+			</staff>	
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1997" distribution="1" maingenre="16" subgenre="17" flags="0" blocks="3" price_mod="1" />
+            <ratings critics="20" speed="35" outcome="0" />
+        </programme>
+        
+        <programme id="Stukov_Filme_Hobbit" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0077687" rt_id="0" creator="Stukov">
+            <title>
+                <de>Der Hobbit</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Der Hobbit</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>A homebody hobbit in Middle Earth gets talked into joining a quest with a group of dwarves to recover their treasure from a dragon.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.92" />
+				<modifier name="topicality::wearoff" value="1.34" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JulesBass</member>							
+			</staff>
+            <groups target_groups="3" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1977" distribution="2" maingenre="10" subgenre="1,3" flags="2" blocks="2" price_mod="0.50" />
+            <ratings critics="25" speed="26" outcome="0" />
+        </programme>    
+		
+		<programme id="Stukov_Filme_Der Herr der Ringe" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0077869" rt_id="0" creator="Stukov">
+            <title>
+                <de>Der Herr der Ringe</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Der Herr der Ringe</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>Die Gemeinschaft des Ringes begibt sich auf eine Reise, um den einen Ring zu zerstören und Saurons Herrschaft über Mittelerde zu beenden.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.07" />
+				<modifier name="topicality::wearoff" value="1.28" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_RalphBakshi</member>							
+			</staff>
+            <groups target_groups="3" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1978" distribution="2" maingenre="10" subgenre="3,1" flags="2" blocks="3" price_mod="0.50" />
+            <ratings critics="52" speed="41" outcome="0" />
+        </programme>   
+
+		<programme id="Stukov_Filme_Die Rückkehr des Königs" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0079802" rt_id="0" creator="Stukov">
+            <title>
+                <de>Die Rückkehr des Königs</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Die Rückkehr des Königs</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>Two Hobbits struggle to destroy the Ring in Mount Doom while their friends desperately fight evil Lord Sauron's forces in a final battle.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.47" />
+				<modifier name="topicality::wearoff" value="0.56" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JulesBass</member>							
+			</staff>
+            <groups target_groups="3" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1980" distribution="2" maingenre="10" subgenre="3,1" flags="2" blocks="2" price_mod="0.50" />
+            <ratings critics="47" speed="45" outcome="0" />
+        </programme>
+
+		<programme id="Stukov_Filme_Brazil" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0088846" rt_id="0" creator="Stukov">
+            <title>
+                <de>Brazil</de>
+                <en>Brazil</en>
+            </title>
+            <title_original>				
+                <de>Brazil</de>
+                <en>Brazil</en>
+            </title_original>
+            <description>
+                <de>Ein Bürokrat in einer Retro-Zukunftswelt versucht, einen administrativen Fehler zu beheben und wird dabei selbst zum Staatsfeind.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.35" />
+				<modifier name="topicality::wearoff" value="1.66" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov-Regie-Gilliam</member>
+				<member index="1" function="2">Stukov_Pryce</member>
+				<member index="2" function="2">Stukov-Actor-DeNiro</member>				
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1985" distribution="1" maingenre="7" subgenre="16,5" flags="" blocks="3" price_mod="1.00" />
+            <ratings critics="25" speed="57" outcome="14" />
+        </programme> 
+		
+		<programme id="Stukov_Filme_Sting - Bring on the Night" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0088855" rt_id="0" creator="Stukov">
+            <title>
+                <de>Sting - Bring on the Night</de>
+                <en>Sting - Bring on the Night</en>
+            </title>
+            <title_original>				
+                <de>Sting - Bring on the Night</de>
+                <en>Sting - Bring on the Night</en>
+            </title_original>
+            <description>
+                <de>Documents the preparation and rehearsals for Sting's first solo concert, as well as his supporting band's opinions on their leader and his controversial efforts.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.25" />
+				<modifier name="topicality::wearoff" value="1.56" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_MichaelApted</member>				
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1985" distribution="1" maingenre="202" subgenre="300" flags="" blocks="1" price_mod="1.00" />
+            <ratings critics="61" speed="54" outcome="17" />
+        </programme> 
+		
+		<programme id="Stukov_Filme_Dragon Ball" product="1" licence_type="1" tmdb_id="0" imdb_id="tt2155428" rt_id="0" creator="Stukov">
+            <title>
+                <de>Dragon Ball</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Dragon Ball</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>One of the very first attempts to release Dragon Ball in North America, this film combines footage from Dragon Ball: Curse of the Blood Rubies and Dragon Ball: Mystical Adventure.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.53" />
+				<modifier name="topicality::wearoff" value="1.91" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_AhmedAgrama</member>				
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1989" distribution="2" maingenre="3" subgenre="2" flags="2" blocks="2" price_mod="1.00" />
+            <ratings critics="35" speed="61" outcome="0" />
+        </programme>   
+		
+		<programme id="Stukov_Filme_Auch ein Sheriff braucht mal Hilfe" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0065051" rt_id="0" creator="Stukov">
+            <title>
+                <de>Auch ein Sheriff braucht mal Hilfe</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Auch ein Sheriff braucht mal Hilfe</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>Im alten Westen wird ein Mann nur wegen des Lohns Sheriff und denkt, er kann sich aus dem Staub machen, wenn es schwierig wird. Am Ende setzt er stattdessen auf Einfallsreichtum.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.52" />
+				<modifier name="topicality::wearoff" value="0.67" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_BurtKennedy</member>				
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="5" contra_pressure_groups="8" />
+            <data country="USA" year="1969" distribution="2" maingenre="5" subgenre="18" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="35" speed="50" outcome="0" />
+        </programme>   
+		
+		<programme id="Stukov_Filme_Halloween: Die Nacht des Grauens" product="1" licence_type="1" tmdb_id="tt0077651" imdb_id="0" rt_id="0" creator="Stukov">
+            <title>
+                <de>Halloween: Die Nacht des Grauens</de>
+                <en>Halloween</en>
+            </title>
+            <title_original>				
+                <de>Halloween: Die Nacht des Grauens</de>
+                <en>Halloween</en>
+            </title_original>
+            <description>
+                <de>Fünfzehn Jahre, nachdem er seine Schwester in der Halloweennacht 1963 ermordet hat, flieht Michael Myers aus einer Nervenheilanstalt und kehrt in die Kleinstadt Haddonfield zurück, um erneut zu töten.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.79" />
+				<modifier name="topicality::wearoff" value="0.81" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="1" function="2">1305a222-c3bf-429a-a1c5-f07a8c52db6a</member>
+				<member index="2" function="2">280a71d8-f9ba-43e7-9ec2-cb1e06bf98e8</member>				
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="USA" year="1978" distribution="1" maingenre="12" subgenre="17" flags="32" blocks="2" price_mod="1.00" />
+            <ratings critics="67" speed="56" outcome="20" />
+        </programme>
+		
+		
+		<programme id="Stukov_Das Reich der Sonne" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0092965" rt_id="0" creator="Stukov">
+            <title>
+                <de>Das Reich der Sonne</de>
+                <en>Empire of the Sun</en>
+            </title>
+            <title_original>				
+                <de>Das Reich der Sonne</de>
+                <en>Empire of the Sun</en>
+            </title_original>
+            <description>
+                <de>Eine Zeit voller Aufruhr, eine Welt im Krieg, ein Junge allein. Shanghai, 1941. Der 11-jährige Jim Graham führt mit seinen Eltern ein bequemes, abgeschirmtes Leben im britischen Viertel. Doch die Idylle ist trügerisch. Als die Japaner angreifen, wird Jim in der ausbrechenden Panik von seinen Eltern getrennt und muss nun versuchen, allein zu überleben.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.51" />
+				<modifier name="topicality::wearoff" value="0.80" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_StephenSpielberg</member>
+				<member index="1" function="2">DF-Celebreties-Christian_Bale</member>
+				<member index="2" function="2">Stukov_JohnMalkovich</member>				
+				<member index="3" function="2">Stukov_MirandaRichardson</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="GB" year="1988" distribution="1" maingenre="11" subgenre="2" flags="8" blocks="3" price_mod="1.10" />
+            <ratings critics="78" speed="50" outcome="22" />
+        </programme> 
+		
+		<programme id="Stukov_Der Name der Rose" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091605" rt_id="0" creator="Stukov">
+            <title>
+                <de>Der Name der Rose</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Der Name der Rose</de>
+                <en> </en>
+            </title_original>
+            <description>
+                <de>Anno Domini 1327: Der englische Franziskanermönch William von Baskerville reist mit seinem jungen Schüler Adson im Auftrag des Kaisers zu einer reichen Benediktinerabtei in Italien. Er soll in einem Treffen zwischen den der Ketzerei verdächtigten Minoriten und den Gesandten des Papstes vermitteln. Der Aufenthalt wird zu einem wahren Alptraum!</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.99" />
+				<modifier name="topicality::wearoff" value="0.87" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JJAnnaud</member>
+				<member index="1" function="2">e0807a2d-e04d-4abf-9422-afa44b202438</member>
+				<member index="2" function="2">8737ba4b-9616-4e99-86ee-3299b9e347fe</member>								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="AT" year="1986" distribution="1" maingenre="4" subgenre="7,14" flags="" blocks="3" price_mod="1.00" />
+            <ratings critics="54" speed="62" outcome="26" />
+        </programme> 		
+		
+		<programme id="Stukov_Ace Ventura - Ein tierischer Detektiv" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0109040" rt_id="0" creator="Stukov">
+            <title>
+                <de>Ace Ventura - Ein tierischer Detektiv</de>
+                <en>Ace Ventura: Pet Detective</en>
+            </title>
+            <title_original>				
+                <de>Ace Ventura - Ein tierischer Detektiv</de>
+                <en>Ace Ventura: Pet Detective</en>
+            </title_original>
+            <description>
+                <de>Detektiv Ace Ventura ist darauf spezialisiert, verlorengegangene Haustiere aufzuspüren. Als ihm der Fall des entführten Delphins Snowflake, dem Maskottchen der Footballmannschaft Miami Dolphins, übertragen wird, erweisen sich die animalischen Instinkte des Schnüfflers als äußerst hilfreich.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.59" />
+				<modifier name="topicality::wearoff" value="0.72" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_TomShadyac</member>
+				<member index="1" function="2">Stukov_JimCarrey</member>
+				<member index="2" function="2">Stukov_CourteneyCox</member>								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1994" distribution="1" maingenre="5" subgenre="" flags="" blocks="2" price_mod="0.90" />
+            <ratings critics="37" speed="65" outcome="30" />
+        </programme> 
+		
+		<programme id="Stukov_John Carpenter's Die Fürsten der Dunkelheit" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0093777" rt_id="0" creator="Stukov">
+            <title>
+                <de>John Carpenter's Die Fürsten der Dunkelheit</de>
+                <en>Prince of Darkness</en>
+            </title>
+            <title_original>				
+                <de>John Carpenter's Die Fürsten der Dunkelheit</de>
+                <en>Prince of Darkness</en>
+            </title_original>
+            <description>
+                <de>Plötzliche auftretende Veränderungen in der Umwelt und schreckliche Naturkatastrophen verheißen für all diejenigen, die die Zeichen deuten können, nichts Gutes: Die Wiederkehr Satans steht offenbar kurz bevor. In einer zerfallenen Kirche mitten in Los Angeles, gefangen in einem gläsernen Schrein, schlummert seit Jahrhunderten das Böse. Als Wissenschaftler diesem furchtbaren Geheimnis auf den Grund gehen wollen, erwacht die dämonische Kraft eines uralten Anti-Gottes.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="2.07" />
+				<modifier name="topicality::wearoff" value="1.05" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="1" function="2">188024b3-d76f-4999-bc00-13c505a6c646</member>
+				<member index="2" function="2">Stukov_LisaBlount</member>								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1987" distribution="1" maingenre="12" subgenre="" flags="" blocks="2" price_mod="0.90" />
+            <ratings critics="8" speed="57" outcome="5" />
+        </programme> 
+
+		<programme id="Stukov_Blind Side - Die große Chance" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0087332" rt_id="0" creator="Stukov">
+            <title>
+                <de>Blind Side - Die große Chance</de>
+                <en>The Blind Side</en>
+            </title>
+            <title_original>				
+                <de>Blind Side - Die große Chance</de>
+                <en>The Blind Side</en>
+            </title_original>
+            <description>
+                <de>Die Geschichte von Michael Oher, einem obdachlosen und traumatisierten Jungen, der mit Hilfe einer fürsorglichen Frau und ihrer Familie ein Profi Football-Spieler wurde.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.74" />
+				<modifier name="topicality::wearoff" value="1.51" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JohnLeeHancock</member>
+				<member index="1" function="2">585f6d33-ef12-46df-b4e1-a82770cdcf72</member>							
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="2009" distribution="1" maingenre="7" subgenre="203" flags="" blocks="3" price_mod="1.23" />
+            <ratings critics="53" speed="66" outcome="100" />
+        </programme>
+		
+		<programme id="Stukov_Coach Carter" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0393162" rt_id="0" creator="Stukov">
+            <title>
+                <de>Coach Carter</de>
+                <en>Coach Carter</en>
+            </title>
+            <title_original>				
+                <de>Coach Carter</de>
+                <en>Coach Carter</en>
+            </title_original>
+            <description>
+                <de>Der Basketball-Trainer der Richmond-Highschool schließt trotz einer Bombenserie von 13:0 Siegen sein Dreamteam mitten in der Saison von Training und Spielen aus. Der Grund: die miserablen schulischen Leistungen der Spieler. Denn mehr als um Basketball sorgt sich Carter um die Zukunft seiner Schüler. </de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.61" />
+				<modifier name="topicality::wearoff" value="1.51" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_ThomasCarter</member>
+				<member index="1" function="2">Stukov_SamuelJackson</member>							
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="2005" distribution="1" maingenre="7" subgenre="203" flags="" blocks="3" price_mod="1.17" />
+            <ratings critics="57" speed="63" outcome="25" />
+        </programme>
+		
+		<programme id="Stukov_MadMax" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0079501" rt_id="0" creator="Stukov">
+            <title>
+                <de>Mad Max</de>
+                <en>Mad Max</en>
+            </title>
+            <title_original>				
+                <de>Mad Max</de>
+                <en>Mad Max</en>
+            </title_original>
+            <description>
+                <de>In einer selbstzerstörenden Welt macht sich ein rachesüchtiger australischer Polizist auf den Weg, eine gewalttätige Motorradgang zu stoppen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.46" />
+				<modifier name="topicality::wearoff" value="1.33" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_GeorgeMiller_</member>
+				<member index="1" function="2">Stukov_MelGibson</member>							
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1979" distribution="1" maingenre="2" subgenre="" flags="" blocks="2" price_mod="1.05" />
+            <ratings critics="73" speed="59" outcome="70" />
+        </programme>
+		
+		<programme id="Stukov_Manhattan" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0079522" rt_id="0" creator="Stukov">
+            <title>
+                <de>Manhattan</de>
+                <en>Manhattan</en>
+            </title>
+            <title_original>				
+                <de>Manhattan</de>
+                <en>Manhattan</en>
+            </title_original>
+            <description>
+                <de>Das Leben eines geschiedenen Fernsehautors, der eine Beziehung zu einer Teenagerin hat, wird noch komplizierter, als er sich in die Geliebte seines besten Freundes verliebt. Von und mit [0|Full]!</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.21" />
+				<modifier name="topicality::wearoff" value="1.89" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_WoodyAllen</member>
+				<member index="1" function="2">Stukov_DianeKeaton</member>							
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1979" distribution="1" maingenre="5" subgenre="7" flags="16" blocks="2" price_mod="0.88" />
+            <ratings critics="73" speed="69" outcome="25" />
+        </programme>
+		
+		<programme id="Stukov_Grease" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0077631" rt_id="0" creator="Stukov">
+            <title>
+                <de>Grease</de>
+                <en>Grease</en>
+            </title>
+            <title_original>				
+                <de>Grease</de>
+                <en>Grease</en>
+            </title_original>
+            <description>
+                <de>Die brave Sandy und der Rebell Danny sind den Sommer über ein Liebespaar. Nach den Ferien stellen sie fest, dass sie unvermutet die gleiche High School besuchen - können sie ihre Romanze wieder aufleben lassen?</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="2.09" />
+				<modifier name="topicality::wearoff" value="1.42" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_RandalKleiser</member>
+				<member index="1" function="2">0a3b1917-3e7e-4fb4-b7c9-8e2ff1ad6b61</member>							
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1978" distribution="1" maingenre="202" subgenre="15,5" flags="" blocks="2" price_mod="0.93" />
+            <ratings critics="60" speed="62" outcome="60" />
+        </programme>
+		
+		<programme id="Stukov_Piranhas" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0078087" rt_id="0" creator="Stukov">
+            <title>
+                <de>Piranhas</de>
+                <en>Piranhas</en>
+            </title>
+            <title_original>				
+                <de>Piranhas</de>
+                <en>Piranhas</en>
+            </title_original>
+            <description>
+                <de>Wenn fleischfressende Piranhas versehentlich in die Flüsse einer Sommerfrische entlassen werden, werden die Gäste zu ihrer nächsten Mahlzeit.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.83" />
+				<modifier name="topicality::wearoff" value="1.07" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JoeDante</member>
+				<member index="1" function="2">Stukov_BradfordDillman</member>							
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1978" distribution="1" maingenre="12" subgenre="5" flags="32" blocks="2" price_mod="0.73" />
+            <ratings critics="61" speed="49" outcome="16" />
+        </programme>
+		
+		<programme id="Stukov_Der erste große Eisenbahnraub" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0079240" rt_id="0" creator="Stukov">
+            <title>
+                <de>Der erste große Eisenbahnraub</de>
+                <en>The First Great Train Robbery</en>
+            </title>
+            <title_original>				
+                <de>Der erste große Eisenbahnraub</de>
+                <en>The First Great Train Robbery</en>
+            </title_original>
+            <description>
+                <de>Ein Meisterverbrecher will einen Zug einer großen Goldsumme berauben. Die Sicherheitsvorkehrungen sind streng, und die Aufgabe scheint unmöglich zu sein. Er hat jedoch einen Plan und genau die richtigen Leute, um ihn auszuführen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.59" />
+				<modifier name="topicality::wearoff" value="0.75" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_MichaelCrichton</member>
+				<member index="1" function="2">e0807a2d-e04d-4abf-9422-afa44b202438</member>
+				<member index="2" function="2">Stukov_DonaldSutherland</member>									
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1978" distribution="1" maingenre="4" subgenre="1" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="74" speed="59" outcome="20" />
+        </programme>
+		
+		<programme id="Stukov_Winnetou1" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0057687" rt_id="0" creator="Stukov">
+            <title>
+                <de>Winnetou I</de>
+                <en>Winnetou I</en>
+            </title>
+            <title_original>				
+                <de>Winnetou I</de>
+                <en>Winnetou I</en>
+            </title_original>
+            <description>
+                <de>Als die Eisenbahn entgegen der Absprache über Apachenland gebaut wird, versucht der deutsche Ingenieur dem Häuptlingssohn Winnetou zu helfen, doch die Indianer halten alle Weißen für Mörder und schwören Rache.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.79" />
+				<modifier name="topicality::wearoff" value="1.70" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_HaraldReinl</member>
+				<member index="1" function="2">5679447a-7706-40b9-bb7c-b191abebd5d8</member>
+				<member index="2" function="2">79c081cb-755e-41b8-bd50-11f00e6b1382</member>									
+				<member index="3" function="2">Stukov_MarieVersini</member>					
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1963" distribution="1" maingenre="18" subgenre="1" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="81" speed="59" outcome="11" />
+        </programme>
+		
+		<programme id="Stukov_Winnetou2" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0058751" rt_id="0" creator="Stukov">
+            <title>
+                <de>Winnetou II</de>
+                <en>Winnetou II</en>
+            </title>
+            <title_original>				
+                <de>Winnetou II</de>
+                <en>Winnetou II</en>
+            </title_original>
+            <description>
+                <de>Der skrupellose Baron Forrester will einen Krieg zwischen Indianern und Weißen anzetteln. Old Shatterhand, Winnetou und ihr Kumpan Lord Castlepool versuchen das zu verhindern.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.75" />
+				<modifier name="topicality::wearoff" value="1.59" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_HaraldReinl</member>
+				<member index="1" function="2">5679447a-7706-40b9-bb7c-b191abebd5d8</member>
+				<member index="2" function="2">79c081cb-755e-41b8-bd50-11f00e6b1382</member>																
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1964" distribution="1" maingenre="18" subgenre="1" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="73" speed="56" outcome="6" />
+        </programme>
+		
+		<programme id="Stukov_WinnetouSilbersee" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0056452" rt_id="0" creator="Stukov">
+            <title>
+                <de>Der Schatz im Silbersee</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Der Schatz im Silbersee</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>In ihrem ersten Leinwandabenteuer verfolgen Apachenhäuptling Winnetou und sein Blutsbruder Old Shatterhand eine Bande mörderischer Gesetzloser, die es auf den legendären Schatz vom Silbersee abgesehen haben.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.90" />
+				<modifier name="topicality::wearoff" value="1.79" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_HaraldReinl</member>
+				<member index="1" function="2">5679447a-7706-40b9-bb7c-b191abebd5d8</member>
+				<member index="2" function="2">79c081cb-755e-41b8-bd50-11f00e6b1382</member>																
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1962" distribution="1" maingenre="18" subgenre="1" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="36" speed="59" outcome="10" />
+        </programme>
+
+		<programme id="Stukov_Winnetou3" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0059915" rt_id="0" creator="Stukov">
+            <title>
+                <de>Winnetou III</de>
+                <en>Winnetou III</en>
+            </title>
+            <title_original>				
+                <de>Winnetou III</de>
+                <en>Winnetou III</en>
+            </title_original>
+            <description>
+                <de>Rollins' Bande will Land an sich reißen, indem sie die Siedler zu einem Krieg gegen die Indianer anstachelt, doch Winnetou und Old Shatterhand versuchen, den Frieden zu wahren.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.67" />
+				<modifier name="topicality::wearoff" value="0.79" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_HaraldReinl</member>
+				<member index="1" function="2">5679447a-7706-40b9-bb7c-b191abebd5d8</member>
+				<member index="2" function="2">79c081cb-755e-41b8-bd50-11f00e6b1382</member>																
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1965" distribution="1" maingenre="18" subgenre="1" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="15" speed="57" outcome="5" />
+        </programme>
+		
+		<programme id="Stukov_Apanatschi" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0061197" rt_id="0" creator="Stukov">
+            <title>
+                <de>Winnetou und das Halbblut Apanatschi</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Winnetou und das Halbblut Apanatschi</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>Zum Geburtstag bekommt die Siedlertochter Apanatschi die geheime Goldmine ihres Vaters geschenkt, wird aber bald von gierigen Goldsuchern gekidnappt. Jetzt bleibt ihr nur noch die Hoffnung auf die Hilfe von Winnetou und Old Shatterhand.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.18" />
+				<modifier name="topicality::wearoff" value="1.15" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_HaraldReinl</member>
+				<member index="1" function="2">5679447a-7706-40b9-bb7c-b191abebd5d8</member>
+				<member index="2" function="2">79c081cb-755e-41b8-bd50-11f00e6b1382</member>																
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1966" distribution="1" maingenre="18" subgenre="1" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="37" speed="47" outcome="13" />
+        </programme>
+		
+		<programme id="Stukov_EdgarWallaceHexer" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0058191" rt_id="0" creator="Stukov">
+            <title>
+                <de>Edgar Wallace: Der Hexer</de>
+                <en></en>
+            </title>
+            <title_original>				
+                <de>Edgar Wallace: Der Hexer</de>
+                <en></en>
+            </title_original>
+            <description>
+                <de>Als seine Schwester einem Mord zum Opfer fällt, kehrt der Hexer, eine selbsternannter Rächer und Meister der Verkleidung, nach London zurück, um mit ihren Mördern abzurechnen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.86" />
+				<modifier name="topicality::wearoff" value="1.25" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_AlfredVohrer</member>
+				<member index="1" function="2">TheRob-TowerTV-JoachimWolfjaeger</member>																				
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1964" distribution="1" maingenre="4" subgenre="14" flags="" blocks="2" price_mod="1.00" />
+            <ratings critics="22" speed="57" outcome="0" />
+        </programme>
+
+		<programme id="Stukov_Grand Prix" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0060472" rt_id="0" creator="Stukov">
+            <title>
+                <de>Grand Prix</de>
+                <en>Grand Prix</en>
+            </title>
+            <title_original>				
+                <de>Grand Prix</de>
+                <en>Grand Prix</en>
+            </title_original>
+            <description>
+                <de>Der amerikanische Grand-Prix-Pilot Pete Aron wird von seinem Jordan-BRM-Rennstall nach einem Unfall in Monaco, bei dem sein britischer Teamkollege Scott Stoddard verletzt wurde, gefeuert.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.99" />
+				<modifier name="topicality::wearoff" value="0.55" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">TheRob-TowerTV-JohnFrankenwiener</member>
+				<member index="1" function="2">TheRob-TowerTV-BanesWarner</member>																				
+				<member index="2" function="2">Stukov_EvaMarieSaint</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1966" distribution="1" maingenre="7" subgenre="203" flags="" blocks="3" price_mod="1.00" />
+            <ratings critics="62" speed="62" outcome="20" />
+        </programme>
+
+		<programme id="Stukov_Charlie Brown und seine Freunde" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0064107" rt_id="0" creator="Stukov">
+            <title>
+                <de>Charlie Brown und seine Freunde</de>
+                <en>A Boy Named Charlie Brown</en>
+            </title>
+            <title_original>				
+                <de>Charlie Brown und seine Freunde</de>
+                <en>A Boy Named Charlie Brown</en>
+            </title_original>
+            <description>
+                <de>Charlie Brown makes his way to the national spelling bee finals.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.66" />
+				<modifier name="topicality::wearoff" value="1.60" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_BillMelendez</member>
+			</staff>
+            <groups target_groups="2" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1969" distribution="1" maingenre="5" subgenre="9,3" flags="2" blocks="2" price_mod="0.9" />
+            <ratings critics="52" speed="63" outcome="5" />
+        </programme>
+		
+		<programme id="Stukov_La Boum - Die Fete" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0082100" rt_id="0" creator="Stukov">
+            <title>
+                <de>La Boum - Die Fete</de>
+                <en>La boum</en>
+            </title>
+            <title_original>				
+                <de>La Boum - Die Fete</de>
+                <en>La boum</en>
+            </title_original>
+            <description>
+                <de>Dies ist eine Geschichte über die ersten Liebeserfahrungen eines weiblichen Teenagers.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.83" />
+				<modifier name="topicality::wearoff" value="0.56" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_ClaudePinoteau</member>
+				<member index="1" function="2">Stukov_ClaudeBrasseur</member>																								
+				<member index="2" function="2">Stukov_BrigitteFossey</member>	
+				<member index="3" function="2">Stukov_SophieMarceau</member>	
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="F" year="1980" distribution="1" maingenre="5" subgenre="15" flags="" blocks="2" price_mod="1.27" />
+            <ratings critics="26" speed="57" outcome="20" />
+        </programme>
+		
+		<programme id="Stukov_Jack the Ripper" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0074408" rt_id="0" creator="Stukov">
+            <title>
+                <de>Jack the Ripper</de>
+                <en>Jack the Ripper</en>
+            </title>
+            <title_original>				
+                <de>Jack the Ripper</de>
+                <en>Jack the Ripper</en>
+            </title_original>
+            <description>
+                <de>A Swiss-German horror film with Klaus Kinski as the notorious Jack the Ripper. A respected doctor by day, Kinski dismembers London prostitutes by night, until the local Inspector's girlfriend (Josephine Chaplin) goes undercover to catch him. </de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.23" />
+				<modifier name="topicality::wearoff" value="1.35" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JesusFranco</member>
+				<member index="1" function="2">9f342b49-1089-47bc-8d92-722fe71d96e3</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1976" distribution="1" maingenre="4" subgenre="12,17" flags="" blocks="2" price_mod="1.33" />
+            <ratings critics="40" speed="44" outcome="7" />
+        </programme>
+		
+		
+		<programme id="Stukov_Angriff der Killertomaten" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0080391" rt_id="0" creator="Stukov">
+            <title>
+                <de>Angriff der Killertomaten</de>
+                <en>Attack of the Killer Tomatoes!</en>
+            </title>
+            <title_original>				
+                <de>Angriff der Killertomaten</de>
+                <en>Attack of the Killer Tomatoes!</en>
+            </title_original>
+            <description>
+                <de>Eine Gruppe von Wissenschaftlern tut sich zusammen, um die Welt vor mutierten Killertomaten zu retten.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.77" />
+				<modifier name="topicality::wearoff" value="0.99" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">TheRob-TowerTV-LeeJRombson</member>
+				<member index="1" function="2">Stukov_RoddyMcDowall</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1978" distribution="1" maingenre="5" subgenre="12" flags="" blocks="2" price_mod="1.27" />
+            <ratings critics="9" speed="37" outcome="1" />
+        </programme>
+		
+		<programme id="Stukov_Wenn der Postmann zweimal klingelt" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0082934" rt_id="0" creator="Stukov">
+            <title>
+                <de>Wenn der Postmann zweimal klingelt</de>
+                <en>The Postman Always Rings Twice</en>
+            </title>
+            <title_original>				
+                <de>Wenn der Postmann zweimal klingelt</de>
+                <en>The Postman Always Rings Twice</en>
+            </title_original>
+            <description>
+                <de>Die sinnliche Frau eines Mittagswagenbesitzers und eines wurzellosen Herumtreibers beginnen eine schmutzig dampfende Affäre und verschwören sich, um ihren griechischen Ehemann zu ermorden.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.43" />
+				<modifier name="topicality::wearoff" value="0.62" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">8d2dcf64-ab9d-4ec4-bb24-74ca0f3d0581</member>
+				<member index="1" function="2">20e172be-76f4-4c1a-a582-d574c233ac6e</member>																								
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1981" distribution="1" maingenre="15" subgenre="4,7" flags="" blocks="2" price_mod="1.08" />
+            <ratings critics="51" speed="56" outcome="12" />
+        </programme>
+
+		<programme id="Stukov_Time Bandits" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0081633" rt_id="0" creator="Stukov">
+            <title>
+                <de>Time Bandits</de>
+                <en>Time Bandits</en>
+            </title>
+            <title_original>				
+                <de>Time Bandits</de>
+                <en>Time Bandits</en>
+            </title_original>
+            <description>
+                <de>Ein kleiner Junge schließt sich versehentlich einer Bande von Zeitreisenden Zwergen an, die von Einer Ära in eine Ära springen und nach Schätzen suchen, die sie stehlen können.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.52" />
+				<modifier name="topicality::wearoff" value="1.75" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov-Regie-Gilliam</member>
+				<member index="1" function="2">e0807a2d-e04d-4abf-9422-afa44b202438</member>																								
+				<member index="2" function="2">Stukov_JohnCleese</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1981" distribution="1" maingenre="1" subgenre="10" flags="" blocks="2" price_mod="1.02" />
+            <ratings critics="69" speed="60" outcome="42" />
+        </programme>
+		
+		<programme id="Stukov_Das letzte Einhorn" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0084237" rt_id="0" creator="Stukov">
+            <title>
+                <de>Das letzte Einhorn</de>
+                <en>The Last Unicorn</en>
+            </title>
+            <title_original>				
+                <de>Das letzte Einhorn</de>
+                <en>The Last Unicorn</en>
+            </title_original>
+            <description>
+                <de>Ein mutiges Einhorn und ein Zauberer kämpfen gegen einen bösen König, der davon besessen ist, alle Einhörner der Welt zu fangen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.04" />
+				<modifier name="topicality::wearoff" value="1.02" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JulesBass</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1982" distribution="2" maingenre="3" subgenre="9" flags="2" blocks="2" price_mod="1.03" />
+            <ratings critics="70" speed="64" outcome="6" />
+        </programme>
+		
+		<programme id="Stukov_Beastmaster - Der Befreier" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0083630" rt_id="0" creator="Stukov">
+            <title>
+                <de>Beastmaster - Der Befreier</de>
+                <en>The Beastmaster</en>
+            </title>
+            <title_original>				
+                <de>Beastmaster - Der Befreier</de>
+                <en>The Beastmaster</en>
+            </title_original>
+            <description>
+                <de>Eine Schwert- und Zauberfantasie über die Suche eines jungen Mannes nach Rache. Mit übernatürlichen Kräften bewaffnet, führen der stattliche Held und seine tierischen Verbündeten Krieg gegen marodierende Kräfte.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.11" />
+				<modifier name="topicality::wearoff" value="1.61" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_DonCoscarelli</member>
+				<member index="1" function="2">Stukov_MarcSinger</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1982" distribution="1" maingenre="10" subgenre="1" flags="" blocks="2" price_mod="1.30" />
+            <ratings critics="18" speed="62" outcome="14" />
+        </programme>
+
+		<programme id="Stukov_Banana Joe" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0082045" rt_id="0" creator="Stukov">
+            <title>
+                <de>Banana Joe</de>
+                <en>Banana Joe</en>
+            </title>
+            <title_original>				
+                <de>Banana Joe</de>
+                <en>Banana Joe</en>
+            </title_original>
+            <description>
+                <de>Ein Mann lebt mit seiner Familie glücklich auf einer Insel und baut Bananen an. Ein ortsansässiger Gangster versucht, dem Mann seinen Besitz wegzunehmen, und er muss zum ersten Mal in die Stadt gehen, um Hilfe zu holen.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.78" />
+				<modifier name="topicality::wearoff" value="1.77" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_Steno</member>
+				<member index="1" function="2">ac09552a-75f0-46cc-85ac-c49c232309d2</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="I" year="1982" distribution="2" maingenre="2" subgenre="5" flags="" blocks="2" price_mod="1.31" />
+            <ratings critics="26" speed="64" outcome="17" />
+        </programme>
+
+		<programme id="Stukov_Das Ding aus einer anderen Welt" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0084787" rt_id="0" creator="Stukov">
+            <title>
+                <de>Das Ding aus einer anderen Welt</de>
+                <en>The Thing</en>
+            </title>
+            <title_original>				
+                <de>Das Ding aus einer anderen Welt</de>
+                <en>The Thing</en>
+            </title_original>
+            <description>
+                <de>Es ist die erste Woche im Winter des Jahres 1982. Eine amerikanische Forschungsstation bekommt Besuch von einer außerirdischen Kraft, die alles assimilieren kann, was sie berührt. Das Überleben der Forscher hängt nun ganz davon ab, zu wissen, wer noch Mensch ist oder wer schon ein Ding aus der anderen Welt geworden ist.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.61" />
+				<modifier name="topicality::wearoff" value="1.09" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="1" function="2">91af6b99-191b-41e2-8c41-f7c0498e1c18</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1982" distribution="1" maingenre="12" subgenre="14" flags="" blocks="2" price_mod="0.96" />
+            <ratings critics="54" speed="75" outcome="19" />
+        </programme>
+		
+		<programme id="Stukov_Conan, der Barbar" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0082198" rt_id="0" creator="Stukov">
+            <title>
+                <de>Conan, der Barbar</de>
+                <en>Conan the Barbarian</en>
+            </title>
+            <title_original>				
+                <de>Conan, der Barbar</de>
+                <en>Conan the Barbarian</en>
+            </title_original>
+            <description>
+                <de>Conan ist noch ein Kind, als seine Sippe ermordet und er selber versklavt wird. Er wird zum Kämpfer gemacht und später freigelassen. Auf der Suche nach Abenteuern stößt er auf den Zauberer Thulsa Doom, der für den Mord an seiner Sippe verantwortlich war.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.96" />
+				<modifier name="topicality::wearoff" value="1.03" />
+				<modifier name="price" value="1.22" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JohnMilius</member>
+				<member index="1" function="2">cd3a2e20-efe1-4a4c-9249-164b67d185f7</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1982" distribution="1" maingenre="2" subgenre="" flags="" blocks="2" />
+            <ratings critics="37" speed="78" outcome="92" />
+        </programme>
+		
+		<programme id="Stukov_Iceman" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0087452" rt_id="0" creator="Stukov">
+            <title>
+                <de>Rückkehr aus einer anderen Welt</de>
+                <en>Iceman</en>
+            </title>
+            <title_original>				
+                <de>Rückkehr aus einer anderen Welt</de>
+                <en>Iceman</en>
+            </title_original>
+            <description>
+                <de>A prehistoric Neanderthal man found frozen in ice is revived by an arctic exploration team, who then attempt to use him for their own scientific means. The movie is a good idea, but a good idea does not always result in a good movie. The picture was miscast. [1|Full] is just too young to be believable as a man of science. </de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.93" />
+				<modifier name="topicality::wearoff" value="1.02" />
+				<modifier name="price" value="1.62" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_FredSchepisi</member>
+				<member index="1" function="2">cbf4c850-456c-4e43-a2b5-153af02bb863</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1984" distribution="2" maingenre="16" subgenre="7" flags="16" blocks="2" />
+            <ratings critics="56" speed="65" outcome="10" />
+        </programme>
+		
+		<programme id="Stukov_Gremlins" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0087363" rt_id="0" creator="Stukov">
+            <title>
+                <de>Gremlins: Kleine Monster</de>
+                <en>Gremlins</en>
+            </title>
+            <title_original>				
+                <de>Gremlins: Kleine Monster</de>
+                <en>Gremlins</en>
+            </title_original>
+            <description>
+                <de>Ein Junge bricht bei seinem neuen Haustier versehentlich drei wichtige Regeln und setzt dadurch eine Horde von übelwollenden, spitzbübischen Monstern in einer Kleinstadt frei.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.91" />
+				<modifier name="topicality::wearoff" value="1.50" />
+				<modifier name="price" value="1.76" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JoeDante</member>
+				<member index="1" function="2">Stukov_ZachGalligan</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1984" distribution="1" maingenre="12" subgenre="5" flags="" blocks="2" />
+            <ratings critics="56" speed="68" outcome="98" />
+        </programme>
+		
+		<programme id="Stukov_Dune" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0087363" rt_id="0" creator="Stukov">
+            <title>
+                <de>Dune: Der Wüstenplanet</de>
+                <en>Dune</en>
+            </title>
+            <title_original>				
+                <de>Dune: Der Wüstenplanet</de>
+                <en>Dune</en>
+            </title_original>
+            <description>
+                <de>Der Sohn eines Herzogs führt Wüstenkrieger gegen den galaktischen Kaiser und den bösen Feind seines Vaters an, wenn sie seinen Vater ermorden und ihre Wüstenwelt von der Herrschaft des Kaisers befreien. SEVERAL of the characters in Dune are psychic, which puts them in the unique position of being able to understand what goes on in the movie.</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.63" />
+				<modifier name="topicality::wearoff" value="2.00" />
+				<modifier name="price" value="1.55" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">424d8116-afc9-44e4-b076-79b51c2b1f0d</member>
+				<member index="1" function="2">c41d6da8-46ab-4a91-af57-814a2a24d979</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="US" year="1984" distribution="1" maingenre="2" subgenre="16" flags="" blocks="3" />
+            <ratings critics="47" speed="69" outcome="36" />
+        </programme>
+		
+		<programme id="Stukov_Otto - Der Film" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089753" rt_id="0" creator="Stukov">
+            <title>
+                <de>Otto - Der Film</de>
+                <en>Otto - Der Film</en>
+            </title>
+            <title_original>				
+                <de>Otto - The Film</de>
+                <en>Otto - The Film</en>
+            </title_original>
+            <description>
+                <de>Otto kommt nach Hamburg, um sein Glück zu machen. Vor allem ist er mit zwei Problemen beschäftigt: Wie kann er Silvia, ein reiches junges Mädchen, beeindrucken, und woher bekommt er 9876,50 DM, um einen Kredithai abzubezahlen? Von und mit [1|Full]</de>
+                <en></en>
+            </description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.00" />
+				<modifier name="topicality::wearoff" value="0.80" />
+				<modifier name="price" value="1.01" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_OttoWaalkes</member>
+				<member index="1" function="2">Stukov_OttoWaalkes</member>
+			</staff>
+            <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+            <data country="D" year="1985" distribution="2" maingenre="5" subgenre="" flags="" blocks="2" />
+            <ratings critics="3" speed="53" outcome="0" />
+        </programme>
+		
+		<programme id="Stukov_Rambo II" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089880" creator="Stukov">
+			<title_original>
+				<de>Rambo II - Der Auftrag</de>
+				<en>Rambo: First Blood Part II</en>
+			</title_original>
+			<title>
+				<de>Rambo II - Der Auftrag</de>
+				<en>Rambo: First Blood Part II</en>
+			</title>
+			<description>
+				<de>John Rambo wird von der Regierung für eine streng geheime verdeckte Mission aus dem Gefängnis entlassen, bis zum letzten Ort auf der Erde, den er zurückkehren möchte - dem Dschungel Vietnams.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.00" />
+				<modifier name="topicality::wearoff" value="1.17" />
+				<modifier name="price" value="0.85" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_GeorgeCosmatos</member>
+				<member index="1" function="2">836b4aa3-b5c6-4529-b30d-4501594cdf13</member>
+				<member index="2" function="2">370a8d9d-ceef-4a7c-9c09-cc7e9d616311</member>				
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="USA" year="1985" distribution="1" maingenre="2" subgenre="" flags="0" blocks="2" />
+			<ratings critics="34" speed="73" outcome="100" />
+		</programme>
+		
+		<programme id="Stukov_Pale Rider" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089767" creator="Stukov">
+			<title_original>
+				<de>Pale Rider</de>
+				<en>Pale Rider</en>
+			</title_original>
+			<title>
+				<de>Pale Rider</de>
+				<en>Pale Rider</en>
+			</title>
+			<description>
+				<de>Ein mysteriöser Prediger ([1|Full]) beschützt ein bescheidenes Prospektordorf vor einer gierigen Bergbaugesellschaft, die versucht, in ihr Land einzudringen.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.76" />
+				<modifier name="topicality::wearoff" value="1.02" />
+				<modifier name="price" value="1.32" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">ec20fc5a-a552-4119-8d1e-d310650c2830</member>
+				<member index="1" function="2">ec20fc5a-a552-4119-8d1e-d310650c2830</member>							
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="USA" year="1985" distribution="1" maingenre="18" subgenre="" flags="0" blocks="2" />
+			<ratings critics="64" speed="75" outcome="48" />
+		</programme>
+
+		<programme id="Stukov_Quartermain - Auf der Suche nach dem Schatz der Könige" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089421" creator="Stukov">
+			<title_original>
+				<de>Quartermain - Auf der Suche nach dem Schatz der Könige</de>
+				<en>King Solomon's Mines</en>
+			</title_original>
+			<title>
+				<de>Quartermain - Auf der Suche nach dem Schatz der Könige</de>
+				<en>King Solomon's Mines</en>
+			</title>
+			<description>
+				<de>Der Jäger Allan Quatermain schließt sich mit einer einfallsreichen Frau zusammen, um ihr zu helfen, ihren vermissten Vater zu finden, der in der Wildnis Afrikas im Jahr 1900 verloren ging, während er von feindlichen Stämmen verfolgt wurde.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.55" />
+				<modifier name="topicality::wearoff" value="1.79" />
+				<modifier name="price" value="1.93" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">TheRob-TowerTV-LeeJRombson</member>
+				<member index="1" function="2">TheRob-TowerTV-RicardoKammerlein</member>							
+				<member index="2" function="2">b61f0b0a-536f-4205-aa3c-e8558d65f53f</member>	
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="USA" year="1985" distribution="1" maingenre="18" subgenre="" flags="0" blocks="2" />
+			<ratings critics="16" speed="61" outcome="9" />
+		</programme>
+		
+		<programme id="Stukov_Revolution" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089421" creator="Stukov">
+			<title_original>
+				<de>Revolution</de>
+				<en>Revolution</en>
+			</title_original>
+			<title>
+				<de>Revolution</de>
+				<en>Revolution</en>
+			</title>
+			<description>
+				<de>Ein Fallensteller und sein kleiner Sohn werden als unwillige Teilnehmer früh in die amerikanische Revolution hineingezogen und bleiben bis zum Ende dabei. It's also a mess, but one that's so giddily misguided that it's sometimes a good deal of fun for all of the wrong reasons...It's so bad that one suspects there must be a good story behind it. </de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.02" />
+				<modifier name="topicality::wearoff" value="0.87" />
+				<modifier name="price" value="0.92" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_HughHudson</member>
+				<member index="1" function="2">Stukov_AlPacino</member>											
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="USA" year="1985" distribution="1" maingenre="1" subgenre="7" flags="16" blocks="2" />
+			<ratings critics="20" speed="46" outcome="2" />
+		</programme>
+		
+		<programme id="Stukov_David" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0089420" creator="Stukov">
+			<title_original>
+				<de>König David</de>
+				<en>King David</en>
+			</title_original>
+			<title>
+				<de>König David</de>
+				<en>King David</en>
+			</title>
+			<description>
+				<de>Der Film mit Richard Gere folgt der Geschichte des armen Hirtenjungen, dessen Gerissenheit und Mut ihm den Thron Israels einbringt.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.90" />
+				<modifier name="topicality::wearoff" value="0.84" />
+				<modifier name="price" value="1.47" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_BruceBeresford</member>
+				<member index="1" function="2">0cde7605-f644-4c16-94f9-f83a77ae0855</member>											
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="A" year="1985" distribution="1" maingenre="1" subgenre="7" flags="" blocks="2" />
+			<ratings critics="39" speed="53" outcome="7" />
+		</programme>
+		
+		<programme id="Stukov_Psycho II" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0086154" creator="Stukov">
+			<title_original>
+				<de>Psycho II</de>
+				<en>Psycho II</en>
+			</title_original>
+			<title>
+				<de>Psycho II</de>
+				<en>Psycho II</en>
+			</title>
+			<description>
+				<de>Nach zweiundzwanzig Jahren psychiatrischer Betreuung versucht Norman Bates, in ein Leben der Einsamkeit zurückzukehren, doch die Geister seiner Verbrechen - und seiner Mutter - verfolgen ihn weiterhin.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.34" />
+				<modifier name="topicality::wearoff" value="1.41" />
+				<modifier name="price" value="1.17" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_RichardFranklin</member>
+				<member index="1" function="2">35742715-2273-41fd-9e2a-1ac9bf0203f0</member>											
+				<member index="2" function="2">08bbc458-64af-4a27-8158-b5dbfb6bb885</member>								
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1983" distribution="1" maingenre="17" subgenre="" flags="0" blocks="2" />
+			<ratings critics="42" speed="72" outcome="39" />
+		</programme>
+		
+		<programme id="Stukov_Les Miserables" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0077936" creator="Stukov">
+			<title_original>
+				<de>Les Miserables</de>
+				<en>Les Miserables</en>
+			</title_original>
+			<title>
+				<de>Les Miserables</de>
+				<en>Les Miserables</en>
+			</title>
+			<description>
+				<de>Jean Valjean (Richard Jordan), convicted of stealing bread, is hounded for several decades by the relentless and cruel Policeman Javert (Anthony Perkins).</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.60" />
+				<modifier name="topicality::wearoff" value="1.77" />
+				<modifier name="price" value="1.33" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_GlennJordan</member>
+				<member index="1" function="2">35742715-2273-41fd-9e2a-1ac9bf0203f0</member>											
+				<member index="2" function="2">TheRob-TowerTV-CliffHardWarden</member>								
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1978" distribution="2" maingenre="7" subgenre="11" flags="0" blocks="3" />
+			<ratings critics="30" speed="58" outcome="1" />
+		</programme>
+		
+		<programme id="Stukov_Necropolis: Die Blutsauger von Manhattan" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091617" creator="Stukov">
+			<title_original>
+				<de>Necropolis: Die Blutsauger von Manhattan</de>
+				<en>Necropolis</en>
+			</title_original>
+			<title>
+				<de>Necropolis: Die Blutsauger von Manhattan</de>
+				<en>Necropolis</en>
+			</title>
+			<description>
+				<de>Reincarnated "Satanic Witch" from New Amsterdam, circa 1600's comes back to revive her cult members by sucking the life force out of people.</de>
+				<en>Reincarnated "Satanic Witch" from New Amsterdam, circa 1600's comes back to revive her cult members by sucking the life force out of people.</en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.49" />
+				<modifier name="topicality::wearoff" value="2.01" />
+				<modifier name="price" value="1.90" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_BruceHickey</member>
+				<member index="1" function="2">Stukov_LeeAnneBaker</member>																						
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="2" maingenre="12" subgenre="" flags="32" blocks="2" />
+			<ratings critics="47" speed="48" outcome="0" />
+		</programme>
+		
+		<programme id="Stukov_Terror an der Highschool" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091617" creator="Stukov">
+			<title_original>
+				<de>Terror an der Highschool</de>
+				<en>The Brotherhood of Justice</en>
+			</title_original>
+			<title>
+				<de>Terror an der Highschool</de>
+				<en>The Brotherhood of Justice</en>
+			</title>
+			<description>
+				<de>[1|Full], [2|Full], und Billy Zane spielen Highschoolschüler, die eine Bürgerwehr in ihrer Nachbarschaft gründen. Doch ihre wachsende Macht lässt sie missbräuchlich und gefährlich werden.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.51" />
+				<modifier name="topicality::wearoff" value="1.99" />
+				<modifier name="price" value="1.58" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_CharlesBraverman</member>
+				<member index="1" function="2">7491c589-c117-42b5-a15d-763ebbc23517</member>																						
+				<member index="2" function="2">9d39b385-f5a9-4204-b974-8dfa07c5fba6</member>
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="2" maingenre="17" subgenre="" flags="" blocks="2" />
+			<ratings critics="58" speed="48" outcome="1" />
+		</programme>
+		
+		<programme id="Stukov_Psycho III" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091799" creator="Stukov">
+			<title_original>
+				<de>Psycho III</de>
+				<en>Psycho III</en>
+			</title_original>
+			<title>
+				<de>Psycho III</de>
+				<en>Psycho III</en>
+			</title>
+			<description>
+				<de>Norman Bates verliebt sich in eine gefallene Nonne, die neben einem Drifter und einem neugierigen Reporter im Bates Motel wohnt. Währenddessen schaut "Mutter" immer noch zu.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.83" />
+				<modifier name="topicality::wearoff" value="1.23" />
+				<modifier name="price" value="1.59" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">35742715-2273-41fd-9e2a-1ac9bf0203f0</member>
+				<member index="1" function="2">35742715-2273-41fd-9e2a-1ac9bf0203f0</member>																							
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="1" maingenre="17" subgenre="" flags="0" blocks="2" />
+			<ratings critics="49" speed="65" outcome="5" />
+		</programme>
+		
+		<programme id="Stukov_Staatsanwaelte kuesst man nicht" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091396" creator="Stukov">
+			<title_original>
+				<de>Staatsanwälte küsst man nicht</de>
+				<en>Legal Eagles</en>
+			</title_original>
+			<title>
+				<de>Staatsanwälte küsst man nicht</de>
+				<en>Legal Eagles</en>
+			</title>
+			<description>
+				<de>Ein New Yorker Bezirksstaatsanwalt arbeitet und flirtet mit seiner Gegnerin und ihrer verrückten Künstlermandantin, die für einen Mord angeklagt ist, den sie nicht begangen hat.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.84" />
+				<modifier name="topicality::wearoff" value="1.11" />
+				<modifier name="price" value="1.29" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_IvanReitman</member>
+				<member index="1" function="2">f17066cf-9e17-4102-8db4-7e725506ffd3</member>																							
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="1" maingenre="5" subgenre="4" flags="16" blocks="2" />
+			<ratings critics="48" speed="54" outcome="80" />
+		</programme>
+		
+		<programme id="Stukov_Big Trouble in Little China" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0090728" creator="Stukov">
+			<title_original>
+				<de>Big Trouble in Little China</de>
+				<en>Big Trouble in Little China</en>
+			</title_original>
+			<title>
+				<de>Big Trouble in Little China</de>
+				<en>Big Trouble in Little China</en>
+			</title>
+			<description>
+				<de>Ein rauhbeiniger Trucker rettet die Verlobte seines Freundes vor einem alten Zauberer in einer übernatürlichen Schlacht unter den Straßen von Chinatown.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.11" />
+				<modifier name="topicality::wearoff" value="0.75" />
+				<modifier name="price" value="1.02" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="1" function="2">91af6b99-191b-41e2-8c41-f7c0498e1c18</member>																							
+				<member index="2" function="2">2e72831b-f4cb-4ecc-a3e0-774177fe05e0</member>	
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="1" maingenre="2" subgenre="1" flags="32" blocks="2" />
+			<ratings critics="30" speed="71" outcome="11" />
+		</programme>
+		
+		<programme id="Stukov_Transformers - Der Kampf um Cybertron" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0092106" creator="Stukov">
+			<title_original>
+				<de>Transformers - Der Kampf um Cybertron</de>
+				<en>The Transformers: The Movie</en>
+			</title_original>
+			<title>
+				<de>Transformers - Der Kampf um Cybertron</de>
+				<en>The Transformers: The Movie</en>
+			</title>
+			<description>
+				<de>The Autobots must stop a colossal planet consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.22" />
+				<modifier name="topicality::wearoff" value="1.32" />
+				<modifier name="price" value="1.99" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_NelsonShin</member>
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="1" maingenre="3" subgenre="2" flags="2" blocks="2" />
+			<ratings critics="21" speed="77" outcome="2" />
+		</programme>
+		
+		<programme id="Stukov_Maximum Overdrive" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091499" creator="Stukov">
+			<title_original>
+				<de>Maximum Overdrive</de>
+				<en>Maximum Overdrive</en>
+			</title_original>
+			<title>
+				<de>Maximum Overdrive</de>
+				<en>Maximum Overdrive</en>
+			</title>
+			<description>
+				<de>Eine Gruppe von Menschen versucht zu überleben, wenn Maschinen zum Leben erwachen und mörderisch werden. Stephen King's masterpiece of terror directed by the master himself.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.65" />
+				<modifier name="topicality::wearoff" value="1.35" />
+				<modifier name="price" value="1.66" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_StephenKing</member>
+				<member index="1" function="2">Stukov_LauraHarrington</member>																												
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1986" distribution="1" maingenre="12" subgenre="2" flags="32" blocks="2" />
+			<ratings critics="7" speed="60" outcome="11" />
+		</programme>
+		
+		<programme id="Stukov_Platoon" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0091763" creator="Stukov">
+			<title_original>
+				<de>Platoon</de>
+				<en>Platoon</en>
+			</title_original>
+			<title>
+				<de>Platoon</de>
+				<en>Platoon</en>
+			</title>
+			<description>
+				<de>Ein junger Rekrut in Vietnam gerät in eine moralische Krise, als er sich mit den Schrecken des Krieges und der Doppelnatur des Menschen konfrontiert sieht.</de>
+				<en></en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.48" />
+				<modifier name="topicality::wearoff" value="1.54" />
+				<modifier name="price" value="1.38" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_OliverStone</member>
+				<member index="1" function="2">Stukov_CharlieSheen</member>	
+				<member index="1" function="2">e7924d67-a4de-417d-a1f9-581fd611b534</member>		
+				<member index="1" function="2">8a8b38b5-13e0-4abc-adad-d8739ecc2684</member>						
+				<member index="1" function="2">55c09b06-cbe0-4fd9-bfb8-c8ebfb5e1b4e</member>
+			</staff>
+			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
+			<data country="US" year="1987" distribution="1" maingenre="7" subgenre="" flags="" blocks="2" />
+			<ratings critics="81" speed="73" outcome="90" />
+		</programme>
+
+    </allprogrammes>
+</tvgdb>
