@@ -18,7 +18,6 @@
 				<de>...</de>
 				<en>...</en>
 			</description>
-
 			<variables>
 				<food>
 					<de>Kinder|Liebe|Joghurt</de>
@@ -29,14 +28,18 @@
 					<en>breakfast|lunch|dinner|brunch</en>
 				</mealtime>
 			</variables>
-
 			<jobs>
 				<job index="0" function="1" required="1" />
-				<job index="1" function="2" required="1" gender="2" />
-				<job index="2" function="2" required="1" gender="1" />
-			
-				<job index="3" function="32" required="0" role_guid="script-roles-ron-001" />
-				<job index="4" function="32" required="0" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
 			</jobs>
 			<data flags="4" flags_optional="2" ScriptFlags="" production_limit="4" production_broadcast_limit="1" production_broadcast_flags="512" production_licence_flags="36" />
 			<groups target_groups="128" target_groups_optional="128" pro_pressure_groups="8" contra_pressure_groups="4" />
@@ -44,16 +47,18 @@
 			<blocks min="2" max="3" slope="30" />
 			<price min="20000" max="500000" slope="60" />
 			<potential min="0" max="100" />
-			<outcome min="25" max="35" />
+			<outcome min="0" max="100" slope="50" />
 			<review min="45" max="65" />
 			<speed min="35" max="65" />
 			<studio_size slope="50" max="3" min="1" />
-			<availability year_range_from="1999" year_range_to="-1" />
+			<availability year_range_from="-1" year_range_to="-1" />
 		</scripttemplate>
+	
+		*******************************
+		Serien 
+		*******************************
+		-->
 	<scripttemplates>
-		
-		<!-- Serien -->
-		
 		<scripttemplate licence_type="3" product="2" guid="Stukov_Kaleidoscope">
 			<title>
 				<de>Kaleidoscope</de>
@@ -639,6 +644,467 @@
 			<studio_size slope="20" max="3" min="1" />
 		</scripttemplate>
 
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_Inception">
+			<title>
+				<de>Inception</de>
+				<en>Inception</en>
+			</title>
+			<description>
+				<de>Ein Dieb stiehlt Unternehmensgeheimnisse mithilfe einer Technologie für gemeinsames Träumen. Dann erhält er den Auftrag, eine Idee im Kopf eines Geschäftsführers festzusetzen.</de>
+				<en>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.</en>
+			</description>
 
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="1" />
+				<job index="3" function="34" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112"  />
+			<groups target_groups_optional="56" />
+			<genres maingenre="2" subgenres="16" />
+			<blocks min="2" max="3" slope="56" />
+			<price min="20000" max="2400000" slope="53" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" />
+			<review min="37" max="74" />
+			<speed min="44" max="88" />
+			<studio_size slope="66" max="3" min="1" />
+		</scripttemplate>
+	
+			<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_DarkKnightRises">
+			<title>
+				<de>The Dark Knight Rises</de>
+				<en>The Dark Knight Rises</en>
+			</title>
+			<description>
+				<de>Acht Jahre nach Jokers anarchischer Herrschaft sieht sich der Dunkle Ritter gezwungen, aus dem ihm auferlegten Exil zurückzukehren und mithilfe der geheimnisvollen Catwoman Gotham City zu retten, das kurz vor seiner totalen Zerstörung durch den Söldner und Terroristen Bane steht.</de>
+				<en>Eight years after the Joker's reign of chaos, Batman is coerced out of exile with the assistance of the mysterious Selina Kyle in order to defend Gotham City from the vicious guerrilla terrorist Bane.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="1" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112"  />
+			<groups target_groups_optional="26" />
+			<genres maingenre="2" subgenres="7" />
+			<blocks min="2" max="3" slope="88" />
+			<price min="20000" max="1700000" slope="45" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" />
+			<review min="39" max="78" />
+			<speed min="42" max="84" />
+			<studio_size max="3" min="1" />
+		</scripttemplate>
+
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_WolfOfWallStreet">
+			<title>
+				<de>The Wolf of Wall Street</de>
+				<en>The Wolf of Wall Street</en>
+			</title>
+			<description>
+				<de>Beruhend auf der wahren Geschichte von Jordan Belfort, von seinem Aufstieg als reicher Börsenmakler, der sein Leben in Saus und Braus genießt, bis zu seinem Absturz in die Kriminalität, Korruption und die Verfolgung durch die US-Bundesregierung.</de>
+				<en>Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<groups target_groups_optional="508" pro_pressure_groups="16" contra_pressure_groups="32" />
+			<genres maingenre="11" subgenres="4,5" />
+			<blocks value="3" />
+			<price min="20000" max="1400000" slope="5" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" />
+			<review min="37" max="75" />
+			<speed min="41" max="82" />
+			<studio_size slope="50" max="3" min="1" />
+		</scripttemplate>
+		
+				<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_ShutterIsland">
+			<title>
+				<de>Shutter Island</de>
+				<en>Shutter Island</en>
+			</title>
+			<description>
+				<de>Im Jahr 1954 untersucht ein US-Marshal das Verschwinden einer Mörderin, die aus einer Anstalt für geisteskranke Straftäter entkommen ist.</de>
+				<en>In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="1" gender="2" />
+				<job index="3" function="2" required="0" gender="1" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112" />
+			<groups target_groups_optional="60" />
+			<genres maingenre="17" subgenres="14" />
+			<blocks min="2" max="3" slope="36" />
+			<price min="20000" max="1300000" slope="41" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="51" />
+			<review min="32" max="63" />
+			<speed min="41" max="82" />
+			<studio_size slope="50" max="3" min="1" />
+			<availability year_range_from="1955" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_Parasite">
+			<title>
+				<de>Parasite</de>
+				<en>Parasite</en>
+			</title>
+			<description>
+				<de>Gier und Diskriminierung bedrohen die neu entstandene Beziehung zwischen der wohlhabenden Familie Park und dem mittellosen Kim-Clan.</de>
+				<en>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112" />
+			<groups target_groups_optional="124"  />
+			<genres maingenre="7" subgenres="17" />
+			<blocks min="2" max="3" slope="24" />
+			<price min="20000" max="811057" slope="43" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="3" />
+			<review min="48" max="96" />
+			<speed min="42" max="85" />
+			<studio_size slope="10" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+		
+				<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_JurassicWorld">
+			<title>
+				<de>Jurassic World</de>
+				<en>Jurassic World</en>
+			</title>
+			<description>
+				<de>Ein neuer Themenpark wurde am ursprünglichen Standort von "Jurassic Park" errichtet. Alles ist gut, bis die neueste Attraktion, eine genetisch modifizierte Killermaschine, ausbricht und für Angst und Schrecken sorgt.</de>
+				<en>A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="1" gender="2" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112" />
+			<groups target_groups="2" target_groups_optional="24" />
+			<genres maingenre="2" subgenres="16" />
+			<blocks min="2" max="3" slope="8" />
+			<price min="20000" max="647000" slope="81" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="75" />
+			<review min="30" max="59" />
+			<speed min="35" max="70" />
+			<studio_size slope="50" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_DuneRemake">
+			<title>
+				<de>%dune%</de>
+				<en>%dune%</en>
+			</title>
+			<description>
+				<de>Ein Remake von Dune - Der Wüstenplanet. Eine Adelsfamilie wird in einen Krieg um die Kontrolle über das wertvollste Gut der Galaxis verwickelt, während ihr Erbe von Visionen einer dunklen Zukunft geplagt wird.</de>
+				<en>A remake of Dune - A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.</en>
+			</description>
+			<variables>
+				<dune>
+					<de>Dune|Dune I|Dune - The Beginning</de>
+					<en>Dune|Dune I|Dune - The Beginning</en>
+				</dune>
+			</variables>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="1" gender="2" />
+				<job index="3" function="2" required="1" gender="1" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112" />
+			<groups target_groups_optional="26" pro_pressure_groups="21" contra_pressure_groups="42" />
+			<genres maingenre="2" subgenres="1" />
+			<blocks min="2" max="3" slope="70" />
+			<price min="20000" max="641459" slope="60" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="25" />
+			<review min="37" max="74" />
+			<speed min="40" max="80" />
+			<studio_size slope="50" max="3" min="1" />
+			<availability year_range_from="1989" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_Ted">
+			<title>
+				<de>Ted</de>
+				<en>Ted</en>
+			</title>
+			<description>
+				<de>John Bennett, ein Mann, dessen Kindheitswunsch, seinen Teddybären zum Leben zu erwecken, wahr geworden ist, muss sich jetzt entscheiden, ob er die Beziehung zum Bären oder zu seiner Freundin Lori aufrechterhält.</de>
+				<en>John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+			</jobs>
+			<data flags_optional="120" />
+			<groups target_groups_optional="26" />
+			<genres maingenre="5" />
+			<blocks min="1" max="2" slope="92" />
+			<price min="20000" max="620000" slope="38" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="90" />
+			<review min="31" max="62" />
+			<speed min="35" max="69" />
+			<studio_size slope="15" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_BohemianRhapsody">
+			<title>
+				<de>Bohemian Rhapsody</de>
+				<en>Bohemian Rhapsody</en>
+			</title>
+			<description>
+				<de>Die Geschichte der legendären Rockband Queen und der Sängerin Freddie Mercury führten zu ihrem berühmten Auftritt bei Live Aid (1985).</de>
+				<en>The story of the legendary British rock band Queen and lead singer Freddie Mercury, leading up to their famous performance at Live Aid (1985).</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="16" required="0" gender="1" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+			</jobs>
+			<groups target_groups_optional="68" />
+			<genres maingenre="202" subgenres="7,11" />
+			<blocks min="2" max="3" slope="28" />
+			<price min="20000" max="543000" slope="70" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="90" />
+			<review min="25" max="49" />
+			<speed min="40" max="79" />
+			<studio_size slope="40" max="3" min="1" />
+			<availability year_range_from="1990" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_FSoG">
+			<title>
+				<de>Fifty Shades of Grey</de>
+				<en>Fifty Shades of Grey</en>
+			</title>
+			<description>
+				<de>Das Leben der Literaturstudentin Anastasia Steele ändert sich für immer, als sie den attraktiven und dennoch gepeinigten Milliardär Christian Grey kennenlernt.</de>
+				<en>Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="1" gender="2" />
+				<job index="3" function="34" required="0" gender="1" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<groups target_groups_optional="124" />
+			<genres maingenre="7" subgenres="17,15" />
+			<blocks min="2" max="3" slope="10" />
+			<price min="20000" max="322480" slope="61" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="90" />
+			<review min="23" max="46" />
+			<speed min="21" max="42" />
+			<studio_size slope="40" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_JasonBourne">
+			<title>
+				<de>Jason Bourne</de>
+				<en>Jason Bourne</en>
+			</title>
+			<description>
+				<de>Jason Bourne besinnt sich darauf, wer er wirklich ist, und versucht, verborgene Wahrheiten über seine Vergangenheit aufzudecken.</de>
+				<en>The CIA's most dangerous former operative is drawn out of hiding to uncover more explosive truths about his past.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="0" gender="2" />
+				<job index="3" function="2" required="0" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="112"  />
+			<groups target_groups_optional="26"  />
+			<genres maingenre="2" subgenres="14,17" />
+			<blocks min="2" max="3" slope="6" />
+			<price min="20000" max="230000" slope="96" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="49" />
+			<review min="29" max="58" />
+			<speed min="33" max="66" />
+			<studio_size slope="50" max="3" min="1" />
+			<availability year_range_from="2003" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_JungleBook">
+			<title>
+				<de>The Jungle Book</de>
+				<en>The Jungle Book</en>
+			</title>
+			<description>
+				<de>Der junge Mogli ist nach einer Drohung des Tigers Shir Khan aus dem Dschungel geflohen und begibt sich zusammen mit dem Panther Baghira und dem lebhaften Bären Balu auf eine Selbstentdeckungsreise.</de>
+				<en>After a threat from the tiger Shere Khan forces him to flee the jungle, a man-cub named Mowgli embarks on a journey of self discovery with the help of panther Bagheera and free-spirited bear Baloo.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="34" required="0" gender="2" />
+				<job index="3" function="34" required="0" />
+			</jobs>
+			<groups target_groups_optional="3" />
+			<genres maingenre="9" subgenres="1" />
+			<blocks min="1" max="2" slope="92" />
+			<price min="20000" max="279900" slope="50" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="75" />
+			<review min="38" max="77" />
+			<speed min="37" max="74" />
+			<studio_size slope="10" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+		
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_Aladdin">
+			<title>
+				<de>Aladdin</de>
+				<en>Aladdin</en>
+			</title>
+			<description>
+				<de>Der Taschendieb Aladdin verliebt sich in die Sultanstochter Jasmine, wird aber vom bösen Wesir Jafar gezwungen, aus einer verwunschenen Höhle die Wunderlampe zu stehlen, deren allmächtiger Flaschengeist Jafar zum Sultan machen soll.</de>
+				<en>A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="34" required="0" gender="2" />
+				<job index="3" function="34" required="0" />
+				<job index="4" function="2" required="1" gender="2" />
+				<job index="5" function="2" required="0" gender="1" />
+			</jobs>
+			<groups target_groups_optional="3" />
+			<genres maingenre="9" subgenres="1" />
+			<blocks min="2" max="3" slope="16" />
+			<price min="20000" max="270000" slope="67" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="48" />
+			<review min="27" max="53" />
+			<speed min="35" max="69" />
+			<studio_size slope="10" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+
+		<scripttemplate product="1" licence_type="1" guid="scripttemplate-Stukov_Warcraft">
+			<title>
+				<de>Warcraft</de>
+				<en>Warcraft</en>
+			</title>
+			<description>
+				<de>Als eine Horde Orks durch ein magisches Portal auf den Planeten Azeroth vordringt, müssen ein paar Helden in Menschengestalt und einige abtrünnige Orks versuchen, den wahren Bösewicht und Kriegstreiber zu stoppen.</de>
+				<en>As an Orc horde invades the planet Azeroth using a magic portal, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war.</en>
+			</description>
+			<jobs>
+				<job index="0" function="1" required="1" />
+				<job index="1" function="2" required="1" gender="1" />
+				<job index="2" function="2" required="1" gender="2" />
+				<job index="3" function="2" required="1" gender="1" />
+				<job index="4" function="34" required="0" />
+				<job index="5" function="34" required="0" />
+				<job index="6" function="34" required="0" />
+				<job index="7" function="34" required="0" />
+				<job index="8" function="34" required="0" />
+				<job index="9" function="34" required="0" />
+				<job index="10" function="34" required="0" />
+			</jobs>
+			<data flags_optional="48" />
+			<groups target_groups="2" target_groups_optional="256" />
+			<genres maingenre="10" subgenres="2" />
+			<blocks min="2" max="3" slope="6" />
+			<price min="20000" max="267000" slope="34" />
+			<potential min="0" max="100" />
+			<outcome min="0" max="100" slope="13" />
+			<review min="16" max="32" />
+			<speed min="37" max="67" />
+			<studio_size slope="50" max="3" min="1" />
+			<availability year_range_from="-1" year_range_to="-1" />
+		</scripttemplate>
+		
 	</scripttemplates>
 </tvtdb>

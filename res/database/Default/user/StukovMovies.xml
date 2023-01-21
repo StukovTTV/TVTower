@@ -53,7 +53,7 @@
 			</modifiers>
 			<staff>
 				<member index="0" function="1">Stukov_PhilipSgriccia</member>				
-				<member index="1" function="2">Stukov_ParkerStevenson</member>					
+				<member index="1" function="2">55449e81-84f7-41fb-b685-b183cc346f54</member>					
 			</staff>			
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="USA" year="1999" distribution="2" maingenre="14" subgenre="16" flags="0" blocks="2" price_mod="0.67" />
@@ -180,7 +180,7 @@
 			</modifiers>
 			<staff>
 				<member index="0" function="1">Stukov-Regie-Gilliam</member>
-				<member index="1" function="2">Stukov_Pryce</member>
+				<member index="1" function="2">9afc8888-b231-464f-bc0b-5a4f6d766fc4</member>
 				<member index="2" function="2">Stukov-Actor-DeNiro</member>				
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -206,7 +206,7 @@
 				<modifier name="topicality::wearoff" value="1.56" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_MichaelApted</member>				
+				<member index="0" function="1">9cca93c9-0d05-4986-a8dc-342564e1d562</member>				
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="USA" year="1985" distribution="1" maingenre="202" subgenre="300" flags="" blocks="1" price_mod="1.00" />
@@ -281,7 +281,7 @@
 				<modifier name="topicality::wearoff" value="0.81" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="0" function="1">1ae56fa2-8710-48d9-acc5-86bc250c1de0</member>
 				<member index="1" function="2">1305a222-c3bf-429a-a1c5-f07a8c52db6a</member>
 				<member index="2" function="2">280a71d8-f9ba-43e7-9ec2-cb1e06bf98e8</member>				
 			</staff>
@@ -309,9 +309,9 @@
 				<modifier name="topicality::wearoff" value="0.80" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_StephenSpielberg</member>
+				<member index="0" function="1">95bfcae9-e542-49e8-9b69-a4a77e4cc42c</member>
 				<member index="1" function="2">DF-Celebreties-Christian_Bale</member>
-				<member index="2" function="2">Stukov_JohnMalkovich</member>				
+				<member index="2" function="2">b4b3696d-0599-4719-bf27-282b5d5907dc</member>				
 				<member index="3" function="2">Stukov_MirandaRichardson</member>
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -366,7 +366,7 @@
 			<staff>
 				<member index="0" function="1">Stukov_TomShadyac</member>
 				<member index="1" function="2">Stukov_JimCarrey</member>
-				<member index="2" function="2">Stukov_CourteneyCox</member>								
+				<member index="2" function="2">2491d32a-9594-4ea7-9c3f-ad7d387ed316</member>								
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="1994" distribution="1" maingenre="5" subgenre="" flags="" blocks="2" price_mod="0.90" />
@@ -391,7 +391,7 @@
 				<modifier name="topicality::wearoff" value="1.05" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="0" function="1">1ae56fa2-8710-48d9-acc5-86bc250c1de0</member>
 				<member index="1" function="2">188024b3-d76f-4999-bc00-13c505a6c646</member>
 				<member index="2" function="2">Stukov_LisaBlount</member>								
 			</staff>
@@ -445,7 +445,7 @@
 			</modifiers>
 			<staff>
 				<member index="0" function="1">Stukov_ThomasCarter</member>
-				<member index="1" function="2">Stukov_SamuelJackson</member>							
+				<member index="1" function="2">d86d607a-ec9e-42a2-a74b-26a810ab6a54</member>							
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="2005" distribution="1" maingenre="7" subgenre="203" flags="" blocks="3" price_mod="1.17" />
@@ -471,7 +471,7 @@
 			</modifiers>
 			<staff>
 				<member index="0" function="1">Stukov_GeorgeMiller_</member>
-				<member index="1" function="2">Stukov_MelGibson</member>							
+				<member index="1" function="2">1b8fcb9a-5961-43b8-af1b-1ed144880908</member>							
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="1979" distribution="1" maingenre="2" subgenre="" flags="" blocks="2" price_mod="1.05" />
@@ -496,8 +496,8 @@
 				<modifier name="topicality::wearoff" value="1.89" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_WoodyAllen</member>
-				<member index="1" function="2">Stukov_DianeKeaton</member>							
+				<member index="0" function="1">44609506-1160-4a27-8765-7126691d1555</member>
+				<member index="1" function="2">46424e55-668a-4281-ae8f-0dd945ac926d</member>							
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="1979" distribution="1" maingenre="5" subgenre="7" flags="16" blocks="2" price_mod="0.88" />
@@ -576,7 +576,7 @@
 			<staff>
 				<member index="0" function="1">Stukov_MichaelCrichton</member>
 				<member index="1" function="2">e0807a2d-e04d-4abf-9422-afa44b202438</member>
-				<member index="2" function="2">Stukov_DonaldSutherland</member>									
+				<member index="2" function="2">a250fe7d-5f0d-4c59-93b4-af5d70824cb9</member>									
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="1978" distribution="1" maingenre="4" subgenre="1" flags="" blocks="2" price_mod="1.00" />
@@ -871,7 +871,7 @@
 			</modifiers>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-LeeJRombson</member>
-				<member index="1" function="2">Stukov_RoddyMcDowall</member>																								
+				<member index="1" function="2">TheRob-TowerTV-RonnyMcdawoll</member>																								
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="1978" distribution="1" maingenre="5" subgenre="12" flags="" blocks="2" price_mod="1.27" />
@@ -924,7 +924,7 @@
 			<staff>
 				<member index="0" function="1">Stukov-Regie-Gilliam</member>
 				<member index="1" function="2">e0807a2d-e04d-4abf-9422-afa44b202438</member>																								
-				<member index="2" function="2">Stukov_JohnCleese</member>
+				<member index="2" function="2">4014b3f9-c855-4ee2-b4e4-0949c4aea149</member>
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
             <data country="US" year="1981" distribution="1" maingenre="1" subgenre="10" flags="" blocks="2" price_mod="1.02" />
@@ -1026,7 +1026,7 @@
 				<modifier name="topicality::wearoff" value="1.09" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="0" function="1">1ae56fa2-8710-48d9-acc5-86bc250c1de0</member>
 				<member index="1" function="2">91af6b99-191b-41e2-8c41-f7c0498e1c18</member>
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -1080,7 +1080,7 @@
 				<modifier name="price" value="1.62" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_FredSchepisi</member>
+				<member index="0" function="1">792b9e36-58dd-4a1f-b999-29fb3c669259</member>
 				<member index="1" function="2">cbf4c850-456c-4e43-a2b5-153af02bb863</member>
 			</staff>
             <groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -1272,7 +1272,7 @@
 			</modifiers>
 			<staff>
 				<member index="0" function="1">Stukov_HughHudson</member>
-				<member index="1" function="2">Stukov_AlPacino</member>											
+				<member index="1" function="2">ea2194ca-de70-42b8-90dd-b070be4bec65</member>											
 			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="USA" year="1985" distribution="1" maingenre="1" subgenre="7" flags="16" blocks="2" />
@@ -1298,7 +1298,7 @@
 				<modifier name="price" value="1.47" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_BruceBeresford</member>
+				<member index="0" function="1">36244199-db46-45aa-854c-1877e1369a7b</member>
 				<member index="1" function="2">0cde7605-f644-4c16-94f9-f83a77ae0855</member>											
 			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -1463,7 +1463,7 @@
 				<modifier name="price" value="1.29" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_IvanReitman</member>
+				<member index="0" function="1">04e5ecc5-fd17-4d24-a170-5ef3537342ca</member>
 				<member index="1" function="2">f17066cf-9e17-4102-8db4-7e725506ffd3</member>																							
 			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -1490,7 +1490,7 @@
 				<modifier name="price" value="1.02" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_JohnCarpenter</member>
+				<member index="0" function="1">1ae56fa2-8710-48d9-acc5-86bc250c1de0</member>
 				<member index="1" function="2">91af6b99-191b-41e2-8c41-f7c0498e1c18</member>																							
 				<member index="2" function="2">2e72831b-f4cb-4ecc-a3e0-774177fe05e0</member>	
 			</staff>
@@ -1544,7 +1544,7 @@
 				<modifier name="price" value="1.66" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_StephenKing</member>
+				<member index="0" function="1">9ef1f1fb-30f4-4df4-8073-87179e95c6b8</member>
 				<member index="1" function="2">Stukov_LauraHarrington</member>																												
 			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
@@ -1571,16 +1571,124 @@
 				<modifier name="price" value="1.38" />
 			</modifiers>
 			<staff>
-				<member index="0" function="1">Stukov_OliverStone</member>
+				<member index="0" function="1">TheRob-celebritypeople-RolligerStein</member>
 				<member index="1" function="2">Stukov_CharlieSheen</member>	
-				<member index="1" function="2">e7924d67-a4de-417d-a1f9-581fd611b534</member>		
-				<member index="1" function="2">8a8b38b5-13e0-4abc-adad-d8739ecc2684</member>						
-				<member index="1" function="2">55c09b06-cbe0-4fd9-bfb8-c8ebfb5e1b4e</member>
+				<member index="2" function="2">e7924d67-a4de-417d-a1f9-581fd611b534</member>		
+				<member index="3" function="2">8a8b38b5-13e0-4abc-adad-d8739ecc2684</member>						
+				<member index="4" function="2">55c09b06-cbe0-4fd9-bfb8-c8ebfb5e1b4e</member>
 			</staff>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="US" year="1987" distribution="1" maingenre="7" subgenre="" flags="" blocks="2" />
 			<ratings critics="81" speed="73" outcome="90" />
 		</programme>
+		
+		<programme id="Stukov_MiB" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0119654" creator="Stukov">
+			<title_original>
+				<de>Men in Black</de>
+				<en>Men in Black</en>
+			</title_original>
+			<title>
+				<de>Men in Black</de>
+				<en>Men in Black</en>
+			</title>
+			<description>
+				<de>Ein Polizist tritt einer geheimen Organisation bei, die außerirdische Interaktionen auf der Erde kontrolliert und überwacht.</de>
+				<en>A police officer joins a secret organization that polices and monitors extraterrestrial interactions on Earth.</en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.35" />
+				<modifier name="topicality::wearoff" value="1.04" />
+				<modifier name="price" value="1.16" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_BarrySonnenfeld</member>
+				<member index="1" function="2">e039c83c-9815-45e2-9d80-424aedf5a1a1</member>
+				<member index="2" function="2">f9a18a26-3dc4-401d-93bb-221247211dff</member>
+			</staff>
+			<groups target_groups_optional="27" />
+			<data country="US" year="1997" distribution="1" maingenre="2" subgenre="5" blocks="2" />
+			<ratings critics="71" speed="73" outcome="51" />
+		</programme>
+
+		<programme id="Stukov_BourneIdent" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0258463" creator="Stukov">
+			<title_original>
+				<de>Die Bourne Identität</de>
+				<en>The Bourne Identity</en>
+			</title_original>
+			<title>
+				<de>Die Bourne Identität</de>
+				<en>The Bourne Identity</en>
+			</title>
+			<description>
+				<de>Ein Mann wird von einem Fischerboot abgeholt, von Kugeln durchzogen und leidet an Amnesie, bevor er sich den Attentätern entzieht und versucht, sein Gedächtnis zurückzugewinnen.</de>
+				<en>A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.</en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="1.19" />
+				<modifier name="topicality::wearoff" value="1.04" />
+				<modifier name="price" value="1.74" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_DougLiman</member>
+				<member index="1" function="2">Stukov_FrankaPotente</member>
+				<member index="2" function="2">DF-Celebreties-Matt_Damon</member>
+			</staff>
+			<groups target_groups_optional="26" />
+			<data country="US" year="2002" distribution="1" maingenre="2" subgenre="14,17" blocks="2" />
+			<ratings critics="68" speed="79" outcome="45" />
+		</programme>
+		
+		<programme id="Stukov_BourneSupr" product="1" licence_type="1" tmdb_id="0" imdb_id="tt0372183" creator="Stukov">
+			<title_original>
+				<de>Die Bourne Verschwörung</de>
+				<en>The Bourne Supremacy</en>
+			</title_original>
+			<title>
+				<de>Die Bourne Verschwörung</de>
+				<en>The Bourne Supremacy</en>
+			</title>
+			<description>
+				<de>Als Jason Bourne für eine schief gelaufene CIA-Operation reingelegt wird, ist er gezwungen, sein früheres Leben als ausgebildeter Attentäter wieder aufzunehmen, um zu überleben.</de>
+				<en>When Jason Bourne is framed for a CIA operation gone awry, he is forced to resume his former life as a trained assassin to survive.</en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.97" />
+				<modifier name="topicality::wearoff" value="1.65" />
+				<modifier name="price" value="1.57" />
+			</modifiers>
+			<staff>
+				<member index="0" function="1">Stukov_DougLiman</member>
+				<member index="1" function="2">Stukov_FrankaPotente</member>
+				<member index="2" function="2">DF-Celebreties-Matt_Damon</member>
+			</staff>
+			<groups target_groups_optional="26" />
+			<data country="US" year="2004" distribution="1" maingenre="2" subgenre="14,17" blocks="2" />
+			<ratings critics="73" speed="77" outcome="66" />
+		</programme>
+		
+		<programme id="Stukov_Minions" product="1" licence_type="1" tmdb_id="0" imdb_id="tt2293640" creator="Stukov">
+			<title_original>
+				<de>Minions</de>
+				<en>Minions</en>
+			</title_original>
+			<title>
+				<de>Minions</de>
+				<en>Minions</en>
+			</title>
+			<description>
+				<de>Die Minions Stuart, Kevin und Bob werden von Scarlet Overkill rekrutiert, einer Superschurkin, die zusammen mit ihrem Mann Herb einen Plan ausheckt, um die Weltherrschaft an sich zu reißen.</de>
+				<en>Minions Stuart, Kevin, and Bob are recruited by Scarlet Overkill, a supervillain who, alongside her inventor husband Herb, hatches a plot to take over the world.</en>
+			</description>
+			<modifiers>
+				<modifier name="topicality::aired" value="0.93" />
+				<modifier name="topicality::wearoff" value="1.04" />
+				<modifier name="price" value="1.43" />
+			</modifiers>
+			<groups target_groups_optional="3" />
+			<data country="US" year="2015" distribution="1" maingenre="3" flags="2" subgenre="9,4" blocks="2" />
+			<ratings critics="56" speed="64" outcome="95" />
+		</programme>
+
 
     </allprogrammes>
 </tvgdb>

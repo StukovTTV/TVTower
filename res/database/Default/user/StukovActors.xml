@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
-<!--
-nm0000233 -> John Travolta
-nm0000125 -> Sean Connery
-nm0000299 -> Michael Biehn
-nm0000587 -> Donald Pleasence
-nm0000130 -> Jamie Lee Curtis
-nm0000225 -> Christian Slater
-nm0000851 -> Lex Barker
-nm0108523 -> Pierre Brice
-nm0297293 -> Joachim Fuchsberger
-nm0001239 -> John Frankenheimer
-nm0001258 -> James Garner
-nm0001428 -> Klaus Kinski
-nm0496746 -> j. Lee Thompson
-nm0000393 -> Peter Falk
-nm0706182 -> Bob Rafelson
-nm0000197 -> Jack Nicholson
-nm0817881 -> Bud Spencer
-nm0000621 -> Kurt Russell
-nm0000216 -> Arnold Schwarzenegger
-nm0001232 -> Milos Forman
-nm0000719 -> F. Murray Abraham
-nm0000459 -> Timothy Hutton
-nm0000186 -> David Lynch
-nm0001492 -> Kyle MacLachlan
-nm0000230 -> Sylvester Stallone
-nm0001077 -> Richard Crenna
-nm0000142 -> Clint Eastwood
-nm0000328 -> Richard Chamberlain
-nm0000232 -> Sharon Stone
-nm0000152 -> Richard Gere
-nm0000578 -> Anthony Perkins
-nm0587256 -> Vera Miles
-nm0430151 -> Richard Jordan
-nm0000206 -> Keanu Reeves
-nm0000662 -> Kiefer Sutherland
-nm0000602 -> Robert Redford
-nm0000621 -> Kurt Russell
-nm0000326 -> Kim Cattrall
-nm0000136 -> Johnny Depp
-nm0000353 -> Willem Dafoe
-nm0001845 -> Forest Whitaker
--->
+
 	<version value="3"  />
 	<celebritypeople>
 		<person id="Stukov-Regie-Parker" tmdb_id="0" imdb_id="" creator="" created_by="Stukov">
@@ -50,257 +8,159 @@ nm0001845 -> Forest Whitaker
 			<last_name>Parker</last_name>
 			<nick_name></nick_name>
 			<details job="65" gender="1" birthday="" deathday="" country="" fictional="1" bookable="1" />
-			<data popularity="20" affinity="30" fame="25" scandalizing="0" price_mod="1.1" power="0" humor="0" charisma="7" appearance="15" topgenre="12" />
+			<data popularity="20" affinity="30" fame="25" scandalizing="0" price_mod="3.1" power="0" humor="0" charisma="7" appearance="15" topgenre="12" />
 		</person>		
 		<person id="Stukov-Actor-Rourke" tmdb_id="0" imdb_id="" creator="" created_by="Stukov">
 			<first_name>Mickey</first_name>
 			<last_name>Rourke</last_name>
 			<nick_name></nick_name>
 			<details job="2" gender="1" birthday="" deathday="" country="" fictional="1" bookable="1" />
-			<data popularity="50" affinity="30" fame="50" scandalizing="0" price_mod="1.5" power="0" humor="10" charisma="20" appearance="50" topgenre="0" />
+			<data popularity="50" affinity="30" fame="50" scandalizing="0" price_mod="3.5" power="0" humor="10" charisma="20" appearance="50" topgenre="0" />
 		</person>	
 		<person id="Stukov-Actor-DeNiro" tmdb_id="0" imdb_id="" creator="" created_by="Stukov">
 			<first_name>Robert</first_name>
 			<last_name>DeNiro</last_name>
 			<nick_name></nick_name>
 			<details job="66" gender="1" birthday="" deathday="" country="" fictional="1" bookable="1" />
-			<data popularity="50" affinity="30" fame="50" scandalizing="0" price_mod="1.5" power="0" humor="30" charisma="20" appearance="40" topgenre="0" />
+			<data popularity="50" affinity="30" fame="50" scandalizing="0" price_mod="4.5" power="0" humor="30" charisma="20" appearance="40" topgenre="0" />
 		</person>	
 		<person id="Stukov-Actor-Bonet" tmdb_id="0" imdb_id="" creator="" created_by="Stukov">
 			<first_name>Lisa</first_name>
 			<last_name>Bonet</last_name>
 			<nick_name></nick_name>
 			<details job="66" gender="2" birthday="" deathday="" country="" fictional="1" bookable="1" />
-			<data popularity="10" affinity="10" fame="10" scandalizing="0" price_mod="1.5" power="0" humor="30" charisma="20" appearance="40" topgenre="0" />
+			<data popularity="10" affinity="10" fame="10" scandalizing="0" price_mod="2.5" power="0" humor="30" charisma="20" appearance="40" topgenre="0" />
 		</person>
 
-		<person id="Stukov-Actor-HarrisonFord" tmdb_id="0" imdb_id="nm0000148" creator="">
-			<first_name>Harrison</first_name>
-			<last_name>Ford</last_name>
-			<nick_name></nick_name>
-			<details job="66" gender="1" birthday="" deathday="" country="" bookable="1" fictional="1" />
-		</person>
-		
 		<person id="Stukov-Regie-Landis" tmdb_id="0" imdb_id="nm0000148" creator="">
 			<first_name>John</first_name>
 			<last_name>Landis</last_name>
 			<nick_name></nick_name>
-			<details job="1" gender="1" birthday="" deathday="" country="" bookable="1" fictional="1" />
+			<details job="3" gender="1" birthday="" deathday="" country="" bookable="1" fictional="1" />
+			<data topgenre="18" price_mod="3" fame="32" affinity="12" scandalizing="37" power="96" humor="86" charisma="50" appearance="51" popularity="96" />
 		</person>
 		
 		<person id="Stukov-Regie-Gilliam" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Terry</first_name>
 			<last_name>Gilliam</last_name>			
-			<details job="65" gender="1" bookable="1" fictional="1" />
+			<details job="69" gender="1" bookable="1" fictional="1" />
+			<data price_mod="3" fame="29" />
 		</person>
 		
 		<person id="Stukov_MichaelPalin" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Michael</first_name>
 			<last_name>Palin</last_name>			
 			<details job="102" gender="1" bookable="1" fictional="1" />
-		</person>
-
-		<person id="Stukov_StephenSpielberg" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Stephen</first_name>
-			<last_name>Spielberg</last_name>			
-			<details job="6" gender="1" bookable="0" fictional="1" />
+			<data topgenre="5" price_mod="3.4" fame="77" />
 		</person>
 		
-		<person id="Stukov_JohnMalkovich" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>John</first_name>
-			<last_name>Malkovich</last_name>			
-			<details job="2" gender="1" bookable="1" fictional="1" />
-		</person>
-
 		<person id="Stukov_MirandaRichardson" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Miranda</first_name>
 			<last_name>Richardson</last_name>			
 			<details job="2" gender="2" bookable="1" fictional="1" />
+			<data topgenre="" price_mod="4.8" fame="97" />
 		</person>
 		
 		<person id="Stukov_JJAnnaud" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Jean-Jacques</first_name>
 			<last_name>Annaud</last_name>			
 			<details job="1" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_Coppola" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Francis</first_name>
-			<last_name>Coppola</last_name>			
-			<details job="1" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_MarlonBrando" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Marlon</first_name>
-			<last_name>Brando</last_name>			
-			<details job="2" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_AlPacino" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Al</first_name>
-			<last_name>Pacino</last_name>			
-			<details job="2" gender="1" bookable="1" fictional="1" />
+			<data topgenre="7" price_mod="2.8" fame="17" />
 		</person>
 		
 		<person id="Stukov_TomShadyac" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Tom</first_name>
 			<last_name>Shadyac</last_name>			
 			<details job="1" gender="1" bookable="1" fictional="1" />
+			<data topgenre="5" price_mod="2.7" fame="15" />
 		</person>
 
-		<person id="Stukov_JohnCarpenter" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>John</first_name>
-			<last_name>Carpenter</last_name>			
-			<details job="1" gender="1" bookable="1" fictional="1" />
-			<data popularity="40" fame="50" topgenre="12" />
-		</person>
-
-		<person id="Stukov_LewisMilestone" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Lewis</first_name>
-			<last_name>Milestone</last_name>			
-			<details job="1" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_IvanReitman" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Ivan</first_name>
-			<last_name>Reitman</last_name>			
-			<details job="1" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_GeorgeLucas" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>George</first_name>
-			<last_name>Lucas</last_name>			
-			<details job="1" gender="1" bookable="0" fictional="0" />
-		</person>
-		
 		<person id="Stukov_JohnLeeHancock" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>John Lee</first_name>
 			<last_name>Hancock</last_name>			
 			<details job="1" gender="1" bookable="1" fictional="1" />
+			<data topgenre="7" price_mod="2.4" fame="9" />
 		</person>
 		
 		<person id="Stukov_JimCarrey" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Jim</first_name>
 			<last_name>Carrey</last_name>			
 			<details job="2" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_BillMurray" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Bill</first_name>
-			<last_name>Murray</last_name>			
-			<details job="2" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_SamuelJackson" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Samuel L.</first_name>
-			<last_name>Jackson</last_name>			
-			<details job="66" gender="1" bookable="1" fictional="1" />
-		</person>
-		
-		<person id="Stukov_MelGibson" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Mel</first_name>
-			<last_name>Gibson</last_name>			
-			<details job="66" gender="1" bookable="1" fictional="1" />
-			<data popularity="80" fame="80" topgenre="2" />
-		</person>
-		
-		<person id="Stukov_WoodyAllen" tmdb_id="0" imdb_id="nm0000095" creator="Stukov">
-			<first_name>Woody</first_name>
-			<last_name>Allen</last_name>			
-			<details job="103" gender="1" bookable="1" fictional="1" />
-			<data popularity="77" fame="77" topgenre="5" />
-		</person>
-		
-		<person id="Stukov_CourteneyCox" tmdb_id="0" imdb_id="" creator="Stukov">
-			<first_name>Courteney</first_name>
-			<last_name>Cox</last_name>			
-			<details job="98" gender="2" bookable="1" fictional="1" />
+			<data topgenre="5" price_mod="4.3" fame="68" />
 		</person>
 		
 		<person id="Stukov_LisaBlount" tmdb_id="0" imdb_id="" creator="Stukov">
 			<first_name>Lisa</first_name>
 			<last_name>Blount</last_name>			
 			<details job="98" gender="2" bookable="1" fictional="1" />
+			<data topgenre="" price_mod="2.9" fame="49" />
 		</person>		
 		
 		<person id="Stukov_MichaelCrichton" tmdb_id="0" imdb_id="nm0000341" creator="Stukov">
 			<first_name>Michael</first_name>
 			<last_name>Crichton</last_name>			
 			<details job="71" gender="1" bookable="1" fictional="1" />
-			<data popularity="60" fame="50" topgenre="4" />
-		</person>
-		
-		<person id="Stukov_DonaldSutherland" tmdb_id="0" imdb_id="nm0000661" creator="Stukov">
-			<first_name>Donald</first_name>
-			<last_name>Sutherland</last_name>			
-			<details job="34" gender="1" bookable="1" fictional="1" />
-			<data popularity="40" fame="40" />
+			<data popularity="60" fame="50" price_mod="4.1" topgenre="4" />
 		</person>
 		
 		<person id="Stukov_CorbinBernsen" tmdb_id="0" imdb_id="nm0000929" creator="Stukov">
 			<first_name>Corbin</first_name>
 			<last_name>Bernsen</last_name>			
 			<details job="98" gender="1" bookable="1" fictional="1" />
-			<data popularity="66" fame="50" topgenre="4" />
+			<data popularity="66" fame="50" topgenre="4" price_mod="3.3" />
 		</person>
 		
 		<person id="Stukov_BurtKennedy" tmdb_id="0" imdb_id="nm0447944" creator="Stukov">
 			<first_name>Burt</first_name>
 			<last_name>Kennedy</last_name>			
 			<details job="1" gender="1" bookable="1" fictional="1" />
-			<data popularity="35" fame="35" topgenre="18" />
+			<data popularity="35" fame="35" price_mod="1.8" topgenre="18" />
 		</person>
 		
 		<person id="Stukov_CorinNemec" tmdb_id="0" imdb_id="nm0005269" creator="Stukov">
 			<first_name>Corin</first_name>
 			<last_name>Nemec</last_name>			
 			<details job="34" gender="1" bookable="1" fictional="1" />
-			<data popularity="30" fame="20" />
-		</person>
-
-		<person id="Stukov_WilliamHurt" tmdb_id="0" imdb_id="nm0000458" creator="Stukov">
-			<first_name>William</first_name>
-			<last_name>Hurt</last_name>			
-			<details job="34" gender="1" bookable="1" fictional="1" birthday="1950-03-20" />
-			<data popularity="30" fame="20" />
+			<data popularity="30" price_mod="2.7" fame="20" />
 		</person>
 		
 		<person id="Stukov_OttoWaalkes" tmdb_id="0" imdb_id="nm0905102" creator="Stukov">
 			<first_name>Otto</first_name>
 			<last_name>Waalkes</last_name>			
 			<details job="34" gender="1" bookable="1" fictional="1" birthday="1948-07-22" />
-			<data popularity="40" fame="40" topgenre="5" />
+			<data popularity="40" fame="40" price_mod="2.5" topgenre="5" />
 		</person>
 		
 		<person id="Stukov_SophieMarceau" tmdb_id="0" imdb_id="nm0000521" creator="Stukov">
 			<first_name>Sophie</first_name>
 			<last_name>Marceau</last_name>			
 			<details job="2" gender="2" bookable="1" fictional="1" />
-			<data popularity="60" fame="70" />
+			<data popularity="60" price_mod="4.5" fame="70" />
 		</person>
 		
-		<person id="Stukov_StephenKing" tmdb_id="0" imdb_id="nm0000175" creator="Stukov">
-			<first_name>Stephen</first_name>
-			<last_name>King</last_name>			
-			<details job="1093" gender="1" bookable="1" fictional="1" birthday="1947-09-21" />
-			<data popularity="40" fame="40" topgenre="12" />
+		<person id="Stukov_DougLiman" tmdb_id="0" imdb_id="nm0510731" creator="Stukov">
+			<first_name>Doug</first_name>
+			<last_name>Liman</last_name>			
+			<details job="1" gender="1" bookable="1" price_mod="2.5" fictional="1" birthday="1965-07-24" />
+			<data affinity="77" scandalizing="85" price_mod="3" power="96" humor="1" charisma="30" appearance="30" popularity="51" fame="45" topgenre="2" />
+		</person>
+		
+		<person id="Stukov_FrankaPotente" tmdb_id="0" imdb_id="nm0004376" creator="Stukov">
+			<first_name>Franka</first_name>
+			<last_name>Potente</last_name>			
+			<details job="2" gender="2" bookable="1" fictional="1" birthday="1974-07-22" />
+			<data topgenre="2" price_mod="3" fame="60" affinity="40" scandalizing="82" power="5" humor="69" charisma="24" appearance="7" popularity="29" />
 		</person>
 		
 	</celebritypeople>
 	
 	<insignificantpeople>
-		<person id="Stukov_Pryce_" first_name="Jonathan" last_name="Pryce" nick_name="" gender="1" imdb_id="nm0000596" fictional="1" levelup="1" bookable="1" job="66" />
 		<person id="Stukov_GeorgeMiller_" first_name="George" last_name="Miller" nick_name="" gender="1" imdb_id="" fictional="1" levelup="1" bookable="1" job="1" topgenre="2" />
-		<person id="Stukov_TerryJones" first_name="Terry" last_name="Jones" nick_name="" gender="1" imdb_id="" fictional="1" levelup="1" bookable="1" job="66" />
-		<person id="Stukov_JohnCleese" first_name="John" last_name="Cleese" nick_name="" imdb_id="" gender="1" fictional="1" levelup="1" bookable="1" job="66" />
 		<person id="Stukov_SandraEcheverría" first_name="Sandra" last_name="Echeverría" nick_name="" imdb_id="nm1214700" gender="2" fictional="1" levelup="1" bookable="1" job="98" />
 		<person id="Stukov_HaileeSteinfeld" first_name="Hailee" last_name="Steinfeld" nick_name="" imdb_id="nm2794962" gender="2" fictional="1" levelup="1" bookable="1" job="106" />
 		<person id="Stukov_HonorDavisPye" first_name="Honor" last_name="Davis-Pye" nick_name="" imdb_id="nm10675999" gender="2" fictional="1" levelup="1" bookable="1" job="96" />
 		<person id="Stukov_ReyMysterio" first_name="Rey" last_name="Mysterio" nick_name="" imdb_id="nm0347595" gender="1" fictional="1" levelup="1" bookable="1" job="4192" />
 		<person id="Stukov_ThomasCarter" first_name="Thomas" last_name="Carter" nick_name="" imdb_id="" gender="1" fictional="1" levelup="1" bookable="1" job="69" />
-		<person id="Stukov_MarkHamill" first_name="Mark" last_name="Hamill" nick_name="" imdb_id="" gender="1" fictional="1" levelup="1" bookable="1" job="98" topgenre="2"/>
-		<person id="Stukov_CarrieFisher" first_name="Carrie" last_name="Fisher" nick_name="" imdb_id="" gender="2" fictional="1" levelup="1" bookable="1" job="1122" topgenre="16"/>
-		<person id="Stukov_DianeKeaton" first_name="Diane" last_name="Keaton" nick_name="" imdb_id="nm0000473" gender="2" fictional="1" levelup="1" bookable="1" job="2" />
 		<person id="Stukov_RandalKleiser" first_name="Randal" last_name="Kleiser" nick_name="" imdb_id="nm0459170" gender="1" fictional="1" levelup="1" bookable="1" job="1" />
 		<person id="Stukov_JoeDante" first_name="Joe" last_name="Dante" nick_name="" imdb_id="nm0001102" gender="1" fictional="1" levelup="1" bookable="1" job="1" topgenre="12" />
 		<person id="Stukov_BradfordDillman" first_name="Bradford" last_name="Dillman" nick_name="" imdb_id="nm0226947" gender="1" fictional="1" levelup="1" bookable="1" job="34" topgenre="12" deathday="2018-01-16" />
@@ -311,43 +171,35 @@ nm0001845 -> Forest Whitaker
 		<person id="Stukov_BradfordMay" first_name="Bradford" last_name="May" nick_name="" imdb_id="nm0561879" gender="1" fictional="1" levelup="1" bookable="1" job="1" />
 		<person id="Stukov_JulesBass" first_name="Jules" last_name="Bass" nick_name="" imdb_id="nm0060072" gender="1" fictional="1" levelup="1" bookable="1" job="1" />
 		<person id="Stukov_AhmedAgrama" first_name="Ahmed" last_name="Agrama" nick_name="" imdb_id="nm0013260" gender="1" fictional="1" levelup="1" bookable="1" job="1" />
-		<person id="Stukov_MichaelApted" first_name="Michael" last_name="Apted" nick_name="" imdb_id="nm0000776" gender="1" fictional="1" levelup="1" bookable="1" job="1" deathday="2021-01-07" />
-		<person id="Stukov_HaraldReinl" first_name="Harald" last_name="Reinl" nick_name="" imdb_id="nm0718243" gender="1" fictional="1" levelup="0" bookable="0" job="1" deathday="1986-10-09" />
-		<person id="Stukov_AlfredVohrer" first_name="Alfred" last_name="Vohrer" nick_name="" imdb_id="nm0901138" gender="1" fictional="1" levelup="0" bookable="0" job="1" deathday="1986-02-03" />
+		<person id="Stukov_HaraldReinl" first_name="Harald" last_name="Reinl" nick_name="" imdb_id="nm0718243" gender="1" fictional="1" levelup="1" bookable="0" job="1" deathday="1986-10-09" />
+		<person id="Stukov_AlfredVohrer" first_name="Alfred" last_name="Vohrer" nick_name="" imdb_id="nm0901138" gender="1" fictional="1" levelup="1" bookable="0" job="1" deathday="1986-02-03" />
 		<person id="Stukov_MarieVersini" first_name="Marie" last_name="Versini" nick_name="" imdb_id="nm0894949" gender="2" fictional="1" levelup="1" bookable="1" job="34" deathday="2021-10-22" />
 		<person id="Stukov_RalphBakshi" first_name="Ralph" last_name="Bakshi" nick_name="" imdb_id="nm0000835" gender="1" fictional="1" levelup="1" bookable="1" job="1" />
 		<person id="Stukov_BillMelendez" first_name="Bill" last_name="Melendez" nick_name="" imdb_id="nm0006837" gender="1" fictional="1" levelup="1" bookable="1" job="1" deathday="2008-09-02" birthday="1916-11-15" />
-		<person id="Stukov_TedPost" first_name="Ted" last_name="Post" nick_name="" imdb_id="nm0692872" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_FredSchepisi" first_name="Fred" last_name="Schepisi" nick_name="" imdb_id="nm0770961" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_ClaudePinoteau" first_name="Claude" last_name="Pinoteau" nick_name="" imdb_id="nm0684509" gender="1" fictional="1" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_JesusFranco" first_name="Jesus" last_name="Franco" nick_name="" imdb_id="nm0001238" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_DonCoscarelli" first_name="Don" last_name="Coscarelli" nick_name="" imdb_id="nm0181741" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_Steno" first_name="" last_name="Steno" nick_name="Steno" imdb_id="nm0826642" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_JohnMilius" first_name="John" last_name="Milius" nick_name="" imdb_id="nm0587518" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_HectorBabenco" first_name="Hector" last_name="Babenco" nick_name="" imdb_id="nm0002199" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_GeorgeCosmatos" first_name="George" last_name="Cosmatos" nick_name="" imdb_id="nm0181902" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_GlennJordan" first_name="Glenn" last_name="Jordan" nick_name="" imdb_id="nm0429958" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_HughHudson" first_name="Hugh" last_name="Hudson" nick_name="" imdb_id="nm0399853" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_BruceBeresford" first_name="Bruce" last_name="Beresford" nick_name="" imdb_id="nm0000915" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_RichardFranklin" first_name="Richard" last_name="Franklin" nick_name="" imdb_id="nm0002207" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_DonBluth" first_name="Don" last_name="Bluth" nick_name="" imdb_id="nm0089940" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_NelsonShin" first_name="Nelson" last_name="Shin" nick_name="" imdb_id="nm0793802" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_BruceHickey" first_name="Bruce" last_name="Hickey" nick_name="" imdb_id="nm0382607" gender="1" fictional="0" levelup="0" bookable="0" job="1" />
-		<person id="Stukov_MarcSinger" first_name="Marc" last_name="Singer" nick_name="" imdb_id="nm0001743" gender="1" fictional="0" levelup="0" bookable="0" job="2" />
-		<person id="Stukov_ZachGalligan" first_name="Zach" last_name="Galligan" nick_name="" imdb_id="nm0002090" gender="1" fictional="0" levelup="0" bookable="0" job="2" />
-		<person id="Stukov_ClaudeBrasseur" first_name="Claude" last_name="Brasseur" nick_name="" imdb_id="nm0105475" gender="1" fictional="1" levelup="0" bookable="0" job="2" />
-		<person id="Stukov_BrigitteFossey" first_name="Brigitte" last_name="Fossey" nick_name="" imdb_id="nm0287637" gender="2" fictional="1" levelup="0" bookable="0" job="2" />
-		<person id="Stukov_JamesFranciscus" first_name="James" last_name="Franciscus" nick_name="" imdb_id="nm0002082" gender="1" fictional="1" levelup="0" bookable="0" job="2" />
-		<person id="Stukov_RoddyMcDowall" first_name="Roddy" last_name="McDowall" nick_name="" imdb_id="nm0001522" gender="1" fictional="1" levelup="0" bookable="0" job="2" />
+		<person id="Stukov_ClaudePinoteau" first_name="Claude" last_name="Pinoteau" nick_name="" imdb_id="nm0684509" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_JesusFranco" first_name="Jesus" last_name="Franco" nick_name="" imdb_id="nm0001238" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_DonCoscarelli" first_name="Don" last_name="Coscarelli" nick_name="" imdb_id="nm0181741" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_Steno" first_name="" last_name="Steno" nick_name="Steno" imdb_id="nm0826642" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_JohnMilius" first_name="John" last_name="Milius" nick_name="" imdb_id="nm0587518" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_HectorBabenco" first_name="Hector" last_name="Babenco" nick_name="" imdb_id="nm0002199" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_GeorgeCosmatos" first_name="George" last_name="Cosmatos" nick_name="" imdb_id="nm0181902" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_GlennJordan" first_name="Glenn" last_name="Jordan" nick_name="" imdb_id="nm0429958" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_HughHudson" first_name="Hugh" last_name="Hudson" nick_name="" imdb_id="nm0399853" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_RichardFranklin" first_name="Richard" last_name="Franklin" nick_name="" imdb_id="nm0002207" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_NelsonShin" first_name="Nelson" last_name="Shin" nick_name="" imdb_id="nm0793802" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_BruceHickey" first_name="Bruce" last_name="Hickey" nick_name="" imdb_id="nm0382607" gender="1" fictional="1" levelup="1" bookable="0" job="1" />
+		<person id="Stukov_MarcSinger" first_name="Marc" last_name="Singer" nick_name="" imdb_id="nm0001743" gender="1" fictional="1" levelup="1" bookable="0" job="2" />
+		<person id="Stukov_ZachGalligan" first_name="Zach" last_name="Galligan" nick_name="" imdb_id="nm0002090" gender="1" fictional="1" levelup="1" bookable="0" job="2" />
+		<person id="Stukov_ClaudeBrasseur" first_name="Claude" last_name="Brasseur" nick_name="" imdb_id="nm0105475" gender="1" fictional="1" levelup="1" bookable="0" job="2" />
+		<person id="Stukov_BrigitteFossey" first_name="Brigitte" last_name="Fossey" nick_name="" imdb_id="nm0287637" gender="2" fictional="1" levelup="1" bookable="0" job="2" />
 		<person id="Stukov_MelissaRodriguez" first_name="Melissa Jane" last_name="Rodriguez" nick_name="" imdb_id="nm4497805" gender="2" fictional="1" levelup="1" bookable="1" job="34" />
 		<person id="Stukov_MiriamMcDonald" first_name="Miriam" last_name="McDonald" nick_name="" imdb_id="nm1011682" gender="2" fictional="1" levelup="1" bookable="1" job="34" />
-		<person id="Stukov_EvaMarieSaint" first_name="Eva Marie" last_name="Saint" nick_name="" imdb_id="nm0001693" gender="2" fictional="1" levelup="0" bookable="0" job="34" />
+		<person id="Stukov_EvaMarieSaint" first_name="Eva Marie" last_name="Saint" nick_name="" imdb_id="nm0001693" gender="2" fictional="1" levelup="1" bookable="0" job="34" />
 		<person id="Stukov_LeeAnneBaker" first_name="LeeAnne" last_name="Baker" nick_name="" imdb_id="nm0048686" gender="2" fictional="1" levelup="1" bookable="1" job="34" />
-		<person id="Stukov_ParkerStevenson" first_name="Parker" last_name="Stevenson" nick_name="" imdb_id="nm0829017" gender="1" fictional="1" levelup="1" bookable="1" job="34" />
 		<person id="Stukov_LauraHarrington" first_name="Laura" last_name="Harrington" nick_name="" imdb_id="nm0364307" gender="2" fictional="1" levelup="1" bookable="1" job="34" birthday="1958-04-29" />
 		<person id="Stukov_CharlieSheen" first_name="Charlie" last_name="Sheen" nick_name="" imdb_id="nm0000221" gender="1" fictional="1" levelup="1" bookable="1" job="34" birthday="1965-09-03" />
 		<person id="Stukov_CharlesBraverman" first_name="Charles" last_name="Braverman" nick_name="" imdb_id="nm0106015" gender="1" fictional="1" levelup="1" bookable="1" job="1" birthday="1944-03-03" />
-		<person id="Stukov_OliverStone" first_name="Oliver" last_name="Stone" nick_name="" imdb_id="nm0000231" gender="1" fictional="1" levelup="1" bookable="1" job="1" birthday="1946-09-15" />
+		<person id="Stukov_BarrySonnenfeld" first_name="Barry" last_name="Sonnenfeld" nick_name="" imdb_id="nm0001756" gender="1" fictional="1" levelup="1" bookable="1" job="1" birthday="1953-04-01" />
 		
 	</insignificantpeople>
 	
