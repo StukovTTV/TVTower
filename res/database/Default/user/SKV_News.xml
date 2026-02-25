@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" />	
+	<allnews>
+		<!--  recurring  -->
+		<news guid="news-stukovNoLimit_0001" thread_guid="SKV_Aliens" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Aliens setzen auf erneuerbare Energien</de>
+				<en>Aliens Go Green</en>				
+			</title>
+			<description>
+				<de>Alien-Raumschiffe entpuppen sich als riesige Solarpaneele - „Wir dachten immer, es wären Angriffe, aber sie sammeln nur Energie für ihre Heimatplaneten!“ #Area51 #Solarenergie</de>
+				<en>Alien spacecrafts reveal themselves as giant solar panels - "We always thought they were attacks, but they were just collecting energy for their home planets!" #Area51 #SolarEnergy</en>				
+			</description>
+			<data genre="3" price="1.2" quality_min="50" quality_max="63" min_subscription_level="" available="1" fictional="1" happen_time="-1" flags="0"/>
+			<effects>
+				<effect trigger="broadcastFirstTime" type="ModifyMovieGenrePopularity" genre="16" valueMin="0.1" valueMax="2.5" />
+			</effects>
+			<targetgroupattractivity teenagers="1.3" />
+			<availability year_range_from="-1" year_range_to="-1" script='${.eq:${.worldtime:"season"}:2}' />
+		</news>
+		<news guid="news-stukov-floodgermany" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>${region}: Hochwasser legt Schifffahrt lahm</de>
+				<en>${region}: Floods Bring Shipping to a Standstill</en>
+			</title>
+			<description>
+				<de>Deutschland – Schwere Überschwemmungen in ${region} zwingen zur Einstellung der Schifffahrt auf fast allen Flüssen. ${reaction}</de>
+				<en>Germany – Severe flooding in ${region} has forced the suspension of shipping on almost all rivers. ${reaction}</en>
+			</description>
+			<variables>
+				<region>
+					<de>Norddeutschland|Bayern|Niedersachsen|Sachsen|Brandenburg</de>
+					<en>Northern Germany|Bavaria|Eastern Germany|Lower Saxony|Saxony|Brandenburg</en>
+				</region>
+				<reaction>
+					<de>Gummistiefel raus, Augen verdrehen, weitermachen.|Keller leerpumpen, Kaffee kochen, weitermachen.|Nicht das erste Mal, nicht das letzte Mal.|Die Versicherung wird sich freuen.</de>
+					<en>Rubber boots out, eyes rolled, carry on.|Pump out the basement, make coffee, carry on.|Not the first time, not the last.|The insurance company will be delighted.</en>
+				</reaction>
+			</variables>
+			<data genre="4" price="0.3" quality_min="20" quality_max="55" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="0"/>
+			<targetgroupattractivity children="0.5" teenagers="0.6" housewives="0.9" employees="1.1" managers="1.1" pensioners="1.1" />
+			<availability year_range_from="-1" year_range_to="-1" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<!--  January 1980  -->
+		<news guid="news-stukov1980Jan_0001" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Schweden: Tochter verdrängt Sohn – Prinzessin wird Kronprinzessin</de>
+				<en>Sweden: Daughter Replaces Son – Princess Becomes Crown Princess</en>				
+			</title>
+			<description>
+				<de>Stockholm – Als erstes Land weltweit führt Schweden die absolute Erstgeburtsfolge ein. Der Thron geht künftig ans älteste Kind – egal ob Mädchen oder Junge. Prinzessin Victoria (2) verdrängt damit Bruder Carl Philip von der Thronfolge.</de>
+				<en>Stockholm – Sweden becomes the first country in the world to introduce absolute primogeniture. From now on, the throne passes to the eldest child – regardless of gender. Princess Victoria (2) thereby displaces her brother Carl Philip as heir to the throne.</en>				
+			</description>
+			<data genre="0" price="0.7" quality_min="55" quality_max="70" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>			
+			<targetgroupattractivity children="0.2" teenagers="0.5" teenagers_male="0.3" housewives="1.5" employees="0.8" unemployed_female="1.2" unemployed_male="0.6" managers="0.8" pensioners_female="1.8" pensioners_male="1.1" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0002" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Gorbatschow: Jüngstes Politbüro-Mitglied aller Zeiten</de>
+				<en>Gorbachev: Youngest Politburo Member in Soviet History</en>				
+			</title>
+			<description>
+				<de>Moskau – Mit 49 Jahren wird Mikhail Gorbatschow zum jüngsten Vollmitglied des sowjetischen Politbüros ernannt. Der Aufstieg des Reformers gilt als ungewöhnlich – im Kreis der greisen Sowjetführung fällt er damit deutlich aus dem Rahmen.</de>
+				<en>Moscow – At just 49 years old, Mikhail Gorbachev is appointed the youngest full member of the Soviet Politburo. His rise is considered remarkable – among the aging Soviet leadership, he stands out as a striking exception.</en>				
+			</description>
+			<data genre="0" price="0.6" quality_min="45" quality_max="60" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>			
+			<targetgroupattractivity children="0.1" teenagers_male="0.5" teenagers_female="0.3" housewives="0.5" employees="0.9" employees_male="1.1"  unemployed="0.7" managers_male="1.5" managers_female="1.2" pensioners_male="1.4" pensioners_female="1.0"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0003" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>GPS: Startschuss für das Navigationssystem der Zukunft</de>
+				<en>GPS: The Starting Signal for the Navigation System of the Future</en>
+			</title>
+			<description>
+				<de>Washington – Am 1. Januar 1980 beginnt offiziell die Zeitepoche des Global Positioning System. Das von der US-Armee entwickelte Satellitennetzwerk soll künftig präzise Navigation ermöglichen – vorerst jedoch nur für das Militär.</de>
+				<en>Washington – On January 1st, 1980, the official time epoch of the Global Positioning System begins. The satellite network, developed by the US military, is designed to enable precise navigation – for now, however, exclusively for military use.</en>
+			</description>
+			<data genre="3" price="0.4" quality_min="30" quality_max="50" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers_male="0.8" teenagers_female="0.3" housewives="0.3" employees_female="0.6" unemployed_female="0.6" managers_male="1.3" managers_female="0.9" pensioners_male="0.9" pensioners_female="0.6"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0004" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Rubik's Cube: Buntes Knobelrätsel erobert die Welt</de>
+				<en>Rubik's Cube: Colourful Puzzle Takes the World by Storm</en>
+			</title>
+			<description>
+				<de>London – Auf Spielwarenmessen in London, Paris, Nürnberg und New York feiert der Rubik's Cube seinen internationalen Einstand. Der ungarische Zauberwürfel mit seinen 43 Trillionen möglichen Kombinationen gilt als das kniffligste Geduldsspiel seit Jahren.</de>
+				<en>London – At toy fairs in London, Paris, Nuremberg and New York, the Rubik's Cube makes its international debut. The Hungarian puzzle with its 43 trillion possible combinations is considered the most challenging patience game in years.</en>
+			</description>
+			<data genre="4" price="0.8" quality_min="50" quality_max="70" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="1.5" teenagers="1.4" housewives="0.8" employees="0.9" unemployed="0.8" pensioners="0.7"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0005" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Britischer Stahlstreik: 100.000 Arbeiter legen die Arbeit nieder</de>
+				<en>British Steel Strike: 100,000 Workers Walk Out</en>
+			</title>
+			<description>
+				<de>London – Zum ersten Mal seit 1926 treten Großbritanniens Stahlarbeiter in einen landesweiten Streik. Rund 100.000 Beschäftigte der British Steel Corporation fordern eine Lohnerhöhung von 20 Prozent. Die Regierung Thatcher steht vor ihrer ersten großen Bewährungsprobe.</de>
+				<en>London – For the first time since 1926, Britain's steelworkers have launched a nationwide strike. Around 100,000 employees of British Steel Corporation are demanding a 20 percent pay rise. The Thatcher government faces its first major test.</en>
+			</description>
+			<data genre="0" price="1.4" quality_min="55" quality_max="82" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.7" employees_male="1.5" employees_female="1.1" unemployed="1.4" managers_male="1.3" managers_female="1.1" pensioners="0.8" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0006" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>El Salvador: Revolutionsjunta bricht zusammen</de>
+				<en>El Salvador: Revolutionary Junta Collapses</en>
+			</title>
+			<description>
+				<de>San Salvador – Die Revolutionsjunta El Salvadors ist zerbrochen. Alle drei zivilen Mitglieder und zehn von elf Kabinettsmitgliedern traten zurück. Das Land versinkt im politischen Chaos – die Militärs übernehmen die Kontrolle.</de>
+				<en>San Salvador – El Salvador's revolutionary junta has collapsed. All three civilian members and ten of eleven cabinet ministers have resigned. The country descends into political chaos as the military takes control.</en>
+			</description>
+			<data genre="0" price="0.9" quality_min="42" quality_max="67" min_subscription_level="1" available="2" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.6" managers="1.2" pensioners_male="1.2" pensioners_female="0.8"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0007" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>„Rapper's Delight": Hip-Hop stürmt erstmals die Top 40</de>
+				<en>"Rapper's Delight": Hip-Hop Hits the Top 40 for the First Time</en>
+			</title>
+			<description>
+				<de>New York – Die Sugarhill Gang schreibt Musikgeschichte: „Rapper's Delight" erreicht Platz 37 der Billboard Hot 100 und ist damit die erste Hip-Hop-Single, die je die US-Top-40 knackt. Ein neues Musikgenre meldet sich an.</de>
+				<en>New York – The Sugarhill Gang makes music history: "Rapper's Delight" reaches number 37 on the Billboard Hot 100, becoming the first hip-hop single ever to crack the US Top 40. A new musical genre has arrived.</en>
+			</description>
+			<data genre="5" price="0.7" quality_min="55" quality_max="73" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="broadcastFirstTime" type="ModifyMovieGenrePopularity" genre="102" valueMin="0.05" valueMax="0.15" />
+				<effect trigger="broadcastFirstTime" type="ModifyMovieGenrePopularity" genre="202" valueMin="0.05" valueMax="0.10" />
+			</effects>
+			<targetgroupattractivity children="0.8" teenagers_male="1.5" teenagers_female="1.7" housewives="0.5" unemployed="1.2" managers="0.5" pensioners="0.3"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0008" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Chrysler-Rettung: US-Regierung bürgt für 1,5 Milliarden Dollar</de>
+				<en>Chrysler Bailout: US Government Guarantees 1.5 Billion Dollars</en>
+			</title>
+			<description>
+				<de>Washington – Präsident Carter unterzeichnet ein Gesetz, das staatliche Bürgschaften in Höhe von 1,5 Milliarden Dollar für den strauchelnden Autobauer Chrysler vorsieht. Der drittgrößte US-Autohersteller stand kurz vor dem Bankrott.</de>
+				<en>Washington – President Carter signs legislation providing 1.5 billion dollars in government loan guarantees for struggling automaker Chrysler. The third-largest US carmaker had been on the brink of bankruptcy.</en>
+			</description>
+			<data genre="0" price="0.8" quality_min="53" quality_max="68" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.6" employees_male="1.3" employees_female="0.8" unemployed="1.2" managers="1.4" pensioners_male="1.2" pensioners_female="0.7"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0009" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Goldpreis bricht alle Rekorde: Über 800 Dollar pro Unze</de>
+				<en>Gold Price Breaks All Records: Over 800 Dollars per Ounce</en>
+			</title>
+			<description>
+				<de>New York – Nach der Aufhebung staatlicher Preiskontrollen schießt der Goldpreis auf über 800 Dollar pro Unze – ein neuer Weltrekord. Anleger flüchten angesichts globaler Unsicherheiten in das Edelmetall.</de>
+				<en>New York – Following the lifting of state price controls, gold surges past 800 dollars per ounce – a new world record. Investors flee into the precious metal amid growing global uncertainty.</en>
+			</description>
+			<data genre="0" price="0.9" quality_min="60" quality_max="79" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.7" unemployed="0.7" managers="1.5" pensioners_male="1.3" pensioners_female="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+		</news>
+		<news guid="news-stukov1980Jan_0010" thread_guid="news-stukov-huntbrothers" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Silber-Rekord: Hunt-Brüder treiben Preis auf 52 Dollar</de>
+				<en>Silver Record: Hunt Brothers Drive Price to 52 Dollars</en>
+			</title>
+			<description>
+				<de>Chicago – Der Silberpreis erreicht mit 52,80 Dollar pro Unze einen historischen Höchststand. Hinter dem Rekord steckt eine gezielte Marktmanipulation: Die texanischen Milliardäre Hunt versuchen, ein Drittel des weltweiten Silbervorrats aufzukaufen.</de>
+				<en>Chicago – Silver hits a historic high of 52.80 dollars per ounce. Behind the record lies deliberate market manipulation: the Texan billionaire Hunt brothers are attempting to corner a third of the world's entire silver supply.</en>
+			</description>
+			<data genre="0" price="1.0" quality_min="65" quality_max="81" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1980Mar_0007" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.6" employees="0.8" unemployed="0.7" managers="1.6" managers_male="1.7" pensioners_male="1.4" pensioners_female="0.9"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<!--  February 1980  -->
+		<news guid="news-stukov1980Feb_0001" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Call_Me_(Blondie_song)">
+			<title>
+				<de>Blondie: „Call Me" – der Ohrwurm, der nicht mehr aufhört</de>
+				<en>Blondie: "Call Me" – The Earworm That Won't Quit</en>
+			</title>
+			<description>
+				<de>New York – Blondie veröffentlicht die Single „Call Me" als Soundtrack zum Film „American Gigolo". Debbie Harrys Stimme trifft auf Giorgio Moroders Synthesizer – und das Ergebnis klebt im Ohr wie Kaugummi am Schuh. Musikexperten tippen bereits auf einen Sommerhit.</de>
+				<en>New York – Blondie releases the single "Call Me" as the soundtrack to the film "American Gigolo". Debbie Harry's voice meets Giorgio Moroder's synthesizers – and the result sticks in your head like gum on a shoe. Music experts are already tipping it for a summer smash.</en>
+			</description>
+			<data genre="1" price="0.65" quality_min="60" quality_max="75" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<effects>
+				<effect trigger="broadcastFirstTime" type="modifyMovieGenrePopularity" genre="202" valueMin="0.05" valueMax="0.15" />
+			</effects>
+			<targetgroupattractivity children="0.3" teenagers_male="1.4" teenagers_female="1.8" housewives="1.1" employees_male="1.2" employees_female="1.4" unemployed="1.2" managers="0.7" pensioners="0.5" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0002" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Abscam">
+			<title>
+				<de>ABSCAM: FBI filmte Kongress-Abgeordnete beim Schmiergeld kassieren</de>
+				<en>ABSCAM: FBI Filmed Congressmen Pocketing Bribes</en>
+			</title>
+			<description>
+				<de>Washington – Als arabische Scheichs verkleidete FBI-Agenten filmten über 14 Monate, wie 20 US-Politiker Bestechungsgelder annahmen. Sechs Kongressabgeordnete und ein Senator stehen vor Gericht – der größte Korruptionsskandal der US-Parlamentsgeschichte. Die Scheichs waren leider nicht echt.</de>
+				<en>Washington – FBI agents disguised as Arab sheikhs spent 14 months filming 20 US politicians pocketing bribes. Six congressmen and a senator now face trial – the largest corruption scandal in US congressional history. The sheikhs, regrettably, were not real.</en>
+			</description>
+			<data genre="0" price="1.2" quality_min="70" quality_max="85" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.6" teenagers_male="0.8" housewives="0.8" employees="1.1" unemployed="0.9" managers="1.4" pensioners="1.3" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0003" thread_guid="news-stukov-sanchez" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Salvador_S%C3%A1nchez">
+			<title>
+				<de>Sánchez entreißt López den WBC-Federgewichtstitel</de>
+				<en>Sánchez Snatches WBC Featherweight Title from López</en>
+			</title>
+			<description>
+				<de>Phoenix – Der 21-jährige Mexikaner Salvador Sánchez besiegte Titelverteidiger Danny López durch TKO in der 13. Runde und ist neuer WBC-Weltmeister im Federgewicht. López hatte den Gürtel neun Mal erfolgreich verteidigt – bis heute Nacht.</de>
+				<en>Phoenix – 21-year-old Mexican Salvador Sánchez defeated defending champion Danny López by TKO in round 13 to become the new WBC featherweight world champion. López had successfully defended the belt nine times – until tonight.</en>
+			</description>
+			<data genre="2" price="0.6" quality_min="30" quality_max="48" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1982Aug_0001" />
+			</effects>
+			<targetgroupattractivity children="0.4" teenagers_male="1.2" teenagers_female="0.5" housewives="0.5" employees_male="1.3" employees_female="0.6" unemployed_male="1.2" unemployed_female="0.5" managers="0.7" pensioners_male="1.4" pensioners_female="0.4" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0004" type="0" creator="Stukov" created_by="Stukov" comment="https://de.wikipedia.org/wiki/Kernkraftwerk_M%C3%BClheim-K%C3%A4rlich">
+			<title>
+				<de>Karlsruhe erlaubt Atomkraft – Atomkraftgegner uneins über nächsten Schritt</de>
+				<en>Karlsruhe Permits Nuclear Power – Opponents Unsure What to Do Next</en>
+			</title>
+			<description>
+				<de>Karlsruhe – Das Bundesverfassungsgericht entschied: Die friedliche Nutzung der Kernenergie ist mit dem Grundgesetz vereinbar. Anlass war die Verfassungsbeschwerde zum Kernkraftwerk Mülheim-Kärlich. Befürworter feiern, Gegner demonstrieren – und das Grundgesetz schweigt dazu erwartungsgemäß.</de>
+				<en>Karlsruhe – The Federal Constitutional Court ruled that the peaceful use of nuclear energy is compatible with the Basic Law. The case was triggered by a constitutional complaint over the Mülheim-Kärlich nuclear power plant. Supporters celebrate, opponents protest – and the Basic Law remains, as expected, silent on the matter.</en>
+			</description>
+			<data genre="0" price="0.9" quality_min="55" quality_max="80" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.7" employees="1.1" unemployed="0.9" managers="1.3" pensioners="1.2" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0005" type="0" creator="Stukov" created_by="Stukov" comment="">
+			<title>
+				<de>Norddeutschland: Hochwasser legt Schifffahrt lahm</de>
+				<en>Northern Germany: Floods Bring Shipping to a Standstill</en>
+			</title>
+			<description>
+				<de>Hamburg – Schwere Überschwemmungen in Norddeutschland zwingen zur Einstellung der Schifffahrt auf fast allen Flüssen. Die Bevölkerung reagiert mit norddeutscher Gelassenheit: Gummistiefel raus, Augen verdrehen, weitermachen.</de>
+				<en>Hamburg – Severe flooding in northern Germany has forced the suspension of shipping on almost all rivers. The local population responds with characteristic northern German composure: rubber boots out, eyes rolled, carry on.</en>
+			</description>
+			<data genre="4" price="0.3" quality_min="20" quality_max="55" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="0.6" housewives="0.9" employees="1.1" unemployed="1.0" managers="1.1" pensioners="1.1" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0006" thread_guid="news-stukov-egyptisrael1980" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_relations">
+			<title>
+				<de>Ägypten an Israel: „Wir boykottieren euch nicht mehr – war eh keine gute Idee"</de>
+				<en>Egypt to Israel: "We're No Longer Boycotting You – Wasn't a Great Idea Anyway"</en>
+			</title>
+			<description>
+				<de>Kairo – Ägypten beendet seinen Wirtschaftsboykott gegen Israel. Nach Jahren feindseliger Funkstille haben beide Länder offenbar entdeckt, dass Handel angenehmer ist als gegenseitiges Ignorieren. Die arabische Welt reagiert mit Empörung – und vermutlich einem leisen Nachdenken über die eigene Boykottstrategie.</de>
+				<en>Cairo – Egypt has ended its economic boycott of Israel. After years of hostile silence, both countries have apparently discovered that trade is more pleasant than mutual ignorance. The Arab world reacts with outrage – and presumably some quiet reflection on its own boycott strategy.</en>
+			</description>
+			<data genre="0" price="1.0" quality_min="55" quality_max="75" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1980Feb_0016" />
+			</effects>
+			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.6" employees="0.9" unemployed="0.8" managers="1.3" pensioners="1.3" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0007" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/The_Wall_(Pink_Floyd_Live)">
+			<title>
+				<de>Pink Floyd: „The Wall" – eine Mauer für die Rockgeschichte</de>
+				<en>Pink Floyd: "The Wall" – A Wall for the History of Rock</en>
+			</title>
+			<description>
+				<de>Los Angeles – Pink Floyd feierten die Konzertpremiere von „The Wall" in der Los Angeles Memorial Sports Arena. Aufwendige Bühnenbauten, Riesenpuppen und eine echte Mauer aus Pappkarton – weil Gitarren allein offenbar nicht mehr reichen. Kritiker sind begeistert, Roadies erschöpft.</de>
+				<en>Los Angeles – Pink Floyd celebrated the concert premiere of "The Wall" at the Los Angeles Memorial Sports Arena. Elaborate stage constructions, giant puppets and a real wall made of cardboard – because apparently guitars alone are no longer enough. Critics are thrilled, roadies exhausted.</en>
+			</description>
+			<data genre="1" price="0.8" quality_min="60" quality_max="75" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="broadcastFirstTime" type="modifyMovieGenrePopularity" genre="102" valueMin="0.1" valueMax="0.3" probability="50" />
+			</effects>
+			<targetgroupattractivity children="0.3" teenagers_male="1.6" teenagers_female="1.3" housewives="0.7" employees="1.2" unemployed="1.2" managers="0.6" pensioners="0.4" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0008" type="0" creator="Stukov" created_by="Stukov" comment="https://de.wikipedia.org/wiki/NDR-Staatsvertrag">
+			<title>
+				<de>NDR-Staatsvertrag unterzeichnet – Rundfunk bleibt Ländersache</de>
+				<en>NDR State Treaty Signed – Broadcasting Remains a Matter for the States</en>
+			</title>
+			<description>
+				<de>Kiel – Die Ministerpräsidenten von Niedersachsen und Schleswig-Holstein unterzeichneten einen neuen NDR-Staatsvertrag. Zwei Politiker regelten in aller Stille den öffentlich-rechtlichen Rundfunk – während du deinen Sender ganz ohne Staatsvertrag betreibst. Noch.</de>
+				<en>Kiel – The prime ministers of Lower Saxony and Schleswig-Holstein signed a new NDR state treaty. Two politicians quietly regulated public broadcasting – while you run your station without any state treaty. For now.</en>
+			</description>
+			<data genre="3" price="0.2" quality_min="20" quality_max="40" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.4" employees="0.7" unemployed="0.4" managers="1.2" pensioners="0.7" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0009" thread_guid="news-stukov-lakeplacid1980" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/1980_Winter_Olympics">
+			<title>
+				<de>Olympische Winterspiele in Lake Placid eröffnet – Zuschauer warten noch</de>
+				<en>Winter Olympics Open in Lake Placid – Spectators Still Waiting</en>
+			</title>
+			<description>
+				<de>Lake Placid – US-Vizepräsident Walter Mondale eröffnete die XIII. Olympischen Winterspiele. 1.072 Athleten aus 37 Nationen traten in 38 Wettbewerben an. Die Eröffnungsfeier verlief feierlich – die Anreise weniger. Schwere Transportprobleme ließen Zuschauer und Athleten stundenlang in eisiger Kälte warten. Olympischer Geist: vorhanden. Olympischer Bus: unbekannt.</de>
+				<en>Lake Placid – US Vice President Walter Mondale officially opened the XIII Winter Olympic Games. 1,072 athletes from 37 nations competed in 38 events. The opening ceremony was suitably grand – the journey there, less so. Severe transport problems left spectators and athletes waiting for hours in freezing temperatures. Olympic spirit: present. Olympic bus: whereabouts unknown.</en>
+			</description>
+			<data genre="2" price="1.2" quality_min="65" quality_max="80" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.8" teenagers="1.1" employees="1.1" pensioners="1.2" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0010" thread_guid="news-stukov-lakeplacid1980" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Miracle_on_Ice">
+			<title>
+				<de>Miracle on Ice: USA schlagen die Sowjetunion – die Welt traut ihren Augen nicht</de>
+				<en>Miracle on Ice: USA Beat the Soviet Union – the World Can't Believe Its Eyes</en>
+			</title>
+			<description>
+				<de>Lake Placid – Die US-amerikanische Eishockey-Mannschaft, zusammengesetzt aus College-Amateuren, besiegte die sowjetische Profimaschine mit 4:3. Die UdSSR hatte das olympische Eishockeyturnier seit 1964 dominiert. Trainer Herb Brooks hatte seinen Spielern versprochen, dass sie das Unmögliche schaffen könnten. Er behielt recht – vermutlich zu seiner eigenen Überraschung.</de>
+				<en>Lake Placid – The US ice hockey team, made up of college amateurs, defeated the Soviet professional machine 4:3. The USSR had dominated Olympic ice hockey since 1964. Coach Herb Brooks had promised his players they could achieve the impossible. He was right – presumably to his own surprise.</en>
+			</description>
+			<data genre="2" price="1.8" quality_min="82" quality_max="100" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>			
+			<targetgroupattractivity children="0.7" teenagers_male="1.5" teenagers_female="1.1" housewives="0.7" employees="1.2" employees_male="1.4" unemployed="1.1" managers="1.1" pensioners="1.3" pensioners_male="1.5" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0011" thread_guid="news-stukov-lakeplacid1980" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Eric_Heiden">
+			<title>
+				<de>Eric Heiden gewinnt fünf Goldmedaillen – Eisschnelllauf läuft sich selbst davon</de>
+				<en>Eric Heiden Wins Five Gold Medals – Speed Skating Leaves Itself Behind</en>
+			</title>
+			<description>
+				<de>Lake Placid – US-Amerikaner Eric Heiden gewann alle fünf Eisschnelllauf-Distanzen bei denselben Olympischen Spielen – eine Leistung die es zuvor nie gegeben hatte und vermutlich nie wieder geben wird. Fünf Starts, fünf Goldmedaillen, fünf Weltrekorde. Seine Konkurrenten durften sich immerhin über Silber freuen.</de>
+				<en>Lake Placid – American Eric Heiden won all five speed skating distances at the same Olympic Games – a feat never achieved before and likely never to be repeated. Five starts, five gold medals, five world records. His competitors at least had the consolation of silver.</en>
+			</description>
+			<data genre="2" price="1.4" quality_min="75" quality_max="90" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.7" teenagers_male="1.3" teenagers_female="1.1" housewives="0.7" employees="1.1" pensioners="1.3" pensioners_male="1.4" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0012" thread_guid="news-stukov-lakeplacid1980" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Leonhard_Stock">
+			<title>
+				<de>Ersatzmann Stock holt Abfahrtsgold – Klammer schaut zu Hause zu</de>
+				<en>Reserve Man Stock Takes Downhill Gold – Klammer Watches from Home</en>
+			</title>
+			<description>
+				<de>Lake Placid – Leonhard Stock, ursprünglich nur als Ersatzmann im österreichischen Team, gewann die Abfahrt in 1:45,50 vor Landsmann Peter Wirnsberger. Der amtierende Olympiasieger Franz Klammer war gar nicht erst nominiert worden. Stock kommentierte seinen Sieg vermutlich mit österreichischer Zurückhaltung. Klammer vermutlich nicht.</de>
+				<en>Lake Placid – Leonhard Stock, originally only a reserve in the Austrian team, won the downhill in 1:45.50 ahead of compatriot Peter Wirnsberger. Defending Olympic champion Franz Klammer had not even been nominated. Stock presumably commented on his victory with Austrian restraint. Klammer presumably did not.</en>
+			</description>
+			<data genre="2" price="1.0" quality_min="60" quality_max="75" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.6" teenagers="1.1" teenagers_male="1.2" housewives="0.8" employees="1.1" employees_male="1.2" unemployed="0.9" managers="0.9" pensioners="1.2" pensioners_male="1.3" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0013" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/David_Janssen">
+			<title>
+			<de>David Janssen gestorben – Dr. Kimble entkam diesmal nicht</de>
+			<en>David Janssen Dead – Dr. Kimble Didn't Escape This Time</en>
+			</title>
+			<description>
+				<de>Los Angeles – Schauspieler David Janssen, bekannt als Dr. Richard Kimble in der Fernsehserie „Auf der Flucht", starb mit 48 Jahren an einem Herzinfarkt. Vier Staffeln lang jagte ihn ein einarmiger Mann – am Ende war es sein Herz.</de>
+				<en>Los Angeles – Actor David Janssen, known as Dr. Richard Kimble in the television series "The Fugitive", died of a heart attack at the age of 48. For four seasons a one-armed man hunted him – in the end it was his heart.</en>
+			</description>
+			<data genre="1" price="0.7" quality_min="45" quality_max="60" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.4" housewives="1.2" employees="0.8" unemployed="0.8" managers="0.7" pensioners="1.4" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0014" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Traffic_jam">
+			<title>
+				<de>175 km Stau auf der A6 – Frankreichs längste Après-Ski-Party</de>
+				<en>175 km Traffic Jam on the A6 – France's Longest Après-Ski Party</en>
+			</title>
+			<description>
+				<de>Lyon – Tausende Skiurlauber auf dem Rückweg aus den Alpen verwandelten die Autobahn A6 zwischen Lyon und Paris in einen 175 Kilometer langen Parkplatz. Experten vermuten, dass das Guinness-Buch der Rekorde bereits einen Mitarbeiter losgeschickt hat – zu Fuß wäre er vermutlich schneller angekommen.</de>
+				<en>Lyon – Thousands of skiing holidaymakers returning from the Alps turned the A6 motorway between Lyon and Paris into a 175-kilometre car park. Experts suspect that the Guinness Book of Records has already dispatched an employee to verify the record – on foot, he would probably have arrived faster.</en>
+			</description>
+			<data genre="4" price="0.6" quality_min="48" quality_max="70" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="0.7" housewives="1.1" employees="1.3" unemployed="0.9" managers="0.9" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0015" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Rome_Metro">
+			<title>
+				<de>Roms Metro eröffnet – nur 20 Jahre Bauzeit</de>
+				<en>Rome's Metro Opens – Only 20 Years of Construction</en>
+			</title>
+			<description>
+				<de>Rom – Nach 20 Jahren Bauzeit wurde Roms Metro feierlich eingeweiht. Dass es so lange dauerte, liegt weniger an italienischer Bürokratie als an der Stadt selbst: Jedes Mal wenn die Bauarbeiter gruben, stießen sie auf ein weiteres antikes Relikt. Rom hat beschlossen, die Vergangenheit ruhen zu lassen – zumindest auf dieser Strecke.</de>
+				<en>Rome – After 20 years of construction, Rome's metro was officially inaugurated. The delay had less to do with Italian bureaucracy than with the city itself: every time workers dug, they unearthed another ancient relic. Rome has decided to let the past rest – at least along this route.</en>
+			</description>
+			<data genre="4" price="0.5" quality_min="40" quality_max="60" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.4" teenagers="0.5" housewives="0.7" employees="1.2" unemployed="0.7" managers="1.2" pensioners="1.1" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0016" thread_guid="news-stukov-egyptisrael1980" type="2" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_relations">
+			<title>
+				<de>Israel eröffnet Botschaft in Kairo – Geschichte betritt Neuland</de>
+				<en>Israel Opens Embassy in Cairo – History Enters Uncharted Territory</en>
+			</title>
+			<description>
+				<de>Kairo – Israel eröffnete seine erste Botschaft in einem arabischen Land. Der Standort: Kairo. Die arabische Welt reagierte erwartungsgemäß mit Empörung. Ägypten reagierte mit einem Empfang. Beide Seiten schienen gleichermaßen überrascht, dass es so weit gekommen ist.</de>
+				<en>Cairo – Israel opened its first embassy in an Arab country. The location: Cairo. The Arab world reacted with predictable outrage. Egypt responded with a reception. Both sides seemed equally surprised that it had come to this.</en>
+			</description>
+			<data genre="0" price="1.1" quality_min="60" quality_max="75" min_subscription_level="1" available="0" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.6" employees="0.9" unemployed="0.8" managers="1.3" pensioners="1.3" />
+			<availability year_range_from="1980" year_range_to="1980" />
+		</news>
+		<news guid="news-stukov1980Feb_0017" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Oskar_Kokoschka">
+			<title>
+				<de>Oskar Kokoschka gestorben – acht Tage zu früh für 94</de>
+				<en>Oskar Kokoschka Dead – Eight Days Short of 94</en>
+			</title>
+			<description>
+				<de>Montreux – Der österreichische Expressionist Oskar Kokoschka starb mit 93 Jahren in Montreux – acht Tage vor seinem 94. Geburtstag. Er hatte die Nazis überlebt, das Exil in Prag, London und der Schweiz überstanden, und malte bis zuletzt. Die Präzision des Datums hätte ihm als Künstler vermutlich missfallen.</de>
+				<en>Montreux – Austrian expressionist Oskar Kokoschka died in Montreux at the age of 93 – eight days before his 94th birthday. He had survived the Nazis, endured exile in Prague, London and Switzerland, and painted until the end. As an artist, he would probably have objected to such a precise date.</en>
+			</description>
+			<data genre="5" price="0.6" quality_min="45" quality_max="65" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.7" employees="0.6" unemployed="0.5" pensioners="1.4" pensioners_female="1.6" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<news guid="news-stukov1980Feb_0018" type="0" creator="Stukov" created_by="Stukov" comment="https://de.wikipedia.org/wiki/Deutsche_Bundesbank">
+			<title>
+				<de>Bundesbank erhöht Zinsen – Kredite werden teurer</de>
+				<en>Bundesbank Raises Interest Rates – Loans Get More Expensive</en>
+			</title>
+			<description>
+				<de>Frankfurt – Die Bundesbank erhöhte den Diskontsatz von 6 auf 7 Prozent und den Lombardsatz von 7 auf 8,5 Prozent. Ziel: die Kreditnachfrage dämpfen und die Inflation bremsen. Wer gerade einen Kredit beantragt hat, darf die Zahlen jetzt noch einmal nachrechnen – in aller Ruhe, denn er wird eine Weile brauchen.</de>
+				<en>Frankfurt – The Bundesbank raised the discount rate from 6 to 7 percent and the Lombard rate from 7 to 8.5 percent. The aim: to dampen credit demand and curb inflation. Anyone who has just applied for a loan may now wish to recalculate the figures – at leisure, as it will take a while.</en>
+			</description>
+			<data genre="0" price="0.8" quality_min="50" quality_max="70" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="1.1" employees="1.1" unemployed="1.2" managers="1.5" pensioners="1.2" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		<!--  März 1980  -->
+		<news guid="news-stukov1980Mar_0001" type="0" creator="Stukov" created_by="Stukov" comment="Bizarre campus crime story, Southern California universities, March 1980. Perpetrator nicknamed 'Leonardo da Toenail' by police, never caught.">
+			<title>
+				<de>„Leonardo da Toenail": Rätselhafter Zehennagel-Lackierer an Südkaliforniens Unis</de>
+				<en>"Leonardo da Toenail": Mystery Toenail Painter Stalks Southern California Campuses</en>
+			</title>
+			<description>
+				<de>Südkalifornien – Mehrere Studentinnen erstatteten Anzeige: Unbekannte hatten ihnen unbemerkt die Zehennägel lackiert, während sie schliefen oder lasen. Die Polizei taufte den Täter intern „Leonardo da Toenail". Er wurde nie gefasst.</de>
+				<en>Southern California – Several female students filed police reports after an unknown person secretly painted their toenails while they slept or were reading. Police internally nicknamed the culprit "Leonardo da Toenail". He was never caught.</en>
+			</description>
+			<data genre="4" price="0.6" quality_min="15" quality_max="35" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.3" teenagers_male="0.9" teenagers_female="1.6" housewives="1.3" employees_male="0.7" employees_female="1.4" unemployed_male="0.7" unemployed_female="1.3" managers="0.5" pensioners_male="0.6" pensioners_female="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		<news guid="news-stukov1980Mar_0002" type="0" creator="Stukov" created_by="Stukov" comment="UN Security Council Resolution 465, March 1, 1980. First US vote against Israel; Carter reversal two days later as 'communication error'.">
+			<title>
+				<de>UN-Resolution 465: USA stimmen erstmals gegen Israel – dann der Rückzieher</de>
+				<en>UN Resolution 465: US Votes Against Israel for the First Time – Then Backtracks</en>
+			</title>
+			<description>
+				<de>New York – Der UN-Sicherheitsrat fordert einstimmig den Abbau aller israelischen Siedlungen in den besetzten Gebieten. Die USA stimmen erstmals gegen Israel – zwei Tage später erklärt Präsident Carter das Votum zum „Kommunikationsfehler".</de>
+				<en>New York – The UN Security Council unanimously demands the dismantling of all Israeli settlements in the occupied territories. The US votes against Israel for the first time – two days later, President Carter declares the vote a "communication error".</en>
+			</description>
+			<data genre="0" price="1.3" quality_min="65" quality_max="80" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.7" employees="0.9" managers="1.3" pensioners_male="1.3" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		<news guid="news-stukov1980Mar_0003" type="0" creator="Stukov" created_by="Stukov" comment="First human administration of Cyclosporin A, University of Pittsburgh Medical Center, March 1980.">
+			<title>
+				<de>Cyclosporin A: Erstmals am Menschen erprobt</de>
+				<en>Cyclosporin A: Administered to a Human for the First Time</en>
+			</title>
+			<description>
+				<de>Pittsburgh – Erstmals wird das Immunsuppressivum Cyclosporin A einem Menschen verabreicht. Der 28-jährige Patient am University of Pittsburgh Medical Center gilt als Meilenstein – das Medikament könnte die Organtransplantation grundlegend verändern.</de>
+				<en>Pittsburgh – The immunosuppressant Cyclosporin A is administered to a human for the first time. The 28-year-old patient at the University of Pittsburgh Medical Center marks a milestone – the drug could fundamentally transform organ transplantation.</en>
+			</description>
+			<data genre="3" price="0.9" quality_min="55" quality_max="75" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.3" teenagers="0.5" housewives="0.8" employees="0.9" managers="1.2" pensioners_male="1.2" pensioners_female="1.4"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		<news guid="news-stukov1980Mar_0004" thread_guid="news-stukov-mtsthelens" type="0" creator="Stukov" created_by="Stukov" comment="First seismic activity at Mount St. Helens, magnitude 4.2, March 20, 1980.">
+			<title>
+				<de>Mount St. Helens erwacht: Erdbeben erschüttert Vulkan</de>
+				<en>Mount St. Helens Awakens: Earthquake Rattles Volcano</en>
+			</title>
+			<description>
+				<de>Washington – Ein Erdbeben der Stärke 4,2 erschüttert die Nordflanke des Mount St. Helens. Geologen registrieren das Beben als deutliches Zeichen vulkanischer Aktivität – der lange ruhende Berg zeigt erstmals seit Jahrzehnten Lebenszeichen.</de>
+				<en>Washington – A magnitude 4.2 earthquake strikes the northern flank of Mount St. Helens. Geologists register the tremor as a clear sign of volcanic activity – the long-dormant mountain shows signs of life for the first time in decades.</en>
+			</description>
+			<data genre="4" price="0.8" quality_min="45" quality_max="62" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1980Mai_0001" />
+			</effects>
+			<targetgroupattractivity children="0.6" teenagers="0.8" housewives="0.9" managers="0.9" pensioners="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mar_0006" type="0" creator="Stukov" created_by="Stukov" comment="Alexander L. Kielland platform disaster, Ekofisk oil field, March 27, 1980. 123 of 212 killed.">
+			<title>
+				<de>Nordsee-Katastrophe: Ölplattform Alexander L. Kielland kentert – 123 Tote</de>
+				<en>North Sea Disaster: Oil Platform Alexander L. Kielland Capsizes – 123 Dead</en>
+			</title>
+			<description>
+				<de>Nordsee – Die Halbtauchplattform Alexander L. Kielland kentert im Ekofisk-Ölfeld. Ein Ermüdungsbruch lässt ein Standbein brechen, die Plattform kippt in 20 Minuten. 123 der 212 Menschen an Bord sterben. Es ist die schlimmste Katastrophe der norwegischen Offshore-Geschichte.</de>
+				<en>North Sea – The semi-submersible platform Alexander L. Kielland capsizes in the Ekofisk oil field. A fatigue fracture causes one leg to fail; the platform tips within 20 minutes. 123 of the 212 people on board are killed. It is the worst disaster in Norwegian offshore history.</en>
+			</description>
+			<data genre="4" price="1.4" quality_min="75" quality_max="88" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="0.8" housewives="1.1" employees="1.2" unemployed="1.1" managers="1.1" pensioners="1.2"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+
+		<news guid="news-stukov1980Mar_0007" thread_guid="news-stukov-huntbrothers" type="2" creator="Stukov" created_by="Stukov" comment="Silver Thursday, March 27, 1980. Hunt brothers margin call, silver price collapses 50%.">
+			<title>
+				<de>„Silver Thursday": Silberpreis bricht um 50 % ein – Hunt-Brüder ruiniert</de>
+				<en>"Silver Thursday": Silver Price Crashes 50% – Hunt Brothers Ruined</en>
+			</title>
+			<description>
+				<de>New York – Der Silberpreis stürzt von 21 auf 10,80 Dollar pro Unze, nachdem die Hunt-Brüder eine Nachschussforderung von 100 Millionen Dollar nicht bedienen können. Ein Notkredit über 1,1 Milliarden Dollar verhindert eine Kettenreaktion an den Finanzmärkten.</de>
+				<en>New York – Silver crashes from 21 to 10.80 dollars per ounce after the Hunt brothers fail to meet a 100 million dollar margin call. An emergency loan of 1.1 billion dollars prevents a chain reaction across financial markets.</en>
+			</description>
+			<data genre="0" price="1.4" quality_min="70" quality_max="85" min_subscription_level="1" available="0" fictional="0" happen_time="4,1980,3,27" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.6" employees="0.8" unemployed="0.7" managers="1.7" managers_male="1.8" pensioners_male="1.4" pensioners_female="0.8"/>
+		</news>
+		<news guid="news-stukov1980Mar_0008" type="0" creator="Stukov" created_by="Stukov" comment="Alpine Ski World Cup 1979/80 final standings, March 1980. Andreas and Hanni Wenzel (Liechtenstein) both win overall World Cup.">
+			<title>
+				<de>Ski-Weltcup: Wenzels aus Liechtenstein holen beide den Gesamtsieg</de>
+				<en>Ski World Cup: Wenzel Siblings from Liechtenstein Claim Both Overall Titles</en>
+			</title>
+			<description>
+				<de>Österreich – Andreas und Hanni Wenzel aus Liechtenstein gewinnen beide den Gesamtweltcup der Saison 1979/80 – ein einmaliges Geschwisterdoppel in der Skigeschichte. Hanni hatte zuvor in Lake Placid zwei Olympia-Goldmedaillen geholt.</de>
+				<en>Austria – Andreas and Hanni Wenzel of Liechtenstein both claim the overall World Cup title in the 1979/80 season – an unprecedented sibling double in skiing history. Hanni had previously won two Olympic gold medals at Lake Placid.</en>
+			</description>
+			<data genre="2" price="0.9" quality_min="55" quality_max="72" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers_male="1.1" teenagers_female="1.2" housewives="0.9" employees_male="1.2" employees_female="1.1" unemployed="0.8" managers="0.9" pensioners_male="1.2" pensioners_female="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		
+		
+		
+		<!--  Mai 1980  -->
+		<news guid="news-stukov1980Mai_0001" thread_guid="news-stukov-mtsthelens" type="2" creator="Stukov" created_by="Stukov" comment="Eruption of Mount St. Helens, May 18, 1980.">
+			<title>
+				<de>Mount St. Helens explodiert: Größter Vulkanausbruch der US-Geschichte</de>
+				<en>Mount St. Helens Erupts: Largest Volcanic Eruption in US History</en>
+			</title>
+			<description>
+				<de>Washington – Mount St. Helens ist ausgebrochen. Die Explosion schleudert Asche bis in 25 km Höhe, reißt die Nordseite des Berges weg und tötet mindestens 57 Menschen. Die Verwüstung erstreckt sich über hunderte Kilometer.</de>
+				<en>Washington – Mount St. Helens has erupted. The explosion hurls ash 25 kilometres into the sky, blows off the mountain's north face and kills at least 57 people. The devastation spreads across hundreds of kilometres.</en>
+			</description>
+			<data genre="4" price="1.5" quality_min="75" quality_max="90" min_subscription_level="1" available="0" fictional="0" happen_time="4,1980,5,18" flags="14"/>
+			<targetgroupattractivity children="0.7" teenagers="1.1" pensioners="1.1"/>
+		</news>
+		<!--  August 1982  -->
+		<news guid="news-stukov1982Aug_0001" thread_guid="news-stukov-sanchez" type="2" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Salvador_S%C3%A1nchez">
+			<title>
+				<de>Boxweltmeister Sánchez stirbt bei Autounfall – 23 Jahre alt</de>
+				<en>Boxing World Champion Sánchez Dies in Car Crash – Aged 23</en>
+			</title>
+			<description>
+				<de>Querétaro – Salvador Sánchez, amtierender WBC-Weltmeister im Federgewicht, kam in den frühen Morgenstunden bei einem Autounfall ums Leben. Sein Porsche kollidierte auf einer Landstraße mit einem LKW. Sánchez war 23 Jahre alt und hatte seinen Titel zuletzt gegen Azumah Nelson verteidigt.</de>
+				<en>Querétaro – Salvador Sánchez, reigning WBC featherweight world champion, was killed in the early hours of the morning in a car accident. His Porsche collided with a truck on a rural highway. Sánchez was 23 years old and had most recently defended his title against Azumah Nelson.</en>
+			</description>
+			<data genre="2" price="1.0" quality_min="55" quality_max="70" min_subscription_level="1" available="0" fictional="0" happen_time="4,1982,8,12" flags="2"/>
+			<targetgroupattractivity children="0.4" teenagers_male="1.3" teenagers_female="0.6" housewives="0.6" employees_male="1.4" employees_female="0.7" unemployed_male="1.2" unemployed_female="0.5" managers="0.8" pensioners_male="1.5" pensioners_female="0.5" />
+		</news>
+		
+		
+	</allnews>
+</tvtdb>
