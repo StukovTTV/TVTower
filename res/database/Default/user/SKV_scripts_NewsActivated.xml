@@ -31,4 +31,38 @@
       </programme_data_modifiers>
       <availability year_range_from="2014" year_range_to="-1" />
    </scripttemplate>
+   
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-sartre-passion" 
+   creator="Stukov" created_by="Stukov" 
+   imdb_id="tt0922597"
+   comment="Sartre – Jahre der Leidenschaft (Sartre, l'âge des passions, 2006), Regie Claude Goretta. Zweiteiliges französisches TV-Biopic über Jean-Paul Sartre und Simone de Beauvoir, ihre offene Beziehung, politisches Engagement und die Jahre vor Mai 68. Aktiviert durch news-stukov1980Apr_0011 (Sartres Tod, April 1980).">
+   <title>
+      <de>Sartre – Jahre der Leidenschaft</de>
+      <en>Sartre – Years of Passion</en>
+   </title>
+   <description>
+      <de>Jean-Paul Sartre und Simone de Beauvoir: Philosophie, Politik und eine offene Beziehung, die die 1960er Jahre prägte. Er lehnte den Nobelpreis ab. Sie ertrug seine Affären. Beide veränderten die Welt – auf ihre Weise.</de>
+      <en>Jean-Paul Sartre and Simone de Beauvoir: philosophy, politics and an open relationship that shaped the 1960s. He turned down the Nobel Prize. She endured his affairs. Both changed the world – in their own way.</en>
+   </description>
+   <jobs>
+      <job index="0" function="1" required="1" />
+      <job index="1" function="2" required="1" gender="1" />
+      <job index="2" function="2" required="1" gender="2" />
+      <job index="3" function="2" required="0" />
+   </jobs>
+   <genres maingenre="7" subgenres="11,15" />
+   <blocks min="3" max="4" slope="60" />
+   <price min="80000" max="130000" slope="45" />
+   <potential min="55" max="75" slope="50" />
+   <outcome min="35" max="55" slope="40" />
+   <review min="65" max="85" slope="55" />
+   <speed min="15" max="35" slope="40" />
+   <data available="0" scriptflags="1" production_limit="1" flags_optional="4" target_groups="40" />
+   <targetgroupattractivity children="0.1" teenagers="0.6" managers="1.4" pensioners="1.3" />
+   <programme_data_modifiers>
+      <modifier name="topicality::age" value="0.7" />      
+   </programme_data_modifiers>
+   <availability year_range_from="2006" year_range_to="-1" />
+</scripttemplate>
+
 </tvtdb>
