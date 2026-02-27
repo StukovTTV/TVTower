@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tvtdb>
+   <version value="3" comment="script data" />
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-foxcatcher" creator="Stukov" created_by="Stukov" comment="Foxcatcher (2014), directed by Bennett Miller, starring Steve Carell as John du Pont. Based on true events: du Pont buys world's most expensive stamp in 1980, becomes wrestling patron, murders Olympic champion Dave Schultz in 1996. Activated by du Pont arc news chain (1996/1997/2010), ultimately triggered by news-stukov1980Apr_0008.">
+      <title>
+         <de>Foxcatcher</de>
+         <en>Foxcatcher</en>
+      </title>
+      <description>
+         <de>Der steinreiche Erbe John du Pont lädt Olympiasieger-Brüder auf sein Anwesen ein, um ein Wrestlingteam für die Olympischen Spiele aufzubauen. Was als großzügige Förderung beginnt, endet in Paranoia, Kontrolle und Mord. Basierend auf einer wahren Geschichte.</de>
+         <en>Wealthy heir John du Pont invites Olympic champion brothers to his estate to build a wrestling team for the Olympics. What begins as generous patronage ends in paranoia, control and murder. Based on a true story.</en>
+      </description>
+      <jobs>
+         <job index="0" function="1" required="1" />
+         <job index="1" function="2" required="1" gender="1" />
+         <job index="2" function="2" required="1" gender="1" />
+         <job index="3" function="2" required="0" gender="2" />
+      </jobs>
+      <genres maingenre="7" subgenres="17" />
+      <blocks value="2" />
+      <price min="180000" max="280000" slope="40" />
+      <potential min="65" max="85" slope="45" />
+      <outcome min="55" max="75" slope="40" />
+      <review min="70" max="90" slope="55" />
+      <speed min="25" max="45" slope="50" />
+      <data available="0" scriptflags="1" production_limit="1" flags_optional="64" target_groups="40" target_groups_optional="2" />
+      <targetgroupattractivity children="0.1" teenagers="0.8" managers="1.2" pensioners="0.7" />
+      <programme_data_modifiers>
+         <modifier name="topicality::age" value="0.8" />
+         <modifier name="topicality::firstBroadcastDone" value="0.15" />
+      </programme_data_modifiers>
+      <availability year_range_from="2014" year_range_to="-1" />
+   </scripttemplate>
+</tvtdb>

@@ -55,7 +55,7 @@
 			</description>
 			<data genre="0" price="0.7" quality_min="55" quality_max="70" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>			
 			<targetgroupattractivity children="0.2" teenagers="0.5" teenagers_male="0.3" housewives="1.5" employees="0.8" unemployed_female="1.2" unemployed_male="0.6" managers="0.8" pensioners_female="1.8" pensioners_male="1.1" />
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0002" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -68,7 +68,7 @@
 			</description>
 			<data genre="0" price="0.6" quality_min="45" quality_max="60" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>			
 			<targetgroupattractivity children="0.1" teenagers_male="0.5" teenagers_female="0.3" housewives="0.5" employees="0.9" employees_male="1.1"  unemployed="0.7" managers_male="1.5" managers_female="1.2" pensioners_male="1.4" pensioners_female="1.0"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0003" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -81,7 +81,7 @@
 			</description>
 			<data genre="3" price="0.4" quality_min="30" quality_max="50" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.1" teenagers_male="0.8" teenagers_female="0.3" housewives="0.3" employees_female="0.6" unemployed_female="0.6" managers_male="1.3" managers_female="0.9" pensioners_male="0.9" pensioners_female="0.6"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0004" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -94,7 +94,7 @@
 			</description>
 			<data genre="4" price="0.8" quality_min="50" quality_max="70" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="1.5" teenagers="1.4" housewives="0.8" employees="0.9" unemployed="0.8" pensioners="0.7"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0005" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -107,7 +107,7 @@
 			</description>
 			<data genre="0" price="1.4" quality_min="55" quality_max="82" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.7" employees_male="1.5" employees_female="1.1" unemployed="1.4" managers_male="1.3" managers_female="1.1" pensioners="0.8" />
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0006" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -120,7 +120,7 @@
 			</description>
 			<data genre="0" price="0.9" quality_min="42" quality_max="67" min_subscription_level="1" available="2" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.6" managers="1.2" pensioners_male="1.2" pensioners_female="0.8"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0007" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -137,7 +137,7 @@
 				<effect trigger="broadcastFirstTime" type="ModifyMovieGenrePopularity" genre="202" valueMin="0.05" valueMax="0.10" />
 			</effects>
 			<targetgroupattractivity children="0.8" teenagers_male="1.5" teenagers_female="1.7" housewives="0.5" unemployed="1.2" managers="0.5" pensioners="0.3"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0008" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -150,7 +150,7 @@
 			</description>
 			<data genre="0" price="0.8" quality_min="53" quality_max="68" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.6" employees_male="1.3" employees_female="0.8" unemployed="1.2" managers="1.4" pensioners_male="1.2" pensioners_female="0.7"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0009" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -163,7 +163,7 @@
 			</description>
 			<data genre="0" price="0.9" quality_min="60" quality_max="79" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.7" unemployed="0.7" managers="1.5" pensioners_male="1.3" pensioners_female="1.1"/>
-			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"month"}:1}' />
+			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
 		</news>
 		<news guid="news-stukov1980Jan_0010" thread_guid="news-stukov-huntbrothers" type="0" creator="Stukov" created_by="Stukov" comment="">
 			<title>
@@ -239,20 +239,7 @@
 			<data genre="0" price="0.9" quality_min="55" quality_max="80" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.7" employees="1.1" unemployed="0.9" managers="1.3" pensioners="1.2" />
 			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
-		</news>
-		<news guid="news-stukov1980Feb_0005" type="0" creator="Stukov" created_by="Stukov" comment="">
-			<title>
-				<de>Norddeutschland: Hochwasser legt Schifffahrt lahm</de>
-				<en>Northern Germany: Floods Bring Shipping to a Standstill</en>
-			</title>
-			<description>
-				<de>Hamburg – Schwere Überschwemmungen in Norddeutschland zwingen zur Einstellung der Schifffahrt auf fast allen Flüssen. Die Bevölkerung reagiert mit norddeutscher Gelassenheit: Gummistiefel raus, Augen verdrehen, weitermachen.</de>
-				<en>Hamburg – Severe flooding in northern Germany has forced the suspension of shipping on almost all rivers. The local population responds with characteristic northern German composure: rubber boots out, eyes rolled, carry on.</en>
-			</description>
-			<data genre="4" price="0.3" quality_min="20" quality_max="55" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
-			<targetgroupattractivity children="0.5" teenagers="0.6" housewives="0.9" employees="1.1" unemployed="1.0" managers="1.1" pensioners="1.1" />
-			<availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
-		</news>
+		</news>		
 		<news guid="news-stukov1980Feb_0006" thread_guid="news-stukov-egyptisrael1980" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_relations">
 			<title>
 				<de>Ägypten an Israel: „Wir boykottieren euch nicht mehr – war eh keine gute Idee"</de>
@@ -524,10 +511,135 @@
 			<targetgroupattractivity children="0.5" teenagers_male="1.1" teenagers_female="1.2" housewives="0.9" employees_male="1.2" employees_female="1.1" unemployed="0.8" managers="0.9" pensioners_male="1.2" pensioners_female="1.1"/>
 			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
 		</news>
+		<!--  April 1980  -->
+		<news guid="news-stukov1980Apr_0001" thread_guid="news-stukov-windfalltax" type="0" creator="Stukov" created_by="Stukov" comment="Crude Oil Windfall Profit Tax Act signed April 2, 1980 by President Carter.">
+			<title>
+				<de>Carter unterzeichnet Ölsteuergesetz – Milliarden für den Staat geplant</de>
+				<en>Carter Signs Oil Windfall Tax – Billions in Revenue Expected</en>
+			</title>
+			<description>
+				<de>Washington – Präsident Carter unterzeichnet den Crude Oil Windfall Profit Tax Act. Das Gesetz soll übermäßige Gewinne der Ölindustrie abschöpfen – Projektionen versprechen 175 Milliarden Dollar. Kritiker bezweifeln, ob der Name hält, was er verspricht: Es handelt sich um eine Verbrauchssteuer, nicht um eine Gewinnsteuer.</de>
+				<en>Washington – President Carter signs the Crude Oil Windfall Profit Tax Act. The law aims to recoup excess profits from the oil industry – projections promise 175 billion dollars in revenue. Critics question whether the name holds up: it is an excise tax, not a profits tax.</en>
+			</description>
+			<data genre="0" price="1.1" quality_min="55" quality_max="72" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1981Jan_0001" />
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1988Aug_0001" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.7" employees="1.0" unemployed="0.9" managers="1.5" pensioners_male="1.3" pensioners_female="0.9"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
 		
+		<news guid="news-stukov1980Apr_0002" type="0" creator="Stukov" created_by="Stukov" comment="Kosmos 1171 Soviet ASAT target satellite launched April 3, 1980. Three intercept attempts by Kosmos 1174 on April 18-20 all failed. Largely classified, only known to Western intelligence and specialist publications at the time. Wide quality range intentional: depending on geopolitical climate, this story either goes unnoticed or causes minor diplomatic ripples.">
+			<title>
+				<de>Kosmos 1171: Sowjets schießen dreimal daneben – und schweigen eisern</de>
+				<en>Kosmos 1171: Soviets Miss Three Times – And Say Absolutely Nothing</en>
+			</title>
+			<description>
+				<de>Plesetsk – Die Sowjetunion testete ihr Anti-Satelliten-Programm mit dem Zielsatelliten Kosmos 1171. Drei Abfangversuche, drei Fehlschüsse. Westliche Geheimdienste verfolgten das Spektakel in Echtzeit. Moskau teilte mit: nichts.</de>
+				<en>Plesetsk – The Soviet Union tested its anti-satellite programme using target satellite Kosmos 1171. Three intercept attempts, three misses. Western intelligence watched the spectacle in real time. Moscow's official comment: silence.</en>
+			</description>
+			<data genre="3" price="1.2" quality_min="25" quality_max="65" min_subscription_level="3" available="1" fictional="0" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers_male="0.7" teenagers_female="0.2" housewives="0.2" employees_male="0.8" employees_female="0.3" unemployed_male="0.8" unemployed_female="0.3" managers_male="1.3" managers_female="0.6" pensioners_male="1.2" pensioners_female="0.3"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
 		
+		<news guid="news-stukov1980Apr_0003" type="0" creator="Stukov" created_by="Stukov" comment="Viking 2 lander officially declared dead by JPL, April, 1980. Battery failure after 1,316 days on Mars. Viking 1 continued operating until 1982.">
+			<title>
+				<de>Viking 2: Nach 1.316 Tagen auf dem Mars stirbt der Akku – und niemanden juckt's</de>
+				<en>Viking 2: After 1,316 Days on Mars, the Battery Dies – And Nobody Cares</en>
+			</title>
+			<description>
+				<de>Pasadena – Das Jet Propulsion Laboratory gibt das endgültige Ende des Mars-Landers Viking 2 bekannt. Nach dreieinhalb Jahren auf dem Mars versagte die Batterie. Viking 1 läuft derweil weiter. Die Menschheit schaut woanders hin.</de>
+				<en>Pasadena – The Jet Propulsion Laboratory announces the definitive end of Mars lander Viking 2. After three and a half years on Mars, the battery gave out. Viking 1 keeps going. Humanity is looking elsewhere.</en>
+			</description>
+			<data genre="3" price="0.8" quality_min="40" quality_max="58" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="1.0" housewives="0.6" employees="1.1" unemployed="0.9" managers="1.1" pensioners="1.2"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
 		
+		<news guid="news-stukov1980Apr_0004" thread_guid="news-stukov-ARM" type="0" creator="Stukov" created_by="Stukov" comment="Federal Home Loan Bank Board approves adjustable-rate mortgages (ARMs) on April 3, 1980, amid record interest rates of 20%. First step in a deregulatory chain that eventually contributed to the S&L crisis and the 2008 subprime collapse.">
+			<title>
+				<de>Variable Hypotheken genehmigt: Banken dürfen jetzt mitspielen</de>
+				<en>Adjustable Mortgages Approved: Banks Now Get to Play Along</en>
+			</title>
+			<description>
+				<de>Washington – Der Federal Home Loan Bank Board genehmigt variable Hypotheken als Antwort auf Rekord-Leitzinsen von 20 Prozent. Hauskäufer dürfen künftig Kredite aufnehmen, deren Zinsen sich dem Markt anpassen. Was könnte da schon schiefgehen?</de>
+				<en>Washington – The Federal Home Loan Bank Board approves adjustable-rate mortgages in response to record interest rates of 20 percent. Homebuyers may now take out loans whose interest rates adjust to the market. What could possibly go wrong?</en>
+			</description>
+			<data genre="0" price="0.9" quality_min="45" quality_max="62" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1981Apr_0001" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="1.2" employees="1.1" unemployed="1.0" managers="1.4" pensioners="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
 		
+		<news guid="news-stukov1980Apr_0005" type="0" creator="Stukov" created_by="Stukov" comment="Earth First! founded April 4, 1980 by Dave Foreman and four others during a road trip through the Mexican desert. Radical environmental group, known for tree spiking and sabotage. High manager attractivity intentional: conservative audiences follow this story with outrage rather than sympathy.">
+			<title>
+				<de>Earth First! gegründet: Radikale Umweltschützer starten im Auto</de>
+				<en>Earth First! Founded: Radical Environmentalists Start in a Car</en>
+			</title>
+			<description>
+				<de>Mexikanische Wüste – Dave Foreman und vier Mitstreiter gründen die radikale Umweltschutzgruppe Earth First! – während einer Autofahrt. Kein Büro, kein Budget, kein Plan. Nur Wüste, ein Auto und die feste Überzeugung, dass Bäume wichtiger sind als Menschen.</de>
+				<en>Mexican Desert – Dave Foreman and four companions found the radical environmental group Earth First! – during a road trip. No office, no budget, no plan. Just desert, a car, and the firm conviction that trees matter more than people.</en>
+			</description>
+			<data genre="4" price="0.3" quality_min="25" quality_max="50" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.3" teenagers="1.4" housewives="0.6" employees="1.1" unemployed="1.2" managers="1.3" pensioners="0.5"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Apr_0006" type="0" creator="Stukov" created_by="Stukov" comment="Post-it Notes go on sale in the US on April 6, 1980. Developed by 3M over 12 years after Spencer Silver accidentally created a weak adhesive in 1968. Initially called 'Press 'n Peel', rebranded Post-it 1980.">
+			<title>
+				<de>Post-it: 12 Jahre Entwicklung für einen Zettel, der nicht richtig klebt</de>
+				<en>Post-it: 12 Years of Development for a Note That Doesn't Stick Properly</en>
+			</title>
+			<description>
+				<de>Saint Paul – 3M bringt Post-it Notes in den US-Handel. Der Klebstoff wurde 1968 versehentlich erfunden – zu schwach für irgendetwas Sinnvolles, zu gut um ihn wegzuwerfen. Zwölf Jahre später klebt er auf jedem Schreibtisch der Welt. Die Wissenschaft nennt das Innovation.</de>
+				<en>Saint Paul – 3M launches Post-it Notes in the US. The adhesive was accidentally invented in 1968 – too weak for anything useful, too good to throw away. Twelve years later it's on every desk in the world. Science calls this innovation.</en>
+			</description>
+			<data genre="3" price="0.7" quality_min="50" quality_max="72" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="1.02" teenagers="1.2" employees="1.1" unemployed="0.8" managers="1.4" pensioners="0.7"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Apr_0007" thread_guid="news-stukov-sommerzeit" type="0" creator="Stukov" created_by="Stukov" comment="First simultaneous daylight saving time in both German states on April 6, 1980. DDR surprised the West by announcing it in late 1979. Schmidt personally negotiated with Honecker to avoid a 'time wall'. Bundesbahn had to reprint timetables at a cost of 50 million DM.">
+			<title>
+				<de>Sommerzeit: DDR überrumpelt den Westen – Bundesbahn druckt für 50 Millionen neue Fahrpläne</de>
+				<en>Daylight Saving: East Germany Ambushes the West – Federal Railway Reprints Timetables for 50 Million Marks</en>
+			</title>
+			<description>
+				<de>Berlin – Erstmals seit dem Zweiten Weltkrieg stellen BRD und DDR die Uhren gleichzeitig um. Die DDR hatte die Einführung überraschend angekündigt – Bonn musste in aller Eile nachziehen, damit Berlin nicht auch zeitlich geteilt wird. Helmut Schmidt hatte Honecker persönlich überzeugt. Die Bundesbahn druckte Zehntausende Fahrpläne neu. Für 50 Millionen D-Mark.</de>
+				<en>Berlin – For the first time since World War II, West and East Germany set their clocks forward simultaneously. East Germany had announced the change without warning – Bonn scrambled to follow so Berlin would not be divided by time as well. Helmut Schmidt had personally convinced Honecker. The Federal Railway reprinted tens of thousands of timetables. For 50 million deutschmarks.</en>
+			</description>
+			<data genre="0" price="0.6" quality_min="40" quality_max="58" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1980Dez_0001" />
+			</effects>
+			<targetgroupattractivity children="0.5" teenagers="0.7" housewives="1.1" employees="1.2" unemployed="1.0" managers="1.2" pensioners="1.3"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Apr_0008" type="0" creator="Stukov" created_by="Stukov"
+			comment="5. April 1980: British Guiana 1c Magenta für 935.000 USD bei Robert A. Siegel Auction Galleries versteigert. Käufer anonym – später als John du Pont identifiziert. Startet Arc: Mord 1996 (news-stukov1996Jan_0001) und Briefmarkenauktion 2014 (news-stukov2014Jun_0001). TODO: Achievement für alle fünf Arc-Nachrichten wenn BroadcastNewsShow-Typ erweitert wird.">
+			<title>
+				<de>Rekordpreis: Anonymer Käufer zahlt fast eine Million für eine Briefmarke</de>
+				<en>Record Price: Anonymous Buyer Pays Almost a Million for a Single Stamp</en>
+			</title>
+			<description>
+				<de>New York – Bei einer Auktion der Robert A. Siegel Auction Galleries wechselt die British Guiana 1c Magenta für 935.000 Dollar den Besitzer – ein neuer Weltrekord für eine einzelne Briefmarke. Der Käufer bleibt anonym. Für eine Marke, die nie hätte frankiert werden sollen, ist das ein beachtlicher Preis. Für den Verkäufer, der sie 1970 für 280.000 Dollar erworben hatte, ist es schlicht ein guter Tag.</de>
+				<en>New York – At an auction held by Robert A. Siegel Auction Galleries, the British Guiana 1c Magenta changes hands for 935,000 dollars – a new world record for a single postage stamp. The buyer remains anonymous. For a stamp that was never meant to be used as postage, that is a remarkable price. For the seller, who acquired it in 1970 for 280,000 dollars, it is simply a good day.</en>
+			</description>
+			<data genre="4" price="0.6" quality_min="30" quality_max="55" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,1996,1,26" news="news-stukov1996Jan_0001" />
+				<effect trigger="happen" type="triggernews" time="4,2014,6,17" news="news-stukov2014Jun_0001" />
+			</effects>
+			<targetgroupattractivity children="1.15" teenagers="1.15" managers="1.4" pensioners="1.5" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+
+
 		<!--  Mai 1980  -->
 		<news guid="news-stukov1980Mai_0001" thread_guid="news-stukov-mtsthelens" type="2" creator="Stukov" created_by="Stukov" comment="Eruption of Mount St. Helens, May 18, 1980.">
 			<title>
@@ -541,6 +653,52 @@
 			<data genre="4" price="1.5" quality_min="75" quality_max="90" min_subscription_level="1" available="0" fictional="0" happen_time="4,1980,5,18" flags="14"/>
 			<targetgroupattractivity children="0.7" teenagers="1.1" pensioners="1.1"/>
 		</news>
+		
+		<!-- Dezember 1980 -->		
+		<news guid="news-stukov1980Dez_0001" thread_guid="news-stukov-sommerzeit" type="2" creator="Stukov" created_by="Stukov" comment="DDR announced in October 1980 it wanted to abolish daylight saving after one year. West Germany refused. DDR backed down in December 1980, citing practical reasons including S-Bahn schedules in Berlin and pressure from Poland and Czechoslovakia.">
+			<title>
+				<de>DDR zur Sommerzeit: Experiment gescheitert – ach nein, doch nicht</de>
+				<en>East Germany on Daylight Saving: Experiment Failed – Oh Wait, Never Mind</en>
+			</title>
+			<description>
+				<de>Ost-Berlin – Die DDR erklärte die Sommerzeit im Oktober für gescheitert und wollte sie abschaffen. Die BRD blieb hart. Polen und die ČSSR auch. Im Dezember ruderte die DDR zurück. Offizielle Begründung: handfeste praktische Gründe. Inoffizielle Begründung: Gesichtsverlust war billiger als Zeitchaos.</de>
+				<en>East Berlin – In October, East Germany declared daylight saving a failure and wanted to abolish it. West Germany held firm. So did Poland and Czechoslovakia. In December, East Germany backed down. Official reason: practical considerations. Unofficial reason: losing face was cheaper than time chaos.</en>
+			</description>
+			<data genre="0" price="0.4" quality_min="35" quality_max="45" min_subscription_level="1" available="0" fictional="0" happen_time="4,1980,12,1" flags="2"/>
+			<targetgroupattractivity children="0.4" teenagers="0.6" housewives="1.0" employees="1.1" unemployed="0.9" managers="1.1" pensioners="1.2"/>
+		</news>
+		
+		<!-- Januar 1981 -->
+		<news guid="news-stukov1981Jan_0001" thread_guid="news-stukov-windfalltax" type="2" creator="Stukov" created_by="Stukov" comment="Reagan repeals oil price controls January 28, 1981, effectively gutting the Windfall Profit Tax.">
+			<title>
+				<de>Reagan hebt Ölpreiskontrollen auf – Windfall-Steuer wird zahnlos</de>
+				<en>Reagan Lifts Oil Price Controls – Windfall Tax Loses Its Bite</en>
+			</title>
+			<description>
+				<de>Washington – Eines seiner ersten Amtshandlungen: Präsident Reagan hebt die staatlichen Ölpreiskontrollen auf. Da die Windfall-Steuer auf der Differenz zwischen Markt- und Basispreis basiert, verliert sie mit sinkenden Preisen zunehmend ihre Wirkung.</de>
+				<en>Washington – One of his first acts in office: President Reagan lifts federal oil price controls. Since the windfall tax is based on the difference between market and base price, it loses its effect as prices decline.</en>
+			</description>
+			<data genre="0" price="1.0" quality_min="50" quality_max="65" min_subscription_level="1" available="0" fictional="0" happen_time="4,1981,1,28" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.7" employees="1.0" unemployed="0.9" managers="1.5" pensioners_male="1.3" pensioners_female="0.9"/>
+		</news>
+		
+		<!-- April 1981 -->
+		<news guid="news-stukov1981Apr_0001" thread_guid="news-stukov-ARM" type="2" creator="Stukov" created_by="Stukov" comment="FHLBB fully deregulates ARMs on April 3, 1981, removing most restrictions. ARM share of mortgage originations reaches 40% within months. Date set to April 3 to avoid April Fools' Day misreading.">
+			<title>
+				<de>Variable Hypotheken: Jetzt aber richtig – alle Schranken fallen</de>
+				<en>Adjustable Mortgages: Now Fully Unleashed – All Limits Removed</en>
+			</title>
+			<description>
+				<de>Washington – Der Federal Home Loan Bank Board hebt nahezu alle Beschränkungen für variable Hypotheken auf. Innerhalb von Monaten machen ARMs 40 Prozent aller neuen Hypotheken aus. Die Finanzbranche ist begeistert. Die Regulierer auch.</de>
+				<en>Washington – The Federal Home Loan Bank Board removes nearly all restrictions on adjustable-rate mortgages. Within months, ARMs account for 40 percent of all new mortgages. The financial industry is thrilled. So are the regulators.</en>
+			</description>
+			<data genre="0" price="0.8" quality_min="40" quality_max="58" min_subscription_level="2" available="0" fictional="0" happen_time="4,1981,4,3" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1989Aug_0001" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="1.2" employees="1.1" unemployed="1.0" managers="1.4" pensioners="1.1"/>
+		</news>
+		
 		<!--  August 1982  -->
 		<news guid="news-stukov1982Aug_0001" thread_guid="news-stukov-sanchez" type="2" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Salvador_S%C3%A1nchez">
 			<title>
@@ -553,6 +711,129 @@
 			</description>
 			<data genre="2" price="1.0" quality_min="55" quality_max="70" min_subscription_level="1" available="0" fictional="0" happen_time="4,1982,8,12" flags="2"/>
 			<targetgroupattractivity children="0.4" teenagers_male="1.3" teenagers_female="0.6" housewives="0.6" employees_male="1.4" employees_female="0.7" unemployed_male="1.2" unemployed_female="0.5" managers="0.8" pensioners_male="1.5" pensioners_female="0.5" />
+		</news>
+		
+		<!-- August 1988 -->
+		<news guid="news-stukov1988Aug_0001" thread_guid="news-stukov-windfalltax" type="2" creator="Stukov" created_by="Stukov" comment="Crude Oil Windfall Profit Tax repealed August 1988. Generated only ~40 billion of projected 175 billion.">
+			<title>
+				<de>Carters Ölsteuer abgeschafft – nur 40 statt 175 Milliarden eingenommen</de>
+				<en>Carter's Oil Tax Repealed – Only 40 of Projected 175 Billion Raised</en>
+			</title>
+			<description>
+				<de>Washington – Der Kongress schafft die Windfall Profit Tax ab. In acht Jahren brachte das Gesetz nur rund 40 Milliarden Dollar – ein Viertel der Projektionen. Ökonomen kritisieren zudem, dass es die Abhängigkeit von importiertem Öl verschlimmert hatte.</de>
+				<en>Washington – Congress repeals the Windfall Profit Tax. In eight years the law raised only around 40 billion dollars – a quarter of projections. Economists also criticise that it had worsened dependence on imported oil.</en>
+			</description>
+			<data genre="0" price="0.8" quality_min="45" quality_max="60" min_subscription_level="2" available="0" fictional="0" happen_time="4,1988,8,23" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.6" employees="0.9" unemployed="0.8" managers="1.5" pensioners_male="1.3" pensioners_female="0.8"/>
+		</news>
+		
+		<!-- August 1989 -->
+		<news guid="news-stukov1989Aug_0001" thread_guid="news-stukov-ARM" type="2" creator="Stukov" created_by="Stukov" comment="FIRREA signed August 9, 1989 by President George H.W. Bush. $150 billion S&L bailout. The FHLBB – the very agency that approved ARMs – is abolished.">
+			<title>
+				<de>S&amp;L-Krise: 150 Milliarden Dollar – und die Behörde, die alles startete, wird aufgelöst</de>
+				<en>S&amp;L Crisis: $150 Billion Bailout – And the Agency That Started It All Gets Abolished</en>
+			</title>
+			<description>
+				<de>Washington – Präsident Bush unterzeichnet FIRREA: 150 Milliarden Dollar Steuergelder zur Rettung kollabierter Sparkassen. Über 1.000 Institute sind pleite. Der Federal Home Loan Bank Board – jene Behörde, die einst variable Hypotheken genehmigt hatte – wird abgewickelt. Konsequent.</de>
+				<en>Washington – President Bush signs FIRREA: 150 billion dollars in taxpayer money to rescue collapsed savings and loans. Over 1,000 institutions have failed. The Federal Home Loan Bank Board – the agency that once approved adjustable-rate mortgages – is abolished. Tidy.</en>
+			</description>
+			<data genre="0" price="1.3" quality_min="65" quality_max="80" min_subscription_level="1" available="0" fictional="0" happen_time="4,1989,8,9" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov2008Sep_0001" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="1.1" employees="1.2" unemployed="1.3" managers="1.5" pensioners="1.2"/>
+		</news>
+		
+		<!-- Jänner 1996 -->
+		<news guid="news-stukov1996Jan_0001" type="0" creator="Stukov" created_by="Stukov"
+		comment="26. Januar 1996: John du Pont erschießt Olympiasieger Dave Schultz auf Foxcatcher Farm, Newtown Square PA. Zweitägige Belagerung, Verhaftung 28. Januar. Teil des du-Pont-Arcs.">
+			<title>
+				<de>Milliardär erschießt Olympiasieger auf eigenem Anwesen</de>
+				<en>Billionaire Shoots Olympic Champion on His Own Estate</en>
+			</title>
+			<description>
+				<de>Newtown Square – Chemie-Erbe John du Pont erschoss Olympiasieger Dave Schultz auf seinem Anwesen – in der Einfahrt, vor dessen Frau, ohne Grund. Anschließend zog er sich ins Herrenhaus zurück. Die Polizei wartet draußen.</de>
+				<en>Newtown Square – Chemical heir John du Pont shot Olympic champion Dave Schultz on his estate – in the driveway, in front of his wife, for no apparent reason. He then retreated to his mansion. Police are waiting outside.</en>
+			</description>
+			<data genre="4" price="0.9" quality_min="55" quality_max="78" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,1997,2,25" news="news-stukov1997Feb_0001" />
+				<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" probability="60" guid="scripttemplate-stukov-foxcatcher" />
+			</effects>
+			<targetgroupattractivity children="0.4" teenagers="1.2" unemployed="1.2" pensioners="1.2" />
+			<availability year_range_from="1996" year_range_to="1996" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		
+		<!-- Februar 1997 -->
+		
+		<news guid="news-stukov1997Feb_0001" type="0" creator="Stukov" created_by="Stukov"
+		comment="25. Februar 1997: Urteil gegen John du Pont – schuldig aber geisteskrank, Mord dritten Grades. 13-30 Jahre Haft. Delaware County Courthouse, Media PA. Teil des du-Pont-Arcs.">
+			<title>
+				<de>Du Pont schuldig aber geisteskrank – 13 bis 30 Jahre Haft</de>
+				<en>Du Pont Guilty but Mentally Ill – 13 to 30 Years in Prison</en>
+			</title>
+			<description>
+				<de>Media – Schuldig, aber geisteskrank. Nach sieben Tagen Beratung: 13 bis 30 Jahre für John du Pont. Er hatte einen Olympiasieger erschossen und behauptet, der Dalai Lama zu sein. Das amerikanische Rechtssystem hat schon Schlimmeres erlebt.</de>
+				<en>Media – Guilty, but mentally ill. After seven days: 13 to 30 years for John du Pont. He shot an Olympic champion and claimed to be the Dalai Lama. The American justice system has seen worse.</en>
+			</description>
+			<data genre="4" price="0.8" quality_min="55" quality_max="75" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,2010,12,9" news="news-stukov2010Dez_0001" />
+				<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" probability="80" guid="scripttemplate-stukov-foxcatcher" />
+			</effects>
+			<targetgroupattractivity children="0.3" unemployed="1.2" pensioners="1.2" />
+			<availability year_range_from="1997" year_range_to="1997" script='${.lte:${.worldtime:"month"}:3}' />
+		</news>
+		
+		<!-- September 2008 -->
+		<news guid="news-stukov2008Sep_0001" thread_guid="news-stukov-ARM" type="2" creator="Stukov" created_by="Stukov" comment="Lehman Brothers files for bankruptcy September 15, 2008 – $619 billion debt, largest in US history. Climax of subprime mortgage crisis. 80% of toxic subprime loans were ARMs. End of the ARM deregulation story arc.">
+			<title>
+				<de>Lehman Brothers pleite: Der variable Zins holt sich, was ihm versprochen wurde</de>
+				<en>Lehman Brothers Bankrupt: The Adjustable Rate Collects What It Was Promised</en>
+			</title>
+			<description>
+				<de>New York – Lehman Brothers meldet Insolvenz an – 619 Milliarden Dollar Schulden, die größte Pleite der US-Geschichte. 80 Prozent der faulen Subprime-Kredite waren variable Hypotheken. Was 1980 als clevere Lösung für hohe Zinsen begann, endet als globale Finanzkrise.</de>
+				<en>New York – Lehman Brothers files for bankruptcy – $619 billion in debt, the largest in US history. 80 percent of toxic subprime loans were adjustable-rate mortgages. What began in 1980 as a clever fix for high interest rates ends as a global financial crisis.</en>
+			</description>
+			<data genre="0" price="1.8" quality_min="85" quality_max="97" min_subscription_level="1" available="0" fictional="0" happen_time="4,2008,9,15" flags="14"/>
+			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="1.2" employees="1.3" unemployed="1.5" managers="1.5" pensioners="1.3"/>
+		</news>
+		
+		<!-- Dezember 2010 -->
+		
+		<news guid="news-stukov2010Dez_0001" type="0" creator="Stukov" created_by="Stukov"
+		comment="9. Dezember 2010: John du Pont stirbt in SCI Laurel Highlands, Somerset PA, an COPD. 72 Jahre alt. Teil des du-Pont-Arcs.">
+			<title>
+				<de>John du Pont stirbt im Gefängnis – Millionen, Mord, Ende</de>
+				<en>John du Pont Dies in Prison – Millions, Murder, End</en>
+			</title>
+			<description>
+				<de>Somerset – John du Pont, Chemie-Erbe, Briefmarkenrekordkäufer und verurteilter Mörder, starb heute in Haft an einer Lungenerkrankung. 72 Jahre alt. Die teuerste Briefmarke der Welt überlebte ihren Besitzer.</de>
+				<en>Somerset – John du Pont, chemical heir, record stamp buyer and convicted murderer, died today in prison from a lung disease. Age 72. The world's most expensive stamp outlived its owner.</en>
+			</description>
+			<data genre="4" price="0.5" quality_min="40" quality_max="62" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<effects>
+				<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="scripttemplate-stukov-foxcatcher" />
+			</effects>
+			<targetgroupattractivity children="0.3" pensioners="1.1" />
+			<availability year_range_from="2010" year_range_to="2010" script='${.gte:${.worldtime:"month"}:10}' />
+		</news>
+		
+		<!-- Juni 2014 -->
+		
+		<news guid="news-stukov2014Jun_0001" type="0" creator="Stukov" created_by="Stukov"
+		comment="17. Juni 2014: British Guiana 1c Magenta bei Sotheby's New York für 9,48 Mio USD versteigert. Käufer: Stuart Weitzman. Verkäufer: Nachlass du Pont, 80% der Erlöse an Valentin Yordanov. Teil des du-Pont-Arcs.">
+			<title>
+				<de>Die teuerste Briefmarke der Welt wechselt erneut den Besitzer – für 9,5 Millionen Dollar</de>
+				<en>The World's Most Expensive Stamp Changes Hands Again – for 9.5 Million Dollars</en>
+			</title>
+			<description>
+				<de>New York – Bei Sotheby's erzielte die British Guiana 1c Magenta 9,48 Millionen Dollar – das Zehnfache dessen, was John du Pont 1980 bezahlt hatte. Du Pont selbst war 2010 im Gefängnis gestorben. Seine Briefmarke machte noch Karriere.</de>
+				<en>New York – At Sotheby's, the British Guiana 1c Magenta fetched 9.48 million dollars – ten times what John du Pont had paid in 1980. Du Pont himself had died in prison in 2010. His stamp had a better ending.</en>
+			</description>
+			<data genre="4" price="0.4" quality_min="25" quality_max="50" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<targetgroupattractivity managers="1.3" pensioners="1.4" />
+			<availability year_range_from="2014" year_range_to="2014" script='${.eq:${.worldtime:"season"}:2}' />
 		</news>
 		
 		
