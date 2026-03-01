@@ -65,4 +65,38 @@
    <availability year_range_from="2006" year_range_to="-1" />
 </scripttemplate>
 
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-pixels" creator="Stukov" created_by="Stukov" comment="Pixels (2015), directed by Chris Columbus, starring Adam Sandler, Kevin James, Peter Dinklage. Aliens misinterpret arcade game broadcasts as declaration of war, attack Earth as classic video game characters. 17% Rotten Tomatoes. Activated by Pac-Man news (news-stukov1980Mai_0017).">
+      <title>
+         <de>Pixels</de>
+         <en>Pixels</en>
+      </title>
+      <description>
+         <de>Aliens empfangen alte Videospiel-Übertragungen der Erde und interpretieren sie als Kriegserklärung. Sie greifen als riesige Arcade-Figuren an. Nur eine Handvoll alternder Spielhallen-Champions kann die Welt retten. Klingt bescheuert. Ist es auch.</de>
+         <en>Aliens intercept old video game broadcasts from Earth and interpret them as a declaration of war. They attack as giant arcade characters. Only a handful of aging arcade champions can save the world. Sounds stupid. It is.</en>
+      </description>
+      <jobs>
+         <job index="0" function="1" required="1" />
+         <job index="1" function="2" required="1" gender="1" />
+         <job index="2" function="2" required="1" gender="1" />
+         <job index="3" function="2" required="1" gender="2" />
+         <job index="4" function="32" required="0" />
+      </jobs>
+      <genres maingenre="5" subgenres="16,2" />
+      <blocks value="2" />
+      <price min="200000" max="320000" slope="40" />
+      <potential min="55" max="78" slope="45" />
+      <outcome min="40" max="65" slope="40" />
+      <review min="15" max="40" slope="55" />
+      <speed min="55" max="75" slope="50" />
+      <data available="0" scriptflags="1" production_limit="1" flags_optional="18" />
+      <targetgroupattractivity children="1.3" teenagers="1.4" housewives="0.6" employees="0.8" managers="0.5" pensioners="0.4" />
+      <programme_data_modifiers>
+         <modifier name="topicality::age" value="1.3" />
+         <modifier name="topicality::refresh" value="0.8" />
+      </programme_data_modifiers>
+      <availability year_range_from="2015" year_range_to="-1" />
+   </scripttemplate>
+
+
+
 </tvtdb>

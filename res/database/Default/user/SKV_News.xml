@@ -3,7 +3,7 @@
    <version value="3" />
    <allnews>
       <!--  recurring  -->
-      <news guid="news-stukovNoLimit_0001" thread_guid="SKV_Aliens" type="0" creator="Stukov" created_by="Stukov" comment="">
+      <news guid="news-stukovRecurring_0001" thread_guid="SKV_Aliens" type="0" creator="Stukov" created_by="Stukov" comment="">
          <title>
             <de>Aliens setzen auf erneuerbare Energien</de>
             <en>Aliens Go Green</en>
@@ -19,7 +19,7 @@
          <targetgroupattractivity teenagers="1.3" />
          <availability year_range_from="-1" year_range_to="-1" script='${.eq:${.worldtime:"season"}:2}' />
       </news>
-      <news guid="news-stukov-floodgermany" type="0" creator="Stukov" created_by="Stukov" comment="">
+      <news guid="news-stukovRecurring_0002" type="0" creator="Stukov" created_by="Stukov" comment="">
          <title>
             <de>${region}: Hochwasser legt Schifffahrt lahm</de>
             <en>${region}: Floods Bring Shipping to a Standstill</en>
@@ -42,6 +42,33 @@
          <targetgroupattractivity children="0.5" teenagers="0.6" housewives="0.9" employees="1.1" managers="1.1" pensioners="1.1" />
          <availability year_range_from="-1" year_range_to="-1" script='${.eq:${.worldtime:"season"}:1}' />
       </news>
+	  
+	  <news guid="news-stukovRecurring_0003" type="0" creator="Stukov" created_by="Stukov"
+      comment="Recurring summer holiday traffic jam news. Based on July 12, 1980: Start of summer holidays causes 500km traffic jam on A3/A8 Frankfurt-Salzburg. Classic annual German phenomenon.">
+    <title>
+        <de>Ferienbeginn: ${staulaenge} Kilometer Stau auf der ${.csv:routeData:0}</de>
+        <en>Holidays Begin: ${staulaenge} Kilometres of Gridlock on the ${.csv:routeData:0}</en>
+    </title>
+    <description>
+        <de>Deutschland – Ferienbeginn, und alle wollen gleichzeitig auf die ${.csv:routeData:0} Richtung ${.csv:routeData:1}. ${staulaenge} Kilometer Stau. ${pointe}</de>
+        <en>Germany – Holidays begin, and everyone wants on the ${.csv:routeData:0} towards ${.csv:routeData_en:1} at the same time. ${staulaenge} kilometres of gridlock. ${pointe_en}</en>
+    </description>
+    <variables>
+        <routeData>
+            <de>A7;Süden|A3/A8;Salzburg|A1;Ostsee|A9;München|A5;Basel</de>
+            <en>A7;South|A3/A8;Salzburg|A1;Baltic Sea|A9;Munich|A5;Basel</en>
+        </routeData>
+        <staulaenge>280|350|420|500|580</staulaenge>
+        <pointe>
+            <de>Die Kinder auf der Rückbank haben aufgehört zu fragen.|Der ${generalorg_adac} empfiehlt Gelassenheit. Die Beifahrer empfehlen Umkehr.|Manche erreichten ihr Ziel schneller zu Fuß.|Die Raststätten melden: Bockwurst ausverkauft.</de>
+            <en>The children in the back have stopped asking.|The ${generalorg_adac} recommends patience. The passengers recommend turning back.|Some would have arrived faster on foot.|The rest stops report: sausages sold out.</en>
+        </pointe>
+    </variables>
+    <data genre="4" price="0.7" quality_min="40" quality_max="60" min_subscription_level="1" available="1" fictional="0" flags="0"/>
+    <targetgroupattractivity children="0.7" teenagers="0.8" housewives="1.3" employees="1.2" unemployed="0.8" managers="1.1" pensioners="1.2" />
+    <availability year_range_from="-1" year_range_to="-1" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+	  
       <!--  January 1980  -->
       <news guid="news-stukov1980Jan_0001" type="0" creator="Stukov" created_by="Stukov" comment="">
          <title>
@@ -454,7 +481,7 @@
          <targetgroupattractivity children="0.3" teenagers="0.5" housewives="0.8" employees="0.9" managers="1.2" pensioners_male="1.2" pensioners_female="1.4"/>
          <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
       </news>
-      <news guid="news-stukov1980Mar_0004" thread_guid="news-stukov-mtsthelens" type="0" creator="Stukov" created_by="Stukov" comment="First seismic activity at Mount St. Helens, magnitude 4.2, March 20, 1980.">
+      <news guid="news-stukov1980Mar_0004" type="0" creator="Stukov" created_by="Stukov" comment="First seismic activity at Mount St. Helens, magnitude 4.2, March 20, 1980.">
          <title>
             <de>Mount St. Helens erwacht: Erdbeben erschüttert Vulkan</de>
             <en>Mount St. Helens Awakens: Earthquake Rattles Volcano</en>
@@ -465,10 +492,10 @@
          </description>
          <data genre="4" price="0.8" quality_min="45" quality_max="62" min_subscription_level="2" available="1" fictional="0" flags="2"/>
          <effects>
-            <effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1980Mai_0001" />
-         </effects>
+				<effect trigger="happen" type="triggernews" time="4,1980,5,18" news="news-stukov1980Mai_0001" />
+		 </effects>
          <targetgroupattractivity children="0.6" teenagers="0.8" housewives="0.9" managers="0.9" pensioners="1.1"/>
-         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+         <availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:3}' />
       </news>
       <news guid="news-stukov1980Mar_0006" type="0" creator="Stukov" created_by="Stukov" comment="Alexander L. Kielland platform disaster, Ekofisk oil field, March 27, 1980. 123 of 212 killed.">
          <title>
@@ -777,7 +804,7 @@
          <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
       </news>
       <!--  Mai 1980  -->
-      <news guid="news-stukov1980Mai_0001" thread_guid="news-stukov-mtsthelens" type="2" creator="Stukov" created_by="Stukov" comment="Eruption of Mount St. Helens, May 18, 1980.">
+      <news guid="news-stukov1980Mai_0001" type="0" creator="Stukov" created_by="Stukov" comment="Eruption of Mount St. Helens, May 18, 1980. Hybrid system: appears independently, narrative link via happen trigger from March earthquake.">
          <title>
             <de>Mount St. Helens explodiert: Größter Vulkanausbruch der US-Geschichte</de>
             <en>Mount St. Helens Erupts: Largest Volcanic Eruption in US History</en>
@@ -786,9 +813,339 @@
             <de>Washington – Mount St. Helens ist ausgebrochen. Die Explosion schleudert Asche bis in 25 km Höhe, reißt die Nordseite des Berges weg und tötet mindestens 57 Menschen. Die Verwüstung erstreckt sich über hunderte Kilometer.</de>
             <en>Washington – Mount St. Helens has erupted. The explosion hurls ash 25 kilometres into the sky, blows off the mountain's north face and kills at least 57 people. The devastation spreads across hundreds of kilometres.</en>
          </description>
-         <data genre="4" price="1.5" quality_min="75" quality_max="90" min_subscription_level="1" available="0" fictional="0" happen_time="4,1980,5,18" flags="14"/>
-         <targetgroupattractivity children="0.7" teenagers="1.1" pensioners="1.1"/>
+         <data genre="4" price="1.5" quality_min="75" quality_max="90" min_subscription_level="1" available="1" fictional="0" flags="14"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,1980,5,23" news="news-stukov1980Mai_0022" />
+			</effects>
+			<targetgroupattractivity children="0.7" teenagers="1.1" pensioners="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
       </news>
+	  
+	  <news guid="news-stukov1980Mai_0002" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 8, 1980: Tito's funeral in Belgrade. 128 of 154 UN member states, 4 kings, 31 presidents, 22 prime ministers. Schmidt met Honecker for 78 minutes. Largest state funeral in history.">
+			<title>
+				<de>Titos Beerdigung: 128 Staaten kommen – und reden über alles außer den Toten</de>
+				<en>Tito's Funeral: 128 Nations Attend – And Talk About Everything Except the Deceased</en>
+			</title>
+			<description>
+				<de>Belgrad – 4 Könige, 31 Präsidenten, 22 Premierminister aus 128 Staaten: Titos Staatsbegräbnis wird zum größten der Geschichte. Schmidt saß 78 Minuten mit Honecker zusammen. Der Tote war fast Nebensache.</de>
+				<en>Belgrade – 4 kings, 31 presidents, 22 prime ministers from 128 nations: Tito's state funeral becomes the largest in history. Schmidt sat with Honecker for 78 minutes. The deceased was almost beside the point.</en>
+			</description>
+			<data genre="0" price="0.85" quality_min="75" quality_max="90" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.8" employees="1.1" unemployed="0.8" managers="1.5" pensioners="1.4"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0003" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 19, 1980: Secret Giscard-Brezhnev summit at Wilanów Palace near Warsaw. 5+ hours. First Western leader to meet Brezhnev since Afghanistan invasion. Neither US nor West Germany consulted. German officials called France 'einsamer Reiter'.">
+			<title>
+				<de>Giscard trifft Breschnew im Geheimen – Bonn erfährt es aus der Zeitung</de>
+				<en>Giscard Meets Brezhnev in Secret – Bonn Learns About It from the Papers</en>
+			</title>
+			<description>
+				<de>Warschau – Frankreichs Präsident traf Breschnew bei Warschau – über fünf Stunden, ohne Bonn zu informieren. Erstes Treffen eines westlichen Staatschefs mit Breschnew seit Afghanistan. Ergebnis: keins.</de>
+				<en>Warsaw – France's president met Brezhnev near Warsaw – over five hours, without informing Washington or Bonn. The first meeting of a major Western leader with Brezhnev since Afghanistan. Result: none.</en>
+			</description>
+			<data genre="0" price="0.55" quality_min="55" quality_max="72" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.6" employees="0.9" unemployed="0.7" managers="1.5" pensioners_male="1.4" pensioners_female="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0004" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 18-27, 1980: Gwangju Uprising. Chun Doo-hwan extends martial law, students demonstrate, special forces respond violently, citizens seize weapons and control city. Crushed May 27 by tanks. Official toll 170, estimates up to 2,000.">
+			<title>
+				<de>Südkorea: Panzer beenden Aufstand in Gwangju – mindestens 170 Tote</de>
+				<en>South Korea: Tanks End Uprising in Gwangju – At Least 170 Dead</en>
+			</title>
+			<description>
+				<de>Gwangju – General Chun weitete das Kriegsrecht aus, Studenten gingen auf die Straße, die Armee schickte Fallschirmjäger. Die Bürger bewaffneten sich. Am 27. Mai rollten Panzer. Offizielle Bilanz: 170 Tote.</de>
+				<en>Gwangju – General Chun extended martial law, students took to the streets, the army sent in paratroopers. Citizens armed themselves and seized the city. On May 27, tanks rolled in. Official toll: 170 dead.</en>
+			</description>
+			<data genre="0" price="0.35" quality_min="55" quality_max="72" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.5" employees="0.9" unemployed="0.8" managers="1.2" pensioners_male="1.3" pensioners_female="0.9"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0005" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 25, 1980: Austrian Chancellor Kreisky, former Swedish PM Palme, and Spanish Socialist González travel to Tehran to negotiate hostage release. Unsuccessful.">
+			<title>
+				<de>Drei Sozialisten fliegen nach Teheran – und kommen mit leeren Händen zurück</de>
+				<en>Three Socialists Fly to Tehran – And Return Empty-Handed</en>
+			</title>
+			<description>
+				<de>Teheran – Österreichs Kreisky, Schwedens Palme und Spaniens González flogen nach Teheran, um die US-Geiseln freizubekommen. Der gute Wille war groß, die Verhandlungsmasse klein. Die Geiseln blieben, wo sie waren.</de>
+				<en>Tehran – Austria's Kreisky, Sweden's Palme, and Spain's González flew to Tehran to negotiate the release of the American hostages. The goodwill was vast, the leverage was not. The hostages stayed put.</en>
+			</description>
+			<data genre="0" price="0.25" quality_min="34" quality_max="58" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.4" managers="1.1" pensioners_male="1.2"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0006" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 30, 1980: Pope John Paul II arrives in France for a four-day visit. First papal visit to France since 1814 (Pius VII, forced by Napoleon).">
+			<title>
+				<de>Papst in Frankreich: 166 Jahre Wartezeit – Napoleon war schuld</de>
+				<en>Pope in France: 166 Years of Waiting – Napoleon Was to Blame</en>
+			</title>
+			<description>
+				<de>Paris – Johannes Paul II. betritt französischen Boden – als erster Papst seit 1804. Damals hatte Napoleon Pius VII. zur Reise gezwungen. Diesmal kam der Papst freiwillig. Die Zeiten haben sich gebessert.</de>
+				<en>Paris – John Paul II sets foot on French soil – the first pope to do so since 1804. Back then, Napoleon had forced Pius VII to make the trip. This time, the pope came voluntarily. Times have improved.</en>
+			</description>
+			<data genre="5" price="0.45" quality_min="45" quality_max="62" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.7" teenagers="0.7" managers="0.7" pensioners="1.4" housewives="1.3"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0007" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 18, 1980: China conducts first successful ICBM test (DF-5) in the South Pacific. Significant Cold War military development.">
+			<title>
+				<de>China testet Interkontinentalrakete – die Welt hat jetzt einen Spieler mehr</de>
+				<en>China Tests Intercontinental Missile – The World Now Has One More Player</en>
+			</title>
+			<description>
+				<de>Peking – China testete erfolgreich eine Interkontinentalrakete im Südpazifik. Theoretisch kann Peking nun jeden Punkt der Erde erreichen. Washington und Moskau reagierten gelassen. Man hat selbst genug.</de>
+				<en>Beijing – China successfully tested an intercontinental ballistic missile in the South Pacific. In theory, Beijing can now reach any point on Earth. Washington and Moscow reacted calmly. They have plenty.</en>
+			</description>
+			<data genre="0" price="0.3" quality_min="35" quality_max="55" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers_male="0.6" teenagers_female="0.2" housewives="0.3" employees_male="0.8" employees_female="0.4" unemployed_male="0.7" unemployed_female="0.3" managers_male="1.4" managers_female="0.8" pensioners_male="1.3" pensioners_female="0.6"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0008" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 10, 1980: Cuban MiG-21s sink HMBS Flamingo, a Bahamian patrol boat, after it tried to seize Cuban fishing vessels poaching in Bahamian waters. Four Bahamian marines killed.">
+			<title>
+				<de>Kubanische Kampfjets versenken Patrouillenboot der Bahamas – wegen Fischern</de>
+				<en>Cuban Fighter Jets Sink Bahamian Patrol Boat – Over Fishing Vessels</en>
+			</title>
+			<description>
+				<de>Nassau – Kubanische MiG-Kampfjets versenkten ein Patrouillenboot der Bahamas, das kubanische Fischerboote beschlagnahmen wollte. Vier Marinesoldaten starben. Kuba gegen die Bahamas – mit Düsenjägern.</de>
+				<en>Nassau – Cuban MiG fighter jets sank a Bahamian patrol boat that had tried to seize Cuban fishing vessels. Four marines were killed. Cuba vs. the Bahamas – with jet fighters.</en>
+			</description>
+			<data genre="0" price="0.2" quality_min="25" quality_max="48" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.5" managers="1.1" pensioners_male="1.2"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0009" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 17-20, 1980: Miami race riots after all-white jury acquits four white police officers in the beating death of Black insurance salesman Arthur McDuffie. 18 killed, 350+ injured, $100 million damage. Worst US race riots since 1967.">
+			<title>
+				<de>Miami brennt: Freispruch für Polizisten löst schwerste Rassenunruhen seit 1967 aus</de>
+				<en>Miami Burns: Acquittal of Officers Triggers Worst Race Riots Since 1967</en>
+			</title>
+			<description>
+				<de>Miami – Ein rein weißes Geschworenengericht sprach vier weiße Polizisten frei, die den Versicherungsvertreter Arthur McDuffie totgeprügelt hatten. Drei Tage Aufstand: 18 Tote, über 350 Verletzte, 100 Millionen Dollar Schaden.</de>
+				<en>Miami – An all-white jury acquitted four white police officers in the beating death of insurance salesman Arthur McDuffie. Three days of riots followed: 18 dead, over 350 injured, 100 million dollars in damage.</en>
+			</description>
+			<data genre="0" price="0.45" quality_min="60" quality_max="78" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.7" employees="1.1" unemployed="1.2" managers="1.2" pensioners="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0010" thread_guid="news-stukov-senderoluminoso" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 17, 1980: Shining Path (Sendero Luminoso) burns ballot boxes in Chuschi, Ayacucho on eve of presidential elections. First act of the internal conflict that would claim 70,000 lives. Perpetrators caught immediately, incident barely noticed. Start of Shining Path arc.">
+			<title>
+				<de>Peru: Wahlurnen in Andendorf verbrannt – Täter sofort gefasst</de>
+				<en>Peru: Ballot Boxes Burned in Andean Village – Perpetrators Caught Immediately</en>
+			</title>
+			<description>
+				<de>Chuschi – Am Vorabend der Präsidentschaftswahl verbrannten Unbekannte Wahlurnen in einem peruanischen Andendorf. Die Täter wurden sofort gefasst, neue Urnen geliefert. Niemand beachtete den Vorfall.</de>
+				<en>Chuschi – On the eve of presidential elections, unknown assailants burned ballot boxes in a Peruvian Andean village. The perpetrators were caught immediately, new ballots delivered. Nobody noticed.</en>
+			</description>
+			<data genre="0" price="0.15" quality_min="15" quality_max="35" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,1982,12,30" news="news-stukov1982Dez_0002" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.3" managers="1.1" pensioners_male="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0011" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 11, 1980: NRW Landtagswahl. SPD under Johannes Rau wins absolute majority (48.4%). CDU emergency candidate Biedenkopf after Köppler's death loses 4 points. FDP misses 5% threshold by just 1,701 votes. Greens at 3.0% also fail. Only two parties in Landtag — unique in NRW history. Key barometer for October Bundestagswahl.">
+			<title>
+				<de>NRW-Wahl: Rau holt absolute Mehrheit – FDP fliegt mit 1.701 Stimmen raus</de>
+				<en>NRW Election: Rau Wins Absolute Majority – FDP Out by 1,701 Votes</en>
+			</title>
+			<description>
+				<de>Düsseldorf – Johannes Rau holt die absolute Mehrheit in NRW. Die FDP fliegt mit 1.701 Stimmen Abstand aus dem Landtag. Nur noch zwei Parteien im Parlament – einmalig in der Landesgeschichte.</de>
+				<en>Düsseldorf – Johannes Rau wins an absolute majority in NRW. The FDP misses the threshold by just 1,701 votes. Only two parties left in parliament – a first in the state's history.</en>
+			</description>
+			<data genre="0" price="1.1" quality_min="55" quality_max="75" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.8" housewives="0.9" employees="1.2" unemployed="1.1" managers="1.4" pensioners="1.3"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0012" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 6, 1980: Schlacht vom Osterdeich. First public Bundeswehr oath ceremony outside barracks at Bremen Weserstadion for NATO 25th anniversary. 10,000-15,000 demonstrators, 200-500 masked militants with Molotov cocktails. President Carstens and Defense Minister Apel arrived by helicopter. 257 police injured. ~1 million DM damage. Bundeswehr abandoned public ceremonies for a decade. Triggered Bundestag investigations.">
+			<title>
+				<de>Bremen: Bundeswehr-Gelöbnis endet in Straßenschlacht – 257 Polizisten verletzt</de>
+				<en>Bremen: Bundeswehr Oath Ceremony Ends in Street Battle – 257 Officers Injured</en>
+			</title>
+			<description>
+				<de>Bremen – Zum ersten öffentlichen Bundeswehr-Gelöbnis außerhalb einer Kaserne kamen 15.000 Demonstranten, davon Hunderte mit Molotow-Cocktails. Der Bundespräsident musste per Hubschrauber einfliegen. 257 Polizisten verletzt.</de>
+				<en>Bremen – For the first public Bundeswehr oath ceremony outside a barracks, 15,000 protesters showed up, hundreds with Molotov cocktails. The president had to arrive by helicopter. 257 officers injured.</en>
+			</description>
+			<data genre="0" price="0.9" quality_min="50" quality_max="78" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="1.3" housewives="0.8" employees="1.2" unemployed="1.1" managers="1.3" pensioners="1.2"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0013" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 15, 1980: West German NOK votes 59:40 to boycott Moscow Olympics. Fencer Thomas Bach (later IOC President) argued passionately against boycott. Athletes like Kratschmer and Schmid lost their Olympic chance. Most Western European nations (UK, France, Italy) still participated, making German absence alongside the US conspicuous. Schmidt later called it 'senseless and harmful'.">
+			<title>
+				<de>Olympia-Boykott beschlossen: 59 zu 40 gegen Moskau – Bach protestiert vergeblich</de>
+				<en>Olympic Boycott Decided: 59 to 40 Against Moscow – Bach Protests in Vain</en>
+			</title>
+			<description>
+				<de>Düsseldorf – Das NOK stimmt 59 zu 40 für den Boykott der Olympischen Spiele in Moskau. Fechter Thomas Bach argumentierte leidenschaftlich dagegen. Frankreich und Großbritannien fahren trotzdem hin.</de>
+				<en>Düsseldorf – The NOK votes 59 to 40 to boycott the Moscow Olympics. Fencer Thomas Bach argued passionately against it. France and Britain are going anyway.</en>
+			</description>
+			<data genre="0" price="0.8" quality_min="65" quality_max="80" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="1.2" housewives="0.9" employees="1.1" managers="1.2" pensioners="1.1"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0014" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 28, 1980: Amnesty International criticizes West Germany for holding politically motivated prisoners (RAF inmates) under conditions causing serious physical and psychological damage. Reference to isolation conditions in high-security prisons.">
+			<title>
+				<de>Amnesty International rügt die Bundesrepublik – wegen Haftbedingungen für RAF-Gefangene</de>
+				<en>Amnesty International Rebukes West Germany – Over Detention Conditions for RAF Prisoners</en>
+			</title>
+			<description>
+				<de>London – Amnesty International wirft der Bundesrepublik vor, politisch motivierte Häftlinge unter Bedingungen zu halten, die schwere körperliche und psychische Schäden verursachen. Gemeint sind die RAF-Gefangenen.</de>
+				<en>London – Amnesty International accuses West Germany of holding politically motivated prisoners under conditions causing serious physical and psychological damage. The RAF inmates are meant.</en>
+			</description>
+			<data genre="0" price="0.2" quality_min="20" quality_max="55" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.9" employees="0.9" managers="1.1" pensioners="0.9"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+				
+		<news guid="news-stukov1980Mai_0015" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 3, 1980: Freie Republik Wendland. ~5,000 anti-nuclear protesters occupy planned nuclear waste drilling site 1004 near Gorleben. Erected 100+ huts, issued symbolic passports, pirate radio 'Radio Freies Wendland' from May 18. Visitors included young Juso leader Gerhard Schröder, Wolf Biermann. Lower Saxony Interior Minister Möcklinghoff called it 'high treason'. Camp lasted 33 days until police eviction June 4. Foundational myth of German environmental movement.">
+			<title>
+				<de>Gorleben: 5.000 Besetzer rufen die „Freie Republik Wendland" aus</de>
+				<en>Gorleben: 5,000 Squatters Proclaim the 'Free Republic of Wendland'</en>
+			</title>
+			<description>
+				<de>Gorleben – Rund 5.000 Atomkraftgegner besetzten die geplante Bohrstelle bei Gorleben und riefen die „Freie Republik Wendland" aus – mit eigenen Pässen, Piratensender und Gewächshäusern. Der Innenminister sprach von Hochverrat.</de>
+				<en>Gorleben – 5,000 anti-nuclear protesters occupied the planned drilling site and proclaimed the 'Free Republic of Wendland' – with passports, pirate radio, and greenhouses. The interior minister called it high treason.</en>
+			</description>
+			<data genre="0" price="0.95" quality_min="55" quality_max="78" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="1.4" housewives="0.9" employees="1.1" unemployed="1.2" managers="1.3" pensioners="1.0"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,1980,6,4" news="news-stukov1980Jun_0013" /> 
+			</effects>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0016" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 8, 1980: WHO declares smallpox eradicated. Professor Frank Fenner announced on behalf of WHO. First and still only human disease to be completely eradicated. One of humanity's greatest medical achievements.">
+			<title>
+				<de>WHO: Pocken ausgerottet – die Menschheit besiegt erstmals eine Krankheit</de>
+				<en>WHO: Smallpox Eradicated – Humanity Defeats a Disease for the First Time</en>
+			</title>
+			<description>
+				<de>Genf – Die Weltgesundheitsorganisation erklärt die Pocken für ausgerottet. Erste und bislang einzige Krankheit, die der Mensch vollständig besiegt hat. Die Impfnarbe am Oberarm wird zum Souvenir einer vergangenen Ära.</de>
+				<en>Geneva – The World Health Organization declares smallpox eradicated. The first and so far only disease humanity has completely defeated. The vaccination scar on the upper arm becomes a souvenir of a bygone era.</en>
+			</description>
+			<data genre="5" price="0.7" quality_min="60" quality_max="92" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="1.0" housewives="1.2" pensioners="1.3"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0017" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 22, 1980: Pac-Man released by Namco in Japan as 'Puck Man'. Became the best-selling arcade game of all time and a defining pop culture icon of the 1980s. Later renamed to Pac-Man for Western markets.">
+			<title>
+				<de>Namco veröffentlicht „Puck Man" – ein gelber Kreis wird zur Ikone</de>
+				<en>Namco Releases 'Puck Man' – A Yellow Circle Becomes an Icon</en>
+			</title>
+			<description>
+				<de>Tokio – Die japanische Firma Namco veröffentlicht ein Arcade-Spiel namens „Puck Man": Ein gelber Kreis frisst Punkte und wird von Geistern gejagt. Klingt simpel. Wird das größte Arcade-Spiel aller Zeiten.</de>
+				<en>Tokyo – Japanese company Namco releases an arcade game called 'Puck Man': a yellow circle eats dots and is chased by ghosts. Sounds simple. Becomes the best-selling arcade game of all time.</en>
+			</description>
+			<data genre="5" price="0.2" quality_min="20" quality_max="65" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="scripttemplate-stukov-pixels" />
+			</effects>
+			<targetgroupattractivity children="1.4" teenagers="1.5" housewives="0.3" employees="0.6" unemployed="0.8" managers="0.3" pensioners="0.2"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0018" type="0" creator="Stukov" created_by="Stukov"
+		comment="April 25 – May 12, 1980: Storkonflikten, Sweden's largest labor dispute since 1909. SAF employers locked out 700,000 workers, 100,000 went on strike. Nearly one million workers idled (quarter of workforce). May 10: transport workers threatened to halt oil shipments. May 12: employers capitulated, accepted 7.3% wage increase.">
+			<title>
+				<de>Schwedens größter Streik seit 1909: Eine Million Arbeiter legen das Land lahm</de>
+				<en>Sweden's Largest Strike Since 1909: One Million Workers Shut Down the Country</en>
+			</title>
+			<description>
+				<de>Stockholm – Schwedens größter Arbeitskampf seit 1909: Die Arbeitgeber sperrten 700.000 Beschäftigte aus, 100.000 streikten. Am Ende kapitulierte die Arbeitgeberseite und akzeptierte 7,3 Prozent Lohnerhöhung.</de>
+				<en>Stockholm – Sweden's largest labor dispute since 1909: employers locked out 700,000 workers, 100,000 went on strike. In the end, the employers capitulated and accepted a 7.3 percent wage increase.</en>
+			</description>
+			<data genre="0" price="0.4" quality_min="45" quality_max="68" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.1" teenagers="0.6" housewives="0.8" employees="1.3" unemployed="1.3" managers="1.4" pensioners="1.0"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0019" type="0" creator="Stukov" created_by="Stukov"
+		comment="May 23, 1980: Second Ariane rocket test launch fails at Kourou, French Guiana, due to vibrations in the French-built first stage. Setback for ESA and Franco-German space program.">
+			<title>
+				<de>Ariane-Rakete scheitert beim zweiten Testflug – Vibrationen in der Erststufe</de>
+				<en>Ariane Rocket Fails on Second Test Flight – Vibrations in the First Stage</en>
+			</title>
+			<description>
+				<de>Kourou – Der zweite Testflug der europäischen Ariane-Rakete scheiterte an Vibrationen in der französischen Erststufe. Rückschlag für das europäische Raumfahrtprogramm. Die Amerikaner kommentierten nicht. Mussten sie auch nicht.</de>
+				<en>Kourou – The second test flight of Europe's Ariane rocket failed due to vibrations in the French-built first stage. A setback for the European space program. The Americans did not comment. They didn't need to.</en>
+			</description>
+			<data genre="5" price="0.25" quality_min="25" quality_max="50" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.4" teenagers_male="0.9" teenagers_female="0.4" housewives="0.3" employees_male="0.8" employees_female="0.5" managers_male="1.2" managers_female="0.7" pensioners_male="1.0" pensioners_female="0.5"/>
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		<news guid="news-stukov1980Mai_0020" type="0" creator="Stukov" created_by="Stukov"
+		comment="21. Mai 1980: Südliches Dach der Berliner Kongresshalle (Schwangere Auster) stürzt ein. 600 Tonnen Beton, 1 Toter (SFB-Journalist Hartmut Küster, 27), 5 Verletzte. US-Geschenk von 1957. Unter den zerquetschten Autos eines mit Werbung 'Bauen Sie mit uns: massiv, schlüsselfertig, zum Festpreis'. Einstürzende Neubauten 7 Wochen zuvor gegründet.">
+			<title>
+				<de>Die Schwangere Auster hat ausgetragen – Berliner Kongresshalle eingestürzt</de>
+				<en>The Pregnant Oyster Has Delivered – Berlin Congress Hall Collapses</en>
+			</title>
+			<description>
+				<de>Berlin – 600 Tonnen Beton stürzen vom Dach der Kongresshalle. Ein Journalist stirbt. Unter den zerquetschten Autos eines mit der Aufschrift „Bauen Sie mit uns: massiv, schlüsselfertig, zum Festpreis". Die Band Einstürzende Neubauten, vor sieben Wochen gegründet, bittet um Verständnis: Das war nicht als Programmhinweis gemeint.</de>
+				<en>Berlin – 600 tons of concrete crash from the roof of the Congress Hall. A journalist is killed. Among the crushed cars, one bore the slogan "Build with us: solid, turnkey, at a fixed price." The band Einstürzende Neubauten, founded seven weeks ago, asks for understanding: that was not meant as a preview.</en>
+			</description>
+			<data genre="4" price="1.0" quality_min="60" quality_max="82" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+			<targetgroupattractivity children="0.5" teenagers="1.2" housewives="1.0" employees="1.1" managers="1.1" pensioners="1.2" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+
+		<news guid="news-stukov1980Mai_0021" type="0" creator="Stukov" created_by="Stukov"
+		comment="7. Mai 1980: Paul Geidel Jr. (86), Sohn deutscher Einwanderer, nach 68 Jahren und 245 Tagen aus Fishkill Correctional Facility entlassen. Längste Haftstrafe der US-Geschichte. 1911 mit 17 wegen Mordes verurteilt (Beute: 7 Dollar und eine Krawattennadel). Hatte 1974 die Bewährung abgelehnt – wollte nicht raus.">
+			<title>
+				<de>68 Jahre im Gefängnis – und er wollte gar nicht raus</de>
+				<en>68 Years in Prison – And He Didn't Want to Leave</en>
+			</title>
+			<description>
+				<de>Fishkill – Paul Geidel Jr. ist frei. Nach 68 Jahren und 245 Tagen – der längsten Haftstrafe der US-Geschichte. Verurteilt 1911 für einen Mord, der ihm 7 Dollar und eine Krawattennadel einbrachte. 1974 bot man ihm Bewährung an. Er lehnte ab. Draußen sei es ihm zu unübersichtlich.</de>
+				<en>Fishkill – Paul Geidel Jr. is free. After 68 years and 245 days – the longest prison sentence in US history. Convicted in 1911 for a murder that netted him $7 and a tie pin. In 1974, he was offered parole. He declined. Too confusing out there, he said.</en>
+			</description>
+			<data genre="4" price="0.3" quality_min="35" quality_max="62" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+			<targetgroupattractivity children="0.4" teenagers="0.7" housewives="1.0" employees="0.9" unemployed="1.1" managers="0.7" pensioners="1.3" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+
+		<news guid="news-stukov1980Mai_0022" type="0" creator="Stukov" created_by="Stukov"
+		comment="23. Mai 1980: Hubschrauber-Filmcrew am Mount St. Helens abgesetzt, Kompasse drehen sich im Kreis wegen magnetischer Interferenzen durch vulkanische Ablagerungen. Crew verliert Orientierung. Hybrid system: eigenständig verfügbar, narrative Verbindung via happen trigger von Eruption.">
+			<title>
+				<de>Filmcrew am Mount St. Helens verloren – Kompasse drehen durch</de>
+				<en>Film Crew Lost on Mount St. Helens – Compasses Spinning</en>
+			</title>
+			<description>
+				<de>Washington – Eine Hubschrauber-Filmcrew wurde am Krater des Mount St. Helens abgesetzt und fand nicht mehr zurück. Grund: Die Kompasse drehten sich im Kreis – magnetische Störungen durch vulkanische Ablagerungen. Der Berg lässt sich ungern filmen.</de>
+				<en>Washington – A helicopter film crew was dropped at Mount St. Helens' crater and couldn't find their way back. Reason: their compasses spun in circles – magnetic interference from volcanic deposits. The mountain doesn't like being filmed.</en>
+			</description>
+			<data genre="4" price="0.25" quality_min="25" quality_max="50" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+			<targetgroupattractivity children="0.8" teenagers="1.1" housewives="0.8" employees="0.9" managers="0.8" pensioners="1.0" />
+			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
+		</news>
+		
+		
       <!--  Juni 1980  -->
       <news guid="news-stukov1980Jun_0001" type="0" creator="Stukov" created_by="Stukov"
 		comment="4. Juni 1980: Gordie Howe gibt Karriereende bekannt. Letztes Playoff-Tor am 9. April 1980 gegen Montreal, Vorlage von Sohn Mark Howe. 801 Karrieretore, fünf Jahrzehnte NHL.">
@@ -804,6 +1161,616 @@
          <targetgroupattractivity children="0.6" teenagers="1.2" pensioners_male="1.6" />
          <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
       </news>
+	  
+	  <news guid="news-stukov1980Jun_0002" type="0" creator="Stukov" created_by="Stukov"
+            comment="1. Juni 1980: CNN startet um 18:00 EDT aus Atlanta. Erster 24h-Nachrichtensender. 1,7 Mio Abonnenten. Moderatoren: Dave Walker und Lois Hart. Erste Meldung: Mordanschlag auf Vernon Jordan. Spitzname 'Chicken Noodle Network'. https://en.wikipedia.org/wiki/CNN">
+         <title>
+            <de>Das „Chicken Noodle Network" geht auf Sendung</de>
+            <en>The "Chicken Noodle Network" Goes on Air</en>
+         </title>
+         <description>
+            <de>Atlanta – Ted Turner startet CNN, den ersten 24-Stunden-Nachrichtensender der Welt. Startkapital: Mut. Abonnenten: 1,7 Millionen. Spitzname der Konkurrenz: „Chicken Noodle Network". Erste Meldung: ein Mordanschlag. Die großen Networks lachen – noch.</de>
+            <en>Atlanta – Ted Turner launches CNN, the world's first 24-hour news channel. Starting capital: audacity. Subscribers: 1.7 million. Nickname from the competition: "Chicken Noodle Network". First story: an assassination attempt. The big networks are laughing – for now.</en>
+         </description>
+         <data genre="3" price="0.55" quality_min="52" quality_max="68" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="0.5" housewives="0.7" employees="1.1" managers="1.3" pensioners="0.8" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0003" thread_guid="news-stukov-norad1980" type="0" creator="Stukov" created_by="Stukov"
+            comment="3. Juni 1980, 2:26 EDT: NORAD-Computer zeigen Starts von erst 2, dann 200, dann 2200 sowjetischen ICBMs/SLBMs. Ursache: defekter 46-Cent-IC-Chip im Cheyenne Mountain Operations Center sendete '200' statt '000'. B-52/FB-111 Crews starteten Triebwerke, NEACP rollte auf Startbahn. Brzezinski wurde geweckt, weckte seine Frau nicht. Entwarnung nach Minuten. https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2020-03-16/false-warnings-soviet-missile-attacks-during-1979-80-led-alert-actions-us-strategic-forces">
+         <title>
+            <de>Beinahe-Atomkrieg: Ein 46-Cent-Chip meldet 2.200 Sowjet-Raketen</de>
+            <en>Near-Nuclear War: A 46-Cent Chip Reports 2,200 Soviet Missiles</en>
+         </title>
+         <description>
+            <de>Colorado Springs – NORAD-Computer zeigen 2.200 sowjetische Atomraketen im Anflug auf die USA. Bombercrews starten Triebwerke. Sicherheitsberater Brzezinski weckt seine Frau nicht – wozu noch, in 30 Minuten wären alle tot. Entwarnung nach Minuten. Ursache: ein kaputter 46-Cent-Chip.</de>
+            <en>Colorado Springs – NORAD computers show 2,200 Soviet nuclear missiles inbound. Bomber crews start engines. Security Advisor Brzezinski doesn't wake his wife – why bother, they'd all be dead in 30 minutes. All-clear after minutes. Cause: a worn-out 46-cent chip.</en>
+         </description>
+         <data genre="0" price="1.1" quality_min="72" quality_max="88" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <effects>
+            <effect trigger="happen" type="triggernews" news="news-stukov1980Jun_0004" time="1,2,6" />
+         </effects>
+         <targetgroupattractivity children="0.3" teenagers="1.1" housewives="1.0" employees="1.2" unemployed="1.1" managers="1.3" pensioners="1.2" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0004" thread_guid="news-stukov-norad1980" type="2" creator="Stukov" created_by="Stukov"
+            comment="6. Juni 1980: Zweiter NORAD-Fehlalarm durch identischen 46-Cent-Chip. Pentagon konnte den Chip danach nicht reproduzierbar zum Versagen bringen. NYT 18. Juni: 'Missile Alerts Traced to 46¢ Item'. Vorfall inspirierte WarGames (1983). https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2020-03-16/false-warnings-soviet-missile-attacks-during-1979-80-led-alert-actions-us-strategic-forces">
+         <title>
+            <de>NORAD-Fehlalarm Nr. 2 – derselbe Chip, dieselbe Panik</de>
+            <en>NORAD False Alarm No. 2 – Same Chip, Same Panic</en>
+         </title>
+         <description>
+            <de>Colorado Springs – Drei Tage nach dem letzten Beinahe-Atomkrieg melden NORAD-Computer erneut sowjetische Raketen. Selbe Prozedur, selber 46-Cent-Chip. Das Pentagon gibt zu: Man konnte ihn danach nicht mehr zum Versagen bringen. Beruhigend.</de>
+            <en>Colorado Springs – Three days after the last near-nuclear war, NORAD computers report Soviet missiles again. Same procedure, same 46-cent chip. The Pentagon admits: they couldn't get it to fail again afterwards. Reassuring.</en>
+         </description>
+         <data genre="0" price="0.9" quality_min="65" quality_max="80" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <effects>
+            <effect trigger="broadcastFirstTime" type="ModifyMovieGenrePopularity" genre="17" valueMin="0.03" valueMax="0.08" />
+         </effects>
+         <targetgroupattractivity children="0.3" teenagers="1.0" housewives="0.9" employees="1.1" unemployed="1.0" managers="1.2" pensioners="1.1" />
+      </news>
+      <news guid="news-stukov1980Jun_0005" type="0" creator="Stukov" created_by="Stukov"
+            comment="3. Juni 1980, 19:30 Uhr: Bombe im Sockelmuseum der Freiheitsstatue. Kroatische Separatisten (Croatian Freedom Fighters). $18.000 Schaden. Keine Verletzten – 70 Min. nach letzter Touristenfähre. FBI: eine der aktivsten ausländischen Terrorgruppen in den USA. https://www.nps.gov/parkhistory/online_books/stli/adhi1.htm">
+         <title>
+            <de>Bombe an der Freiheitsstatue – nach Feierabend</de>
+            <en>Bomb at the Statue of Liberty – After Closing Time</en>
+         </title>
+         <description>
+            <de>New York – Erstmals seit ihrer Errichtung 1886 wird die Freiheitsstatue durch eine Explosion beschädigt. Die Bombe zerstörte Exponate im Sockelmuseum. Verletzt wurde niemand – sie ging 70 Minuten nach der letzten Touristenfähre hoch.</de>
+            <en>New York – For the first time since its dedication in 1886, the Statue of Liberty is damaged by an explosion. The bomb destroyed exhibits in the pedestal museum. No one was hurt – it went off 70 minutes after the last tourist ferry.</en>
+         </description>
+         <data genre="4" price="0.35" quality_min="28" quality_max="45" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.7" teenagers="0.8" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0006" type="0" creator="Stukov" created_by="Stukov"
+            comment="30. Mai 1980: EG-Außenministerrat einigt sich auf britischen Haushaltsrabatt. BRD stimmt als letzter zu. Vorläufer des formellen Britenrabatts (Fontainebleau 1984). Thatcher: 'I want my money back'. Matthöfer kündigt Verbrauchsteuererhöhungen an. https://en.wikipedia.org/wiki/UK_rebate">
+         <title>
+            <de>EG-Haushalt: Briten bekommen Rabatt – Deutschland zahlt</de>
+            <en>EC Budget: Britain Gets a Rebate – Germany Pays</en>
+         </title>
+         <description>
+            <de>Brüssel – Die BRD stimmt als letzter EG-Staat dem britischen Haushaltsrabatt zu. London bekommt zwei Drittel seiner Nettobeiträge zurück. Die Zeche zahlen die anderen – allen voran Deutschland. Bundesfinanzminister Matthöfer kündigt vorsorglich Steuererhöhungen an.</de>
+            <en>Brussels – West Germany, last of the EC states, agrees to the British budget rebate. London gets two-thirds of its net contributions back. The others foot the bill – Germany in particular. Finance Minister Matthöfer pre-emptively announces tax increases.</en>
+         </description>
+         <data genre="0" price="0.9" quality_min="55" quality_max="72" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.3" housewives="1.1" employees="1.2" unemployed="1.0" managers="1.4" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0007" type="0" creator="Stukov" created_by="Stukov"
+            comment="5. Juni 1980: Sojus T-2 startet mit Juri Malyschew und Wladimir Aksjonow. Erster bemannter Flug der Sojus-T-Serie. Neues Argon-Computersystem mit 16 KB RAM. Docking an Saljut 6. 4-Tage-Mission. https://en.wikipedia.org/wiki/Soyuz_T-2">
+         <title>
+            <de>Sojus T-2: Erstes bemanntes Raumschiff mit Bordcomputer</de>
+            <en>Soyuz T-2: First Crewed Spacecraft with Onboard Computer</en>
+         </title>
+         <description>
+            <de>Baikonur – Die Sowjetunion schickt mit Sojus T-2 das erste bemannte Raumschiff der neuen T-Serie zur Station Saljut 6. An Bord: ein Argon-Computer mit 16 Kilobyte Arbeitsspeicher. Das reicht offenbar, um zwei Kosmonauten sicher anzudocken.</de>
+            <en>Baikonur – The Soviet Union sends Soyuz T-2, the first crewed spacecraft of the new T-series, to the Salyut 6 station. On board: an Argon computer with 16 kilobytes of RAM. Apparently enough to safely dock two cosmonauts.</en>
+         </description>
+         <data genre="3" price="0.25" quality_min="30" quality_max="48" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.3" teenagers_male="0.8" teenagers_female="0.4" housewives="0.3" employees_male="0.9" employees_female="0.6" managers_male="1.1" pensioners_male="0.9" pensioners_female="0.5" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  <news guid="news-stukov1980Jun_0008" type="0" creator="Stukov" created_by="Stukov"
+            comment="9. Juni 1980: Richard Pryor erleidet schwere Verbrennungen dritten Grades beim Freebasen von Kokain in seinem Haus in Los Angeles. 6 Wochen Intensivstation, über 50% der Haut verbrannt. Pryor machte den Unfall später zu Comedy-Material. https://en.wikipedia.org/wiki/Richard_Pryor">
+         <title>
+            <de>Comedian Richard Pryor bei Kokain-Unfall schwer verbrannt</de>
+            <en>Comedian Richard Pryor Severely Burned in Cocaine Accident</en>
+         </title>
+         <description>
+            <de>Los Angeles – US-Comedian Richard Pryor liegt mit schweren Verbrennungen auf der Intensivstation. Beim Freebasen von Kokain in seinem Wohnzimmer fing er Feuer. Über 50 Prozent der Haut verbrannt. Seine Karriere ist möglicherweise vorbei – sein Stoff für die nächste Show vermutlich nicht.</de>
+            <en>Los Angeles – US comedian Richard Pryor is in intensive care with severe burns. He caught fire while freebasing cocaine in his living room. Over 50 percent of his skin burned. His career may be over – his material for the next show probably isn't.</en>
+         </description>
+         <data genre="1" price="0.55" quality_min="30" quality_max="58" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="1.2" housewives="1.3" unemployed_female="1.2" managers="0.6" pensioners_female="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0009" type="0" creator="Stukov" created_by="Stukov"
+            comment="11. Juni 1980: OPEC einigt sich in Algier auf Richtpreis von 32 USD/Barrel. Vorher 22-30 USD je nach Mitglied. Zweite Ölkrise seit 1979 (Iranische Revolution). Benzin- und Heizölpreise steigen weltweit. https://en.wikipedia.org/wiki/1979_oil_crisis">
+         <title>
+            <de>OPEC dreht am Ölhahn: 32 Dollar pro Barrel</de>
+            <en>OPEC Turns the Oil Tap: 32 Dollars per Barrel</en>
+         </title>
+         <description>
+            <de>Algier – Die OPEC einigt sich auf einen neuen Richtpreis von 32 Dollar pro Barrel – ein Anstieg, der an der Tankstelle ankommen wird. Autofahrer, Hausbesitzer und Industrieländer dürfen schlucken. Die Ölkrise geht in die nächste Runde.</de>
+            <en>Algiers – OPEC agrees on a new benchmark price of 32 dollars per barrel – an increase that will arrive at the petrol pump. Motorists, homeowners and industrialised nations may gulp. The oil crisis enters the next round.</en>
+         </description>
+         <data genre="0" price="0.95" quality_min="60" quality_max="78" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.3" housewives="1.2" employees="1.3" unemployed="1.1" managers="1.5" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0010" type="0" creator="Stukov" created_by="Stukov"
+            comment="12.-13. Juni 1980: EG-Gipfel in Venedig. Venedig-Erklärung zum Nahen Osten: Forderung nach PLO-Beteiligung an Friedensverhandlungen, Anerkennung palästinensisches Selbstbestimmungsrecht. Begin nennt es 'zweites München'. Carter lehnt ab. Alle 9 EG-Staaten unterzeichnen. https://en.wikipedia.org/wiki/Venice_Declaration">
+         <title>
+            <de>EG-Gipfel in Venedig: „Zweites München", sagt Israel</de>
+            <en>EC Summit in Venice: "A Second Munich", Says Israel</en>
+         </title>
+         <description>
+            <de>Venedig – Die neun EG-Staaten fordern PLO-Beteiligung an Nahostverhandlungen und ein palästinensisches Selbstbestimmungsrecht. Israels Premier Begin nennt die Erklärung ein „zweites München". Washington lehnt höflich ab. Europa versucht sich an Außenpolitik.</de>
+            <en>Venice – The nine EC states demand PLO participation in Middle East negotiations and Palestinian self-determination. Israel's PM Begin calls the declaration "a second Munich". Washington politely declines. Europe tries its hand at foreign policy.</en>
+         </description>
+         <data genre="0" price="0.75" quality_min="55" quality_max="72" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.5" employees="0.9" unemployed="0.7" managers="1.3" pensioners="1.2" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  <news guid="news-stukov1980Jun_0011" type="0" creator="Stukov" created_by="Stukov"
+            comment="22.-23. Juni 1980: G7-Gipfel in Venedig. Verurteilung der sowjetischen Afghanistan-Invasion. Heftiger Streit Schmidt-Carter: Schmidt wütend über geleakten Brief, fühlt sich behandelt wie '51. Bundesstaat'. Carter beschreibt Treffen als 'unangenehmste Begegnung mit einem ausländischen Staatslenker'. https://en.wikipedia.org/wiki/6th_G7_summit">
+         <title>
+            <de>G7 in Venedig: Schmidt und Carter im offenen Streit</de>
+            <en>G7 in Venice: Schmidt and Carter in Open Conflict</en>
+         </title>
+         <description>
+            <de>Venedig – Die G7 verurteilen die sowjetische Aggression in Afghanistan. Hinter den Kulissen eskaliert der Streit zwischen Kanzler Schmidt und Präsident Carter. Schmidt fühlt sich behandelt wie der „51. Bundesstaat". Carter nennt es sein „unangenehmstes Treffen mit einem ausländischen Staatslenker". Diplomatie sieht anders aus.</de>
+            <en>Venice – The G7 condemn Soviet aggression in Afghanistan. Behind the scenes, the dispute between Chancellor Schmidt and President Carter escalates. Schmidt feels treated like the "51st state". Carter calls it his "most unpleasant meeting with a foreign leader". Diplomacy looks different.</en>
+         </description>
+         <data genre="0" price="1.0" quality_min="65" quality_max="82" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.7" managers="1.4" pensioners="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0012" type="0" creator="Stukov" created_by="Stukov"
+            comment="29. Juni 1980: Vigdís Finnbogadóttir wird mit 33,6% der Stimmen und nur 1.911 Stimmen Vorsprung zur Präsidentin Islands gewählt. Erste demokratisch gewählte Staatspräsidentin der Welt. Alleinerziehende Mutter, Theaterdirektorin. Amtszeit bis 1996. https://en.wikipedia.org/wiki/Vigd%C3%ADs_Finnbogad%C3%B3ttir">
+         <title>
+            <de>Island wählt erste Staatspräsidentin der Welt – mit 1.911 Stimmen Vorsprung</de>
+            <en>Iceland Elects World's First Female Head of State – by 1,911 Votes</en>
+         </title>
+         <description>
+            <de>Reykjavík – Die Isländer wählen Vigdís Finnbogadóttir zur Präsidentin – die erste demokratisch gewählte Staatspräsidentin der Welt. Vorsprung: 1.911 Stimmen. Beruf: Theaterdirektorin. Familienstand: alleinerziehend. Die Weltgeschichte wurde knapp entschieden.</de>
+            <en>Reykjavík – Icelanders elect Vigdís Finnbogadóttir as president – the world's first democratically elected female head of state. Margin: 1,911 votes. Profession: theatre director. Family status: single mother. World history was a close call.</en>
+         </description>
+         <data genre="0" price="0.45" quality_min="40" quality_max="58" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="0.5" teenagers_female="0.7" housewives="1.4" employees_female="1.2" unemployed_female="1.2" managers_female="1.2" pensioners_female="1.3" pensioners_male="0.8" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Jun_0013" type="0" creator="Stukov" created_by="Stukov"
+            comment="4. Juni 1980: 5.000 Polizisten und BGS räumen die 'Freie Republik Wendland' bei Gorleben. Wasserwerfer, Bulldozer, 70 Hütten/Zelte abgerissen. 33 Tage nach Besetzung. Schlüsselereignis der Anti-AKW-Bewegung. Massive TV-Berichterstattung. Folgenachricht zu news-stukov1980Mai_0015. https://de.wikipedia.org/wiki/Republik_Freies_Wendland">
+         <title>
+            <de>Gorleben: 5.000 Polizisten räumen die „Freie Republik Wendland"</de>
+            <en>Gorleben: 5,000 Police Officers Evict the 'Free Republic of Wendland'</en>
+         </title>
+         <description>
+            <de>Gorleben – Nach 33 Tagen ist die „Freie Republik Wendland" Geschichte. 5.000 Polizisten und Bundesgrenzschützer räumten das Hüttendorf mit Wasserwerfern und Bulldozern. Die Pässe sind ungültig, der Piratensender schweigt, die Gewächshäuser sind platt. Nur die Bewegung wächst weiter.</de>
+            <en>Gorleben – After 33 days, the 'Free Republic of Wendland' is history. 5,000 police officers and border guards evicted the protest camp with water cannons and bulldozers. The passports are void, the pirate radio is silent, the greenhouses are flat. Only the movement keeps growing.</en>
+         </description>
+         <data genre="0" price="0.85" quality_min="58" quality_max="78" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+		 <effects>
+			<effect trigger="happen" type="modifyNewsAvailability" enable="1" news="news-stukov1980Jul_0003" />
+			<effect trigger="happen" type="triggernews" time="4,1980,7,17" news="news-stukov1980Jul_0003" />			
+		 </effects>
+         <targetgroupattractivity children="0.2" teenagers="1.3" housewives="0.9" employees="1.1" managers="1.2" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0014" type="0" creator="Stukov" created_by="Stukov"
+            comment="30. Juni – 1. Juli 1980: Schmidt-Breschnew-Gipfel in Moskau. Keine Einigung bei Afghanistan und NATO-Doppelbeschluss, aber UdSSR erklärt sich zu neuen Abrüstungsverhandlungen bereit. Schmidt direkt nach G7-Streit mit Carter nun in Moskau. https://de.wikipedia.org/wiki/Helmut_Schmidt#Au%C3%9Fenpolitik">
+         <title>
+            <de>Schmidt bei Breschnew: Kein Ergebnis, aber immerhin Gespräche</de>
+            <en>Schmidt Visits Brezhnev: No Result, But At Least Talks</en>
+         </title>
+         <description>
+            <de>Moskau – Kanzler Schmidt reiste zum Gipfel mit Breschnew. Ergebnis bei Afghanistan: keines. Ergebnis beim NATO-Doppelbeschluss: keines. Aber die Sowjetunion sei bereit, über Abrüstung zu reden. Diplomatie ist, wenn man trotzdem nach Hause fliegt und von Fortschritten spricht.</de>
+            <en>Moscow – Chancellor Schmidt travelled to a summit with Brezhnev. Result on Afghanistan: none. Result on NATO's dual-track decision: none. But the Soviet Union is willing to talk about disarmament. Diplomacy is when you fly home anyway and speak of progress.</en>
+         </description>
+         <data genre="0" price="0.95" quality_min="60" quality_max="78" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.3" housewives="0.7" managers="1.4" pensioners="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0015" type="0" creator="Stukov" created_by="Stukov"
+            comment="26. Juni 1980: Bayerische Staatsregierung unter Strauß droht mit Kündigung des ARD-Vertrags wegen angeblich einseitiger Berichterstattung. Medienpolitischer Wahlkampf-Vorstoß im Bundestagswahlkampf 1980. https://de.wikipedia.org/wiki/Franz_Josef_Strau%C3%9F">
+         <title>
+            <de>Bayern droht der ARD mit Kündigung – Strauß sieht Einseitigkeit</de>
+            <en>Bavaria Threatens to Quit ARD – Strauss Sees Bias</en>
+         </title>
+         <description>
+            <de>München – Die bayerische Staatsregierung droht mit der Kündigung des ARD-Vertrags. Ministerpräsident Strauß wirft dem öffentlich-rechtlichen Rundfunk einseitige Berichterstattung vor – ausgerechnet im Wahljahr. Ob die ARD zittert oder nur müde lächelt, ist nicht überliefert.</de>
+            <en>Munich – The Bavarian state government threatens to terminate the ARD contract. Minister-President Strauss accuses public broadcasting of biased reporting – of all years, in an election year. Whether ARD trembled or merely smiled tiredly is not recorded.</en>
+         </description>
+         <data genre="3" price="0.7" quality_min="42" quality_max="62" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.4" employees="1.1" managers="1.5" pensioners="1.2" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0016" type="0" creator="Stukov" created_by="Stukov"
+            comment="8. Juni 1980: DFB beschließt Zusammenlegung der 2. Bundesliga Nord und Süd zu einer eingleisigen 2. Bundesliga ab Saison 1981/82. https://de.wikipedia.org/wiki/2._Fu%C3%9Fball-Bundesliga">
+         <title>
+            <de>DFB schafft die halbe Liga ab: 2. Bundesliga wird eingleisig</de>
+            <en>DFB Abolishes Half a League: 2. Bundesliga Becomes Single-Track</en>
+         </title>
+         <description>
+            <de>Frankfurt – Der DFB beschließt: Ab Saison 1981/82 gibt es nur noch eine 2. Bundesliga statt Nord und Süd getrennt. Für die einen eine überfällige Reform, für die anderen das Ende regionaler Rivalitäten. Immerhin einigt man sich darauf, dass der Ball weiterhin rund ist.</de>
+            <en>Frankfurt – The DFB decides: from the 1981/82 season, there will be only one 2. Bundesliga instead of separate North and South divisions. For some an overdue reform, for others the end of regional rivalries. At least everyone agrees the ball remains round.</en>
+         </description>
+         <data genre="2" price="0.4" quality_min="28" quality_max="48" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.3" children_male="0.6" teenagers="1.2" teenagers_male="1.4" housewives="0.4" employees_male="1.3" managers_male="1.2" pensioners_male="1.2" pensioners_female="0.6" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  <news guid="news-stukov1980Jun_0017" type="0" creator="Stukov" created_by="Stukov"
+            comment="7. Juni 1980: Olympiasiegerin Rosi Mittermaier heiratet Skirennfahrer Christian Neureuther. Großer Medienrummel. 'Gold-Rosi' gewann 1976 in Innsbruck zwei Goldmedaillen. Sohn Felix Neureuther wird später selbst Ski-Star. https://de.wikipedia.org/wiki/Rosi_Mittermaier">
+         <title>
+            <de>„Gold-Rosi" heiratet: Mittermaier und Neureuther geben sich das Ja-Wort</de>
+            <en>"Gold-Rosi" Gets Married: Mittermaier and Neureuther Tie the Knot</en>
+         </title>
+         <description>
+            <de>Garmisch-Partenkirchen – Olympiasiegerin Rosi Mittermaier und Skirennfahrer Christian Neureuther haben geheiratet. Ganz Deutschland freut sich mit. Die Braut trug Weiß, der Bräutigam trug Stolz, und die Boulevardpresse trug die Geschichte tagelang durch jede Redaktion.</de>
+            <en>Garmisch-Partenkirchen – Olympic champion Rosi Mittermaier and ski racer Christian Neureuther have married. All of Germany rejoices. The bride wore white, the groom wore pride, and the tabloid press carried the story through every newsroom for days.</en>
+         </description>
+         <data genre="1" price="0.6" quality_min="45" quality_max="65" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.6" teenagers="1.0" housewives="1.5" employees_female="1.2" unemployed_female="1.2" managers="0.7" pensioners="1.3" pensioners_female="1.4" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0018" type="0" creator="Stukov" created_by="Stukov"
+            comment="5. Juni 1980: Gulf and Western stellt Zink-Chlorid-Batterie für Elektroautos vor. Angeblich 150 Meilen Reichweite, US-Energieministerium investierte 15 Mio. Dollar. Prognose: 39% aller US-Autos elektrisch bis 2000. Totaler Flop: 65% weniger Leistung als behauptet, nur von 'hochqualifiziertem Personal' ladbar. https://en.wikipedia.org/wiki/Gulf_and_Western_Industries">
+         <title>
+            <de>Elektroauto-Durchbruch: 150 Meilen Reichweite – auf dem Papier</de>
+            <en>Electric Car Breakthrough: 150 Miles Range – on Paper</en>
+         </title>
+         <description>
+            <de>New York – Gulf and Western präsentiert eine Zink-Chlorid-Batterie, die Elektroautos 150 Meilen Reichweite geben soll. Das US-Energieministerium investierte 15 Millionen Dollar und prophezeit: Bis 2000 fahren 39 Prozent aller Autos elektrisch. Klein gedruckt: Die Batterie liefert 65 Prozent weniger als versprochen und kann nur von „hochqualifiziertem Personal" geladen werden. Die Zukunft muss warten.</de>
+            <en>New York – Gulf and Western presents a zinc-chloride battery said to give electric cars 150 miles of range. The US Department of Energy invested 15 million dollars and predicts: by 2000, 39 percent of all cars will be electric. The fine print: the battery delivers 65 percent less than promised and can only be charged by "highly qualified personnel". The future will have to wait.</en>
+         </description>
+         <data genre="3" price="0.3" quality_min="25" quality_max="45" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.1" teenagers="0.5" housewives="0.4" employees="0.9" managers="1.2" pensioners="0.7" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0019" type="0" creator="Stukov" created_by="Stukov"
+            comment="4. Juni 1980: MGM und CBS Video Enterprises gründen Joint Venture MGM/CBS Home Video zum Vertrieb von Spielfilmen auf VHS und Betamax an Privathaushalte. Erste 24 Titel (16 MGM, 8 CBS) erscheinen Oktober 1980. Hybrid-Kette: triggert Folgenachricht im Oktober. https://en.wikipedia.org/wiki/MGM_Home_Entertainment">
+         <title>
+            <de>Hollywood auf Kassette: MGM und CBS gründen Home-Video-Firma</de>
+            <en>Hollywood on Cassette: MGM and CBS Found Home Video Company</en>
+         </title>
+         <description>
+            <de>Los Angeles – Die Filmstudios MGM und CBS bündeln ihre Kräfte: Ein neues Joint Venture soll Spielfilme auf VHS- und Betamax-Kassetten direkt ins Wohnzimmer bringen. Kinos und Fernsehsender dürften gleichermaßen nervös werden – oder noch müde lächeln.</de>
+            <en>Los Angeles – Film studios MGM and CBS join forces: a new joint venture aims to bring feature films on VHS and Betamax cassettes directly into the living room. Cinemas and television stations may be equally nervous – or still smiling tiredly.</en>
+         </description>
+         <data genre="3" price="0.1" quality_min="10" quality_max="25" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <effects>
+            <effect trigger="happen" type="triggernews" time="4,1980,10,15" news="news-stukov1980Okt_0001" />
+         </effects>
+         <targetgroupattractivity children="0.5" housewives="0.2" managers="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>	  
+	  <news guid="news-stukov1980Jun_0020" type="0" creator="Stukov" created_by="Stukov"
+            comment="7. Juni 1980: MS Zenobia, schwedische RoRo-Fähre der Challenger-Klasse, kentert auf Jungfernfahrt nahe Larnaca/Zypern. 122 beladene LKW-Anhänger an Bord. 137 von 147 Personen gerettet. Ursache: Fehler im Ballastsystem. Wrack liegt in 42m Tiefe und ist heute eines der beliebtesten Tauchziele im Mittelmeer. https://en.wikipedia.org/wiki/MS_Zenobia">
+         <title>
+            <de>Jungfernfahrt endet am Meeresgrund: Fähre „Zenobia" sinkt vor Zypern</de>
+            <en>Maiden Voyage Ends on the Seabed: Ferry "Zenobia" Sinks Off Cyprus</en>
+         </title>
+         <description>
+            <de>Larnaca – Die schwedische Fähre „Zenobia" ist auf ihrer Jungfernfahrt vor Zypern gekentert. An Bord: 122 beladene LKW-Anhänger und 147 Menschen, von denen 137 gerettet wurden. Ursache: ein fehlerhaftes Ballastsystem. Das Schiff liegt jetzt in 42 Metern Tiefe – und wird dort vermutlich länger bleiben als geplant.</de>
+            <en>Larnaca – The Swedish ferry "Zenobia" capsized off Cyprus on her maiden voyage. On board: 122 loaded truck trailers and 147 people, of whom 137 were rescued. Cause: a faulty ballast system. The ship now rests at 42 metres depth – and will likely stay there longer than planned.</en>
+         </description>
+         <data genre="4" price="0.35" quality_min="30" quality_max="50" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.3" teenagers="0.6" housewives="0.8" employees="0.9" managers="0.8" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0021" type="0" creator="Stukov" created_by="Stukov"
+            comment="4. Juni 1980: Copa del Rey Finale – Real Madrid gegen Castilla CF (eigene Reservemannschaft). 65.000 Zuschauer im Santiago Bernabéu. Real Madrid gewinnt 6:1. Einziges Mal in der Geschichte eines europäischen Pokalfinales dass ein Verein gegen seine eigene Reserve antritt. https://en.wikipedia.org/wiki/1980_Copa_del_Rey_Final">
+         <title>
+            <de>Real Madrid gewinnt Pokalfinale – gegen sich selbst</de>
+            <en>Real Madrid Wins Cup Final – Against Themselves</en>
+         </title>
+         <description>
+            <de>Madrid – Im Finale der Copa del Rey trat Real Madrid gegen die eigene Reservemannschaft Castilla an. Vor 65.000 Zuschauern siegte die erste Mannschaft 6:1. Wer den Pokal überreicht hat, ist unklar – vermutlich die linke Hand der rechten.</de>
+            <en>Madrid – In the Copa del Rey final, Real Madrid faced their own reserve team Castilla. Before 65,000 spectators, the first team won 6:1. Who presented the trophy is unclear – presumably the left hand of the right.</en>
+         </description>
+         <data genre="2" price="0.3" quality_min="21" quality_max="52" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.4" children_male="0.6" teenagers="1.0" teenagers_male="1.2" housewives="0.3" employees_male="1.1" managers="0.7" pensioners_male="0.9" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0022" type="0" creator="Stukov" created_by="Stukov"
+            comment="17. Juni 1980: Atomanlage Windscale (Sellafield), Großbritannien. Über 100 Beschäftigte erkranken nachdem verseuchtes Kühlwasser versehentlich als Trinkwasser verwendet wurde. Windscale war bereits 1957 Ort eines schweren Reaktorbrands. https://en.wikipedia.org/wiki/Sellafield">
+         <title>
+            <de>Windscale: Über 100 AKW-Mitarbeiter trinken verseuchtes Kühlwasser</de>
+            <en>Windscale: Over 100 Nuclear Plant Workers Drink Contaminated Coolant Water</en>
+         </title>
+         <description>
+            <de>London – In der britischen Atomanlage Windscale sind über 100 Beschäftigte erkrankt. Verseuchtes Kühlwasser war versehentlich als Trinkwasser verwendet worden. Windscale hatte bereits 1957 einen Reaktorbrand – offenbar lernt man dort langsam. Die Anti-AKW-Bewegung dürfte neue Argumente geliefert bekommen haben.</de>
+            <en>London – Over 100 workers at Britain's Windscale nuclear plant have fallen ill. Contaminated coolant water was accidentally used as drinking water. Windscale already had a reactor fire in 1957 – apparently they learn slowly there. The anti-nuclear movement will have received fresh arguments.</en>
+         </description>
+         <data genre="4" price="0.7" quality_min="48" quality_max="68" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="1.2" housewives="1.1" employees="1.1" managers="1.2" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  <news guid="news-stukov1980Jun_0023" type="0" creator="Stukov" created_by="Stukov"
+            comment="Ab Mai/Juni 1980: Die ARD-Sendung Musikladen (Radio Bremen) integriert erstmals Musikvideos ins Programm. Revolutionär für das deutsche Fernsehen, ein Vorläufer von MTV (1981). Moderiert von Manfred Sexauer. https://de.wikipedia.org/wiki/Musikladen">
+         <title>
+            <de>Musikladen zeigt jetzt Musikvideos – die Zukunft des Fernsehens?</de>
+            <en>Musikladen Now Shows Music Videos – The Future of Television?</en>
+         </title>
+         <description>
+            <de>Bremen – Die ARD-Sendung „Musikladen" geht neue Wege: Statt Künstler nur im Studio auftreten zu lassen, zeigt die Sendung jetzt auch Musikvideos. Ob sich das durchsetzt, ist offen. Sicher ist: Die Produktionskosten sinken, wenn der Künstler gar nicht mehr kommen muss.</de>
+            <en>Bremen – The ARD show "Musikladen" breaks new ground: instead of only having artists perform in the studio, the show now also features music videos. Whether this catches on remains to be seen. One thing is certain: production costs drop when the artist doesn't need to show up at all.</en>
+         </description>
+         <data genre="3" price="0.13" quality_min="20" quality_max="40" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <effects>
+            <effect trigger="broadcastFirstTime" type="modifyMovieGenrePopularity" genre="102" valueMin="0.03" valueMax="0.08" probability="50" />
+         </effects>
+         <targetgroupattractivity children="0.3" teenagers="1.4" teenagers_female="1.5" housewives="0.6" employees="1.1" managers="1.2" pensioners="0.5" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	        <news guid="news-stukov1980Jun_0024" type="0" creator="Stukov" created_by="Stukov"
+            comment="22. Juni 1980: EM-Finale in Rom, Stadio Olimpico, 47.860 Zuschauer. Deutschland – Belgien 2:1. Hrubesch 10' (Kopfball), Vandereycken 75' (Elfmeter), Hrubesch 88' (Kopfball). Hrubesch war nur im Kader weil Klaus Fischer sich das Bein gebrochen hatte. Bundestrainer Jupp Derwall. Zweiter EM-Titel Deutschlands. https://en.wikipedia.org/wiki/UEFA_Euro_1980_final">
+         <title>
+            <de>Deutschland ist Europameister! Hrubesch köpft Belgien in der 88. Minute nieder</de>
+            <en>Germany Are European Champions! Hrubesch Heads Belgium Down in the 88th Minute</en>
+         </title>
+         <description>
+            <de>Rom – Deutschland gewinnt die Fußball-Europameisterschaft! Im Finale gegen Belgien trifft Horst Hrubesch per Kopf zum 1:0, Belgien gleicht per Elfmeter aus – und Hrubesch köpft zwei Minuten vor Schluss erneut ein. Der Mann, der nur im Kader stand, weil sich Klaus Fischer das Bein gebrochen hatte. Manchmal schreibt der Fußball die besseren Drehbücher.</de>
+            <en>Rome – Germany win the European Championship! In the final against Belgium, Horst Hrubesch heads in the opener, Belgium equalise from the penalty spot – and Hrubesch heads in again two minutes before the end. The man who was only in the squad because Klaus Fischer broke his leg. Sometimes football writes the better scripts.</en>
+         </description>
+         <data genre="2" price="1.2" quality_min="75" quality_max="85" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.6" children_male="0.8" teenagers="1.3" teenagers_male="1.5" housewives="1.0" employees="1.3" employees_male="1.4" unemployed="1.1" managers="1.2" pensioners="1.2" pensioners_male="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+      <news guid="news-stukov1980Jun_0025" type="0" creator="Stukov" created_by="Stukov"
+            comment="27. Juni 1980: Led Zeppelin 'Tour Over Europe 1980', Konzert in Nürnberg Messehalle. Abbruch nach 3 Songs – Schlagzeuger John Bonham kollabiert auf der Bühne. Letzte Tournee der Band. 5 Konzerte in Deutschland (Dortmund, Köln, Bremen, Hannover, Nürnberg), Tour ging danach weiter. Bonham starb am 25. September 1980, Band löste sich im Dezember auf. https://en.wikipedia.org/wiki/Led_Zeppelin_Tour_Over_Europe_1980">
+         <title>
+            <de>Led Zeppelin: Konzert in Nürnberg nach drei Songs abgebrochen – Bonham kollabiert</de>
+            <en>Led Zeppelin: Nuremberg Concert Cancelled After Three Songs – Bonham Collapses</en>
+         </title>
+         <description>
+            <de>Nürnberg – Schock in der Messehalle: Led Zeppelin mussten ihr Konzert nach nur drei Songs abbrechen. Schlagzeuger John Bonham kollabierte auf der Bühne. Die Band ist auf Europatournee – fünf Auftritte in Deutschland waren geplant. Ob die Tour weitergeht, ist unklar. Bonhams Gesundheitszustand gibt Anlass zur Sorge.</de>
+            <en>Nuremberg – Shock at the Messehalle: Led Zeppelin had to cancel their concert after only three songs. Drummer John Bonham collapsed on stage. The band is on a European tour – five performances in Germany were planned. Whether the tour continues is unclear. Bonham's health is cause for concern.</en>
+         </description>
+         <data genre="1" price="0.55" quality_min="40" quality_max="62" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="1.4" teenagers_male="1.5" housewives="0.5" employees="1.2" employees_male="1.3" unemployed="1.1" managers="0.7" pensioners="0.4" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+  
+		<!-- Juli 1980 -->
+  
+	  <news guid="news-stukov1980Jul_0001" type="0" creator="Stukov" created_by="Stukov"
+      comment="June 30/July 1, 1980: Activists around Corny Littmann smashed one-way mirrors on 8 Hamburg public toilets, revealing 16 years of police surveillance. 'Morality control' was cover for maintaining illegal 'Rosa Listen' (homosexual registries). Mirrors installed since 1964 under Interior Senator Helmut Schmidt. https://de.wikipedia.org/wiki/Klappe_(Homosexualit%C3%A4t)">
+		<title>
+			<de>Hamburg: Polizei beobachtet Bürger auf dem Klo – seit 16 Jahren</de>
+			<en>Hamburg: Police Caught Watching Citizens on the Toilet – For 16 Years</en>
+		</title>
+		<description>
+			<de>Hamburg – Auf acht öffentlichen Klos saß die Polizei hinter Einwegspiegeln. Dienstauftrag: Sittenkontrolle am Pissoir. Aktivisten zerschlugen die Spiegel. Die Stellenbeschreibung dahinter liest man besser nicht laut vor.</de>
+			<en>Hamburg – On eight public toilets, police sat behind one-way mirrors for years. Assignment: morality control at the urinal. Activists smashed the glass with hammers. The job description behind it is best not read aloud.</en>
+		</description>
+			<data genre="4" price="0.65" quality_min="55" quality_max="73" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+		<targetgroupattractivity children="0.6" teenagers="1.3" housewives="1.1" employees="1.0" unemployed="1.0" managers="0.8" pensioners_male="0.9" pensioners_female="1.1" />
+		<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+	</news>
+	
+	<news guid="news-stukov1980Jul_0003" type="0" creator="Stukov" created_by="Stukov"
+      comment="July 16-17, 1980: DWK founds Brennelementlager Gorleben GmbH (BLG), files construction application for interim nuclear waste storage facility. Follow-up to Wendland occupation/eviction arc. http://gorleben-archiv.de/wordpress/chronik/1980-2/">
+    <title>
+        <de>Gorleben: Bauantrag für Atommüll-Zwischenlager eingereicht</de>
+        <en>Gorleben: Construction Application Filed for Nuclear Waste Storage</en>
+    </title>
+    <description>
+        <de>Gorleben – Sechs Wochen nach der Räumung der „Freien Republik Wendland" stellt die neue Brennelementlager GmbH einen Bauantrag für ein atomares Zwischenlager. Die Hütten sind weg, die Aktenordner kommen. Der Staat hat es nicht eilig – aber er vergisst auch nichts.</de>
+        <en>Gorleben – Six weeks after evicting the 'Free Republic of Wendland', a new company files to build a nuclear waste storage facility. The huts are gone, the paperwork has arrived. The state is slow – but it never forgets.</en>
+    </description>
+    <data genre="0" price="0.6" quality_min="40" quality_max="60" min_subscription_level="1" available="0" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.2" teenagers="1.3" housewives="0.8" employees="1.0" unemployed="1.1" managers="1.2" pensioners="1.1" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+	</news>
+	
+	<news guid="news-stukov1980Jul_0004" type="0" creator="Stukov" created_by="Stukov"
+      comment="July 25, 1980: Three children (Susanne 15, Sabine 13, cousin Martin Wächtler 15) kidnapped from holiday villa in Barberino Val d'Elsa, Tuscany by sardinian criminal gang. Father is ZDF journalist Dieter Kronzucker (heute-journal). Pope John Paul II and Cardinal Benelli appealed to kidnappers on TV. 68 days captivity. https://de.wikipedia.org/wiki/Kronzucker-Entf%C3%BChrung">
+    <title>
+        <de>Toskana: Kinder von ZDF-Journalist Kronzucker entführt</de>
+        <en>Tuscany: Children of ZDF Journalist Kronzucker Kidnapped</en>
+    </title>
+    <description>
+        <de>Barberino – Bewaffnete Maskierte entführten drei Kinder aus einer Ferienvilla in der Toskana. Ihr Vater: ZDF-Journalist Dieter Kronzucker. Aus dem Reporter wurde über Nacht die Nachricht. Auch der Papst hat sich eingeschaltet.</de>
+        <en>Barberino – Armed men kidnapped three children from a holiday villa in Tuscany. Their father: ZDF journalist Dieter Kronzucker. The reporter became the story overnight. Even the Pope has gotten involved.</en>
+    </description>
+    <data genre="4" price="0.9" quality_min="55" quality_max="78" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="happen" type="triggernews" time="4,1980,10,1" news="news-stukov1980Okt_0002" />
+    </effects>
+    <targetgroupattractivity children="0.5" teenagers="1.2" housewives="1.5" employees="1.2" unemployed="1.1" managers="1.1" pensioners="1.3" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+	</news>
+	
+	<news guid="news-stukov1980Jul_0005" thread_guid="news-stukov-stopptstrauss" type="0" creator="Stukov" created_by="Stukov"
+      comment="July 17, 1980: Christine Schanderl (18) expelled from Albertus-Magnus-Gymnasium Regensburg for wearing a 'Stoppt Strauß' button. School cited 1973 ministerial decree banning 'political advertising'. Verwaltungsgericht ruled in her favour but school denied entry pending appeal. Led to change in Bavarian school law. https://de.wikipedia.org/wiki/Albertus-Magnus-Gymnasium_Regensburg">
+    <title>
+        <de>Regensburg: Schülerin fliegt wegen Button von der Schule</de>
+        <en>Regensburg: Student Expelled Over a Button</en>
+    </title>
+    <description>
+        <de>Regensburg – Eine 18-jährige Gymnasiastin trug einen „Stoppt Strauß"-Button. Die Schulleitung verwies sie. Das Verwaltungsgericht gab ihr Recht. Die Schule ließ sie trotzdem nicht rein. Bayern regelt das auf seine Art.</de>
+        <en>Regensburg – An 18-year-old student wore a 'Stop Strauss' button. The school expelled her. The court ruled in her favour. The school still refused her entry. Bavaria handles things its own way.</en>
+    </description>
+    <data genre="0" price="0.5" quality_min="45" quality_max="65" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="happen" type="triggernews" time="4,1981,5,27" news="news-stukov1981Mai_0001" />
+    </effects>
+    <targetgroupattractivity children="1.0" teenagers="1.5" housewives="1.1" employees="1.0" unemployed="0.9" managers="1.1" pensioners="1.2" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Jul_0002" type="0" creator="Stukov" created_by="Stukov"
+		comment="3. Juli 1980: Aurel Popescu (27), Agraringenieur, fliegt 20 rumänische Flüchtlinge (Männer, Frauen, Kinder) in sowjetischer Antonow An-2 (Sprühflugzeug/Doppeldecker) im Tiefflug von Arad über die ungarische Grenze nach Pertlstein, Südoststeiermark, Österreich. Tank bei Landung fast leer. WaPo 4. Juli 1980: '20 Romanians Defect to Austria In Crop-Duster.' Flüchtlinge wollten eigentlich nach Australien. https://www.washingtonpost.com/archive/politics/1980/07/04/20-romanians-defect-to-austria-in-crop-duster/">
+         <title>
+            <de>Flucht im Sprühflugzeug</de>
+            <en>Escape by Crop Duster</en>
+         </title>
+         <description>
+            <de>Steiermark – Ein 27-jähriger Agraringenieur flog 20 Rumänen in einem sowjetischen Sprühflugzeug im Tiefflug über die Grenze. Landung im Maisfeld, Tank leer. Ein Bauer näherte sich. Erste Frage: „Austria?" Erste Antwort: „Freiheit."</de>
+            <en>Styria – A 27-year-old engineer flew 20 Romanians across the border in a Soviet crop duster at treetop level. Landing in a cornfield, tank empty. A farmer approached. First question: 'Austria?' First answer: 'Freedom.'</en>
+         </description>
+         <data genre="4" price="0.48" quality_min="25" quality_max="65" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.8" teenagers="1.3" housewives="1.2" unemployed="0.9" managers="0.9" pensioners="1.2" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Jul_0006" type="0" creator="Stukov" created_by="Stukov"
+		comment="8.–25. Juli 1980: 'Lubliner Juli' – Fleischpreiserhöhung um 60 % löst Streikwelle aus. Beginn im Flugzeugwerk WSK-PZL Świdnik: Arbeiter Mirosław Kaczan schaltet Maschinen ab, nachdem Schweinekotelett über Nacht von 10,20 auf 18,10 Złoty steigt (+80 %). Bis 17./18. Juli: 79 Betriebe, 40.000+ Arbeiter gleichzeitig im Streik, insgesamt 150 Fabriken. Eisenbahner entdecken als 'Fisch' deklarierten Fleischzug Richtung Moskau. Regierung schickt Vize-Premier Jagielski (verhandelt im August auch in Danzig). Direkter Vorläufer der Solidarność. Teil 1 von 2. https://en.wikipedia.org/wiki/Lublin_July_(1980)">
+         <title>
+            <de>Polen: Ein Schweinekotelett legt 150 Fabriken lahm</de>
+            <en>Poland: A Pork Chop Shuts Down 150 Factories</en>
+         </title>
+         <description>
+            <de>Lublin – Nach Fleischpreiserhöhung um 60 % streiken 50.000 Arbeiter. Auslöser: ein Kotelett, das über Nacht 80 % teurer wurde. Eisenbahner entdeckten einen als „Fisch" getarnten Fleischzug Richtung Moskau. Ganz Lublin steht still.</de>
+            <en>Lublin – After a 60% meat price hike, 50,000 workers strike. Trigger: a pork chop that doubled overnight. Railway workers discovered a 'fish' train secretly carrying meat to Moscow. The entire city is paralyzed.</en>
+         </description>
+         <data genre="0" price="0.7" quality_min="45" quality_max="72" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+		 <effects>
+			<effect trigger="happen" type="triggernews" time="4,1980,8,31" news="news-stukov1980Aug_0001" />
+		</effects>
+         <targetgroupattractivity children="0.5" teenagers="1.2" housewives="1.3" employees="1.4" unemployed="1.1" managers="1.2" pensioners="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Jul_0007" type="0" creator="Stukov" created_by="Stukov"
+		comment="30. Juli 1980: Republik Vanuatu (ehem. Neue Hebriden) wird unabhängig. Einzigartiges britisch-französisches Kondominium seit 1906. PM: anglikanischer Pfarrer Walter Lini. 'Kokosnuss-Krieg': Jimmy Stevens (Ex-Traktorfahrer, Nagriamel-Bewegung) ruft im Juni 1980 'Staat Vemerana' auf Espiritu Santo aus. Bewaffnet mit Pfeil und Bogen. Unterstützt von französischen Pflanzern, US Phoenix Foundation (Libertäre, wollten steuerfreien Ministaat) und verdeckt von Frankreich. Briten und Franzosen blockieren sich gegenseitig. Papua-Neuguinea schickt 450 Soldaten (erster Auslandseinsatz überhaupt). Stevens kapituliert 28. August nach Tod seines Sohnes an Checkpoint. 14,5 Jahre Haft. Hatte 23 Ehefrauen. https://en.wikipedia.org/wiki/Coconut_War">
+         <title>
+            <de>Kokosnuss-Krieg</de>
+            <en>Coconut War</en>
+         </title>
+         <description>
+            <de>Südsee – Vanuatu wird unabhängig, aber ein Ex-Traktorfahrer will nicht mitmachen. Mit Pfeil und Bogen rief er seine eigene Republik aus – finanziert von amerikanischen Libertären. Papua-Neuguinea musste eingreifen. Erstmals.</de>
+            <en>South Pacific – Vanuatu gains independence, but an ex-tractor driver disagrees. Armed with bows and arrows, he declared his own republic – funded by American libertarians. Papua New Guinea had to intervene. For the first time.</en>
+         </description>
+         <data genre="4" price="0.15" quality_min="10" quality_max="40" min_subscription_level="3" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="1.1" teenagers="1.2" housewives="1.0" employees="0.8" unemployed="0.9" managers="0.7" pensioners="1.1" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Jul_0008" type="0" creator="Stukov" created_by="Stukov"
+		comment="18. Juli 1980: Indiens SLV-3-Rakete startet erfolgreich von Sriharikota und bringt Rohini RS-1 Satellit (35 kg) in 305x919 km Umlaufbahn. Indien wird 7. Nation mit eigener Satellitenstart-Fähigkeit (nach UdSSR, USA, Frankreich, Japan, China, UK). Erster Versuch August 1979 gescheitert. Projektleiter: APJ Abdul Kalam (später 11. Präsident Indiens, 2002-2007). BBC/VOA kritisch gegenüber Indiens Einstieg in 'Weltraum- und Raketenwettlauf'. https://en.wikipedia.org/wiki/Rohini_(satellite)">
+         <title>
+            <de>Indien im All</de>
+            <en>India in Space</en>
+         </title>
+         <description>
+            <de>Sriharikota – Indien bringt mit eigener Rakete einen Satelliten ins All und wird damit die siebte Raumfahrtnation. Der Satellit wiegt 35 Kilo. Projektleiter ist ein junger Ingenieur namens Kalam. Merken Sie sich den Namen.</de>
+            <en>Sriharikota – India launches its own satellite into orbit, becoming the seventh spacefaring nation. The satellite weighs 35 kilos. Project director is a young engineer named Kalam. Remember that name.</en>
+         </description>
+         <data genre="3" price="0.25" quality_min="15" quality_max="45" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="1.2" teenagers="1.3" housewives="0.6" unemployed="0.7" managers="1.1" pensioners="0.8" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Jul_0009" type="0" creator="Stukov" created_by="Stukov" comment="https://www.amnesty.org/en/wp-content/uploads/2021/06/afr380032002en.pdf | https://en.wikipedia.org/wiki/Slavery_in_Mauritania | https://www.hrw.org/reports/pdfs/m/mauritan/mauritan906.pdf">
+	<title>
+		<de>Mauretanien schafft Sklaverei ab. Zum dritten Mal.</de>
+		<en>Mauritania Abolishes Slavery. For the Third Time.</en>
+	</title>
+	<description>
+		<de>Nouakchott – Präsident Haidalla erklärt die Sklaverei für abgeschafft. Frankreich hatte das 1905 schon versucht, die Verfassung von 1961 ebenfalls. Islamgelehrte bestätigen: Kein Problem. Die geschätzt 100.000 Sklaven im Land wurden über die frohe Botschaft leider nicht informiert.</de>
+		<en>Nouakchott – President Haidalla declares slavery abolished. France tried that in 1905, the constitution again in 1961. Islamic scholars confirm: no objections. The estimated 100,000 slaves in the country were unfortunately not informed of the good news.</en>
+	</description>
+	<data genre="4" price="0.15" quality_min="10" quality_max="40" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+	<targetgroupattractivity children="0.7" teenagers="1.0" housewives="1.0" employees="0.9" unemployed="0.8" managers="0.9" pensioners="1.1" />
+	<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+	</news>
+	
+	<news guid="news-stukov1980Jul_0010" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Ph%E1%BA%A1m_Tu%C3%A2n | https://en.wikipedia.org/wiki/Soyuz_37">
+	<title>
+		<de>Sojus 37: Erster Asiat im All</de>
+		<en>Soyuz 37: First Asian in Space</en>
+	</title>
+	<description>
+		<de>Baikonur – Der Vietnamese Phạm Tuân fliegt mit Sojus 37 zur Raumstation Saljut 6. Er ist der erste Asiat im Weltraum. Im Gepäck: Ho-Chi-Minhs Testament und vietnamesische Flaggen. Pikant: Tuân hatte 1972 einen B-52-Bomber abgeschossen. Diesmal fliegt er friedlich.</de>
+		<en>Baikonur – Vietnamese pilot Phạm Tuân launches aboard Soyuz 37 to the Salyut 6 station. He is the first Asian in space. In his luggage: Ho Chi Minh's will and Vietnamese flags. Fun fact: Tuân shot down a B-52 in 1972. This time he's flying peacefully.</en>
+	</description>
+	<data genre="3" price="0.35" quality_min="25" quality_max="55" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+	<targetgroupattractivity children="1.2" teenagers="1.4" housewives="0.8" employees="1.0" unemployed="0.9" managers="1.0" pensioners="1.1" />
+	<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Jul_0011" type="0" creator="Stukov" created_by="Stukov" comment="https://www.ebsco.com/research-starters/history/japan-becomes-worlds-largest-automobile-producer | https://www.toyota-global.com/company/history_of_toyota/75years/text/leaping_forward_as_a_global_corporation/chapter1/section1/item1.html">
+	<title>
+		<de>Japan baut mehr Autos als Amerika</de>
+		<en>Japan Builds More Cars Than America</en>
+	</title>
+	<description>
+		<de>Tokio – Japan überholt die USA als größter Autohersteller der Welt: 7 Millionen Fahrzeuge gegen 6,4 Millionen. Toyota exportiert erstmals über eine Million PKW. In Detroit verlieren alle vier Hersteller Geld. In Wolfsburg versucht man, nicht nervös zu werden.</de>
+		<en>Tokyo – Japan overtakes the USA as the world's largest car manufacturer: 7 million vehicles versus 6.4 million. Toyota exports over one million cars for the first time. In Detroit, all four manufacturers are losing money. In Wolfsburg, they're trying not to panic.</en>
+	</description>
+	<data genre="0" price="0.65" quality_min="40" quality_max="70" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+	<targetgroupattractivity children="0.5" teenagers="0.8" housewives="0.9" employees="1.4" unemployed="1.1" managers="1.5" pensioners="1.0" />
+	<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+	  
+	  <!-- August 1980 -->
+	  
+	  <news guid="news-stukov1980Aug_0001" type="0" creator="Stukov" created_by="Stukov"
+		comment="14.–31. August 1980: Streik auf der Leninwerft Danzig. Auslöser: Entlassung der Kranführerin Anna Walentynowicz, 5 Monate vor Rente. Lech Wałęsa (arbeitsloser Elektriker) klettert über Zaun, führt 17.000 Arbeiter. 16. August: Überbetriebliches Streikkomitee (MKS). 17. August: 21 Forderungen (u.a. freie Gewerkschaften, Streikrecht, Pressefreiheit). Panzer vor den Toren. 31. August: Gdańsk-Abkommen unterzeichnet von Wałęsa und Vize-Premier Jagielski (derselbe Verhandler wie in Lublin Juli!). Wałęsa unterschreibt mit Kugelschreiber mit Papst-Johannes-Paul-II-Bild. Erste unabhängige Gewerkschaft im Ostblock. 10 Mio. Mitglieder bis Anfang 1981. 22. September: Solidarność formell gegründet. Teil 2 von 2. https://en.wikipedia.org/wiki/Gdańsk_Agreement">
+         <title>
+            <de>Danzig: Ein Elektriker bringt den Ostblock ins Wanken</de>
+            <en>Gdańsk: An Electrician Shakes the Eastern Bloc</en>
+         </title>
+         <description>
+            <de>Danzig – 17.000 Werftarbeiter erzwingen freie Gewerkschaften. Anführer Lech Wałęsa, ein arbeitsloser Elektriker, kletterte über den Zaun. Er unterschrieb das Abkommen mit einem Kugelschreiber mit Papst-Bild. 10 Millionen traten bei.</de>
+            <en>Gdańsk – 17,000 shipyard workers force free trade unions. Leader Lech Wałęsa, an unemployed electrician, climbed over the fence. He signed the accord with a pen bearing the Pope's image. 10 million joined.</en>
+         </description>
+         <data genre="0" price="0.95" quality_min="55" quality_max="85" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <effects>
+            <effect trigger="happen" type="modifyNewsAvailability" enable="0" news="news-stukov1980Jul_0006" />
+         </effects>
+         <targetgroupattractivity children="0.4" teenagers="1.3" housewives="1.2" employees="1.5" unemployed="1.2" managers="1.3" pensioners="1.4" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Aug_0002" type="0" creator="Stukov" created_by="Stukov" comment="https://www.olympics.com/de/olympic-games/moscow-1980/medals | https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1980">
+	<title>
+		<de>Olympia: DDR vs. BRD 47:0</de>
+		<en>Olympics: GDR vs. FRG 47:0</en>
+	</title>
+	<description>
+		<de>Moskau – Die DDR räumt bei Olympia ab: 47× Gold, Platz 2 hinter der UdSSR. Handball-Finale 23:22 gegen den Gastgeber! Sechs Schwimm-Weltrekorde! Die BRD holte derweil: nichts. Dass die halbe Welt fehlte, steht im Kleingedruckten.</de>
+		<en>Moscow – The GDR cleans up at the Olympics: 47 golds, 2nd place behind the USSR. Handball final 23:22 against the hosts! Six swimming world records! The FRG meanwhile collected: nothing. That half the world was missing is in the fine print.</en>
+	</description>
+	<data genre="2" price="0.55" quality_min="35" quality_max="65" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+	<targetgroupattractivity children="0.9" teenagers="1.3" housewives="0.9" employees="1.1" unemployed="1.0" managers="0.8" pensioners="1.2" />
+	<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+	</news>
+	
+	<news guid="news-stukov1980Aug_0003" type="0" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Special_economic_zones_of_China | https://www.ourchinastory.com/en/12630/China's-first-batch-of-special-economic-zones-approved-for-establishment">
+	<title>
+		<de>Peking experimentiert mit dem Kapitalismus</de>
+		<en>Beijing Experiments With Capitalism</en>
+	</title>
+	<description>
+		<de>Peking – Chinas Volkskongress genehmigt „Sonderwirtschaftszonen" in Shenzhen, Zhuhai, Shantou und Xiamen. Ausländische Investoren dürfen dort Fabriken bauen. Shenzhen hat 30.000 Einwohner und keinerlei Infrastruktur. Was soll schon schiefgehen.</de>
+		<en>Beijing – China's National People's Congress approves "Special Economic Zones" in Shenzhen, Zhuhai, Shantou, and Xiamen. Foreign investors may build factories there. Shenzhen has 30,000 residents and zero infrastructure. What could possibly go wrong.</en>
+	</description>
+	<data genre="0" price="0.20" quality_min="15" quality_max="45" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+	<targetgroupattractivity children="0.3" teenagers="0.6" housewives="0.6" employees="1.0" unemployed="0.7" managers="1.3" pensioners="0.8" />
+	<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+	  
+	  
+	  <!-- Oktober 1980 -->
+	  <news guid="news-stukov1980Okt_0001" type="0" creator="Stukov" created_by="Stukov"
+            comment="Oktober 1980: Erste 24 VHS/Betamax-Kassetten von MGM/CBS Home Video im Handel. 16 MGM-Titel (Wizard of Oz, 2001, Ben-Hur u.a.) und 8 CBS-Titel. Braune Lederhüllen mit Goldprägung. Hybrid-Folgenachricht zu news-stukov1980Jun_0019. https://en.wikipedia.org/wiki/MGM_Home_Entertainment">
+         <title>
+            <de>MGM/CBS liefert: 24 Filmklassiker jetzt auf Kassette</de>
+            <en>MGM/CBS Delivers: 24 Film Classics Now on Cassette</en>
+         </title>
+         <description>
+            <de>Los Angeles – Es ist so weit: MGM/CBS bringt die ersten 24 Spielfilme auf VHS und Betamax in den Handel. „Der Zauberer von Oz", „2001" und „Ben-Hur" gibt es jetzt im Wohnzimmer – für jeden, der sich ein Abspielgerät leisten kann. Das Fernsehen hat ab sofort Konkurrenz im eigenen Haus.</de>
+            <en>Los Angeles – The moment has arrived: MGM/CBS releases the first 24 feature films on VHS and Betamax. "The Wizard of Oz", "2001" and "Ben-Hur" are now available in the living room – for anyone who can afford a player. Television now has competition under its own roof.</en>
+         </description>
+         <data genre="3" price="0.25" quality_min="20" quality_max="40" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
+         <targetgroupattractivity children="0.7" teenagers="1.1" housewives="0.3" managers="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Okt_0002" type="0" creator="Stukov" created_by="Stukov"
+      comment="October 1, 1980: Children released after 68 days. 4.3 million DM ransom smuggled into Italy with help of three BKA agents, journalist Franz Tartarotti, and a priest. Ransom payments illegal in Italy. Legal proceedings initiated against parents. https://de.wikipedia.org/wiki/Kronzucker-Entf%C3%BChrung">
+    <title>
+        <de>Kronzucker-Kinder frei – Eltern schmuggelten 4,3 Millionen nach Italien</de>
+        <en>Kronzucker Children Freed – Parents Smuggled 4.3 Million into Italy</en>
+    </title>
+    <description>
+        <de>Florenz – Nach 68 Tagen sind die drei Kronzucker-Kinder frei. Lösegeld: 4,3 Millionen Mark. Problem: In Italien ist Lösegeld verboten. Also wurde geschmuggelt – mit Hilfe des BKA. Jetzt ermittelt Italien gegen die Eltern.</de>
+        <en>Florence – After 68 days, the three Kronzucker children are free. Ransom: 4.3 million marks. Problem: ransom payments are illegal in Italy. So it was smuggled – with BKA help. Now Italy is investigating the parents.</en>
+    </description>
+    <data genre="4" price="0.8" quality_min="50" quality_max="72" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="happen" type="triggernews" time="4,1985,3,15" news="news-stukov1985_kronzucker" />
+    </effects>
+    <targetgroupattractivity children="0.6" teenagers="1.2" housewives="1.5" employees="1.1" unemployed="1.0" managers="1.1" pensioners="1.2" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+	</news>
+	  
       <!-- Dezember 1980 -->
       <news guid="news-stukov1980Dez_0001" thread_guid="news-stukov-sommerzeit" type="2" creator="Stukov" created_by="Stukov" comment="DDR announced in October 1980 it wanted to abolish daylight saving after one year. West Germany refused. DDR backed down in December 1980, citing practical reasons including S-Bahn schedules in Berlin and pressure from Poland and Czechoslovakia.">
          <title>
@@ -846,6 +1813,44 @@
          <targetgroupattractivity children="0.1" teenagers="0.3" housewives="1.2" employees="1.1" unemployed="1.0" managers="1.4" pensioners="1.1"/>
          <availability year_range_from="1981" year_range_to="1981" script='${.eq:${.worldtime:"season"}:1}' />
       </news>
+	  
+	   <!-- Mai 1981 -->
+	  
+	  <news guid="news-stukov1981Mai_0001" thread_guid="news-stukov-stopptstrauss" type="2" creator="Stukov" created_by="Stukov"
+      comment="May 27, 1981: Bavarian Constitutional Court rules the ministerial decree unconstitutional – student was allowed to wear the button. But court leaves decree in force until end of 1982. Schanderl has already changed schools. https://de.wikipedia.org/wiki/Albertus-Magnus-Gymnasium_Regensburg">
+    <title>
+        <de>„Stoppt Strauß"-Schülerin gewinnt vor Gericht – Schule muss sie trotzdem nicht reinlassen</de>
+        <en>'Stop Strauss' Student Wins in Court – School Still Doesn't Have to Let Her In</en>
+    </title>
+    <description>
+        <de>München – Der Bayerische Verfassungsgerichtshof urteilt: Die Schülerin durfte den Button tragen. Die Ministerialverordnung sei verfassungswidrig. Aber: Das Gericht lässt sie bis Ende 1982 in Kraft. Schanderl hat inzwischen die Schule gewechselt.</de>
+        <en>Munich – The Bavarian Constitutional Court rules: the student was allowed to wear the button. The ministerial decree was unconstitutional. But: the court leaves it in force until end of 1982. Schanderl has since changed schools.</en>
+    </description>
+    <data genre="0" price="0.5" quality_min="40" quality_max="58" min_subscription_level="1" available="0" fictional="0" happen_time="4,1981,5,27" flags="2"/>
+    <effects>
+        <effect trigger="happen" type="triggernews" time="4,1982,2,9" news="news-stukov1982Feb_0001" />
+    </effects>
+    <targetgroupattractivity children="0.8" teenagers="1.4" housewives="1.0" managers="1.1" pensioners="1.1" />
+    <availability year_range_from="1981" year_range_to="1981" />
+</news>
+
+		<!--  Februar 1982  -->
+
+<news guid="news-stukov1982Feb_0001" thread_guid="news-stukov-stopptstrauss" type="2" creator="Stukov" created_by="Stukov"
+      comment="February 9, 1982: Verwaltungsgerichtshof confirms expulsion was disproportionate. Too late for Schanderl – she graduated elsewhere. Bavarian parliament subsequently changes law to permit buttons and badges in schools. https://de.wikipedia.org/wiki/Albertus-Magnus-Gymnasium_Regensburg">
+    <title>
+        <de>Button-Affäre beendet: Bayern erlaubt Plaketten an Schulen</de>
+        <en>Button Affair Over: Bavaria Allows Badges in Schools</en>
+    </title>
+    <description>
+        <de>München – Der Verwaltungsgerichtshof bestätigt: Der Schulverweis war unverhältnismäßig. Zu spät für Schanderl – sie hat anderswo Abitur gemacht. Aber der Landtag ändert das Gesetz. Buttons an bayerischen Schulen sind jetzt erlaubt. Der Rechtsstaat braucht manchmal zwei Jahre und eine Schülerin.</de>
+        <en>Munich – The Administrative Court confirms: the expulsion was disproportionate. Too late for Schanderl – she graduated elsewhere. But parliament changes the law. Buttons in Bavarian schools are now permitted. The rule of law sometimes needs two years and one student.</en>
+    </description>
+    <data genre="0" price="0.4" quality_min="35" quality_max="52" min_subscription_level="1" available="0" fictional="0" happen_time="4,1982,2,9" flags="2"/>
+    <targetgroupattractivity children="0.7" teenagers="1.3" housewives="0.9" managers="1.0" pensioners="1.0" />
+    <availability year_range_from="1982" year_range_to="1982" />
+</news>
+	  
       <!--  August 1982  -->
       <news guid="news-stukov1982Aug_0001" thread_guid="news-stukov-sanchez" type="2" creator="Stukov" created_by="Stukov" comment="https://en.wikipedia.org/wiki/Salvador_S%C3%A1nchez">
          <title>
@@ -877,6 +1882,26 @@
          <targetgroupattractivity children="0.2" teenagers="0.4" pensioners="1.1" />
          <availability year_range_from="1982" year_range_to="1982" script='${.gte:${.worldtime:"month"}:10}' />
       </news>
+	  
+	  <news guid="news-stukov1982Dez_0002" thread_guid="news-stukov-senderoluminoso" type="0" creator="Stukov" created_by="Stukov"
+		comment="December 30, 1982: President Belaúnde sends military into Ayacucho after 72-hour ultimatum to Shining Path expires. State of emergency declared. Military does not distinguish between peasants and guerrillas. Massive human rights violations on both sides. Middle part of Shining Path arc.">
+			<title>
+				<de>Peru schickt Armee nach Ayacucho – Ausnahmezustand gegen Guerilla</de>
+				<en>Peru Sends Army into Ayacucho – State of Emergency Against Guerrillas</en>
+			</title>
+			<description>
+				<de>Lima – Präsident Belaúnde schickt das Militär nach Ayacucho. Sein Ultimatum an die Guerilla verstrich ergebnislos. Die Armee unterscheidet nicht zwischen Bauern und Kämpfern. Beide Seiten massakrieren.</de>
+				<en>Lima – President Belaúnde sends the military into Ayacucho. His ultimatum to the guerrillas expired without result. The army does not distinguish between peasants and fighters. Both sides massacre.</en>
+			</description>
+			<data genre="0" price="0.25" quality_min="40" quality_max="60" min_subscription_level="2" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<effects>
+				<effect trigger="happen" type="triggernews" time="4,1992,9,12" news="news-stukov1992Sep_0001" />
+			</effects>
+			<targetgroupattractivity children="0.1" teenagers="0.5" employees="0.9" managers="1.2" pensioners_male="1.2"/>
+			<availability year_range_from="1982" year_range_to="1982" script='${.gte:${.worldtime:"month"}:10}' />
+		</news>
+		
+		
       <!--  Jänner 1983  -->
       <news guid="news-stukov1983Jan_0001" type="0" creator="Stukov" created_by="Stukov"
 		comment="20. Januar 1983: Mugabe schickt die nordkoreanisch ausgebildete 5. Brigade in Matabeleland. Operation Gukurahundi ('der Regen, der das Unkraut wegspült'). Bis 1987 ca. 20.000 Zivilisten getötet, hauptsächlich Ndebele. Erst 2000 von Mugabe als 'Moment des Wahnsinns' bezeichnet. Zweiter Teil des Zimbabwe-Arcs.">
@@ -910,6 +1935,25 @@
          <targetgroupattractivity children="0.2" teenagers="0.4" pensioners="1.2" />
          <availability year_range_from="1985" year_range_to="1985" script='${.lte:${.worldtime:"month"}:3}' />
       </news>
+	  
+	  <!--  März 1985  -->
+	  
+	  <news guid="news-stukov1985_kronzucker" type="0" creator="Stukov" created_by="Stukov"
+      comment="March 15, 1985 (estimated): Three perpetrators of 1980 Kronzucker kidnapping convicted in Florence, sentences up to 27 years. Ringleader Mario Sale alias 'Chaka II' (sardinian, escaped from Siena prison 1977) never caught. Kronzucker family paid back 4.3M DM ransom debt partly through 2.3M DM exclusive deal with Bunte magazine. https://de.wikipedia.org/wiki/Kronzucker-Entf%C3%BChrung">
+    <title>
+        <de>Kronzucker-Entführer in Florenz verurteilt – Bandenchef weiter flüchtig</de>
+        <en>Kronzucker Kidnappers Convicted in Florence – Gang Leader Still at Large</en>
+    </title>
+    <description>
+        <de>Florenz – Fünf Jahre nach der Entführung der Kronzucker-Kinder verurteilt ein Gericht drei Täter zu bis zu 27 Jahren Haft. Bandenchef „Chaka II" bleibt verschwunden. Die Familie zahlte ihre Schulden ab – mit einer Exklusivgeschichte in der „Bunten".</de>
+        <en>Florence – Five years after the Kronzucker kidnapping, a court sentences three perpetrators to up to 27 years. Gang leader 'Chaka II' remains at large. The family paid off its debts – with an exclusive story in a magazine.</en>
+    </description>
+    <data genre="4" price="0.35" quality_min="30" quality_max="50" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.3" teenagers="0.8" housewives="1.3" employees="0.9" unemployed="0.8" managers="0.9" pensioners="1.2" />
+    <availability year_range_from="1985" year_range_to="1985" script='${.eq:${.worldtime:"season"}:1}' />
+	</news>
+
+
       <!--  Dezember 1987  -->
       <news guid="news-stukov1987Dez_0001" type="0" creator="Stukov" created_by="Stukov"
 		comment="22. Dezember 1987: Unity Accord zwischen ZANU-PF (Mugabe) und ZAPU (Joshua Nkomo). Fusion beider Parteien zu ZANU-PF. Mugabe wird Exekutivpräsident mit weitreichenden Vollmachten. De-facto-Einparteienstaat. Nkomo wird Vizepräsident. Dritter Teil des Zimbabwe-Arcs.">
@@ -958,6 +2002,24 @@
          <targetgroupattractivity children="0.1" teenagers="0.4" housewives="1.1" employees="1.2" unemployed="1.3" managers="1.5" pensioners="1.2"/>
          <availability year_range_from="1989" year_range_to="1989" script='${.eq:${.worldtime:"season"}:2}' />
       </news>
+	  
+	  <!-- September 1992 -->
+	  
+	  <news guid="news-stukov1992Sep_0001" thread_guid="news-stukov-senderoluminoso" type="0" creator="Stukov" created_by="Stukov"
+		comment="September 12, 1992: GEIN captures Abimael Guzmán (Chairman Gonzalo) in Operation Victoria above a ballet studio in Surco, Lima. Tracked through garbage analysis: psoriasis cream tubes, too much bread for one dance teacher. 70,000 dead in 12 years of conflict. End of Shining Path arc.">
+			<title>
+				<de>Perus meistgesuchter Terrorist in Ballettschule gefasst – Müll verriet ihn</de>
+				<en>Peru's Most Wanted Terrorist Caught in Ballet Studio – His Garbage Gave Him Away</en>
+			</title>
+			<description>
+				<de>Lima – Perus meistgesuchter Terrorist wurde über einer Ballettschule im Nobelviertel Surco verhaftet. Die Polizei kam ihm durch seinen Müll auf die Spur: Psoriasis-Creme und zu viele Brötchen für eine Tanzlehrerin.</de>
+				<en>Lima – Peru's most wanted terrorist was arrested above a ballet studio in the upscale Surco district. Police tracked him through his garbage: psoriasis cream and too many bread rolls for one dance teacher.</en>
+			</description>
+			<data genre="4" price="0.35" quality_min="50" quality_max="70" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
+			<targetgroupattractivity children="0.2" teenagers="0.8" employees="1.1" managers="1.2" pensioners="1.1"/>
+			<availability year_range_from="1992" year_range_to="1992" script='${.eq:${.worldtime:"season"}:3}' />
+		</news>
+	  
       <!-- Jänner 1996 -->
       <news guid="news-stukov1996Jan_0001" type="0" creator="Stukov" created_by="Stukov"
 		comment="26. Januar 1996: John du Pont erschießt Olympiasieger Dave Schultz auf Foxcatcher Farm, Newtown Square PA. Zweitägige Belagerung, Verhaftung 28. Januar. Teil des du-Pont-Arcs.">
