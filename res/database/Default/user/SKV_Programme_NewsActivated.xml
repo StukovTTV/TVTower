@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tvtdb>
+   <version value="3" comment="script data" />
+   <programme guid="7266760b-3589-4ff3-9d59-dfc88b1f84a2" product="1" licence_type="1" creator="9551" imdb_id="tt0086250" comment="Tatsächlich 'Toni' im originalen deutschen Titel aber 'Tony' in der deutschen Handlungsbeschreibung. | TVTower 2013 description: De Palmas Remake um den Drogenschmuggler Tony Montana bietet gnadenlose Gewalt - körperliche wie psychische">
+			<title_original>
+				<de>Scarhead - Tony, der Narbenkopf</de>
+				<en>Scarhead</en>
+				<pl>Scarhead - Człowiek ze szramą</pl>
+			</title_original>
+			<title>
+				<de>Scarface - Toni, das Narbengesicht</de>
+				<en>Scarface</en>
+				<pl>Scarface - Człowiek z blizną</pl>
+			</title>
+			<description>
+				<de>Der gewaltsame Aufstieg des kubanischen Flüchtlings T. Montana an die Spitze des Drogenhandels in Miami. Gewaltdarstellung und Sprüche waren damals kontrovers und wurden von Kritikern abgelehnt. Seitdem aber neu bewertet. Durchbruch für ${.self:"cast":2:"lastname"}.</de>
+				<en>Cuban refugee T. Montana's violent rise to the top of Miami's drug trade. The graphic violence and language originally drew controversy and was panned by critics. Has since been reappraised. Breakthrough for ${.self:"cast":2:"lastname"}.</en>
+				<pl>Tony Montana to kubański przestępca, emigrant. Przybywa do Stanów Zjednoczonych. Tam też zaczyna prawdziwą mafijną karierę. Pnie się w górę w mafii, będąc bezwzględnym wobec ludzi, którzy się z nim nie zgadzają.</pl>
+			</description>
+			<staff>
+				<member index="0" function="1">6b53e3ec-0d66-4131-84ec-a48b9bbe3b77</member>
+				<member index="1" function="2">ea2194ca-de70-42b8-90dd-b070be4bec65</member>
+				<member index="2" function="2">a552f4d5-9fdb-4960-ae7a-278044e7ed3e</member>
+				<member index="3" function="2">22b4513d-985b-438f-828b-5f8545ff1850</member>
+				<member index="4" function="2">e2d8c1cc-194c-4bd6-8a90-2dbf15860022</member>
+				<member index="5" function="2">3fcd8263-9bf4-4c23-9323-0e4105d75dbb</member>
+				<member index="6" function="4">3d4a2d11-e943-4874-b8be-eaec31165150</member>
+				<member index="7" function="2">0fbd5067-a7ee-4de8-8cb1-6ca326dc7c87</member>
+			</staff>
+			<groups target_groups="18" pro_pressure_groups="1" contra_pressure_groups="2" />
+			<targetgroupattractivity teenagers="2" />
+			<data country="USA" distribution="1" maingenre="17" subgenre="7,2" flags="72" blocks="3" price_mod="1" available="0"/>
+			<releaseTime year="1983" day="12" />
+			<ratings critics="78" speed="88" outcome="72" />
+		</programme>
+
+
+</tvtdb>

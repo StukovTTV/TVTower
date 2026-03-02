@@ -844,7 +844,7 @@
 			</title>
 			<description>
 				<de>Warschau – Frankreichs Präsident traf Breschnew bei Warschau – über fünf Stunden, ohne Bonn zu informieren. Erstes Treffen eines westlichen Staatschefs mit Breschnew seit Afghanistan. Ergebnis: keins.</de>
-				<en>Warsaw – France's president met Brezhnev near Warsaw – over five hours, without informing Washington or Bonn. The first meeting of a major Western leader with Brezhnev since Afghanistan. Result: none.</en>
+				<en>Warsaw – France's president met Brezhnev near Warsaw – over five hours, without informing Bonn. The first meeting of a major Western leader with Brezhnev since Afghanistan. Result: none.</en>
 			</description>
 			<data genre="0" price="0.55" quality_min="55" quality_max="72" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
 			<targetgroupattractivity children="0.1" teenagers="0.4" housewives="0.6" employees="0.9" unemployed="0.7" managers="1.5" pensioners_male="1.4" pensioners_female="1.1"/>
@@ -1735,6 +1735,185 @@
 	<targetgroupattractivity children="0.3" teenagers="0.6" housewives="0.6" employees="1.0" unemployed="0.7" managers="1.3" pensioners="0.8" />
 	<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
 </news>
+
+<news guid="news-stukov1980Aug_0004" type="0" creator="Stukov" created_by="Stukov"
+    comment="22. August 1980: Schmidt sagt geplantes Treffen mit Honecker (28./29. August) ab. Grund: Lage in Polen (Streiks). Zweite Absage in 7 Monaten – im Januar hatte Honecker wegen Afghanistan abgesagt. Treffen findet erst Dezember 1981 statt. https://de.wikipedia.org/wiki/Besuch_Bundeskanzler_Helmut_Schmidts_in_der_DDR">
+    <title>
+        <de>Schmidt sagt Honecker-Treffen ab – zum zweiten Mal</de>
+        <en>Schmidt Cancels Honecker Meeting – For the Second Time</en>
+    </title>
+    <description>
+        <de>Bonn – Der Kanzler sagt das Treffen mit Honecker ab. Grund: die Lage in Polen. Es ist die zweite Absage in sieben Monaten – im Januar hatte Honecker wegen Afghanistan abgesagt. Schmidt versichert: „Keine Krise." Die Uhren ticken weiter gleich.</de>
+        <en>Bonn – The Chancellor cancels the meeting with Honecker. Reason: the situation in Poland. It is the second cancellation in seven months – in January, Honecker cancelled over Afghanistan. Schmidt assures: 'No crisis.' The clocks still tick in sync.</en>
+    </description>
+    <data genre="0" price="0.8" quality_min="50" quality_max="70" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.2" teenagers="0.5" managers="1.3" pensioners="1.4" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0005" type="0" creator="Stukov" created_by="Stukov"
+    comment="22. August 1980: Mitglieder der neonazistischen 'Deutschen Aktionsgruppen' (Manfred Roeder) werfen drei Molotowcocktails in Flüchtlingsheim Hamburg-Billbrook. Nguyễn Ngọc Châu (22) und Đỗ Anh Lân (18), vietnamesische Boat People, sterben an Brandverletzungen. Erster dokumentierter rassistischer Mord in der BRD. Täter 1. September gefasst. https://de.wikipedia.org/wiki/Mordanschlag_von_Hamburg-Billbrook">
+    <title>
+        <de>Hamburg: Neonazis ermorden zwei vietnamesische Flüchtlinge</de>
+        <en>Hamburg: Neo-Nazis Murder Two Vietnamese Refugees</en>
+    </title>
+    <description>
+        <de>Hamburg – Unbekannte werfen drei Molotowcocktails in ein Flüchtlingsheim in Billbrook. Zwei junge Vietnamesen sterben an ihren Brandverletzungen. An die Wand gesprüht: „Ausländer raus." Die Polizei vermutet einen rechtsextremistischen Hintergrund.</de>
+        <en>Hamburg – Unknown assailants throw three Molotov cocktails into a refugee shelter in Billbrook. Two young Vietnamese men die from their burn injuries. Sprayed on the wall: "Foreigners out." Police suspect a far-right background.</en>
+    </description>
+    <data genre="4" price="1.3" quality_min="52" quality_max="82" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.3" teenagers="1.2" unemployed_male="1.3" pensioners="1.2" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0006" type="0" creator="Stukov" created_by="Stukov"
+    comment="20. August 1980: Reinhold Messner (35) besteigt als erster Mensch den Everest solo, ohne Flaschensauerstoff, im Monsun, tibetische Nordseite. 3 Tage vom Basislager. Personen-GUID: a5122246-ec66-4ca9-95ec-0dc2eb242d15. https://en.wikipedia.org/wiki/Reinhold_Messner">
+    <title>
+        <de>${reinhold} ${messner} auf dem Everest – allein, ohne Sauerstoff, im Monsun</de>
+        <en>${reinhold} ${messner} on Everest – Alone, Without Oxygen, in the Monsoon</en>
+    </title>
+    <description>
+        <de>Kathmandu – ${reinhold} ${messner} hat den Everest allein bestiegen. Ohne Flaschensauerstoff, im Monsun, von der tibetischen Nordseite. Drei Tage vom Basislager zum Gipfel. Seine Freundin erkannte ihn beim Abstieg kaum wieder.</de>
+        <en>Kathmandu – ${reinhold} ${messner} has climbed Everest alone. No bottled oxygen, in the monsoon, from the Tibetan north face. Three days from base camp to summit. His girlfriend barely recognised him on the way down.</en>
+    </description>
+    <variables>
+        <reinhold>${.person:"a5122246-ec66-4ca9-95ec-0dc2eb242d15":"firstname"}</reinhold>
+        <messner>${.person:"a5122246-ec66-4ca9-95ec-0dc2eb242d15":"lastname"}</messner>
+    </variables>
+    <data genre="2" price="0.6" quality_min="44" quality_max="72" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="scripttemplate-stukov-nangaparbat" />
+    </effects>
+    <targetgroupattractivity children="0.9" teenagers="1.4" pensioners="1.1" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0007" type="0" creator="Stukov" created_by="Stukov"
+    comment="2. August 1980, 10:25 Uhr: Kofferbombe im klimatisierten Wartesaal des Bahnhofs Bologna Centrale. 85 Tote, über 200 Verletzte – Europas schwerster Terroranschlag bis Madrid 2004. Täter: neofaschistische Nuclei Armati Rivoluzionari (NAR). Verwicklungen von Geheimdiensten, Freimaurerloge P2 (Licio Gelli), 'Strategie der Spannung'. Regierung Cossiga behauptet zunächst, ein alter Heizkessel sei explodiert. Präsident Pertini fliegt per Hubschrauber nach Bologna und weint. Bahnhofsuhr steht bis heute auf 10:25. https://en.wikipedia.org/wiki/Bologna_massacre">
+    <title>
+        <de>Bologna: Bombe am Bahnhof – 85 Tote</de>
+        <en>Bologna: Bomb at the Station – 85 Dead</en>
+    </title>
+    <description>
+        <de>Bologna – Eine Bombe zerreißt den Wartesaal des Hauptbahnhofs. 85 Tote, über 200 Verletzte. Die Regierung spricht von einem „defekten Heizkessel". Präsident Pertini weint vor der Kamera. Die Bahnhofsuhr steht auf 10:25.</de>
+        <en>Bologna – A bomb tears through the waiting hall of the central station. 85 dead, over 200 injured. The government blames a "defective boiler". President Pertini weeps on camera. The station clock stopped at 10:25.</en>
+    </description>
+    <data genre="4" price="1.0" quality_min="65" quality_max="85" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.2" teenagers="1.1" pensioners="1.3" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0008" type="0" creator="Stukov" created_by="Stukov"
+    comment="1.–10. August 1980: Hurrikan Allen, stärkster je gemessener Atlantik-Hurrikan nach Windgeschwindigkeit: 305 km/h. Erreichte dreimal Kategorie 5. Vom Kap Verde quer durch die Karibik bis Brownsville/Texas. St. Lucia fast komplett zerstört, Haiti 200+ Tote, 800.000 Obdachlose. Gesamt: 269 Tote, $1,57 Mrd. Schaden. https://en.wikipedia.org/wiki/Hurricane_Allen">
+    <title>
+        <de>Hurrikan Allen: Karibik-Monster mit 305 km/h</de>
+        <en>Hurricane Allen: Caribbean Monster at 305 km/h</en>
+    </title>
+    <description>
+        <de>Karibik – Hurrikan Allen erreicht dreimal Kategorie 5 und Windgeschwindigkeiten von 305 km/h – Atlantik-Rekord. St. Lucia verwüstet, Haiti über 200 Tote. Ein NOAA-Wissenschaftler küsste nach dem Messflug den Boden, kündigte und flog nie wieder.</de>
+        <en>Caribbean – Hurricane Allen reaches Category 5 three times with winds of 305 km/h – an Atlantic record. St. Lucia devastated, Haiti over 200 dead. A NOAA scientist kissed the ground after his measurement flight, quit, and never flew again.</en>
+    </description>
+    <data genre="4" price="0.45" quality_min="40" quality_max="75" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.7" teenagers="1.2" pensioners="1.1" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0009" type="0" creator="Stukov" created_by="Stukov"
+    comment="19. August 1980: Saudia Flight 163, Lockheed L-1011 TriStar, Riad–Dschidda. Feuer im Frachtraum, Crew kehrt nach Riad zurück, Notlandung gelingt. Dann totales Versagen: Kapitän Mohammed Khowyter (als 'langsamer Lerner' eingestuft) evakuiert nicht, Triebwerke laufen 3:15 Minuten nach Stillstand weiter, Türen werden erst 23 Minuten nach Stillstand geöffnet. Alle 287 Passagiere und 14 Crew-Mitglieder tot durch Rauchvergiftung. Viele Hajj-Pilger. Zweitschlimmster Einzelflugzeug-Unfall der Geschichte zu dem Zeitpunkt. https://en.wikipedia.org/wiki/Saudia_Flight_163">
+    <title>
+        <de>Riad: 301 Tote – das Flugzeug hatte sicher gelandet</de>
+        <en>Riyadh: 301 Dead – the Plane Had Landed Safely</en>
+    </title>
+    <description>
+        <de>Riad – Ein Tristar-Jet landet nach Frachtraumbrand sicher in Riad. Die Crew öffnet die Türen erst 23 Minuten nach dem Stillstand. Alle 301 Menschen an Bord ersticken im Rauch. Der Kapitän galt als „langsamer Lerner". Die Triebwerke liefen noch drei Minuten weiter.</de>
+        <en>Riyadh – A TriStar jet lands safely after a cargo hold fire. The crew opens the doors 23 minutes after coming to a stop. All 301 people on board suffocate in the smoke. The captain was classified as a "slow learner". The engines kept running for three more minutes.</en>
+    </description>
+    <data genre="4" price="0.25" quality_min="26" quality_max="46" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.3" teenagers="0.9" managers="1.2" pensioners="0.8" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0010" type="0" creator="Stukov" created_by="Stukov"
+    comment="17. August 1980: Azaria Chamberlain (9 Wochen) verschwindet nachts aus dem Zelt am Uluru (Ayers Rock). Mutter Lindy behauptet, ein Dingo habe das Baby geholt. Kleidung eine Woche später gefunden. Leiche nie gefunden. Wird zu Australiens größtem Medien- und Justizskandal. Teil 1 von 3. https://en.wikipedia.org/wiki/Death_of_Azaria_Chamberlain">
+    <title>
+        <de>Australien: Dingo verschleppt Baby vom Campingplatz</de>
+        <en>Australia: Dingo Snatches Baby From Campsite</en>
+    </title>
+    <description>
+        <de>Uluru – Ein neun Wochen altes Baby verschwindet nachts aus dem Zelt. Die Mutter sagt: „Ein Dingo hat mein Baby geholt." Die Polizei ist skeptisch. Australien ist fassungslos. Die Geschichte fängt gerade erst an.</de>
+        <en>Uluru – A nine-week-old baby vanishes from its tent at night. The mother says: "A dingo took my baby." Police are sceptical. Australia is stunned. The story is only just beginning.</en>
+    </description>
+    <data genre="4" price="0.15" quality_min="15" quality_max="40" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="happen" type="triggernews" time="4,1982,10,29" news="news-stukov1982Oct_0001" />
+    </effects>
+    <targetgroupattractivity children="0.5" housewives="1.3" pensioners="0.8" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+
+<news guid="news-stukov1980Aug_0011" type="0" creator="Stukov" created_by="Stukov"
+    comment="1./8. August 1980: David Bowie veröffentlicht 'Ashes to Ashes' als Lead-Single von 'Scary Monsters'. Greift Major Tom aus 'Space Oddity' (1969) auf – jetzt als Junkie. UK Nr. 1, Top 10 in D/A/AUS/Norwegen/Schweden. Musikvideo (Regie Mallet/Bowie) mit £25.000 das teuerste je produzierte: Pierrot-Kostüm, Paintbox-Technik, Steve Strange als Statist. Gleichzeitig spielt Bowie am Broadway 'The Elephant Man' ohne Maske/Prothesen. Mark David Chapman (späterer Lennon-Mörder) sitzt im Publikum. https://en.wikipedia.org/wiki/Ashes_to_Ashes_(David_Bowie_song)">
+    <title>
+        <de>David Bowie: Major Tom ist jetzt ein Junkie</de>
+        <en>David Bowie: Major Tom Is Now a Junkie</en>
+    </title>
+    <description>
+        <de>London – David Bowie bringt Major Tom zurück – als Junkie. „Ashes to Ashes" steigt auf Platz 1 der UK-Charts. Das Musikvideo kostet 25.000 Pfund – Rekord. Bowie im Pierrot-Kostüm vor schwarzem Himmel. Nebenbei spielt er am Broadway den Elefantenmenschen. Ohne Maske.</de>
+        <en>London – David Bowie brings back Major Tom – as a junkie. "Ashes to Ashes" hits No. 1 in the UK charts. The music video costs £25,000 – a record. Bowie in a Pierrot costume against a black sky. Meanwhile, he plays the Elephant Man on Broadway. Without a mask.</en>
+    </description>
+    <data genre="1" price="0.5" quality_min="35" quality_max="60" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.4" teenagers="1.5" housewives="0.8" managers="0.7" pensioners="0.6" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0012" type="0" creator="Stukov" created_by="Stukov"
+    comment="16. August 1980: Erstes 'Monsters of Rock'-Festival, Castle Donington, Leicestershire. Promoter Paul Loasby, Abschluss der Rainbow-UK-Tour. Lineup: Rainbow (Headliner, Ritchie Blackmore), Judas Priest, Scorpions (D), Saxon, April Wine, Riot, Touch. Ca. 35.000 Besucher. Rob Halford fährt auf Harley auf die Bühne. Klaus Meine begrüßt Publikum mit 'Hello Donning Castle!' statt 'Donington'. Feuerwerk alarmiert East Midlands Airport. Vorläufer des Download Festivals. https://en.wikipedia.org/wiki/Monsters_of_Rock">
+    <title>
+        <de>England: Erstes reines Heavy-Metal-Festival der Geschichte</de>
+        <en>England: First Ever All-Heavy-Metal Festival</en>
+    </title>
+    <description>
+        <de>Donington – 35.000 Fans im Matsch feiern das erste reine Metal-Festival. Rainbow, Judas Priest, die Scorpions. Rob Halford fährt auf einer Harley auf die Bühne. Das Feuerwerk alarmiert den nahegelegenen Flughafen.</de>
+        <en>Donington – 35,000 fans in the mud celebrate the first all-metal festival. Rainbow, Judas Priest, the Scorpions. Rob Halford rides a Harley onto the stage. The fireworks alert the nearby airport.</en>
+    </description>
+    <data genre="1" price="0.2" quality_min="15" quality_max="38" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.5" teenagers="1.5" unemployed_male="1.2" managers="0.5" pensioners="0.4" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0013" type="0" creator="Stukov" created_by="Stukov"
+    comment="27. August 1980: General Chun Doo-hwan wird von der National Conference for Unification zum Präsidenten 'gewählt'. 2.524 von 2.525 Stimmen (99,96%). Chun hatte sich am 5. August selbst zum General befördert, am 22. August 'trat er vom Militär zurück'. Drei Monate nach dem Gwangju-Massaker (Mai 1980, mehrere hundert Tote). Erste Amtshandlungen: alle Parteien verboten, neue Verfassung, Oppositionsführer Kim Dae-jung zum Tode verurteilt (Sep 1980). Kim wird 1997 selbst Präsident und begnadigt Chun. https://en.wikipedia.org/wiki/Chun_Doo-hwan">
+    <title>
+        <de>Südkorea: General „wählt" sich zum Präsidenten – 99,96 Prozent</de>
+        <en>South Korea: General "Elects" Himself President – 99.96 Percent</en>
+    </title>
+    <description>
+        <de>Seoul – Drei Monate nach dem Massaker von Gwangju „wählt" eine handverlesene Versammlung General Chun zum Präsidenten. 2.524 von 2.525 Stimmen. Die eine Gegenstimme wurde vermutlich eingebaut, damit es nicht nach Nordkorea aussieht.</de>
+        <en>Seoul – Three months after the Gwangju massacre, a hand-picked assembly "elects" General Chun as president. 2,524 out of 2,525 votes. The single dissenting vote was presumably included so it wouldn't look like North Korea.</en>
+    </description>
+    <data genre="0" price="0.3" quality_min="20" quality_max="45" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <targetgroupattractivity children="0.1" managers="1.2" pensioners="1.1" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
+
+<news guid="news-stukov1980Aug_0014" type="0" creator="Stukov" created_by="Stukov"
+    comment="17. Juli 1980 (Putsch), internationale Reaktion August: General Luis García Meza putscht sich an die Macht, finanziert von Kokain-Baron Roberto Suárez Gómez. Klaus Barbie ('Schlächter von Lyon', NS-Kriegsverbrecher, seit 1951 in Bolivien) berät die Putschisten, erhält Ehrenrang Oberstleutnant. Innenminister Luis Arce Gómez ist Cousin des Drogenbosses, besitzt 13 Kokain-Frachtflugzeuge. CBS nennt ihn 'Minister of Cocaine'. Arce Gómez' Warnung: 'Bolivianer gegen die neue Ordnung sollten ihr Testament griffbereit halten.' 800 Mio. Dollar/Jahr Kokainhandel. Ca. 1.000 Tote in 13 Monaten. Figur 'General Cocombre' in Scarface (1983) basiert auf Arce Gómez. Aktiviert Scarface (7266760b). https://en.wikipedia.org/wiki/Luis_García_Meza">
+    <title>
+        <de>Bolivien: Kokain-Barone putschen – mit Hilfe eines Nazi-Kriegsverbrechers</de>
+        <en>Bolivia: Cocaine Barons Stage Coup – With Help From a Nazi War Criminal</en>
+    </title>
+    <description>
+        <de>La Paz – General García Meza putscht sich an die Macht. Finanziert von Kokain-Baronen, beraten von Klaus Barbie, dem „Schlächter von Lyon". Der Innenminister ist der Cousin des größten Drogenbosses. Er empfiehlt der Opposition, ihr Testament griffbereit zu halten.</de>
+        <en>La Paz – General García Meza seizes power. Financed by cocaine barons, advised by Klaus Barbie, the "Butcher of Lyon". The interior minister is the biggest drug lord's cousin. He advises the opposition to keep their wills handy.</en>
+    </description>
+    <data genre="0" price="0.35" quality_min="25" quality_max="66" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="7266760b-3589-4ff3-9d59-dfc88b1f84a2" />
+    </effects>
+    <targetgroupattractivity children="0.1" unemployed="1.3" managers="1.1" pensioners="1.3" />
+    <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+</news>
 	  
 	  
 	  <!-- Oktober 1980 -->
@@ -1864,6 +2043,27 @@
          <data genre="2" price="1.0" quality_min="55" quality_max="70" min_subscription_level="1" available="0" fictional="0" happen_time="4,1982,8,12" flags="2"/>
          <targetgroupattractivity children="0.4" teenagers_male="1.3" teenagers_female="0.6" housewives="0.6" employees_male="1.4" employees_female="0.7" unemployed_male="1.2" unemployed_female="0.5" managers="0.8" pensioners_male="1.5" pensioners_female="0.5" />
       </news>
+	  
+	  <!--  Oktober 1982  -->
+	  
+	  <news guid="news-stukov1982Oct_0001" type="0" creator="Stukov" created_by="Stukov"
+    comment="29. Oktober 1982: Lindy Chamberlain wegen Mordes an Azaria (9 Wochen) zu lebenslänglich verurteilt. Michael als Mittäter, Bewährung. Beweislage rein indirekt: angebliches Blut im Auto war später als Schalldämmung identifiziert. Lindy bringt am 17. November in Haft Tochter Kahlia zur Welt, Baby wird ihr sofort weggenommen. Teil 2 von 3. https://en.wikipedia.org/wiki/Death_of_Azaria_Chamberlain">
+    <title>
+        <de>Australien: Mutter wegen Babymord verurteilt – sie sagt, es war ein Dingo</de>
+        <en>Australia: Mother Convicted of Baby Murder – She Says It Was a Dingo</en>
+    </title>
+    <description>
+        <de>Darwin – Lindy Chamberlain wird wegen Mordes an ihrem Baby zu lebenslanger Haft verurteilt. Sie behauptet weiterhin, ein Dingo habe das Kind geholt. Der Beweis: angeblich Blut im Auto. Australien applaudiert. Sie ist schwanger.</de>
+        <en>Darwin – Lindy Chamberlain is sentenced to life for the murder of her baby. She still insists a dingo took the child. The evidence: alleged blood in the car. Australia applauds. She is pregnant.</en>
+    </description>
+    <data genre="4" price="0.2" quality_min="20" quality_max="48" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="happen" type="triggernews" time="4,1986,2,7" news="news-stukov1986Feb_0001" />
+    </effects>
+    <targetgroupattractivity children="0.3" housewives="1.4" pensioners="0.9" />
+    <availability year_range_from="1982" year_range_to="1982" script='${.eq:${.worldtime:"season"}:3}' />
+</news>
+	  
       <!--  Dezember 1982  -->
       <news guid="news-stukov1982Dez_0001" type="0" creator="Stukov" created_by="Stukov"
 		comment="15. Dezember 1982: Spanien öffnet Gibraltar-Grenze einseitig für Fußgänger. Keine formale Einigung mit Großbritannien. Teil des Gibraltar-Arcs.">
@@ -1938,7 +2138,7 @@
 	  
 	  <!--  März 1985  -->
 	  
-	  <news guid="news-stukov1985_kronzucker" type="0" creator="Stukov" created_by="Stukov"
+	  <news guid="news-stukov1985Mar_0001" type="0" creator="Stukov" created_by="Stukov"
       comment="March 15, 1985 (estimated): Three perpetrators of 1980 Kronzucker kidnapping convicted in Florence, sentences up to 27 years. Ringleader Mario Sale alias 'Chaka II' (sardinian, escaped from Siena prison 1977) never caught. Kronzucker family paid back 4.3M DM ransom debt partly through 2.3M DM exclusive deal with Bunte magazine. https://de.wikipedia.org/wiki/Kronzucker-Entf%C3%BChrung">
     <title>
         <de>Kronzucker-Entführer in Florenz verurteilt – Bandenchef weiter flüchtig</de>
@@ -1952,6 +2152,26 @@
     <targetgroupattractivity children="0.3" teenagers="0.8" housewives="1.3" employees="0.9" unemployed="0.8" managers="0.9" pensioners="1.2" />
     <availability year_range_from="1985" year_range_to="1985" script='${.eq:${.worldtime:"season"}:1}' />
 	</news>
+	
+	<!--  Februar 1986  -->
+	
+	<news guid="news-stukov1986Feb_0001" type="0" creator="Stukov" created_by="Stukov"
+    comment="2. Februar 1986: Azarias Jacke (matinee jacket) bei Dingo-Bau am Uluru gefunden. Zufallsfund: britischer Tourist David Brett stürzt vom Uluru, Leiche 8 Tage später in Gebiet voller Dingo-Baue gefunden, dort auch die Jacke. Polizei hatte jahrelang behauptet, Jacke existiere nicht. 7. Februar: Lindy aus Haft entlassen. 1987: Royal Commission. 15. September 1988: Alle Verurteilungen aufgehoben. 12. Juni 2012: Coroner bestätigt endgültig – es war ein Dingo. Teil 3 von 3. https://en.wikipedia.org/wiki/Death_of_Azaria_Chamberlain">
+    <title>
+        <de>Australien: Dingo-Mutter freigelassen – Babyjacke bei Dingo-Bau gefunden</de>
+        <en>Australia: Dingo Mother Released – Baby Jacket Found Near Dingo Lair</en>
+    </title>
+    <description>
+        <de>Darwin – Sechs Jahre nach dem Verschwinden von Baby Azaria wird die entscheidende Jacke neben einem Dingo-Bau gefunden. Lindy Chamberlain wird aus der Haft entlassen. Das „Blut" im Auto war Schalldämmung. Australien schweigt.</de>
+        <en>Darwin – Six years after baby Azaria's disappearance, the crucial jacket is found near a dingo lair. Lindy Chamberlain is released from prison. The "blood" in the car was sound deadener. Australia goes quiet.</en>
+    </description>
+    <data genre="4" price="0.35" quality_min="25" quality_max="55" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="scripttemplate-stukov-cryinthedark" />
+    </effects>
+    <targetgroupattractivity children="0.3" housewives="1.5" pensioners="1.0" />
+    <availability year_range_from="1986" year_range_to="1986" script='${.eq:${.worldtime:"season"}:0}' />
+</news>
 
 
       <!--  Dezember 1987  -->

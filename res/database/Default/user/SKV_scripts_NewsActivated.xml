@@ -96,6 +96,65 @@
       </programme_data_modifiers>
       <availability year_range_from="2015" year_range_to="-1" />
    </scripttemplate>
+   
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-nangaparbat" creator="Stukov" created_by="Stukov"
+    comment="Nanga Parbat (2010), Regie Joseph Vilsmaier, mit Florian Stetter, Andreas Tobias. Erstbesteigung Nanga Parbat 1970: Reinhold und Günther Messner. Günther stirbt am Berg. Jahrzehntelanger Streit über die Umstände. Aktiviert durch news-stukov1980Aug_0006 (Messner Solo-Everest).">
+    <title>
+        <de>Nanga Parbat</de>
+        <en>Nanga Parbat</en>
+    </title>
+    <description>
+        <de>Zwei Brüder aus Südtirol besteigen den neunthöchsten Berg der Welt. Einer kommt zurück. Was oben geschah, wird ein Leben lang gestritten. Basierend auf einer wahren Geschichte, die immer noch wehtut.</de>
+        <en>Two brothers from South Tyrol climb the ninth-highest mountain in the world. One comes back. What happened up there is debated for a lifetime. Based on a true story that still hurts.</en>
+    </description>
+    <jobs>
+        <job index="0" function="1" required="1" />
+        <job index="1" function="2" required="1" gender="1" />
+        <job index="2" function="2" required="1" gender="1" />
+    </jobs>
+    <genres maingenre="7" subgenres="1" />
+    <blocks value="2" />
+    <price min="120000" max="200000" slope="40" />
+    <potential min="40" max="72" slope="45" />
+    <outcome min="25" max="55" slope="40" />
+    <review min="35" max="70" slope="50" />
+    <speed min="25" max="50" slope="45" />
+    <data available="0" scriptflags="1" production_limit="1" flags_optional="40" target_groups="256" target_groups_optional="2" />
+    <targetgroupattractivity children="0.3" teenagers="1.1" managers="1.1" pensioners="1.2" />
+    <programme_data_modifiers>
+        <modifier name="topicality::age" value="0.8" />
+    </programme_data_modifiers>
+    <studio_size value="2" />
+    <availability year_range_from="2010" year_range_to="-1" />
+</scripttemplate>
+
+<scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-cryinthedark" creator="Stukov" created_by="Stukov"
+    comment="Evil Angels / A Cry in the Dark (1988), Regie Fred Schepisi, Drehbuch Robert Caswell &amp; Schepisi nach John Brysons Buch. Meryl Streep (Lindy), Sam Neill (Michael). Budget $15 Mio, Box Office $6.9 Mio (Flop). 121 Min. Land: AUS. AFI Awards 1989: Best Picture, Director, Actor, Actress, Adapted Screenplay. Oscar-Nom Best Actress (Streep). Cannes Best Actress (Streep). IMDB 6.9. Aktiviert durch news-stukov1986Feb_0001 (Dingo-Freilassung).">
+    <title>
+        <de>Schrei in der Dunkelheit</de>
+        <en>A Cry in the Dark</en>
+    </title>
+    <description>
+        <de>Eine Mutter verliert ihr Baby im australischen Outback. Sie sagt: ein Wildhund. Niemand glaubt ihr. Das Gericht verurteilt sie. Die Medien zerstören sie. Sechs Jahre später findet ein toter Tourist die Wahrheit.</de>
+        <en>A mother loses her baby in the Australian outback. She says: a wild dog. Nobody believes her. The court convicts her. The media destroys her. Six years later, a dead tourist finds the truth.</en>
+    </description>
+    <jobs>
+        <job index="0" function="1" required="1" />
+        <job index="1" function="2" required="1" gender="2" />
+        <job index="2" function="2" required="1" gender="1" />
+    </jobs>
+    <genres maingenre="7" subgenres="4" />
+    <blocks value="2" />
+    <price min="80000" max="150000" slope="40" />
+    <potential min="35" max="65" slope="45" />
+    <outcome min="20" max="45" slope="40" />
+    <review min="40" max="75" slope="50" />
+    <speed min="20" max="40" slope="45" />
+    <data available="0" scriptflags="1" production_limit="1" flags="0" flags_optional="16" target_groups="128" target_groups_optional="4" />
+    <targetgroupattractivity children="0.2" teenagers="0.7" housewives="1.3" managers="1.1" pensioners="1.1" men="0.7" />
+    <studio_size value="1" />
+    <availability year_range_from="1988" year_range_to="-1" />
+</scripttemplate>
 
 
 
