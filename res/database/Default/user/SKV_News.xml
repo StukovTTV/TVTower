@@ -68,6 +68,44 @@
     <targetgroupattractivity children="0.7" teenagers="0.8" housewives="1.3" employees="1.2" unemployed="0.8" managers="1.1" pensioners="1.2" />
     <availability year_range_from="-1" year_range_to="-1" script='${.eq:${.worldtime:"season"}:2}' />
 </news>
+
+		 <!--  1980 UNLOCK LIVE -->
+		 
+	<news guid="news-stukovLIVE_News_0001" type="0" creator="Stukov" created_by="Stukov"
+    comment="Ankündigung der TV-Debatte zur Bundestagswahl 1980 (Elefantenrunde). Schaltet Programm prog-stukov-elefantenrunde1980 frei. Reines Gameplay-Element – historisch wurde der genaue Termin erst später festgelegt.">
+    <title>
+        <de>Wahljahr 1980: TV-Sender planen Elefantenrunde</de>
+        <en>Election Year 1980: TV Stations Plan Elefantenrunde</en>
+    </title>
+    <description>
+        <de>Bonn – Im Superwahljahr planen ARD und ZDF eine große TV-Debatte der Kanzlerkandidaten. Schmidt gegen Strauß, dazu Kohl und Genscher als Beiwerk. Die Sender versprechen „faire Bedingungen". Die Kandidaten versprechen „ehrliche Antworten". Glaubt irgendjemand irgendetwas davon?</de>
+        <en>Bonn – In this super election year, ARD and ZDF are planning a grand TV debate of the chancellor candidates. Schmidt vs. Strauß, plus Kohl and Genscher as garnish. The broadcasters promise "fair conditions". The candidates promise "honest answers". Does anyone believe any of this?</en>
+    </description>
+    <data genre="0" price="0.3" quality_min="20" quality_max="35" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+    <effects>
+        <effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="prog-stukov-elefantenrunde1980" />
+    </effects>
+    <availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:4}' />
+</news>
+
+      <news guid="news-stukovLIVE_News_0002" type="0" creator="Stukov" created_by="Stukov"
+         comment="Ankündigung des Boxkampfs Ali vs. Holmes am 2. Oktober 1980 in Las Vegas. Ali (38) will zum 4. Mal Weltmeister werden gegen Ex-Sparringspartner Larry Holmes (35-0). 8 Mio. Dollar Börse für Ali, 6 Mio. für Holmes. Mayo-Klinik attestiert Ali trotz neurologischer Auffälligkeiten Kampffähigkeit. Schaltet Programm prog-stukov-aliholmes1980 frei. https://en.wikipedia.org/wiki/Larry_Holmes_vs._Muhammad_Ali">
+         <title>
+            <de>Ali will es nochmal wissen: Comeback-Kampf gegen Holmes</de>
+            <en>Ali Wants One More Shot: Comeback Fight Against Holmes</en>
+         </title>
+         <description>
+            <de>Las Vegas – Muhammad Ali, 38 Jahre alt, will zum vierten Mal Boxweltmeister werden. Gegner: Larry Holmes, sein ehemaliger Sparringspartner und amtierender Champion. 35 Kämpfe, 35 Siege. Die Ärzte haben Bedenken, die Börse keine – 8 Millionen Dollar für Ali. Das größte Comeback oder der traurigste Abschied der Sportgeschichte?</de>
+            <en>Las Vegas – Muhammad Ali, 38 years old, wants to become world boxing champion for the fourth time. Opponent: Larry Holmes, his former sparring partner and reigning champion. 35 fights, 35 wins. The doctors have concerns, the purse doesn't – 8 million dollars for Ali. The greatest comeback or the saddest farewell in sports history?</en>
+         </description>
+         <data genre="2" price="0.5" quality_min="35" quality_max="55" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <effects>
+            <effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="prog-stukov-aliholmes1980" />
+         </effects>
+         <targetgroupattractivity children="0.3" teenagers="1.3" teenagers_male="1.5" housewives="0.4" employees="1.1" employees_male="1.3" unemployed_male="1.3" managers="1.0" pensioners="0.8" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.lte:${.worldtime:"month"}:4}' />
+      </news>
+
 	  
       <!--  January 1980  -->
       <news guid="news-stukov1980Jan_0001" type="0" creator="Stukov" created_by="Stukov" comment="">
@@ -1063,8 +1101,8 @@
 				<en>Tokyo – Japanese company Namco releases an arcade game called 'Puck Man': a yellow circle eats dots and is chased by ghosts. Sounds simple. Becomes the best-selling arcade game of all time.</en>
 			</description>
 			<data genre="5" price="0.2" quality_min="20" quality_max="65" min_subscription_level="3" available="1" fictional="0" happen_time="-1" flags="2"/>
-			<effects>
-				<effect trigger="broadcastFirstTime" type="modifyScriptAvailability" guid="scripttemplate-stukov-pixels" />
+			<effects>				
+				<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="6ac27a1e-183b-4488-b5e0-7ce8503a3d34" />
 			</effects>
 			<targetgroupattractivity children="1.4" teenagers="1.5" housewives="0.3" employees="0.6" unemployed="0.8" managers="0.3" pensioners="0.2"/>
 			<availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:1}' />
@@ -1513,6 +1551,9 @@
          <data genre="1" price="0.55" quality_min="40" quality_max="62" min_subscription_level="1" available="1" fictional="0" happen_time="-1" flags="2"/>
          <targetgroupattractivity children="0.2" teenagers="1.4" teenagers_male="1.5" housewives="0.5" employees="1.2" employees_male="1.3" unemployed="1.1" managers="0.7" pensioners="0.4" />
          <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+		 <effects>
+			<effect trigger="happen" type="triggernews" time="4,1980,9,25" news="news-stukov1980Sep_0005" />
+		</effects>
       </news>
   
 		<!-- Juli 1980 -->
@@ -1914,7 +1955,127 @@
     <targetgroupattractivity children="0.1" unemployed="1.3" managers="1.1" pensioners="1.3" />
     <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
 </news>
+
+	<!-- September 1980 -->
+	
+	<news guid="news-stukov1980Sep_0001" type="0" creator="Stukov" created_by="Stukov"
+         comment="26. September 1980: Bombenanschlag auf das Münchner Oktoberfest. 13 Tote (inkl. 3 Kinder, inkl. Attentäter), über 200 Verletzte. Schwerster Terroranschlag in der Geschichte der BRD. Täter: Gundolf Köhler (21), rechtsextrem, Verbindungen zur WSG Hoffmann. 9 Tage vor der Bundestagswahl. Ermittlungen 1982 eingestellt (Einzeltäter), 2014 wiederaufgenommen. https://de.wikipedia.org/wiki/Oktoberfestattentat">
+         <title>
+            <de>Bombenanschlag auf das Oktoberfest – mindestens 13 Tote</de>
+            <en>Bomb Attack on Oktoberfest – At Least 13 Dead</en>
+         </title>
+         <description>
+            <de>München – Am Haupteingang des Oktoberfests detoniert eine Bombe. Mindestens 13 Menschen sind tot, darunter drei Kinder. Über 200 Verletzte. Der mutmaßliche Täter, ein 21-jähriger Student mit Verbindungen zur rechtsextremen Szene, stirbt bei der Explosion. Neun Tage vor der Bundestagswahl steht die Republik unter Schock.</de>
+            <en>Munich – A bomb detonates at the main entrance of the Oktoberfest. At least 13 people are dead, including three children. Over 200 injured. The suspected perpetrator, a 21-year-old student with ties to the far-right scene, died in the explosion. Nine days before the federal election, the republic is in shock.</en>
+         </description>
+         <data genre="4" price="1.4" quality_min="75" quality_max="90" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.3" teenagers="1.1" employees="1.2" managers="1.1" pensioners="1.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
 	  
+	        <news guid="news-stukov1980Sep_0002" type="0" creator="Stukov" created_by="Stukov"
+         comment="12. September 1980: Militärputsch in der Türkei unter General Kenan Evren. Kriegsrecht, Parlament aufgelöst, Parteien verboten. NATO-Manöver laufen weiter. BRD liefert Polizeiausrüstung (Waffen, Fahrzeuge, 15 Mio. DM). Rund 60.000 türkische Flüchtlinge kommen in die BRD. CIA-Reaktion: 'Our boys have done it.' https://de.wikipedia.org/wiki/Militärputsch_in_der_Türkei_1980">
+         <title>
+            <de>Türkei: Militär putscht – Generäle übernehmen die Macht</de>
+            <en>Turkey: Military Coup – Generals Seize Power</en>
+         </title>
+         <description>
+            <de>Ankara – Die türkische Armee hat die Regierung gestürzt. General Evren erklärt das Kriegsrecht, das Parlament ist aufgelöst, sämtliche Parteien verboten. Die NATO setzt ihre Manöver wie geplant fort – unter Verbündeten stört man sich an so etwas nicht. Hunderttausende Gastarbeiter in der BRD bangen um ihre Familien.</de>
+            <en>Ankara – The Turkish military has overthrown the government. General Evren declares martial law, parliament is dissolved, all parties banned. NATO continues its maneuvers as planned – among allies, one doesn't let such things get in the way. Hundreds of thousands of guest workers in West Germany fear for their families.</en>
+         </description>
+         <data genre="0" price="0.55" quality_min="40" quality_max="62" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="0.8" employees="1.1" managers="1.2" pensioners="1.2" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Sep_0003" type="0" creator="Stukov" created_by="Stukov"
+         comment="22. September 1980: Irak startet Vollinvasion des Iran. Saddam Hussein kündigt am 17.9. das Algier-Abkommen auf, irakische Luftwaffe greift 10 iranische Flughäfen an, Bodentruppen rücken in Khuzestan vor. Beginn des längsten konventionellen Kriegs des 20. Jahrhunderts (8 Jahre, ~1 Mio. Tote). Hybridkette: Startnachricht für Iran-Irak-Krieg-Arc. https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War">
+         <title>
+            <de>Krieg am Golf: Irak überfällt den Iran</de>
+            <en>War in the Gulf: Iraq Invades Iran</en>
+         </title>
+         <description>
+            <de>Bagdad – Saddam Hussein hat den Iran angegriffen. Irakische Bomber treffen zehn Flughäfen, Bodentruppen rücken in die Ölprovinz Khuzestan vor. Zwei Revolutionen, ein Grenzfluss und sehr viel Öl – die Zutaten für einen Krieg, den niemand schnell gewinnen wird. Die Energiemärkte reagieren nervös.</de>
+            <en>Baghdad – Saddam Hussein has attacked Iran. Iraqi bombers hit ten airfields, ground troops advance into the oil-rich Khuzestan province. Two revolutions, one border river and a lot of oil – the ingredients for a war nobody will win quickly. Energy markets react nervously.</en>
+         </description>
+         <data genre="0" price="1.2" quality_min="70" quality_max="88" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="0.9" employees="1.1" managers="1.4" pensioners="1.2" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+      <news guid="news-stukov1980Sep_0004" type="0" creator="Stukov" created_by="Stukov"
+         comment="17. September 1980: USA und Volksrepublik China unterzeichnen Abkommen über reguläre Flugverbindungen – die ersten seit 1949. Meilenstein der Normalisierung nach Nixons Öffnung 1972. https://en.wikipedia.org/wiki/Civil_Aviation_Agreement_(United_States%E2%80%93China)">
+         <title>
+            <de>USA und China öffnen den Luftraum – erstmals seit 1949</de>
+            <en>USA and China Open Airspace – First Time Since 1949</en>
+         </title>
+         <description>
+            <de>Washington – Nach 31 Jahren diplomatischer Funkstille in der Luft dürfen amerikanische und chinesische Flugzeuge wieder im jeweils anderen Land landen. Nixon öffnete die Tür, Coca-Cola ging hindurch, und jetzt folgen die Fluglinien. Der Kommunismus hat Sitze in der Business Class.</de>
+            <en>Washington – After 31 years of diplomatic radio silence in the air, American and Chinese planes may once again land in each other's countries. Nixon opened the door, Coca-Cola walked through, and now the airlines follow. Communism has seats in business class.</en>
+         </description>
+         <data genre="0" price="0.25" quality_min="18" quality_max="38" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.1" managers="1.2" pensioners="0.9" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	        <news guid="news-stukov1980Sep_0005" type="0" creator="Stukov" created_by="Stukov"
+         comment="25. September 1980: Led-Zeppelin-Schlagzeuger John Bonham (32) stirbt nach Trinkgelage (~40 Vodka) in Jimmy Pages Haus in Windsor. Erstickung an Erbrochenem. Band löst sich am 4. Dezember auf. Hybridkette: Folgenachricht zu news-stukov1980Jun_0025 (Nürnberg-Kollaps). https://en.wikipedia.org/wiki/John_Bonham">
+         <title>
+            <de>Led Zeppelin: Schlagzeuger John Bonham ist tot</de>
+            <en>Led Zeppelin: Drummer John Bonham Dead</en>
+         </title>
+         <description>
+            <de>London – John Bonham, Schlagzeuger von Led Zeppelin, ist tot. 32 Jahre alt, gestorben nach einer Probe für die geplante Nordamerika-Tour. 40 Wodka in zwölf Stunden, eingeschlafen, nicht mehr aufgewacht. Der härteste Drummer der Rockgeschichte verlor seinen letzten Kampf – gegen eine Flasche. Die Band wird sich auflösen.</de>
+            <en>London – John Bonham, drummer of Led Zeppelin, is dead. 32 years old, died after a rehearsal for the planned North America tour. 40 vodkas in twelve hours, fell asleep, never woke up. The hardest drummer in rock history lost his final battle – against a bottle. The band will break up.</en>
+         </description>
+         <data genre="1" price="0.8" quality_min="55" quality_max="75" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.2" teenagers="1.4" teenagers_male="1.5" housewives="0.5" employees="1.2" employees_male="1.3" unemployed="1.1" managers="0.7" pensioners="0.4" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	   <news guid="news-stukov1980Sep_0006" type="0" creator="Stukov" created_by="Stukov"
+         comment="7. September 1980: US Open Finale. John McEnroe besiegt Björn Borg 7-6, 6-1, 6-7, 5-7, 6-4. Revanche des Wimbledon-Finales vom Juli. McEnroe verteidigt Titel – erste erfolgreiche Titelverteidigung seit 1960. Borg gewann nie die US Open (4 Finals, 4 Niederlagen). 20.172 Zuschauer, Mehrheit pro Borg. https://en.wikipedia.org/wiki/1980_US_Open_(tennis)">
+         <title>
+            <de>US Open: McEnroe schlägt Borg – der Eisberg schmilzt in New York</de>
+            <en>US Open: McEnroe Beats Borg – The Iceberg Melts in New York</en>
+         </title>
+         <description>
+            <de>New York – John McEnroe hat das US-Open-Finale gewonnen. In fünf Sätzen besiegt er Björn Borg, den kühlen Schweden, der die Zuschauer auf seiner Seite hatte. 20.000 Fans feuerten Borg an – es half nichts. McEnroe beweist: Schlechtes Benehmen und große Aufschläge gewinnen Titel.</de>
+            <en>New York – John McEnroe has won the US Open final. In five sets he defeats Björn Borg, the cool Swede who had the crowd on his side. 20,000 fans cheered for Borg – to no avail. McEnroe proves: bad manners and big serves win titles.</en>
+         </description>
+         <data genre="2" price="0.9" quality_min="60" quality_max="80" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="0.3" teenagers="1.2" housewives="0.8" employees="1.1" managers="1.2" pensioners="1.0" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Sep_0008" type="0" creator="Stukov" created_by="Stukov"
+         comment="5. September 1980: Eröffnung des Gotthard-Straßentunnels, 16,9 km, längster Straßentunnel der Welt. 10 Jahre Bauzeit, 19 Tote beim Bau. Verbindet Göschenen (Uri) mit Airolo (Tessin). Einspurig in jede Richtung. Revolutioniert die Nord-Süd-Verbindung durch die Alpen. https://de.wikipedia.org/wiki/Gotthard-Straßentunnel">
+         <title>
+            <de>Gotthard-Tunnel eröffnet: 16 Kilometer Loch durch die Alpen</de>
+            <en>Gotthard Tunnel Opens: 16 Kilometres of Hole Through the Alps</en>
+         </title>
+         <description>
+            <de>Göschenen – Die Schweizer haben ein Loch durch die Alpen gebohrt, damit Deutsche schneller an den Gardasee kommen. 16,9 Kilometer, zehn Jahre Bauzeit, 19 Tote. Der längste Straßentunnel der Welt ist eröffnet. Einspurig in jede Richtung. Kein Käse, nur Beton.</de>
+            <en>Göschenen – The Swiss have drilled a hole through the Alps so Germans can reach Lake Garda faster. 16.9 kilometres, ten years of construction, 19 dead. The world's longest road tunnel is open. One lane each way. No cheese, just concrete.</en>
+         </description>
+         <data genre="4" price="0.4" quality_min="30" quality_max="52" min_subscription_level="1" available="1" fictional="0" flags="2"/>
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
+      </news>
+	  
+	  <news guid="news-stukov1980Sep_0009" type="0" creator="Stukov" created_by="Stukov"
+         comment="1980: Sinclair ZX80 (Januar UK-Launch, ca. 100 GBP / 400 DM), erster Heimcomputer unter 100 Pfund. 1 KB RAM, Folientastatur. Parallel: Atari startet massive VCS-TV-Kampagne Sommer 1980. Beginn der Heimcomputer-Revolution, in Deutschland noch Nische – Boom kommt 1982-84 mit C64. https://en.wikipedia.org/wiki/ZX80">
+         <title>
+            <de>Computer für zu Hause: Ein britischer Kasten will die Welt verändern</de>
+            <en>Home Computers: A British Box Wants to Change the World</en>
+         </title>
+         <description>
+            <de>London – Ein britischer Erfinder verkauft einen Computer für unter 100 Pfund. Er hat weniger Speicher als ein Einkaufszettel und eine Tastatur, die nach zwei Wochen den Geist aufgibt. Gleichzeitig bewirbt Atari seine Spielkonsole in der Primetime. Die Zukunft beginnt – sie flackert ein bisschen.</de>
+            <en>London – A British inventor sells a computer for under 100 pounds. It has less memory than a shopping list and a keyboard that gives up after two weeks. Meanwhile, Atari advertises its game console in prime time. The future begins – it flickers a little.</en>
+         </description>
+         <data genre="3" price="0.3" quality_min="20" quality_max="42" min_subscription_level="2" available="1" fictional="0" flags="2"/>
+         <targetgroupattractivity children="1.2" teenagers="1.5" teenagers_male="1.7" housewives="0.4" employees="0.8" managers="1.1" pensioners="0.3" />
+         <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:2}' />
+      </news>
 	  
 	  <!-- Oktober 1980 -->
 	  <news guid="news-stukov1980Okt_0001" type="0" creator="Stukov" created_by="Stukov"
@@ -1949,7 +2110,8 @@
     <targetgroupattractivity children="0.6" teenagers="1.2" housewives="1.5" employees="1.1" unemployed="1.0" managers="1.1" pensioners="1.2" />
     <availability year_range_from="1980" year_range_to="1980" script='${.eq:${.worldtime:"season"}:3}' />
 	</news>
-	  
+	
+
       <!-- Dezember 1980 -->
       <news guid="news-stukov1980Dez_0001" thread_guid="news-stukov-sommerzeit" type="2" creator="Stukov" created_by="Stukov" comment="DDR announced in October 1980 it wanted to abolish daylight saving after one year. West Germany refused. DDR backed down in December 1980, citing practical reasons including S-Bahn schedules in Berlin and pressure from Poland and Czechoslovakia.">
          <title>
@@ -2253,8 +2415,8 @@
          </description>
          <data genre="4" price="0.9" quality_min="55" quality_max="78" min_subscription_level="1" available="1" fictional="0" flags="2"/>
          <effects>
-            <effect trigger="happen" type="triggernews" time="4,1997,2,25" news="news-stukov1997Feb_0001" />
-            <effect trigger="broadcastFirstTime" type="modifyScriptAvailability" probability="60" guid="scripttemplate-stukov-foxcatcher" />
+            <effect trigger="happen" type="triggernews" time="4,1997,2,25" news="news-stukov1997Feb_0001" />            
+			<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="f47fb233-4fbe-4ab7-ac1a-b5f252afa7ea" />
          </effects>
          <targetgroupattractivity children="0.4" teenagers="1.2" unemployed="1.2" pensioners="1.2" />
          <availability year_range_from="1996" year_range_to="1996" script='${.lte:${.worldtime:"month"}:3}' />
