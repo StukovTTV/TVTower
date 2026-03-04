@@ -28,13 +28,16 @@
     <data country="D" distribution="2" maingenre="101" subgenre="201" flags="1" blocks="2" price_mod="0.5" licence_flags="1" available="0" broadcast_time_slot_start="20" broadcast_time_slot_end="23" />
     <releaseTime year="1980" day="10" hour="20" />
     <ratings critics="60" speed="35" outcome="25" />
+	<effects>
+		<effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1980Okt_0010" />
+	</effects>
     <modifiers>        
         <modifier name="topicality::notLive" value="2.3" />
     </modifiers>
 </programme>
 
       <programme guid="prog-stukov-aliholmes1980" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
-         comment="2. Oktober 1980: 'The Last Hurrah' – Larry Holmes vs. Muhammad Ali, Caesars Palace, Las Vegas. Holmes gewinnt TKO nach Runde 10 (Dundee wirft Handtuch). Ali erhält 8 Mio., Holmes 6 Mio. 24.790 Zuschauer. Ali hatte neurologische Probleme, nahm heimlich Schilddrüsenmedikamente. Alis Arzt Pacheco: 'Alle Beteiligten hätten verhaftet werden sollen.' Wird durch news-stukov1980Sep_0007 freigeschaltet. https://en.wikipedia.org/wiki/Larry_Holmes_vs._Muhammad_Ali">
+         comment="2. Oktober 1980: 'The Last Hurrah' – Larry Holmes vs. Muhammad Ali, Caesars Palace, Las Vegas. Holmes gewinnt TKO nach Runde 10 (Dundee wirft Handtuch). Ali erhält 8 Mio., Holmes 6 Mio. 24.790 Zuschauer. Ali hatte neurologische Probleme, nahm heimlich Schilddrüsenmedikamente. Alis Arzt Pacheco: 'Alle Beteiligten hätten verhaftet werden sollen.' Wird durch news-stukovLIVE_News_0002 freigeschaltet. https://en.wikipedia.org/wiki/Larry_Holmes_vs._Muhammad_Ali">
          <title>
             <de>Ali vs. Holmes – „The Last Hurrah"</de>
             <en>Ali vs. Holmes – "The Last Hurrah"</en>
@@ -64,6 +67,35 @@
             <modifier name="topicality::notLive" value="0.25" />
          </modifiers>
       </programme>
+	  
+	  <programme guid="prog-stukov-cardenal1980" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+    comment="12. Oktober 1980: Verleihung des Friedenspreises des Deutschen Buchhandels an Ernesto Cardenal in der Paulskirche, Frankfurt. Sandinistischer Priester und Kulturminister Nicaraguas. Laudator: Johann Baptist Metz. Seit 1953 live im ZDF. Wird durch Ankündigungsnews news-stukovLIVE_News_0003 freigeschaltet. Günstiges Einsteiger-Live-Programm.">
+    <title>
+        <de>Friedenspreis des Deutschen Buchhandels 1980</de>
+        <en>Peace Prize of the German Book Trade 1980</en>
+    </title>
+    <title_original>
+        <de>Verleihung des Friedenspreises des Deutschen Buchhandels 1980</de>
+        <en>Peace Prize of the German Book Trade Award Ceremony 1980</en>
+    </title_original>
+    <description>
+        <de>Live aus der Paulskirche – die Verleihung des Friedenspreises des Deutschen Buchhandels. Laudatio, Dankesrede, stehende Ovationen. Seit 1953 ein Pflichttermin für das Bildungsbürgertum und alle, die so tun, als gehörten sie dazu.</de>
+        <en>Live from the Paulskirche – the award ceremony of the Peace Prize of the German Book Trade. Eulogy, acceptance speech, standing ovations. Since 1953 a mandatory event for the educated elite and everyone pretending to be part of it.</en>
+    </description>
+    <staff>
+        <member index="0" function="1" generator="de,0"></member>
+        <member index="1" function="8" generator="de,0"></member>
+    </staff>
+    <groups target_groups="96" pro_pressure_groups="0" contra_pressure_groups="0" />
+    <targetgroupattractivity teenagers="0.3" pensioners="1.4" managers="1.3" />
+    <data country="D" distribution="2" maingenre="200" flags="5" blocks="2" price_mod="0.25" licence_flags="1" available="0" broadcast_time_slot_start="11" broadcast_time_slot_end="13" />
+    <releaseTime year="1980" day="10" hour="11" />
+    <ratings critics="60" speed="19" outcome="20" />
+    <effects>
+        <effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1980Okt_0012" />
+        <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,2,6" news="news-stukov1980Okt_0012" />
+    </effects>    
+</programme>
 
 
 </tvtdb>
