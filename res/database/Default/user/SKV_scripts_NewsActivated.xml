@@ -156,6 +156,36 @@
     <availability year_range_from="1988" year_range_to="-1" />
 </scripttemplate>
 
+<scripttemplate product="4" licence_type="1" guid="scripttemplate-stukov-sankara" creator="Stukov" created_by="Stukov"
+    comment="Capitaine Thomas Sankara (2012), Regie Christophe Cupelin. Schweizer Archiv-Doku über Thomas Sankara, Präsident von Burkina Faso 1983–1987. 90 Min. IMDB 7.7. Aktiviert durch news-stukov1987Okt_0001 (Sankara ermordet).">
+    <title>
+        <de>Hauptmann Sankara</de>
+        <en>Captain Sankara</en>
+    </title>
+    <description>
+        <de>Ein junger Hauptmann putscht sich an die Macht, impft zwei Millionen Kinder, pflanzt zehn Millionen Bäume und benennt sein Land in „Land der Aufrechten" um. Vier Jahre später erschießt ihn sein bester Freund. Er wurde 37.</de>
+        <en>A young captain seizes power, vaccinates two million children, plants ten million trees and renames his country 'Land of Upright People'. Four years later, his best friend has him shot. He was 37.</en>
+    </description>
+    <jobs>
+        <job index="0" function="1" required="1" />
+        <job index="1" function="2" required="1" gender="1" />
+    </jobs>
+    <genres maingenre="6" subgenres="11" />
+    <blocks value="2" />
+    <price min="60000" max="100000" slope="40" />
+    <potential min="35" max="60" slope="45" />
+    <outcome min="20" max="45" slope="40" />
+    <review min="50" max="75" slope="55" />
+    <speed min="20" max="40" slope="40" />
+    <data available="0" scriptflags="1" production_limit="1" flags_optional="4" />
+    <targetgroupattractivity children="0.4" teenagers="0.9" managers="1.2" pensioners="1.3" />
+    <programme_data_modifiers>
+        <modifier name="topicality::age" value="0.8" />
+    </programme_data_modifiers>
+    <studio_size value="1" />
+    <availability year_range_from="2012" year_range_to="-1" />
+</scripttemplate>
+
 
 
 </tvtdb>
