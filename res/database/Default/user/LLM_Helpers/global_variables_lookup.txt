@@ -1,0 +1,604 @@
+${brand_africola}|Affro-Cola|
+${brand_airbnb}|Ayebnb|
+${brand_allianz}|Alroganz|
+${brand_amazon}|Annazon|
+${brand_americanairlines}|Airflight America|
+${brand_amiga}|Novia|
+${brand_aol}|OAL|
+${brand_apple}|Aepfle|
+${brand_aquanet}|Aqua Nat|
+${brand_aral}|Arol|
+${brand_atari}|Arati|
+${brand_azure}|Arctic|
+${brand_basf}|DASF|
+${brand_beaniebaby}|Beetie Baby|
+${brand_beetle}|Buggy|Käfli
+${brand_benz}|Bonz|
+${brand_berlinerpilsener}|Kreuzberger Pilsener|
+${brand_bestbuy}|Burst-Buy|
+${brand_betamax}|Gammamax|
+${brand_blackberry}|BlankBerry|
+${brand_bluetrain}|Blue Rail|
+${brand_bmw}|BWM|
+${brand_bobbycar}|Bubbykarr|
+${brand_bostondynamics}|Bolton Dynamos|
+${brand_bp}|PB|
+${brand_brawndo}|Brawndo|
+${brand_budweiser}|Buckweizer|
+${brand_c64}|Co64|
+${brand_c_a}|C&amp;B|
+${brand_camel}|Dromedary|
+${brand_capri}|Cypri|
+${brand_carljr}|Curt Jr.|
+${brand_carlsjr}|Curt's Jr.|
+${brand_carrera}|Carrina|
+${brand_cdtv}|CDVID|
+${brand_cessna}|Shessna|
+${brand_cessna172}|Shessna 127|
+${brand_chatroulette}|Chatroulant|
+${brand_cherry}|Cherie|
+${brand_chevroletcavalier}|Chevallier Cavalry|
+${brand_chevroletimpala}|Chevallier Impoler|
+${brand_chevroletmalibu}|Chevallier Maribel|
+${brand_chevy}|Chavy|
+${brand_chrysler}|Cryslar|
+${brand_chryslervoyager}|Cryslar Forager|
+${brand_chuckecheese}|Cheese E. Chunk|
+${brand_citroen}|Citröneaux|
+${brand_clippy}|Climpy|
+${brand_cocacola}|Cacca Cola|
+${brand_coke}|Cacca|
+${brand_cokelight}|Cacca Lite|
+${brand_cokezero}|Cacca Zilch|
+${brand_colgate}|Calgonte|
+${brand_commodore}|Cormoran|Cormorano
+${brand_compuserve}|CompiSurf|
+${brand_cornetto}|Cornotti|
+${brand_corvette}|Culvette|
+${brand_costco}|Cosscu|
+${brand_datasette1530}|Datasette 1350|
+${brand_dax}|DUX|
+${brand_delorean}|DeLoreno|
+${brand_demeter}|Delmetro|
+${brand_deutscheaktienindex}|Deutsche Unternehmensindex|
+${brand_deutscheraktienindex}|Deutscher Unternehmensindex|
+${brand_deutschetelekom}|Deutsche Tellycom|Deutsche Telekrampf
+${brand_dietcoke}|Diet Cacca|
+${brand_dietpepsi}|Diet Pipsi|
+${brand_discman}|Diskboy|
+${brand_dixi}|DUXI|
+${brand_dodgeneon}|Dotch Neo|
+${brand_downy}|Dumby|
+${brand_drpepper}|Dr Plapper|
+${brand_duff}|Döff|
+${brand_duplo}|Doplu|
+${brand_duplo_lego}|Doplu|
+${brand_duschdas}|wasch das|
+${brand_ebay}|eBlam|
+${brand_eggo}|Egglo|
+${brand_encarta}|Encyclopedia|Enzyklopädie
+${brand_entertainmentpack}|Amusement Pack|
+${brand_escom}|ESCAL|
+${brand_escort}|Esguard|
+${brand_excel}|Inxell|
+${brand_facebook}|Farcebuck|
+${brand_ferrero}|Pferreri|
+${brand_firebird}|Flamerbird|
+${brand_ford}|Forth|
+${brand_fuddruckers}|Futtruckers|
+${brand_gameboy}|Gem Boy|
+${brand_gamecube}|NippoCube|
+${brand_generalmotors}|Generic Motos|
+${brand_gillette}|Guillotte|
+${brand_google}|Googol|
+${brand_googleearth}|Googol Globe|
+${brand_guinness}|Gingers|
+${brand_heinz}|Hanz|
+${brand_hewlettpackard}|Hewitt-Backerd|
+${brand_highscreen}|HiScreen|
+${brand_hp}|HB|
+${brand_i_apple_generic}|y|
+${brand_ikea}|MÖKLEA|
+${brand_initech}|InitTec|
+${brand_instagram}|Instigame|
+${brand_ipad}|myPad|
+${brand_iphone}|myPhone|
+${brand_ipod}|myPod|
+${brand_itunes}|myTunes|
+${brand_kaipan}|Kaiplan|
+${brand_kettcar}|Klettkarr|
+${brand_knorr}|Knurr|
+${brand_lacoste}|La Côte|
+${brand_lamy}|Laimi|
+${brand_lanmanager}|LAN Master|
+${brand_laserdisc}|LazerDisk|
+${brand_laserjet}|LazerJam|
+${brand_lebaron}|ElBaron|
+${brand_lego}|LEGU|
+${brand_lenor}|Lemur|
+${brand_loewensenf}|Tigersenf|
+${brand_logitech}|Loggitec|
+${brand_lufthansa}|Lufthänsel|
+${brand_lux}|Lyx|
+${brand_lyft}|Lyff|
+${brand_madisonsquaregarden}|Madison Square Plaza|
+${brand_maggi}|Meggli|
+${brand_manta}|Panta|
+${brand_marlboro}|Murlborough|
+${brand_mars}|Marts|Morss
+${brand_mastercard}|Fastercard|
+${brand_maxdome}|Paxdome|
+${brand_mcdonalds}|McDonneld's|
+${brand_mediamarkt}|MödliaMarkt|
+${brand_megane}|Mégor|
+${brand_meisterproper}|Mister Ploper|
+${brand_mercedes}|Mercieles|
+${brand_microsoft}|Macrohard|
+${brand_microsoftbob}|Macrohard Ben|
+${brand_mini}|Mino|
+${brand_minidisc}|Mikrodisk|
+${brand_mitsubishi}|Mushibashi|
+${brand_mitsubishieclipse}|Mushibashi Elapse|
+${brand_mitsubishigalant}|Mushibashi Galanche|
+${brand_mitsubishilancer}|Mushibashi Landslot|
+${brand_mitsubishioutlander}|Mushibashi Outlandish|
+${brand_mondeo}|Montana|
+${brand_mrclean}|Mr. Clank|
+${brand_msn}|MNS|
+${brand_msx}|MXS|
+${brand_mustang}|Marten|
+${brand_netflix}|Nutflix|
+${brand_nintendo}|Nipponix|
+${brand_nivea}|Norwea|
+${brand_opel}|Ommel|
+${brand_opelcorsa}|Ommel Crusa|
+${brand_opelkadett}|Ommel Korsett|
+${brand_opelomega}|Ommel Omicron|
+${brand_opelvectra}|Ommel Vector|
+${brand_orangina}|Oranchino|
+${brand_orientexpress}|Eastern Express|Morgenland-Express
+${brand_otto}|ANNA|
+${brand_pampers}|Pantzers|
+${brand_pentium}|Penturium|
+${brand_pepsi}|Pipsi|
+${brand_pepsilight}|Pipsi Lite|
+${brand_persil}|Serpil|
+${brand_peugeot}|Reugeot|
+${brand_phaeton}|Phaenom|
+${brand_pioneer}|Pyrodeer|
+${brand_piranhabytes}|Goldfish Bytes|
+${brand_playboy}|Playbum|
+${brand_playstation}|GameStation|
+${brand_pontiac}|Puntiac|
+${brand_powerpoint}|PowerPunch|
+${brand_prada}|Praedo|
+${brand_praktiker}|Praktiko|
+${brand_ps}|GS|
+${brand_puschkin}|Juczyn|Jutschin
+${brand_quelle}|Qualle|
+${brand_rainbowarts}|Rainbow Wish|
+${brand_ravensburger}|Rabensberger|
+${brand_rayban}|Roy-Bun|
+${brand_reebok}|Roebuck|Rehböck
+${brand_renault}|Penault|
+${brand_renault9}|Penault 9|
+${brand_renaultlaguna}|Penault Lagunis|
+${brand_riored}|Rio Rouge|
+${brand_rockymountaineer}|Rocky Montana|
+${brand_rushware}|Brushware|
+${brand_ryanair}|Rihanair|
+${brand_saab}|Saalb|
+${brand_saksfifthavenue}|Soks Sixth Avenue|
+${brand_sarotti}|Schorotti|
+${brand_saturn}|Zaturno|
+${brand_saturnion}|Sat Proton|
+${brand_scania}|Scenia|
+${brand_schneider}|Schnitzler|
+${brand_schwartau}|Schwalltau|
+${brand_sebring}|Sabring|
+${brand_selters}|Sylters|
+${brand_shell}|Swell|
+${brand_siemens}|Sumens|
+${brand_sierra}|Sienna|
+${brand_smart}|Smalt|
+${brand_snapchat}|Snoopchat|
+${brand_snickers}|Trickers|
+${brand_sony}|Sunny|
+${brand_sothebys}|Suthebay's|
+${brand_spacex}|Star-X|
+${brand_spotify}|Spottyfly|
+${brand_starbucks}|Spacebucks|
+${brand_stollwerck}|Stellwerks|
+${brand_strava}|Struvva|
+${brand_supernes}|Super NIP|
+${brand_swingline}|Slipline|
+${brand_telekom}|Tellycom|Telekrampf
+${brand_tempo}|Pemto|
+${brand_tesla}|Tusla|
+${brand_tiktok}|TukTuk|
+${brand_times_generic}|Dimes|
+${brand_tinder}|Tandler|
+${brand_toblerone}|Tuberthrone|Tubenkrone
+${brand_toyota}|Totoya|
+${brand_transam}|Tres-M|
+${brand_transworldairlines}|Trans West North America|
+${brand_twa}|TWNA|
+${brand_twinkie}|Twankie|
+${brand_twitter}|Twatter|
+${brand_twitter_verb}|twatter|twatter
+${brand_uber}|Ubrig|
+${brand_vaio}|VIAO|
+${brand_vespa}|Vespe|
+${brand_virgin}|Virgo|
+${brand_visa}|VISUM|
+${brand_volkswagen}|Wolkwagen|
+${brand_vw}|WV|
+${brand_vwgolf}|WV Guld|
+${brand_vwpassat}|WV Passage|
+${brand_vwpolo}|WV Poli|
+${brand_walkman}|Walkboy|
+${brand_walmart}|Wallmarc|
+${brand_weisserriese}|Weißer Friese|
+${brand_werthers}|Werthor's|Werthors
+${brand_whatsapp}|WhoseApp|
+${brand_whiterevive}|White Resize|
+${brand_windows}|Windoze|Windoof
+${brand_xbox}|Ycrate|Ykasten
+${brand_xenix}|Xunix|
+${brand_youtube}|BooToob|
+${brand_zodiac}|Zardiac|
+${brandslogan_budsfor}|Buck's for|
+${brandslogan_cantbeatthefeeling}|Can't eat the peeling|
+${brandslogan_thethirdplace}|The fourth place|
+${brandslogan_thetrinityoftaste}|The Trifecta of Taste|
+${brandslogan_vierbuddysfuer}|Vier Buckys für ein Hosianna|
+${character_aa_gromit}|Grombit|
+${character_aa_shaun}|Shawn|
+${character_aa_wallace}|Wally|
+${character_bakshi_fritz}|Fred|
+${character_disney_ariel}|Averil|
+${character_disney_chip}|Chop|
+${character_disney_dale}|Dole|
+${character_disney_mickey}|Mackey|Macky
+${character_doraemon}|Daeromin|
+${character_ig_kuroko}|Kotaro|
+${character_kingkong_kong}|Garganto|
+${character_lassie}|Leslie|
+${character_me_jim}|Joe|Joe
+${character_me_jimbutton}|Joe Butter|Joe Klopf
+${character_me_luke}|Lou|Ludwig
+${character_miraculous_catnoir}|Cat Loir|
+${character_miraculous_ladybug}|Ladybird|
+${character_mj_beavis}|Beaver|
+${character_mj_butthead}|Bung-Head|
+${character_mk_urmel}|Ormel|
+${character_mlp_applejack}|Applejink|
+${character_mlp_fluttershy}|Stutterfly|
+${character_mlp_pinkie}|Purple|
+${character_mlp_pinkiepie}|Purple Pea|
+${character_mlp_rainbow}|Raindew|
+${character_mlp_rainbowdash}|Raindew Bash|
+${character_mlp_rarity}|Parity|
+${character_mlp_twilight}|Twanglite|
+${character_mlp_twilightsparkle}|Twanglite Sprinkle|
+${character_muppets_animal}|Animus|
+${character_muppets_beaker}|Bleaky|
+${character_muppets_beauregard}|Bourgeaux|
+${character_muppets_bunsen}|Brunser|
+${character_muppets_camilla}|Carmella|
+${character_muppets_fozzie}|Futzi|
+${character_muppets_gonzo}|Grunzo|
+${character_muppets_kermit}|Kirmet|
+${character_muppets_piggy}|Pigsty|
+${character_muppets_rizzo}|Rezzo|
+${character_muppets_rowlf}|Rawlf|
+${character_muppets_sam}|Stan|
+${character_muppets_scooter}|Scutter|
+${character_muppets_statler}|Wattler|
+${character_muppets_sweetums}|Sweetons|
+${character_muppets_waldorf}|Stahldorf|
+${character_nb_clifford}|Clifton|
+${character_nickelodeon_dora}|Dorie|
+${character_nintendo_bowser}|Brausa|
+${character_nintendo_luigi}|Lucio|
+${character_nintendo_mario}|Manuel|
+${character_peanuts_charlie_brown}|Charley Beige|
+${character_peanuts_linus}|Lewis|
+${character_peanuts_lucy}|Lizzie|
+${character_peanuts_peppermint_patty}|Pepperidge Patsy|
+${character_peanuts_sally}|Shelly|
+${character_peanuts_snoopy}|Slurpy|
+${character_peanuts_woodstock}|Woodstick|
+${character_pixar_buzzlightyear}|Fuzz Lichtjahr|
+${character_pixar_lightyear}|Lichtjahr|
+${character_pixar_woody}|Waldo|
+${character_rj_vicky}|Vinny|Winnie
+${character_sega_sonic}|Sunnick|
+${character_spongebob}|SplungeBob|
+${character_wb_jerry}|Jorry|
+${character_wb_tom}|Tim|
+${generalorg_adac}|ADCA|
+${generalorg_caee}|CEEA|
+${generalorg_cdu}|CUD|
+${generalorg_chaoscomputerclub}|Chaos Communication Club|
+${generalorg_communistpartyofthesovietunion}|Communist Party of the United Soviet States|Kommunistische Partei der Vereinigten Sowjetstaaten
+${generalorg_cpsu}|CPUSS|KPdvSS
+${generalorg_csu}|CUS|
+${generalorg_fdp}|FDPP|
+${generalorg_greenpeace}|Creampeas|
+${generalorg_igmetall}|DG Metall|
+${generalorg_irs}|ISR|
+${generalorg_kgb}|GKB|
+${generalorg_nasa}|NASE|
+${generalorg_npd}|NDPP|
+${generalorg_ofthecommunistpartyofthesovietunion}|of the Communist Party of the United Soviet States|der Kommunistischen Partei der Vereinigten Sowjetstaaten
+${generalorg_ofthesocialistunitypartyofgermany}|of the Socialist-German Unity Party|der Sozialistisch-Deutschen Einheitspartei
+${generalorg_opec}|OILPEX|
+${generalorg_sed}|SDE|
+${generalorg_socialdemocraticpartyofgermany}|Social Democratic Populist Party|Sozialdemokratische Populistenpartei
+${generalorg_socialistunitypartyofgermany}|Socialist-German Unity Party|Sozialistisch-Deutsche Einheitspartei
+${generalorg_spd}|SDPP|
+${generalorg_unesco}|UCESNO|
+${generalorg_unicef}|UCINEF|
+${generalorgproject_challenger}|Passenger|
+${generalorgproject_columbia}|Colombia|
+${generalorgproject_documenta}|Dossiera|
+${media_academyaward}|Academia Award|
+${media_agfacolor}|Afgafarben|
+${media_bollywood}|Bollywald|
+${media_goldenraspberry}|Golden Bramble|Goldene Brombeere
+${media_hollywood}|Hillywald|
+${media_imax}|UMAX|
+${media_ofthegoldenraspberry}|of the Golden Bramble|der Goldenen Brombeere
+${media_oscar}|Oswald|
+${media_technicolor}|Techocoleur|
+${media_withthegoldenraspberry}|with the Golden Bramble|mit der Goldenen Brombeere
+${mediaorg_3sat}|5sat|
+${mediaorg_abc}|AB3|
+${mediaorg_ard}|ADR|
+${mediaorg_augsburgerpuppenkiste}|Augsburger Plapperschachtel|
+${mediaorg_bild}|Blöd|
+${mediaorg_bostonglobe}|Boston Globus|
+${mediaorg_bunte}|FARBIGE|
+${mediaorg_dc}|DeC|
+${mediaorg_eurovision}|Eurofusion|
+${mediaorg_fox}|Fux|
+${mediaorg_ghibli}|Glubshi|
+${mediaorg_hallmark}|Hallwart|
+${mediaorg_loveparade}|Laugh Parade|Laughparade
+${mediaorg_marvel}|Marbel|
+${mediaorg_mtv}|MVT|
+${mediaorg_nationallampoon}|National Harpoon|
+${mediaorg_pixar}|Pixal|
+${mediaorg_pro7}|Pro13|
+${mediaorg_productionig}|Producers G.I.|
+${mediaorg_prosieben}|Pro13|
+${mediaorg_rollingstone}|Rolling Brick|
+${mediaorg_rtl}|RLT|
+${mediaorg_sat1}|Sati.11|
+${mediaorg_ted}|TERD|
+${mediaorg_theworldwrestlingfederation}|the Western Wrestling Friendship|die Westliche Wrestling-Freundschaft
+${mediaorg_warnerbros}|Warning Bros.|
+${mediaorg_whog}|WOGH|
+${mediaorg_worldwrestlingentertainment}|Western Wrestling Amusement|
+${mediaorg_worldwrestlingfederation}|Western Wrestling Friendship|Westliche Wrestling-Freundschaft
+${mediaorg_wwe}|WWA|
+${mediaorg_wwf}|WWFr|
+${mediaorg_zdf}|2DF|
+${mediaorg_zweitedeutschefernsehen}|2. Deutsche Fernsehen|
+${mediaorg_zweitesdeutschesfernsehen}|2. Deutsches Fernsehen|
+${mediaprop_batcave}|Batgrove|
+${mediaprop_batmobile}|Batvehicle|
+${mediaprop_dudu}|Dodo|
+${mediaprop_dynamicduo}|Dynamite Duo|Dynamit-Duo
+${mediaprop_ecto1}|Octo-1|
+${mediaprop_electricmayhem}|Eclectic Havoc|
+${mediaprop_enterprise}|Everpraise|
+${mediaprop_excelsior}|Excelsia|
+${mediaprop_fliewatuut}|Tootwafli|Tüütwafli
+${mediaprop_gnosticusiv}|Gnostika III|
+${mediaprop_herbie}|Herbie|
+${mediaprop_jedi}|Yodi|
+${mediaprop_korathiii}|Codrak IV|
+${mediaprop_meleeisland}|Hûrlýë Island™|
+${mediaprop_rocklobsters}|Rawk Lizards|
+${mediaprop_stepford}|Stopforth|
+${mediaprop_wakanda}|Wadanka|
+${mediaquote_batman_chorus}|BAAAT GUUUY|
+${mediaquote_iliketobeinamerica}|I want to be in the U.S.A.|
+${mediaquote_imdreamingofawhitechristmas}|I'm wishing for a Snowy Christmas|
+${mediaquote_sayittogethernaturally}|Together we say it, certainly|
+${mediatitle_90210}|90212|
+${mediatitle_airwolf}|Airhound|
+${mediatitle_alien}|Amorphian|
+${mediatitle_angrybirds}|Angry Feathers|
+${mediatitle_astroboy}|Astra Kid|
+${mediatitle_ateam}|B-Team|
+${mediatitle_avatar}|Avapod|
+${mediatitle_avenger}|Amazer|
+${mediatitle_avengers}|Amazers|
+${mediatitle_bad}|Bed|
+${mediatitle_barbie}|Barbli|
+${mediatitle_baywatch}|Babewatch|
+${mediatitle_beverlyhills90210}|Hillywald Hills 90212|
+${mediatitle_bigmomma}|Huge Momma|
+${mediatitle_blueplanet}|Blue Earth|
+${mediatitle_bonanza}|Burranza|
+${mediatitle_bornintheusa}|Raised in America|
+${mediatitle_borrowers}|Narrowers|Horder
+${mediatitle_breakingbad}|Baking Bread|
+${mediatitle_callofduty}|Call for Dispatch|
+${mediatitle_carebear}|Fair Bear|Glitzbärli
+${mediatitle_carebears}|Fair Bears|Glitzbärlis
+${mediatitle_cats}|Kittens|
+${mediatitle_chipmunk}|Chapmonk|
+${mediatitle_chipmunks}|Chapmonks|
+${mediatitle_chips}|CHaPs|
+${mediatitle_chucky}|Churky|
+${mediatitle_clue}|Clou|Cloudeo
+${mediatitle_critters}|Crawlers|
+${mediatitle_dallas}|Texas Clan|
+${mediatitle_deathrace}|Death Derby|
+${mediatitle_demonslayer}|Daemon Slasher|
+${mediatitle_derfreischuetz}|Das Freiwild|
+${mediatitle_dick_jane}|Dan &amp; Jill|
+${mediatitle_dickandjane}|Dan and Jill|
+${mediatitle_discofrog}|Discus Frog|
+${mediatitle_dnd}|L&amp;L|
+${mediatitle_donkeykong}|Monkey Dong|
+${mediatitle_dontgobreakingmyheart}|Won't Go Breaking Your Heart|
+${mediatitle_doratheexplorer}|Dorie at Exploring|
+${mediatitle_downton}|Downing|
+${mediatitle_downtonabbey}|Downing Abbey|
+${mediatitle_dragonball}|Draco Bowl|
+${mediatitle_dungeons_dragons}|Lairs &amp; Lizards|
+${mediatitle_e_t_}|E.B.|
+${mediatitle_eineinselmitzweibergen}|Auf dem Eiland mit zwei Hügeln|
+${mediatitle_eras}|Ages|
+${mediatitle_eurovisionsongcontest}|Eurofusion Sing Combat|
+${mediatitle_evangelion}|Evangelium|
+${mediatitle_everythingscominguproses}|Everything's Running Like Roses|
+${mediatitle_familyfeud}|Family Duel|Sippen-Duell
+${mediatitle_fantasyisland}|Fantastic Isle|
+${mediatitle_fantasyisland_stylized}|FANTⱯSTIC ISLE|
+${mediatitle_fast_furious}|Fuss &amp; Ferocious|
+${mediatitle_fiftyshades}|Sixty Shades|
+${mediatitle_firsttime}|First Touch|
+${mediatitle_flymetothemoon}|Take Me to the Moon|
+${mediatitle_fugitive}|Refugee|Lauf vorm Fluch
+${mediatitle_gameofthrones}|Throne In Ice and Fire|
+${mediatitle_getsmart}|Go Smart|
+${mediatitle_ghostbusters}|Ghostblazers|
+${mediatitle_gijoe}|G.I. Jim|
+${mediatitle_gilligansisland}|Gallagan's Isle|Gallagans Eiland
+${mediatitle_gothic}|Baroque|
+${mediatitle_grandmasfeatherbed}|Grandmother's Spring Bed|
+${mediatitle_grandmonsterslam}|Great Monster Slash|
+${mediatitle_grandtheftauto}|Great Auto Thieves|
+${mediatitle_gta}|GAT|
+${mediatitle_hellraiser}|Howlriser|Höllenreißer
+${mediatitle_hoitytoity}|Hoity Mighty|Blaues Blut wird zur Pflicht
+${mediatitle_hungergames}|Hungry Play|
+${mediatitle_iwannadancewithsomebody}|I'm Gonna Dance With Just Someone|
+${mediatitle_jackass}|Jerkass|
+${mediatitle_jenga}|Janga|
+${mediatitle_justiceleague}|Justness League|
+${mediatitle_kimetsunoyaiba}|Yametsu no Katana|
+${mediatitle_kingkong}|Gorilla Garganto|
+${mediatitle_kingsman}|Krownsman|
+${mediatitle_knightrider}|Night Raider|
+${mediatitle_koenighirsch}|Herrschgeweih|
+${mediatitle_laislabonita}|The Isle of Bel Air|
+${mediatitle_lastchristmas}|Past Christmas|
+${mediatitle_logical}|Logikus|
+${mediatitle_looneytunes}|Lumpey Toons|
+${mediatitle_lowestofthelow}|At the Lowest Edge|Voll am Boden
+${mediatitle_macross}|Metcross|
+${mediatitle_madtv}|Rat TV|
+${mediatitle_magicthegathering}|Mystic: The Summoning|
+${mediatitle_mandalorian}|Mondelarian|
+${mediatitle_masterchef}|MaestroChef|
+${mediatitle_masterofpuppets}|Pulling the Strings|
+${mediatitle_melroseplace}|Melrose Ave|Mehlrosenplatz
+${mediatitle_miamivice}|Miami White|Miami Weiss
+${mediatitle_miraculous}|Miracolos|
+${mediatitle_muds}|M.O.R.D.S.|
+${mediatitle_muppet}|Puppmit|
+${mediatitle_muppets}|Puppmits|
+${mediatitle_mylittlepony}|My Tiny Horsie|Mein liebes Pferdchen
+${mediatitle_narnia}|Nornea|
+${mediatitle_ninjaturtles}|Tortoise Monsters|
+${mediatitle_nobusinesslikeshowbusiness}|Show Business, not Bore Business|
+${mediatitle_oe}|Ä|
+${mediatitle_onepiece}|One Pick|
+${mediatitle_ottifants}|Ollifants|Ollifanten
+${mediatitle_pacman}|Peck-Man|
+${mediatitle_pawpatrol}|Pet Petrol|
+${mediatitle_peanuts}|Peepmutz|
+${mediatitle_peanuts_stem}|Peepmut|
+${mediatitle_pinkpanther}|Purple Leopard|Purpurrote Leopard
+${mediatitle_pokemon}|Pockimún|
+${mediatitle_powerrangers}|Plower Ragers|
+${mediatitle_predator}|Predominator|
+${mediatitle_purge}|Surge|
+${mediatitle_rampage}|Rampant|
+${mediatitle_rocketman}|Rocket Guy|
+${mediatitle_rogerrabbit}|Ritchie Rabbit|
+${mediatitle_saw}|Serrate|Die Säge
+${mediatitle_sayyousayme}|I Say, You Say|
+${mediatitle_scoobydoo}|Dooby-Scoo|
+${mediatitle_scrubs}|Shrubs|
+${mediatitle_sharknado}|Sharkalanche|
+${mediatitle_sherlockholmesconsultingdetective}|Dr. Watson: Visiting Inspector|Dr. Watson Kriminalzimmer
+${mediatitle_simcity}|SimpCity|
+${mediatitle_singinintherain}|Swingin' in the Drain|
+${mediatitle_somewhereoutthere}|Some Place Outside|
+${mediatitle_southpark}|South Yard|
+${mediatitle_spongebobsquarepants}|SplungeBob SquadPants|SplungeBob Schwallkopf
+${mediatitle_spritesisters}|Sprite Siblings|
+${mediatitle_stargate}|Spacegate|
+${mediatitle_startrek}|Far Track|
+${mediatitle_starwars}|War Stars|
+${mediatitle_strangerthings}|Stranger Kinks|
+${mediatitle_takeonme}|Brake On Me|
+${mediatitle_tatort}|Tatplatz|
+${mediatitle_terminator}|Tormentator|
+${mediatitle_tetris}|Tetro|
+${mediatitle_themanoutside}|The Person Out There|Der Mann da draußen
+${mediatitle_thephantomoftheopera}|The Ghost of the Theatre|Der Geist des Theaters
+${mediatitle_thesettlersofcatan}|The Pioneers of Kastlan|Die Pioniere von Kastlan
+${mediatitle_thesims}|The Simps|
+${mediatitle_thriller}|Trillin'|
+${mediatitle_topgun}|First Gun|
+${mediatitle_trueblue}|Deep Blue|
+${mediatitle_truegrit}|True Guts|
+${mediatitle_turtles}|Tortoises|
+${mediatitle_twilight}|Twinklite|
+${mediatitle_twilightzone}|Twinklight Zone|
+${mediatitle_voyagevoyage}|Journal, Journal|
+${mediatitle_walkingdead}|Dead Walkers|
+${mediatitle_warcraft}|Warcroft|
+${mediatitle_wettendass}|Wer wird Wettkönig...?|
+${mediatitle_whatafeeling}|How It's Feeling|
+${mediatitle_whatislove}|Where Is Love|
+${mediatitle_wheeloffortune}|Wheel of Torture|Glücksdrall
+${mediatitle_whenthegoinggetstough}|When the Walk's Going Rough|
+${mediatitle_wrestlemania}|WrestleMadness|
+${mediatitle_xmen}|X-Mates|
+${mediatitle_yaaba}|Yaya|
+${mediatitle_yrf}|YFR|
+${sports_1fc_generic}|FFC|
+${sports_ac_generic}|AS|
+${sports_daviscup}|Navy Cup|
+${sports_dfb}|DBF|
+${sports_f1}|F-A|
+${sports_f2}|F-B|
+${sports_f3}|F-C|
+${sports_f4}|F-D|
+${sports_fc_generic}|SC|
+${sports_fifa}|FUFA|
+${sports_formula1}|Formula A|Formel A
+${sports_formula2}|Formula B|Formel B
+${sports_formula3}|Formula C|Formel C
+${sports_formula4}|Formula D|Formel D
+${sports_inter_generic}|Intra|
+${sports_motogp}|MotorGP|
+${sports_nascar}|NESCAR|
+${sports_nba}|NAB|
+${sports_uefa}|UFEA|
+${sportsclub_ajax}|Arex|
+${sportsclub_barca}|Barcé|
+${sportsclub_bayern}|Bavaria|
+${sportsclub_fcbarcelona}|SC Barcelona|
+${sportsclub_fcbayern}|FU Bavaria|
+${sportsclub_hamburgersv}|Hamburger VS|
+${sportsclub_hertha}|Berta|
+${sportsclub_herthabsc}|Berta HSC|
+${sportsclub_hsv}|HVS|
+${sportsclub_juve}|Jove|
+${sportsclub_juventus}|Joventus|
+${sportsclub_manchesterunited}|Manchester Union|
+${sportsclub_manu}|ManUni|
+${sportsclub_pistons}|Pitons|
+${sportsclub_real}|Royal|
+${sportsclub_realmadrid}|Royal Madrid|
