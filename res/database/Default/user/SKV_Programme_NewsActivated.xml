@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tvtdb>
    <version value="3" comment="script data" />
+   <allprogrammes>
    <programme guid="7266760b-3589-4ff3-9d59-dfc88b1f84a2" product="1" licence_type="1" creator="9551" imdb_id="tt0086250" comment="Tatsächlich 'Toni' im originalen deutschen Titel aber 'Tony' in der deutschen Handlungsbeschreibung. | TVTower 2013 description: De Palmas Remake um den Drogenschmuggler Tony Montana bietet gnadenlose Gewalt - körperliche wie psychische">
 			<title_original>
 				<de>Scarhead - Tony, der Narbenkopf</de>
@@ -17,21 +18,7 @@
 				<en>Cuban refugee T. Montana's violent rise to the top of Miami's drug trade. The graphic violence and language originally drew controversy and was panned by critics. Has since been reappraised. Breakthrough for ${.self:"cast":2:"lastname"}.</en>
 				<pl>Tony Montana to kubański przestępca, emigrant. Przybywa do Stanów Zjednoczonych. Tam też zaczyna prawdziwą mafijną karierę. Pnie się w górę w mafii, będąc bezwzględnym wobec ludzi, którzy się z nim nie zgadzają.</pl>
 			</description>
-			<staff>
-				<member index="0" function="1">6b53e3ec-0d66-4131-84ec-a48b9bbe3b77</member>
-				<member index="1" function="2">ea2194ca-de70-42b8-90dd-b070be4bec65</member>
-				<member index="2" function="2">a552f4d5-9fdb-4960-ae7a-278044e7ed3e</member>
-				<member index="3" function="2">22b4513d-985b-438f-828b-5f8545ff1850</member>
-				<member index="4" function="2">e2d8c1cc-194c-4bd6-8a90-2dbf15860022</member>
-				<member index="5" function="2">3fcd8263-9bf4-4c23-9323-0e4105d75dbb</member>
-				<member index="6" function="4">3d4a2d11-e943-4874-b8be-eaec31165150</member>
-				<member index="7" function="2">0fbd5067-a7ee-4de8-8cb1-6ca326dc7c87</member>
-			</staff>
-			<groups target_groups="18" pro_pressure_groups="1" contra_pressure_groups="2" />
-			<targetgroupattractivity teenagers="2" />
-			<data country="USA" distribution="1" maingenre="17" subgenre="7,2" flags="72" blocks="3" price_mod="1" available="0"/>
-			<releaseTime year="1983" day="12" />
-			<ratings critics="78" speed="88" outcome="72" />
+			<data available="0"/>
 		</programme>
 		
 		<programme guid="f47fb233-4fbe-4ab7-ac1a-b5f252afa7ea" product="1" licence_type="1" creator="9551" tmdb_id="87492" imdb_id="tt1100089" wikidata_id="Q5477105">
@@ -45,9 +32,6 @@
 				<en>Foxcatcher</en> <!-- Name of the team / training center -->
 				<es>Foxcatcher</es>
 				<fr>Foxcatcher</fr>
-				<it>Foxcatcher - Una storia americana</it>
-				<pl>Foxcatcher</pl>
-				<pt>Foxcatcher</pt>
 				<pt-br>Foxcatcher</pt-br>
 			</title>
 			<description>
@@ -55,21 +39,7 @@
 				<en>Wrestling is tough, but not as brutal as the mind games played by an eccentric millionaire on two Olympic champion brothers. A true story of power, ambition, and all the madness money can buy.</en>
 				<pl>Wrestling jest twardy, ale nie tak brutalny jak gierki umysłowe prowadzone przez ekscentrycznego milionera na dwóch braciach, mistrzach olimpijskich. Prawdziwa historia władzy, ambicji i szaleństwa, które można kupić za pieniądze.</pl>
 			</description>
-			<staff>
-				<member index="0" function="1">77224178-e8b9-4271-9013-1cdb0b7ea0dd</member> <!-- Bennett Miller -->
-				<member index="1" function="2">84a1eef9-94ee-4d3a-acaf-f25d971cfaf8</member> <!-- Steve Carell -->
-				<member index="2" function="2">f241ea49-5ef2-4cbc-a913-0014fc920c4e</member> <!-- Channing Tatum -->
-				<member index="3" function="2">43fd6990-b2d2-43d1-aa6f-4df242a9edf1</member> <!-- Mark Ruffalo -->
-				<member index="4" function="2">1d23e254-2358-4987-87f9-a95a13b21b54</member> <!-- Sienna Miller -->
-				<member index="5" function="2">b7429c0f-d9e9-4fcb-a67e-fa7a5a895c9f</member> <!-- Vanessa Redgrave -->
-				<member index="6" function="2">8054cbc6-d039-4248-8841-41cedeee92cf</member> <!-- Anthony Michael Hall -->
-				<member index="7" function="2">4ad1b723-e8c3-431a-b6df-e1bdf5517951</member> <!-- Samara Lee -->
-			</staff>
-			<groups target_groups="274" pro_pressure_groups="0" contra_pressure_groups="0"/>
-			<targetgroupattractivity women="0.5" />
-			<data country="USA" distribution="1" maingenre="7" subgenre="203,11" flags="0" blocks="3" price_mod="1" available="0"/>
-			<releaseTime year="2014" day="5" />
-			<ratings critics="79" speed="63" outcome="18" />
+			<data available="0"/>
 		</programme>
 		
 		<programme guid="6ac27a1e-183b-4488-b5e0-7ce8503a3d34" product="1" licence_type="1" creator="9551" tmdb_id="257344" imdb_id="tt2120120" wikidata_id="Q17182905">
@@ -83,9 +53,6 @@
 				<en>Pixels</en>
 				<es>Pixeles</es>
 				<fr>Pixels</fr>
-				<it>Pixels</it>
-				<pl>Piksele</pl>
-				<pt>Pixels</pt>
 				<pt-br>Pixels</pt-br>
 			</title>
 			<description>
@@ -93,36 +60,10 @@
 				<en>Aliens mistake old arcade games for a declaration of war. Now, ${.self:"cast":1:"fullname"} must save Earth from an oversized Pixel-${mediatitle_pacman} and its ilk. Yes, that's really the plot.</en>
 				<pl>Obcy mylą stare gry zręcznościowe z wypowiedzeniem wojny. Teraz ${.self:"cast":1:"fullname"} musi uratować Ziemię przed przerośniętym Pixel-${mediatitle_pacman}em i jemu podobnymi. Tak, to naprawdę fabuła.</pl>
 			</description>
-			<staff>
-				<member index="0" function="1">efb984f1-ea99-4871-b988-5b1e962f5e69</member> <!-- Chris Columbus -->
-				<member index="1" function="2">11648aeb-4f6a-462e-aacc-cceabdd4762a</member> <!-- Adam Sandler -->
-				<member index="2" function="2">6808a66e-4e92-4cb1-b356-573c7975ab00</member> <!-- Kevin James -->
-				<member index="3" function="2">4f6f7e58-95b2-4cf5-acff-ba969a23678f</member> <!-- Michelle Monaghan -->
-				<member index="4" function="2">1deb7f2b-c95c-48a7-b37d-a9ce36a05532</member> <!-- Peter Dinklage -->
-				<member index="5" function="2">980a5d25-4ff8-40ac-b51c-9ba10d6e22fd</member> <!-- Josh Gad -->
-				<member index="6" function="2">4a2c177d-32ac-4e02-bfe2-f19859705968</member> <!-- Brian Cox -->
-				<member index="7" function="2">d300cc4e-dcba-4bbf-b9d4-b111412718e1</member> <!-- Sean Bean -->
-				<member index="8" function="2">3633648f-9a2f-46b6-b3d3-2ec7cb1f76eb</member> <!-- Jane Krakowski -->
-				<member index="9" function="2">d7aac1f9-c0c1-42ed-83c8-6c6944ea410e</member> <!-- Dan Aykroyd -->
-				<member index="10" function="2">f6ad5566-53a9-4b4f-a3c6-e29faddca441</member> <!-- Lainie Kazan -->
-				<member index="11" function="2">172ebb39-d5a6-4e6f-9def-28615adf8dca</member> <!-- Tom McCarthy -->
-				<member index="12" function="2">5c3d5b8f-4620-4a2b-82b1-d412898f8160</member> <!-- Martha Stewart -->
-				<member index="13" function="2">6cfc9a93-c4e6-4266-9518-ef2ad42d5e70</member> <!-- Jack Fulton -->
-				<member index="14" function="2">05264a94-191a-4494-8bfb-990c62700355</member> <!-- Matt Frewer -->
-				<member index="15" function="2">f8942c5a-7d05-4967-8f21-a9219ed6a5e1</member> <!-- Billy West -->
-				<member index="16" function="2">f0e1153d-15ed-47d7-9fe3-808add27513a</member> <!-- Fiona Shaw -->
-				<member index="17" function="2">9b2c4d10-20fa-46d6-8e0d-a7063d8989ec</member> <!-- Nick Swardson -->
-				<member index="18" function="2">a8357c75-2dc8-490c-b850-4a245eb781ce</member> <!-- Madonna -->
-				<member index="19" function="2">e52ca72c-83e2-431d-ae02-c66daefea035</member> <!-- Ronald Reagan -->
-				<member index="20" function="2">4c61d09e-8237-414d-ad54-4d91741cb864</member> <!-- Ricardo Montalbán -->
-				<member index="21" function="2">26e768f9-ea59-46de-85e7-d3722e5d4dcc</member> <!-- Hervé Villechaize -->
-			</staff>
-			<groups target_groups="19" pro_pressure_groups="0" contra_pressure_groups="0" />
-			<targetgroupattractivity children="2" teenagers="2" employees="1.5" unemployed="2" />
-			<data country="USA/CHN" distribution="1" maingenre="16" subgenre="5,2" flags="0" blocks="2" price_mod="1" available="0"/>
-			<releaseTime year="2015" day="7" />
-			<ratings critics="25" speed="46" outcome="50" />
+			<data available="0"/>
 		</programme>
+		
+ </allprogrammes>
 
 
 </tvtdb>

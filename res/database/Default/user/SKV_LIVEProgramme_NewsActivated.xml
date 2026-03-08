@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tvtdb>
    <version value="3" comment="script data" />
+   <allprogrammes>
 <programme guid="prog-stukov-elefantenrunde1980" product="3" licence_type="1" creator="Stukov" created_by="Stukov"
     comment="Elefantenrunde/TV-Debatte zur Bundestagswahl 1980. Historisch zwei Events: 'Drei Tage vor der Wahl' (2.10.) und Elefantenrunde (5.10.). Für Gameplay zu einem Programm zusammengefasst. Schmidt, Strauß, Kohl, Genscher. Wird durch Ankündigungsnews news-stukovLIVE_News_0001 freigeschaltet.">
     <title>
@@ -95,7 +96,8 @@
         <effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1980Okt_0012" />
         <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,2,6" news="news-stukov1980Okt_0012" />
     </effects>    
-</programme>
+	  </programme>
+	  
       <programme guid="prog-stukov-voyager1saturn" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
          comment="12. November 1980: Voyager 1 passiert Saturn in 124.000 km Entfernung. Entdeckt 3 neue Monde (Prometheus, Pandora, Atlas), komplexe Ringstrukturen, Titan-Atmosphäre (Stickstoff). Bilder gehen um die Welt. Wird durch news-stukovLIVE_News_0004 freigeschaltet. https://en.wikipedia.org/wiki/Voyager_1">
          <title>
@@ -118,12 +120,200 @@
          <groups target_groups="290" pro_pressure_groups="0" contra_pressure_groups="0" />
          <targetgroupattractivity teenagers="1.3" managers="1.2" pensioners="1.1" women="0.8" />
          <data country="USA" distribution="2" maingenre="300" flags="1" blocks="2" price_mod="0.53" licence_flags="1" available="0" />
-         <releaseTime year="1980" day="11" hour="20" />
+         <releaseTime year="1980" day="11" hour_random_min="18" hour_random_max="23" />
          <ratings critics="70" speed="45" outcome="55" />
+         <effects>
+			<effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1980Dez_0032" />
+			<effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,8,15" news="news-stukov1980Dez_0032" />
+		 </effects>    
          <modifiers>            
             <modifier name="topicality::notLive" value="0.18" />
          </modifiers>
       </programme>
-
+      <programme guid="prog-stukov-superbowlxv" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+         comment="25. Januar 1981: Super Bowl XV, Louisiana Superdome, New Orleans. Oakland Raiders 27:10 Philadelphia Eagles. Jim Plunkett MVP (261 Yards, 3 TDs). 76.135 Zuschauer, ~68 Mio. TV-Zuschauer (USA). Raiders erster Wild-Card-Sieger im Super Bowl. Wird durch news-stukovLIVE_News_0005 freigeschaltet. https://en.wikipedia.org/wiki/Super_Bowl_XV">
+          <title>
+              <de>Super Bowl XV – Live aus New Orleans</de>
+              <en>Super Bowl XV – Live from New Orleans</en>
+          </title>
+          <title_original>
+              <de>Super Bowl XV: Oakland Raiders vs. Philadelphia Eagles</de>
+              <en>Super Bowl XV: Oakland Raiders vs. Philadelphia Eagles</en>
+          </title_original>
+          <description>
+              <de>Live aus dem Louisiana Superdome – das Finale der NFL. Zwei Mannschaften in Ganzkörperpanzerung jagen einen eiförmigen Ball über ein Feld, das in Yards vermessen wird. Dazwischen: Cheerleader, Werbepausen und eine Halbzeit-Show, die teurer ist als das Spiel. Willkommen im amerikanischen Traum.</de>
+              <en>Live from the Louisiana Superdome – the NFL championship game. Two teams in full body armour chase an egg-shaped ball across a field measured in yards. In between: cheerleaders, commercial breaks, and a halftime show more expensive than the game itself. Welcome to the American dream.</en>
+          </description>
+          <staff>
+              <member index="0" function="1">common-directors-external</member>
+              <member index="1" function="8">common-hosts-external</member>
+              <member index="2" function="128">common-commentators-external</member>
+              <member index="3" function="128">common-reporters-external</member>
+          </staff>
+          <groups target_groups="274" pro_pressure_groups="0" contra_pressure_groups="0" />
+          <targetgroupattractivity women="0.4" children="0.5" pensioners="0.4" />
+          <data country="USA" distribution="2" maingenre="203" flags="1" blocks="4" price_mod="0.85" licence_flags="1" available="0" />
+          <releaseTime year="1981" day="1" hour="0" />
+          <ratings critics="30" speed="75" outcome="72" />
+          <effects>
+              <effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1981Jan_0016" />
+              <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,2,6" news="news-stukov1981Jan_0016" />
+          </effects>
+          <modifiers>
+              <modifier name="topicality::notLive" value="0.15" />
+          </modifiers>
+      </programme>
+	  
+      <programme guid="prog-stukov-vst1981" product="6" licence_type="1" creator="Stukov" created_by="Stukov" comment="6. Januar 1981: Dreikönigsspringen Bischofshofen, Finale der 29. Vierschanzentournee. Tagessieg: Armin Kogler (AUT, Schanzenrekord egalisiert, dann Schneetreiben im 2. Durchgang). Gesamtsieg: Hubert Neuper (AUT) verteidigt Titel. Kogler 2., Puikkonen 3. Bester Deutscher: Matthias Buse (DDR) Platz 8. Wird durch news-stukovLIVE_News_0006 freigeschaltet. https://de.wikipedia.org/wiki/Vierschanzentournee_1980/81">
+          <title>
+              <de>Vierschanzentournee – Dreikönigsspringen Bischofshofen</de>
+              <en>Four Hills Tournament – Epiphany Jumping Bischofshofen</en>
+          </title>
+          <title_original>
+              <de>29. Vierschanzentournee 1980/81: Dreikönigsspringen Bischofshofen</de>
+              <en>29th Four Hills Tournament 1980/81: Bischofshofen Final</en>
+          </title_original>
+          <description>
+              <de>Live aus Bischofshofen – das Finale der Vierschanzentournee. Wer fliegt am weitesten, wer hält die Nerven? Die Österreicher führen, die Finnen jagen, die Deutschen hoffen. Im ersten Durchgang Schanzenrekord, im zweiten Schneetreiben. Am Ende entscheiden Haltungsnoten und Windlotterie.</de>
+              <en>Live from Bischofshofen – the Four Hills Tournament finale. Who flies the farthest, who holds their nerve? The Austrians lead, the Finns chase, the Germans hope. First round: hill record. Second round: blizzard. In the end, style points and wind lottery decide.</en>
+          </description>
+          <staff>
+              <member index="0" function="1">common-directors-external</member>
+              <member index="1" function="8">common-hosts-external</member>
+              <member index="2" function="128">common-commentators-external</member>
+          </staff>
+          <groups target_groups="274" pro_pressure_groups="0" contra_pressure_groups="0" />
+          <targetgroupattractivity women="0.8" teenagers="1.1" children="1.2" />
+          <data country="A" distribution="2" maingenre="203" flags="1" blocks="2" price_mod="0.58" licence_flags="1" available="0" />
+          <releaseTime year="1981" day="1" hour="14" />
+          <ratings critics="48" speed="74" outcome="60" />
+          <effects>
+              <effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1981Jan_0047" />
+              <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,2,6" news="news-stukov1981Jan_0047" />
+          </effects>
+          <modifiers>
+              <modifier name="topicality::notLive" value="0.75" />
+          </modifiers>
+      </programme>
+	  
+     <programme guid="prog-stukov-hahnenkamm1981" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+         comment="17. Januar 1981: Hahnenkamm-Abfahrt auf der Streif, Kitzbühel. Sieger: Steve Podborski (CAN), erster von zwei Kitzbühel-Siegen. Sturzorgie. Sensation: Ingemar Stenmark (SWE) fährt seine EINZIGE Weltcup-Abfahrt – auf der Streif! Platz 34, 10,72 Sek. Rückstand, fuhr aufrecht um Stürze zu vermeiden. Brauchte Kombi-Punkte für Gesamtweltcup. Slalom am 18.1.: Stenmark gewinnt. Hahnenkamm-Sieger (Kombi): Bohumír Zeman (TCH). Wird durch news-stukovLIVE_News_0007 freigeschaltet. https://de.wikipedia.org/wiki/Hahnenkammrennen">
+          <title>
+              <de>Hahnenkamm-Abfahrt – Live von der Streif</de>
+              <en>Hahnenkamm Downhill – Live from the Streif</en>
+          </title>
+          <title_original>
+              <de>Hahnenkamm-Rennen 1981: Abfahrt auf der Streif</de>
+              <en>Hahnenkamm Race 1981: Streif Downhill</en>
+          </title_original>
+          <description>
+              <de>Live aus Kitzbühel – die gefährlichste Abfahrt der Welt. Die Streif: 3.312 Meter, 860 Höhenmeter, Spitzengeschwindigkeiten über 140 km/h. Wer die Mausefalle übersteht, kann am Steilhang scheitern. Wer den Steilhang schafft, muss noch die Traverse überleben. Am Ende gewinnt, wer am wenigsten Angst hatte.</de>
+              <en>Live from Kitzbühel – the world's most dangerous downhill. The Streif: 3,312 metres, 860 metres of vertical drop, top speeds over 140 km/h. Survive the Mausefalle and you may fail at the Steilhang. Clear the Steilhang and the Traverse still awaits. In the end, the one with the least fear wins.</en>
+          </description>
+          <staff>
+              <member index="0" function="1">common-directors-external</member>
+              <member index="1" function="8">common-hosts-external</member>
+              <member index="2" function="128">common-commentators-external</member>
+          </staff>
+          <groups target_groups="274" pro_pressure_groups="0" contra_pressure_groups="0" />
+          <targetgroupattractivity women="0.8" teenagers="1.1" children="1.1" />
+          <data country="A" distribution="2" maingenre="203" flags="1" blocks="2" price_mod="0.81" licence_flags="1" available="0" />
+          <releaseTime year="1981" day="1" hour="11" />
+          <ratings critics="60" speed="85" outcome="65" />
+          <effects>
+              <effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1981Jan_0048" />
+              <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,2,6" news="news-stukov1981Jan_0048" />
+          </effects>
+          <modifiers>
+              <modifier name="topicality::notLive" value="0.8" />
+          </modifiers>
+      </programme>
+	  
+      <programme guid="prog-stukov-sts1" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+         comment="12. April 1981: STS-1 Erstflug Space Shuttle Columbia. Kommandant John Young, Pilot Robert Crippen. 36 Erdumrundungen, 54:20 Stunden. Landung Edwards AFB, 14. April. Exakt 20 Jahre nach Gagarin. Erste Verwendung von Feststoffraketen für bemannten Flug. Einige Hitzekacheln fehlten – NASA prüfte Unterboden per Spionagesatellit. Freigeschaltet durch news-stukovLIVE_News_0008. https://en.wikipedia.org/wiki/STS-1">
+          <title>
+              <de>Space Shuttle Columbia – Erstflug STS-1</de>
+              <en>Space Shuttle Columbia – Maiden Flight STS-1</en>
+          </title>
+          <title_original>
+              <de>STS-1: Erster Flug des Space Shuttle Columbia</de>
+              <en>STS-1: First Flight of Space Shuttle Columbia</en>
+          </title_original>
+          <description>
+              <de>Live aus Cape Canaveral – der Erstflug des Space Shuttle. Columbia startet auf einer Feuersäule in den Himmel. Zwei Astronauten in einem Raumschiff, das wie ein Flugzeug landen soll. Exakt zwanzig Jahre nach Gagarin. Ob die fehlenden Hitzekacheln ein Problem sind, weiß noch niemand.</de>
+              <en>Live from Cape Canaveral – the maiden flight of the Space Shuttle. Columbia rises on a pillar of fire. Two astronauts in a spacecraft designed to land like a plane. Exactly twenty years after Gagarin. Whether the missing heat tiles are a problem, nobody knows yet.</en>
+          </description>
+          <staff>
+              <member index="0" function="1">common-directors-external</member>
+              <member index="1" function="8">common-hosts-external</member>
+              <member index="2" function="128">common-commentators-external</member>
+          </staff>          
+          <targetgroupattractivity children="1.3" teenagers="1.2" />
+          <data country="USA" distribution="2" maingenre="200" flags="1" blocks="3" price_mod="1.1" licence_flags="1" available="0" />
+          <releaseTime year="1981" day="1" hour="14" />
+          <ratings critics="70" speed="60" outcome="75" />
+      </programme>
+	  
+      <programme guid="prog-stukov-challenger" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+         comment="28. Januar 1986: STS-51-L Challenger. 73 Sekunden nach dem Start zerbricht das Shuttle. Alle 7 Crew-Mitglieder sterben: Scobee, Smith, McNair, Onizuka, Resnik, Jarvis, McAuliffe. Christa McAuliffe war die erste Lehrerin im All – Millionen Schulkinder sahen live zu. O-Ring-Versagen bei Kälte. Feynman demonstriert mit Eiswasser. Shuttle-Programm 32 Monate gestoppt. Freigeschaltet durch news-stukovLIVE_News_0008. https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster">
+          <title>
+              <de>Space Shuttle – Lehrerin fliegt ins All</de>
+              <en>Space Shuttle – Teacher Flies Into Space</en>
+          </title>
+          <title_original>
+              <de>STS-51-L: „Teacher in Space" – Christa McAuliffe fliegt mit dem Shuttle</de>
+              <en>STS-51-L: 'Teacher in Space' – Christa McAuliffe Flies on the Shuttle</en>
+          </title_original>
+          <description>
+              <de>Live aus Cape Canaveral – zum ersten Mal fliegt eine Lehrerin mit dem Space Shuttle. Christa McAuliffe will vom Weltraum aus unterrichten. Millionen Schulkinder sehen zu. Ein ganz normaler Shuttle-Start. Routine, sagt die ${generalorg_nasa}. Routine.</de>
+              <en>Live from Cape Canaveral – for the first time, a teacher flies on the Space Shuttle. Christa McAuliffe plans to teach from space. Millions of schoolchildren are watching. A perfectly normal shuttle launch. Routine, says ${generalorg_nasa}. Routine.</en>
+          </description>
+          <staff>
+              <member index="0" function="1">common-directors-external</member>
+              <member index="1" function="8">common-hosts-external</member>
+              <member index="2" function="128">common-commentators-external</member>
+          </staff>          
+          <targetgroupattractivity children="1.5" teenagers="1.3" women="1.1" />
+          <data country="USA" distribution="2" maingenre="200" flags="1" blocks="2" price_mod="0.75" licence_flags="1" available="0" />
+          <releaseTime year="1986" day="28" hour="17" />
+          <ratings critics="70" speed="95" outcome="90" />
+          <effects>
+              <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,1,6" news="news-stukov1986Jan_0001" />
+          </effects>
+      </programme>
+	  
+      <!-- Wiener Neujahrskonzert 1981 LIVE -->
+      <programme guid="prog-stukov-neujahrskonzert1981" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+         comment="1. Januar 1981: Neujahrskonzert der Wiener Philharmoniker. Dirigent: Lorin Maazel (2. Mal in Folge). Großer Saal des Musikvereins. Programm: Johann Strauß Sohn, Josef Strauß, Eduard Strauß. Übertragung in 25+ Ländern (ORF, ARD/ZDF, BBC, PBS). Radetzkymarsch zum Mitklatschen. Seit 1959 TV-Tradition. Kimi-Exklusivfund. https://www.wienerphilharmoniker.at/de/neujahrskonzert">
+          <title>
+              <de>Neujahrskonzert der Wiener Philharmoniker</de>
+              <en>Vienna Philharmonic New Year's Concert</en>
+          </title>
+          <title_original>
+              <de>Neujahrskonzert 1981 – Lorin Maazel dirigiert die Wiener Philharmoniker</de>
+              <en>New Year's Concert 1981 – Lorin Maazel Conducts the Vienna Philharmonic</en>
+          </title_original>
+          <description>
+              <de>Live aus dem Großen Saal des Wiener Musikvereins – das Neujahrskonzert. Lorin Maazel führt die Wiener Philharmoniker durch Walzer, Polkas und Märsche der Strauß-Dynastie. Zum Schluss der Radetzkymarsch – und die ganze Welt klatscht mit. Der eleganteste Start ins neue Jahr.</de>
+              <en>Live from the Golden Hall of the Vienna Musikverein – the New Year's Concert. Lorin Maazel leads the Vienna Philharmonic through waltzes, polkas and marches of the Strauss dynasty. At the end, the Radetzky March – and the whole world claps along. The most elegant start to a new year.</en>
+          </description>
+          <staff>
+              <member index="0" function="1">common-directors-external</member>
+              <member index="1" function="8">common-hosts-external</member>
+              <member index="2" function="128">common-commentators-external</member>
+          </staff>
+          <targetgroupattractivity pensioners="1.5" managers="1.3" housewives="1.2" employees="1.1" teenagers="0.5" children="0.3" />
+          <data country="A" distribution="2" maingenre="202" flags="5" blocks="2" price_mod="0.37" licence_flags="1" available="0" />
+          <releaseTime year="1981" day="1" hour="11" />
+          <ratings critics="80" speed="30" outcome="37" />
+          <effects>
+              <effect trigger="broadcastFirstTime" type="modifyNewsAvailability" enable="1" news="news-stukov1981Jan_0060" />
+              <effect trigger="broadcastFirstTimeDone" type="triggernews" time="1,2,6" news="news-stukov1981Jan_0060" />
+          </effects>
+      </programme>
+	  
+	  
+	  
+	</allprogrammes>
 
 </tvtdb>

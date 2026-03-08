@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tvtdb>
-   <version value="3" comment="script data" />
+ <version value="3" comment="script data" />
+ <scripttemplates>
    <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-foxcatcher" creator="Stukov" created_by="Stukov" comment="Foxcatcher (2014), directed by Bennett Miller, starring Steve Carell as John du Pont. Based on true events: du Pont buys world's most expensive stamp in 1980, becomes wrestling patron, murders Olympic champion Dave Schultz in 1996. Activated by du Pont arc news chain (1996/1997/2010), ultimately triggered by news-stukov1980Apr_0008.">
       <title>
          <de>Foxcatcher</de>
@@ -23,7 +24,7 @@
       <outcome min="55" max="75" slope="40" />
       <review min="70" max="90" slope="55" />
       <speed min="25" max="45" slope="50" />
-      <data available="0" scriptflags="1" production_limit="1" flags_optional="64" target_groups="40" target_groups_optional="2" />
+      <data available="0" scriptflags="1" flags_optional="64" target_groups="40" target_groups_optional="2" />
       <targetgroupattractivity children="0.1" teenagers="0.8" managers="1.2" pensioners="0.7" />
       <programme_data_modifiers>
          <modifier name="topicality::age" value="0.8" />
@@ -57,7 +58,7 @@
    <outcome min="35" max="55" slope="40" />
    <review min="65" max="85" slope="55" />
    <speed min="15" max="35" slope="40" />
-   <data available="0" scriptflags="1" production_limit="1" flags_optional="4" target_groups="40" />
+   <data available="0" scriptflags="1" flags_optional="4" target_groups="40" />
    <targetgroupattractivity children="0.1" teenagers="0.6" managers="1.4" pensioners="1.3" />
    <programme_data_modifiers>
       <modifier name="topicality::age" value="0.7" />      
@@ -88,7 +89,7 @@
       <outcome min="40" max="65" slope="40" />
       <review min="15" max="40" slope="55" />
       <speed min="55" max="75" slope="50" />
-      <data available="0" scriptflags="1" production_limit="1" flags_optional="18" />
+      <data available="0" scriptflags="1" flags_optional="18" />
       <targetgroupattractivity children="1.3" teenagers="1.4" housewives="0.6" employees="0.8" managers="0.5" pensioners="0.4" />
       <programme_data_modifiers>
          <modifier name="topicality::age" value="1.3" />
@@ -119,7 +120,7 @@
     <outcome min="25" max="55" slope="40" />
     <review min="35" max="70" slope="50" />
     <speed min="25" max="50" slope="45" />
-    <data available="0" scriptflags="1" production_limit="1" flags_optional="40" target_groups="256" target_groups_optional="2" />
+    <data available="0" scriptflags="1" flags_optional="40" target_groups="256" target_groups_optional="2" />
     <targetgroupattractivity children="0.3" teenagers="1.1" managers="1.1" pensioners="1.2" />
     <programme_data_modifiers>
         <modifier name="topicality::age" value="0.8" />
@@ -150,7 +151,7 @@
     <outcome min="20" max="45" slope="40" />
     <review min="40" max="75" slope="50" />
     <speed min="20" max="40" slope="45" />
-    <data available="0" scriptflags="1" production_limit="1" flags="0" flags_optional="16" target_groups="128" target_groups_optional="4" />
+    <data available="0" scriptflags="1" flags="0" flags_optional="16" target_groups="128" target_groups_optional="4" />
     <targetgroupattractivity children="0.2" teenagers="0.7" housewives="1.3" managers="1.1" pensioners="1.1" men="0.7" />
     <studio_size value="1" />
     <availability year_range_from="1988" year_range_to="-1" />
@@ -177,7 +178,7 @@
     <outcome min="20" max="45" slope="40" />
     <review min="50" max="75" slope="55" />
     <speed min="20" max="40" slope="40" />
-    <data available="0" scriptflags="1" production_limit="1" flags_optional="4" />
+    <data available="0" scriptflags="1" flags_optional="4" />
     <targetgroupattractivity children="0.4" teenagers="0.9" managers="1.2" pensioners="1.3" />
     <programme_data_modifiers>
         <modifier name="topicality::age" value="0.8" />
@@ -186,6 +187,134 @@
     <availability year_range_from="2012" year_range_to="-1" />
 </scripttemplate>
 
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-mephisto" creator="Stukov" created_by="Stukov"
+    comment="Mephisto (1981), Regie István Szabó, mit Klaus Maria Brandauer. Koproduktion Ungarn/Österreich/BRD. 144 Min. Basierend auf Klaus Manns Roman (1936) über Gustaf Gründgens. Oscar Best Foreign Language Film 1982 (54th Academy Awards, 29.3.1982). IMDB 7.7, RT 76%. Aktiviert durch news-stukov1980Dez_0006 (Rowohlt-Veröffentlichung). https://en.wikipedia.org/wiki/Mephisto_(1981_film)">
+      <title>
+         <de>Mephisto</de>
+         <en>Mephisto</en>
+      </title>
+      <description>
+         <de>Ein ehrgeiziger Schauspieler in den 1930ern macht einen faustischen Handel: Er verkauft seine Seele ans Regime, das ihm dafür die Bühne der Nation schenkt. Seine Freunde fliehen. Er bleibt. Am Ende weiß niemand mehr, wer die Rolle spielt – er oder der Teufel.</de>
+         <en>An ambitious actor in 1930s Germany makes a Faustian bargain: he sells his soul to the regime, which gives him the nation's stage in return. His friends flee. He stays. In the end, nobody knows who's playing the role – him or the devil.</en>
+      </description>
+      <jobs>
+         <job index="0" function="1" required="1" />
+         <job index="1" function="2" required="1" gender="1" />
+         <job index="2" function="2" required="0" gender="2" />
+         <job index="3" function="2" required="0" gender="2" />
+      </jobs>
+      <genres maingenre="7" subgenres="11" />
+      <blocks min="2" max="3" slope="80" />
+      <price min="90000" max="160000" slope="45" />
+      <potential min="35" max="75" slope="45" />
+      <outcome min="20" max="55" slope="40" />
+      <review min="40" max="88" slope="55" />
+      <speed min="15" max="40" slope="40" />
+      <data available="0" scriptflags="1" flags="4" flags_optional="72" target_groups="40" target_groups_optional="66" />
+      <targetgroupattractivity children="0.1" teenagers="0.8" managers="1.3" pensioners="1.2" />
+      <programme_data_modifiers>
+         <modifier name="topicality::age" value="0.7" />
+         <modifier name="topicality::refresh" value="0.85" />
+      </programme_data_modifiers>
+      <studio_size value="2" />
+      <availability year_range_from="1981" year_range_to="-1" />
+   </scripttemplate>
 
-
+   <scripttemplate product="4" licence_type="1" guid="scripttemplate-stukov-mcluhan" creator="Stukov" created_by="Stukov"
+    comment="McLuhan's Wake (2002), Regie Kevin McMahon, NFB-Koproduktion. 90 Min. IMDB 6.4. Akademische Doku über Marshall McLuhan (1911–1980), Medientheoretiker, 'The Medium is the Message', 'Global Village'. Narration: Laurie Anderson. Aktiviert durch news-stukov1980Dez_0008 (McLuhan-Tod). https://www.imdb.com/title/tt0391328/">
+      <title>
+         <de>McLuhans Vermächtnis</de>
+         <en>McLuhan's Wake</en>
+      </title>
+      <description>
+         <de>Eine Dokumentation über den Mann, der das Fernsehen erklärte, bevor das Fernsehen ihn erklären musste. „Das Medium ist die Botschaft" – und die Botschaft ist: Wir haben nicht zugehört.</de>
+         <en>A documentary about the man who explained television before television had to explain him. "The medium is the message" – and the message is: we weren't listening.</en>
+      </description>
+      <jobs>
+         <job index="0" function="1" required="1" />
+         <job index="1" function="8" required="0" />
+      </jobs>
+      <genres maingenre="6" />
+      <blocks value="2" />
+      <price min="40000" max="80000" slope="40" />
+      <potential min="25" max="55" slope="45" />
+      <outcome min="15" max="40" slope="40" />
+      <review min="35" max="70" slope="50" />
+      <speed min="15" max="35" slope="40" />
+      <data available="0" scriptflags="1" flags="4" target_groups="32" target_groups_optional="10" />
+      <targetgroupattractivity children="0.1" teenagers="0.5" housewives="0.4" managers="1.4" pensioners="1.1" />
+      <programme_data_modifiers>
+         <modifier name="topicality::age" value="0.7" />
+		 <modifier name="topicality::refresh" value="0.83" />
+      </programme_data_modifiers>
+      <studio_size value="1" />
+      <availability year_range_from="2002" year_range_to="-1" />
+   </scripttemplate>
+   
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-machetero" creator="Stukov" created_by="Stukov"
+      comment="Machetero (2008), Regie vagabond Beaumont. Isaach De Bankolé als französischer Journalist interviewt puertoricanischen 'Terroristen' im Gefängnis. Allegorisch-narrativer Spielfilm über den Unabhängigkeitskampf Puerto Ricos. IMDB 7.9 (41 Stimmen). 98 Min. 6 Festivalpreise weltweit. Underground-Kino. Aktiviert durch news-stukov1981Jan_0017 (Macheteros-Anschlag 1981). https://www.imdb.com/title/tt1312208/">
+      <title>
+         <de>Machetero</de>
+         <en>Machetero</en>
+      </title>
+      <description>
+         <de>Ein französischer Journalist besucht einen puertoricanischen Freiheitskämpfer im Gefängnis. Der eine nennt ihn Terrorist, der andere nennt sich Machetero. Ihre Debatte über Gewalt, Freiheit und Unterdrückung eskaliert. Am Ende weiß keiner mehr, wer recht hat.</de>
+         <en>A French journalist visits a Puerto Rican freedom fighter in prison. One calls him a terrorist, the other calls himself a Machetero. Their debate about violence, freedom and oppression escalates. By the end, nobody knows who is right.</en>
+      </description>
+      <jobs>
+         <job index="0" function="1" required="1" />
+         <job index="1" function="2" required="1" gender="1" />
+         <job index="2" function="2" required="1" gender="1" />
+         <job index="3" function="2" required="0" />
+      </jobs>
+      <genres maingenre="7" subgenres="4,17" />
+      <blocks value="2" />
+      <price min="50000" max="95000" slope="40" />
+      <potential min="20" max="55" slope="45" />
+      <outcome min="5" max="25" slope="40" />
+      <review min="35" max="79" slope="55" />
+      <speed min="10" max="35" slope="45" />
+      <data available="0" scriptflags="1" flags_optional="64" target_groups="40" target_groups_optional="2" />
+      <targetgroupattractivity children="0.1" teenagers="0.8" housewives="0.7" managers="1.3" pensioners="0.9" />
+      <programme_data_modifiers>
+         <modifier name="topicality::age" value="0.7" />
+      </programme_data_modifiers>
+      <availability year_range_from="2008" year_range_to="-1" />
+   </scripttemplate>
+   
+   <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-23f" creator="Stukov" created_by="Stukov"
+      comment="23-F: El día más difícil del Rey (2009, TVE). Regie Silvia Quer, Drehbuch Helena Medina. Lluís Homar als Juan Carlos I. Zweiteilige TV-Miniserie über den Putschversuch vom 23. Februar 1981. Meistgesehene Miniserie der spanischen TV-Geschichte: 6,5 Mio. (Ep.1, 31%), 6,9 Mio. (Ep.2, 35%). IMDB 5.8. Premio Nacional de Televisión 2010, Ondas 2009, Gaudí 2009. Aktiviert durch news-stukov1981Feb_0001 (23-F-Putsch). https://www.imdb.com/title/tt1334303/">
+      <title>
+         <de>23-F: Der schwierigste Tag des Königs</de>
+         <en>23-F: The King's Most Difficult Day</en>
+      </title>
+      <description>
+         <de>200 Bewaffnete stürmen das Parlament, der König sitzt im Palast und weiß nicht, ob die Armee zur Verfassung steht oder zum Putschisten hält. 18 Stunden, in denen Spaniens Demokratie am seidenen Faden hing. Am Ende rettete eine Fernsehansprache in Uniform, was ein ganzes Land gebaut hatte.</de>
+         <en>200 gunmen storm parliament, the King sits in his palace not knowing whether the army stands with the constitution or the coup. 18 hours in which Spain's democracy hung by a thread. In the end, a televised address in uniform saved what an entire nation had built.</en>
+      </description>
+      <jobs>
+         <job index="0" function="1" required="1" />
+         <job index="1" function="2" required="1" gender="1" />
+         <job index="2" function="2" required="1" gender="1" />
+         <job index="3" function="2" required="1" gender="1" />
+         <job index="4" function="2" required="0" />
+      </jobs>
+      <genres maingenre="17" subgenres="7,11" />
+      <blocks value="3" />
+      <price min="100000" max="180000" slope="40" />
+      <potential min="35" max="60" slope="45" />
+      <outcome min="25" max="67" slope="40" />
+      <review min="35" max="58" slope="55" />
+      <speed min="35" max="55" slope="45" />
+      <data available="0" scriptflags="1" flags_optional="4" target_groups="40" target_groups_optional="66" />
+      <targetgroupattractivity children="0.1" teenagers="0.7" housewives="0.9" managers="1.4" pensioners="1.2" />
+      <programme_data_modifiers>
+         <modifier name="topicality::age" value="0.7" />
+      </programme_data_modifiers>
+      <availability year_range_from="2009" year_range_to="-1" />
+   </scripttemplate>
+ 
+ 
+ 
+ </scripttemplates>
 </tvtdb>
