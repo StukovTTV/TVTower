@@ -313,6 +313,44 @@
       </programme_data_modifiers>
       <availability year_range_from="2009" year_range_to="-1" />
    </scripttemplate>
+   
+	  <!-- ============================================================ -->
+      <!-- SKRIPTTEMPLATE: Money for Nothing (1993)                      -->
+      <!-- In SKV_scripts_NewsActivated.xml einfügen                    -->
+      <!-- Aktiviert durch news-stukov1981Feb_0071 (Joey Coyle)         -->
+      <!-- ============================================================ -->
+
+      <scripttemplate product="1" licence_type="1" guid="scripttemplate-stukov-moneyfornothing" creator="Stukov" created_by="Stukov"
+          imdb_id="tt0107594"
+          comment="Money for Nothing (1993), Regie Ramón Menéndez, mit John Cusack, Debi Mazar, Michael Madsen. Arbeitsloser Hafenarbeiter findet $1,2 Mio. auf der Straße, verteilt es, kontaktiert Mafia, wird am Flughafen verhaftet. Basierend auf Joey Coyle (Philadelphia, 26. Feb 1981). Aktiviert durch news-stukov1981Feb_0071.">
+          <title>
+              <de>Geld auf der Straße</de>
+              <en>Money for Nothing</en>
+          </title>
+          <description>
+              <de>Ein arbeitsloser Hafenarbeiter findet über eine Million Dollar in zwei Säcken am Straßenrand. Statt das Geld zu melden, verteilt er es an Freunde, kontaktiert die Mafia und bucht einen Flug nach Mexiko. Das FBI ist schneller. Basierend auf einer wahren Geschichte — die zu schön ist, um nicht verfilmt zu werden.</de>
+              <en>An unemployed dockworker finds over a million dollars in two bags on the kerb. Instead of reporting it, he shares it with friends, contacts the Mafia and books a flight to Mexico. The FBI is faster. Based on a true story — too good not to make into a film.</en>
+          </description>
+          <jobs>
+              <job index="0" function="1" required="1" />
+              <job index="1" function="2" required="1" gender="1" />
+              <job index="2" function="2" required="1" gender="2" />
+              <job index="3" function="2" required="0" gender="1" />
+          </jobs>
+          <genres maingenre="5" subgenres="4" />
+          <blocks value="2" />
+          <price min="85000" max="145000" slope="40" />
+          <potential min="40" max="58" slope="45" />
+          <outcome min="30" max="48" slope="40" />
+          <review min="12" max="32" slope="55" />
+          <speed min="42" max="56" slope="50" />
+          <data available="0" scriptflags="1" flags_optional="48" target_groups="26" target_groups_optional="4" />
+          <targetgroupattractivity children="0.2" teenagers="1.1" employees="1.2" unemployed="1.4" managers="0.7" pensioners="0.6" />
+          <programme_data_modifiers>
+              <modifier name="topicality::age" value="1.1" />
+          </programme_data_modifiers>
+          <availability year_range_from="1993" year_range_to="-1" />
+      </scripttemplate>
  
  
  

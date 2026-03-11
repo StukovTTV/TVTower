@@ -312,6 +312,37 @@
           </effects>
       </programme>
 	  
+<programme guid="prog-stukov-royalwedding1981" product="6" licence_type="1" creator="Stukov" created_by="Stukov"
+    comment="29. Juli 1981: Hochzeit Prince Charles und Lady Diana Spencer in St Paul's Cathedral, London. 3.500 Gäste, 600.000 an der Strecke, 750 Mio. TV-Zuschauer weltweit. Diana im David-&amp;-Elizabeth-Emanuel-Kleid (7,6m Schleppe). Sie verspricht sich beim Namen. Meistgesehenes TV-Ereignis des Jahrzehnts. ARD und ZDF übertrugen live. Freigeschaltet durch Verlobungsnews news-stukov1981Feb_0013. https://en.wikipedia.org/wiki/Wedding_of_Prince_Charles_and_Lady_Diana_Spencer">
+    <title>
+        <de>Royale Hochzeit – Live aus London</de>
+        <en>Royal Wedding – Live from London</en>
+    </title>
+    <title_original>
+        <de>Hochzeit von Prinz Charles und Lady Diana Spencer</de>
+        <en>Wedding of Prince Charles and Lady Diana Spencer</en>
+    </title_original>
+    <description>
+        <de>Live aus der St. Paul's Cathedral – das Ereignis des Jahrzehnts. 750 Millionen Zuschauer weltweit sehen den Thronfolger und die Kindergärtnerin vor dem Altar. Sie trägt 7,6 Meter Schleppe und verspricht sich beim Namen. Er hat vermutlich immer noch Fragen. Die Kutschfahrt zum Buckingham Palace dauert länger als die Ehe es verdient hätte.</de>
+        <en>Live from St Paul's Cathedral – the event of the decade. 750 million viewers worldwide watch the heir to the throne and the kindergarten teacher at the altar. She wears a 7.6-metre train and stumbles over his name. He presumably still has questions. The carriage ride to Buckingham Palace takes longer than the marriage will deserve.</en>
+    </description>
+    <staff>
+        <member index="0" function="1">common-directors-external</member>
+        <member index="1" function="8">common-hosts-external</member>
+        <member index="2" function="128">common-commentators-external</member>
+        <member index="3" function="128">common-reporters-external</member>
+    </staff>
+    <groups target_groups="128" pro_pressure_groups="0" contra_pressure_groups="0" />
+    <targetgroupattractivity pensioners="1.4" housewives="1.5" teenagers_female="1.2" managers="0.7" />
+    <data country="GB" distribution="2" maingenre="200" flags="5" blocks="3" price_mod="0.8" licence_flags="1" available="0" />
+    <releaseTime year="1981" day="7" hour="11" />
+    <ratings critics="55" speed="20" outcome="75" />
+    <modifiers>
+        <modifier name="topicality::notLive" value="0.3" />
+        <modifier name="topicality::age" value="0.8" />
+    </modifiers>
+</programme>
+	  
 	  
 	  
 	</allprogrammes>
